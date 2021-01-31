@@ -1,6 +1,6 @@
 # Choko Hack Automatic Lists
 Create Lists of Games to Play in CHA (to load from USB or install in CHA)
-with the Choko Hack v11 0r later
+with the Choko Hack v11 or later
 
 
 ## Quick instructions to create a new list
