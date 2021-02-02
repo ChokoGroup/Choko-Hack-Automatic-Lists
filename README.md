@@ -36,6 +36,7 @@ Look inside the folder `patches` for more details.
 
 
 ## Regarding roms
+- Always use lowercase in filenames.
 - Don't forget BIOS files (for example, `neogeo.zip`).
 - For some sub systems, FB Neo core needs roms to be in special subfolders. The possible folder names are as follows (they follow the mame system names):
 
