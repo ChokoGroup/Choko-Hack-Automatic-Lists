@@ -62,3 +62,9 @@ For example, to use Mega Drive roms in list 1A you need to put roms in folder `r
 - The in-game buttons layout go to `assets/options` and `assets/options/large`, also in PNG format.
 
 We will appreciate all users contributions to enlarge this database.
+
+
+## SSH and FTP server
+We include in the pack SSH and FTP servers that can be enabled by removing the `.disabled` part from the folders names.
+user: `root`
+password: `Choko`
