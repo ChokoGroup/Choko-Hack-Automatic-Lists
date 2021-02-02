@@ -15,7 +15,10 @@ with the Choko Hack v11 or later
 6) Follow the menu options to select the list you just created.
 
 That's all.
+
 If you change the roms in `roms/games1A` just delete `games1A.txt` and it will be created again the next time you load the list.
+
+And you can have up to 12 lists in one folder (from games1A to games2F).
 
 
 ## Folder structure
@@ -67,5 +70,7 @@ We will appreciate all users contributions to enlarge this database.
 
 ## SSH and FTP server
 We include in the pack SSH and FTP servers that can be enabled by removing the `.disabled` part from the folders names.
+
 user: `root`
+
 password: `Choko`
