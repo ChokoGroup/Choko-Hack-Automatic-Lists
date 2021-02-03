@@ -9,19 +9,22 @@ creategamestxt () {
   ICONNUMBER=0
   while read FNAME; do
     eval "FNAME=\"\${FNAME#$RUNNINGFROM/roms/$LISTNAME/}\""
-    GAMESTXTLINE="$(grep -m 1 "$FNAME" "$RUNNINGFROM/games_all.txt")"
-    FNAME="${FNAME%.zip}"
-    [ "$FIRSTLINE" = "N" ] && ( echo -en "\n" >> "$RUNNINGFROM/$LISTNAME.txt" ) || FIRSTLINE="N"
-    if [ -n "$GAMESTXTLINE" ]
+    if [ "$FNAME" != "neogeo.zip" ]
     then
-      echo -n "$GAMESTXTLINE" >> "$RUNNINGFROM/$LISTNAME.txt"
-    else
-      if [ -f "$RUNNINGFROM/assets/games/$FNAME.png" ]
+      GAMESTXTLINE="$(grep -m 1 "$FNAME" "$RUNNINGFROM/games_all.txt")"
+      FNAME="${FNAME%.zip}"
+      [ "$FIRSTLINE" = "N" ] && ( echo -en "\n" >> "$RUNNINGFROM/$LISTNAME.txt" ) || FIRSTLINE="N"
+      if [ -n "$GAMESTXTLINE" ]
       then
-        echo -n "A 0 B 0000 $FNAME.png $FNAME.zip $FNAME.ogg $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt"
+        echo -n "$GAMESTXTLINE" >> "$RUNNINGFROM/$LISTNAME.txt"
       else
-        ICONNUMBER=$((ICONNUMBER + 1))
-        [ ${#ICONNUMBER} -eq 1 ] && ( echo -n "A 0 B 0000 game0$ICONNUMBER.png $FNAME.zip $FNAME.ogg $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt" ) || ( echo -n "A 0 B 0000 game$ICONNUMBER.png $FNAME.zip $FNAME.ogg $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt" )
+        if [ -f "$RUNNINGFROM/assets/games/$FNAME.png" ]
+        then
+          echo -n "A 0 B 0000 $FNAME.png $FNAME.zip $FNAME.ogg $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt"
+        else
+          ICONNUMBER=$((ICONNUMBER + 1))
+          [ ${#ICONNUMBER} -eq 1 ] && ( echo -n "A 0 B 0000 game0$ICONNUMBER.png $FNAME.zip $FNAME.ogg $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt" ) || ( echo -n "A 0 B 0000 game$ICONNUMBER.png $FNAME.zip $FNAME.ogg $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt" )
+        fi
       fi
     fi
   done <<EOF
