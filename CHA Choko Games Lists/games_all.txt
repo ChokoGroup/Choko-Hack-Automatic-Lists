@@ -76,7 +76,7 @@ E 0 F 2000 bangbead.png bangbead.zip bangbead.ogg Bang Bead
 E 0 F 1996 breakers.png breakers.zip breakers.ogg Breakers
 E 0 F 1998 breakrev.png breakrev.zip breakrev.ogg Breakers Revenge
 E 0 F 1995 doubledr.png doubledr.zip doubledr.ogg Double Dragon
-E 0 F XXXX dragonsh.png dragonsh.zip dragonsh.ogg Dragons' Heaven
+E 0 F 0000 dragonsh.png dragonsh.zip dragonsh.ogg Dragons' Heaven
 E 0 F 1995 kabukikl.png kabukikl.zip kabukikl.ogg Far East of Eden: Kabuki Klash
 E 0 F 1991 fatfury1.png fatfury1.zip fatfury1.ogg Fatal Fury: King of Fighters
 E 0 F 1992 fatfury2.png fatfury2.zip fatfury2.ogg Fatal Fury 2

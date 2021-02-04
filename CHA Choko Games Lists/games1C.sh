@@ -12,12 +12,12 @@ creategamestxt () {
     if [ "$FNAME" != "neogeo.zip" ]
     then
       GAMESTXTLINE="$(grep -m 1 "$FNAME" "$RUNNINGFROM/games_all.txt")"
-      FNAME="${FNAME%.zip}"
       [ "$FIRSTLINE" = "N" ] && ( echo -en "\n" >> "$RUNNINGFROM/$LISTNAME.txt" ) || FIRSTLINE="N"
       if [ -n "$GAMESTXTLINE" ]
       then
         echo -n "$GAMESTXTLINE" >> "$RUNNINGFROM/$LISTNAME.txt"
       else
+        FNAME="${FNAME%.zip}"
         if [ -f "$RUNNINGFROM/assets/games/$FNAME.png" ]
         then
           echo -n "A 0 B 0000 $FNAME.png $FNAME.zip $FNAME.ogg $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt"
