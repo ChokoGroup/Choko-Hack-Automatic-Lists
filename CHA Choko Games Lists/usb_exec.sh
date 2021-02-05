@@ -68,7 +68,7 @@ then
   while [ ! -b /dev/sda1 ] && [ $COUNTDOWN -gt 0 ]
   do
     echo -ne "\rWaiting $COUNTDOWN seconds for USB drive..."
-    COUNTDOWN=$(($COUNTDOWN - 1))
+    COUNTDOWN=$((COUNTDOWN - 1))
     sleep 1
   done
   if [ -b /dev/sda1 ]
@@ -115,7 +115,7 @@ do
   done
 done
 
-if [ "$USBOPTION" = "Y" ] || [ $(ls "$RUNNINGFROM/games"??.nfo 2> /dev/null | wc -l) -gt 0 ]
+if [ "$USBOPTION" = "Y" ] || [ $(find "$RUNNINGFROM" -name 'games??.nfo' -type f -print 2> /dev/null | wc -l) -gt 0 ]
 then
   # Default choice
   if [ -z "$DEFAULTOPTION" ]
@@ -148,15 +148,15 @@ then
   SCREENSIZE=$(fbset | sed '2q;d'); SCREENSIZE=${SCREENSIZE#*'"'}; SCREENSIZE=${SCREENSIZE%'-'*}
   cat "$RUNNINGFROM/menu-$SCREENSIZE.rgba" > /dev/fb0
 
-  COLUMNS=`stty -F /dev/tty0 size | cut '-d ' -f2`
-  ROWS=`stty -F /dev/tty0 size | cut '-d ' -f1`
+  COLUMNS=$(stty -F /dev/tty0 size | cut '-d ' -f2)
+  ROWS=$(stty -F /dev/tty0 size | cut '-d ' -f1)
 
   # Add space for buttons labels in menu list + border space
   MENUFIX=14
 
   # Position of top left corner of menu
-  MENUTOPROW=$(($ROWS / 2 + 1))
-  MENULEFTCOLUMN=$(( ($COLUMNS - $MENUFIX - $DESCLENGTH ) / 2 ))
+  MENUTOPROW=$((ROWS / 2 + 1))
+  MENULEFTCOLUMN=$(( (COLUMNS - MENUFIX - DESCLENGTH ) / 2 ))
 
   # Start drawing the menu
   TopLeftCorner='\e[12mI'
@@ -173,13 +173,13 @@ then
 
   # Top line + border space
   echo -ne "\e[${MENUTOPROW};${MENULEFTCOLUMN}H$BorderColor$TopLeftCorner"
-  i=$(($DESCLENGTH + $MENUFIX))
+  i=$((DESCLENGTH + MENUFIX))
   while [ $i -gt 0 ]
   do
     echo -ne "$HorizontalBar"
-    i=$(($i - 1))
+    i=$((i - 1))
   done
-  echo -ne "$TopRightCorner\n\e[${MENULEFTCOLUMN}G$VerticalBar$(printf "%-$(($DESCLENGTH + $MENUFIX))s" " ")$VerticalBar\n"
+  echo -ne "$TopRightCorner\n\e[${MENULEFTCOLUMN}G$VerticalBar$(printf "%-$((DESCLENGTH + MENUFIX))s" " ")$VerticalBar\n"
 
   # Games lists
   for M in "1" "2"
@@ -199,7 +199,7 @@ then
       fi
     done
   done
-  [ "$MORELISTS" = "Y" ] && echo -ne "\e[${MENULEFTCOLUMN}G$VerticalBar$(printf "%-$(($DESCLENGTH + $MENUFIX))s" " ")$VerticalBar\n"
+  [ "$MORELISTS" = "Y" ] && echo -ne "\e[${MENULEFTCOLUMN}G$VerticalBar$(printf "%-$((DESCLENGTH + MENUFIX))s" " ")$VerticalBar\n"
 
   # Special menu options
   for M in "1" "2"
@@ -221,23 +221,23 @@ then
   done
 
   # Border space + bottom line
-  echo -ne "\e[${MENULEFTCOLUMN}G$VerticalBar$(printf "%-$(($DESCLENGTH + $MENUFIX))s" " ")$VerticalBar\n\e[${MENULEFTCOLUMN}G$BottomLeftCorner"
-  i=$(($DESCLENGTH + $MENUFIX - 10))
+  echo -ne "\e[${MENULEFTCOLUMN}G$VerticalBar$(printf "%-$((DESCLENGTH + MENUFIX))s" " ")$VerticalBar\n\e[${MENULEFTCOLUMN}G$BottomLeftCorner"
+  i=$((DESCLENGTH + MENUFIX - 10))
   while [ $i -gt 0 ]
   do
     echo -ne "$HorizontalBar"
-    i=$(($i - 1))
+    i=$((i - 1))
   done
   echo -ne "\e[10m v$CHOKOVERSION \e[12m$HorizontalBar$BottomRighCorner"
 
   # Wait for selection and read buttons
   COUNTDOWN=20
-  COUNTDOWNX=$(($COLUMNS / 2))
+  COUNTDOWNX=$((COLUMNS / 2))
   while [ "$CHA1I$CHA1S$CHA2I$CHA2S$CHA1A$CHA1B$CHA1C$CHA1D$CHA1E$CHA1F$CHA2A$CHA2B$CHA2C$CHA2D$CHA2E$CHA2F" = "0000000000000000" ] && [ $COUNTDOWN -ge 0 ]
   do
     # Always show 2 digits in COUNTDOWN
     [ ${#COUNTDOWN} -gt 1 ] && echo -ne "\e[${COUNTDOWNX}G$CountdownColor${COUNTDOWN}" || echo -ne "\e[${COUNTDOWNX}G${CountdownColor}0${COUNTDOWN}"
-    COUNTDOWN=$(($COUNTDOWN - 1))
+    COUNTDOWN=$((COUNTDOWN - 1))
     sleep 1
     if [ -n "$GAMES1I" ]
     then

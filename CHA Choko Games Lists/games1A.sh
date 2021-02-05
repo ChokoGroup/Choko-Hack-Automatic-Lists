@@ -7,12 +7,17 @@ RUNNINGFROM="$(dirname "$(readlink -f "$0")")"
 creategamestxt () {
   FIRSTLINE="Y"
   ICONNUMBER=0
-  while read FNAME; do
+  while read -r FNAME; do
     eval "FNAME=\"\${FNAME#$RUNNINGFROM/roms/$LISTNAME/}\""
     if [ "$FNAME" != "neogeo.zip" ]
     then
       GAMESTXTLINE="$(grep -m 1 "$FNAME" "$RUNNINGFROM/games_all.txt")"
-      [ "$FIRSTLINE" = "N" ] && ( echo -en "\n" >> "$RUNNINGFROM/$LISTNAME.txt" ) || FIRSTLINE="N"
+      if [ "$FIRSTLINE" = "N" ]
+      then
+        echo -en "\n" >> "$RUNNINGFROM/$LISTNAME.txt"
+      else
+        FIRSTLINE="N"
+      fi
       if [ -n "$GAMESTXTLINE" ]
       then
         echo -n "$GAMESTXTLINE" >> "$RUNNINGFROM/$LISTNAME.txt"
@@ -23,12 +28,17 @@ creategamestxt () {
           echo -n "A 0 B 0000 $FNAME.png $FNAME.zip $FNAME.ogg $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt"
         else
           ICONNUMBER=$((ICONNUMBER + 1))
-          [ ${#ICONNUMBER} -eq 1 ] && ( echo -n "A 0 B 0000 game0$ICONNUMBER.png $FNAME.zip $FNAME.ogg $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt" ) || ( echo -n "A 0 B 0000 game$ICONNUMBER.png $FNAME.zip $FNAME.ogg $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt" )
+          if [ ${#ICONNUMBER} -eq 1 ]
+          then
+            echo -n "A 0 B 0000 game0$ICONNUMBER.png $FNAME.zip $FNAME.ogg $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt"
+          else
+            echo -n "A 0 B 0000 game$ICONNUMBER.png $FNAME.zip $FNAME.ogg $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt"
+          fi
         fi
       fi
     fi
   done <<EOF
-  $(find "$RUNNINGFROM/roms/$LISTNAME" -mindepth 1 -maxdepth 2 -name *.zip -type f -print 2> /dev/null | sort -f)
+  $(find "$RUNNINGFROM/roms/$LISTNAME" -mindepth 1 -maxdepth 2 -name '*.zip' -type f -print 2> /dev/null | sort -f)
 EOF
 }
 
@@ -105,8 +115,18 @@ then
   [ -f "$RUNNINGFROM/patches/$LISTNAME/capcom" ] && mount --bind "$RUNNINGFROM/patches/$LISTNAME/capcom" /opt/capcom/capcom
 
   # Mount libretro core
-  [ -f "$RUNNINGFROM/patches/$LISTNAME/fba_libretro.so" ] && ( mount --bind "$RUNNINGFROM/patches/$LISTNAME/fba_libretro.so" /usr/lib/libretro/fba_libretro.so ) || ( mount --bind "$RUNNINGFROM/patches/fba_libretro.so" /usr/lib/libretro/fba_libretro.so )
+  if [ -f "$RUNNINGFROM/patches/$LISTNAME/fba_libretro.so" ]
+  then
+    mount --bind "$RUNNINGFROM/patches/$LISTNAME/fba_libretro.so" /usr/lib/libretro/fba_libretro.so
+  else
+    mount --bind "$RUNNINGFROM/patches/fba_libretro.so" /usr/lib/libretro/fba_libretro.so
+  fi
 
   # Mount our ROMs
-  [ "$RUNNINGFROM" = "/.choko" ] && ( mount --bind /usr/share/roms/$LISTNAME /usr/share/roms ) || ( mount --bind "$RUNNINGFROM/roms/$LISTNAME" /usr/share/roms )
+  if [ "$RUNNINGFROM" = "/.choko" ]
+  then
+    mount --bind "/usr/share/roms/$LISTNAME" /usr/share/roms
+  else
+    mount --bind "$RUNNINGFROM/roms/$LISTNAME" /usr/share/roms
+  fi
 fi

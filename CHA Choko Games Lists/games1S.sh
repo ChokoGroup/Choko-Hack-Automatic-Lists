@@ -60,7 +60,7 @@ then
   while [ "$CHA2S$CHA1A" = "00" ] && [ $COUNTDOWN -ge 0 ]
   do
     echo -ne "\rWaiting $COUNTDOWN seconds... "
-    COUNTDOWN=$(($COUNTDOWN - 1))
+    COUNTDOWN=$((COUNTDOWN - 1))
     sleep 1
     /usr/sbin/evtest --query /dev/input/event3 EV_KEY BTN_BASE
     CHA2S=$?
@@ -98,6 +98,7 @@ do
   do
     if [ -d "/.choko/games$M$N" ]
     then
+      WASOK=0
       eval "GAMES$M$N=\$(head -n 1 /.choko/games$M$N.nfo)"
       # Wait for buttons to be released before asking to delete
       /usr/sbin/evtest --query /dev/input/event3 EV_KEY BTN_BASE
@@ -119,7 +120,7 @@ do
       while [ "$CHA2S$CHA1A" = "00" ] && [ $COUNTDOWN -ge 0 ]
       do
         echo -ne "\rWaiting $COUNTDOWN seconds... "
-        COUNTDOWN=$(($COUNTDOWN - 1))
+        COUNTDOWN=$((COUNTDOWN - 1))
         sleep 1
         /usr/sbin/evtest --query /dev/input/event3 EV_KEY BTN_BASE
         CHA2S=$?
@@ -131,14 +132,25 @@ do
       then
         eval "echo \"Deleting \\\"\$GAMES$M$N\\\" from the CHA...\""
         echo -e "\e[1;30mrm -rf /.choko/games$M$N*\e[m"; rm -rf /.choko/games$M$N*; WASOK=$?
-        [ $WASOK -eq 0 ] && ( echo -e "\e[1;30mrm -rf /usr/share/roms/games$M$N\e[m"; rm -rf /usr/share/roms/games$M$N; WASOK=$? )
-        if [ $WASOK -eq 0 ] && [ $(ls /.choko/games??.nfo 2> /dev/null | wc -l) -eq 0 ]
+        if [ $WASOK -eq 0 ]
+        then
+          echo -e "\e[1;30mrm -rf /usr/share/roms/games$M$N\e[m"; rm -rf /usr/share/roms/games$M$N; WASOK=$?
+        fi
+        if [ $WASOK -eq 0 ] && [ $(find /.choko -name 'games??.nfo' -type f -print 2> /dev/null | wc -l) -eq 0 ]
         then
           # If all lists were deleted then also delete menu and libretro cores
           echo -e "\e[1;30mrm /.choko/usb_exec.sh\e[m"; rm /.choko/usb_exec.sh; WASOK=$?
-          [ $WASOK -eq 0 ] && ( echo -e "\e[1;30mrm -rf /.choko/usr\e[m"; rm -rf /.choko/usr; WASOK=$? )
+          if [ $WASOK -eq 0 ]
+          then
+            echo -e "\e[1;30mrm -rf /.choko/usr\e[m"; rm -rf /.choko/usr; WASOK=$?
+          fi
         fi
-        [ $WASOK -eq 0 ] && ( eval "echo \"\\\"\$GAMES$M$N\\\" deleted from the CHA.\"" ) || ( echo -e "\e[1;31mThere was some error.\e[m"; sleep 10; exit 201 )
+        if [ $WASOK -eq 0 ]
+        then
+          eval "echo \"\\\"\$GAMES$M$N\\\" deleted from the CHA.\""
+        else
+          echo -e "\e[1;31mThere was some error.\e[m"; sleep 10; exit 201
+        fi
       fi
     fi
   done
@@ -150,15 +162,16 @@ for M in "1" "2"
 do
   for N in "A" "B" "C" "D" "E" "F"
   do
-    if [ -f "/.choko/games$M$N.txt" ]
+    if [ -f "/.choko/games$M$N.txt" ] && [ -f "/.choko/games$M$N.nfo" ]
     then
-      if [ -f "$RUNNINGFROM/games$M$N.txt" ]
+      if [ -f "$RUNNINGFROM/games$M$N.txt" ] && [ -f "$RUNNINGFROM/games$M$N.nfo" ]
       then
         # The list is both in CHA and USB
+        WASOK=0
         eval "GAMES$M$N=\$(head -n 1 \"$RUNNINGFROM/games$M$N.nfo\")"
         FREESPACE=$(df -P / | tail -1 | awk '{print $4}')
-        USEDSPACECHA=$(du -c "$RUNNINGFROM/roms/games$M$N" "$RUNNINGFROM/patches/games$M$N" 2>/dev/null | tail -n 1 | awk '{print $1;}')
-        USEDSPACEUSB=$(du -c "$RUNNINGFROM/assets" "$RUNNINGFROM/roms/games$M$N" "$RUNNINGFROM/patches/games$M$N" "$RUNNINGFROM/patches/fba_libretro.so" 2>/dev/null | tail -n 1 | awk '{print $1;}')
+        USEDSPACECHA=$(du -c "/usr/share/roms/games$M$N" "/.choko/patches/games$M$N" 2>/dev/null | tail -n 1 | awk '{print $1;}')
+        USEDSPACEUSB=$(du -c "$RUNNINGFROM/roms/games$M$N" "$RUNNINGFROM/patches/games$M$N" "$RUNNINGFROM/patches/fba_libretro.so" "$RUNNINGFROM/patches/fba_libretro.so" 2>/dev/null | tail -n 1 | awk '{print $1;}')
         if [ $(( USEDSPACEUSB - USEDSPACECHA )) -gt $FREESPACE ]
         then
           eval "echo -e \"\\nNot enought space to copy \\\"\$GAMES$M$N\\\".\""
@@ -182,7 +195,7 @@ do
           while [ "$CHA2S$CHA1A" = "00" ] && [ $COUNTDOWN -ge 0 ]
           do
             echo -ne "\rWaiting $COUNTDOWN seconds... "
-            COUNTDOWN=$(($COUNTDOWN - 1))
+            COUNTDOWN=$((COUNTDOWN - 1))
             sleep 1
             /usr/sbin/evtest --query /dev/input/event3 EV_KEY BTN_BASE
             CHA2S=$?
@@ -194,20 +207,90 @@ do
           then
             eval "echo \"Installing \\\"\$GAMES$M$N\\\" into CHA\"..."
             echo "This can take some time. Please wait."
-            echo -e "\e[1;30mrm /.choko/games$M$N*\e[m"; rm /.choko/games$M$N*; WASOK=$?
-            [ $WASOK -eq 0 ] && ( echo -e "\e[1;30mrm -rf /usr/share/roms/games$M$N\e[m"; rm -rf /usr/share/roms/games$M$N; WASOK=$? )
-            [ $WASOK -eq 0 ] && ( echo -e "\e[1;30mrm -rf /.choko/patches/games$M$N\e[m"; rm -rf /.choko/patches/games$M$N; WASOK=$? )
+            echo -e "\e[1;30mDeleting old assets from /.choko/assets/\e[m"
+            while read -r FNAME; do
+              FNAME=${FNAME##*/}
+              if [ "$FNAME" != "neogeo.zip" ]
+              then
+                FNAME=${FNAME%.zip}
+                find "/.choko/assets" -type f -name "$FNAME.*" -exec rm {} +
+                WASOK=$?
+                [ $WASOK -eq 0 ] || break
+              fi
+            done <<EOF1
+$(find "/usr/share/roms/games$M$N" -mindepth 1 -maxdepth 2 -name '*.zip' -type f -print 2> /dev/null | sort -f)
+EOF1
+
+            if [ $WASOK -eq 0 ]
+            then
+              echo -e "\e[1;30mrm -rf /usr/share/roms/games$M$N\e[m"; rm -rf /usr/share/roms/games$M$N; WASOK=$?
+            fi
+            if [ $WASOK -eq 0 ]
+            then
+              echo -e "\e[1;30mrm -rf /.choko/patches/games$M$N\e[m"; rm -rf /.choko/patches/games$M$N; WASOK=$?
+            fi
+            if [ $WASOK -eq 0 ]
+            then
+              echo -e "\e[1;30mrm /.choko/games$M$N*\e[m"; rm /.choko/games$M$N*; WASOK=$?
+            fi
+            if [ $WASOK -eq 0 ]
+            then
+              echo -e "\e[1;30mcp -r \"$RUNNINGFROM/roms/games$M$N\" /usr/share/roms/\e[m"; cp -r "$RUNNINGFROM/roms/games$M$N" /usr/share/roms/; WASOK=$?
+            fi
             mkdir -p /.choko/patches
-            [ $WASOK -eq 0 ] && ( echo -e "\e[1;30mcp -ru \"$RUNNINGFROM/assets\" /.choko/\e[m"; cp -ru "$RUNNINGFROM/assets" /.choko/; WASOK=$? )
-            [ $WASOK -eq 0 ] && ( echo -e "\e[1;30mcp -u \"$RUNNINGFROM/patches/fba_libretro.so\" /.choko/patches/\e[m"; cp -u "$RUNNINGFROM/patches/fba_libretro.so" /.choko/patches/; WASOK=$? )
-            [ $WASOK -eq 0 ] && ( echo -e "\e[1;30mcp -r \"$RUNNINGFROM/patches/games$M$N\" /.choko/patches/\e[m"; cp -r "$RUNNINGFROM/patches/games$M$N" /.choko/patches/; WASOK=$? )
-            [ $WASOK -eq 0 ] && ( echo -e "\e[1;30mcp -r \"$RUNNINGFROM/roms/games$M$N\" /usr/share/roms/\e[m"; cp -r "$RUNNINGFROM/roms/games$M$N" /usr/share/roms/; WASOK=$? )
-            [ $WASOK -eq 0 ] && ( echo -e "\e[1;30mcp \"$RUNNINGFROM/games$M$N\"* /.choko/\e[m"; cp "$RUNNINGFROM/games$M$N"* /.choko/; WASOK=$? )
-            [ $WASOK -eq 0 ] && ( eval "echo \"\\\"\$GAMES$M$N\\\" installed.\"" ) || ( echo -e "\e[1;31mThere was some error.\e[m"; sleep 10; exit 201 )
+            if [ $WASOK -eq 0 ]
+            then
+              echo -e "\e[1;30mcp -u \"$RUNNINGFROM/patches/fba_libretro.so\" /.choko/patches/\e[m"; cp -u "$RUNNINGFROM/patches/fba_libretro.so" /.choko/patches/; WASOK=$?
+            fi
+            if [ $WASOK -eq 0 ] && [ -d "$RUNNINGFROM/patches/games$M$N" ]
+            then
+              echo -e "\e[1;30mcp -r \"$RUNNINGFROM/patches/games$M$N\" /.choko/patches/\e[m"; cp -r "$RUNNINGFROM/patches/games$M$N" /.choko/patches/; WASOK=$?
+            fi
+            if [ $WASOK -eq 0 ]
+            then
+              echo -e "\e[1;30mCopying new assets from \"$RUNNINGFROM/assets\"\e[m"
+              while read -r LINE || [ -n "$LINE" ]; do
+                PNGFILE=${LINE%'.png'*}; PNGFILE=${PNGFILE##*' '}
+                ZIPFILE=${LINE%'.zip'*}; ZIPFILE=${ZIPFILE##*' '}
+                ASSETSFOLDER="$(dirname "/.choko/assets/games/$PNGFILE.png")"
+                mkdir -p "$ASSETSFOLDER"
+                cp "$RUNNINGFROM/assets/games/$PNGFILE.png" "$ASSETSFOLDER/"; WASOK=$?
+                if [ $WASOK -eq 0 ] && [ -f "$RUNNINGFROM/assets/options/$ZIPFILE.png" ]
+                then
+                  ASSETSFOLDER="$(dirname "/.choko/assets/options/$ZIPFILE.png")"
+                  mkdir -p "$ASSETSFOLDER"
+                  cp "$RUNNINGFROM/assets/options/$ZIPFILE.png" "$ASSETSFOLDER/"; WASOK=$?
+                fi
+                if [ $WASOK -eq 0 ] && [ -f "$RUNNINGFROM/assets/options/large/$ZIPFILE.png" ]
+                then
+                  ASSETSFOLDER="$(dirname "/.choko/assets/options/large/$ZIPFILE.png")"
+                  mkdir -p "$ASSETSFOLDER"
+                  cp "$RUNNINGFROM/assets/options/large/$ZIPFILE.png" "$ASSETSFOLDER/"; WASOK=$?
+                fi
+                if [ $WASOK -eq 0 ] && [ -f "$RUNNINGFROM/assets/sounds/music/set2/$ZIPFILE.ogg" ]
+                then
+                  ASSETSFOLDER="$(dirname "/.choko/assets/sounds/music/set2/$ZIPFILE.ogg")"
+                  mkdir -p "$ASSETSFOLDER"
+                  cp "$RUNNINGFROM/assets/sounds/music/set2/$ZIPFILE.ogg" "$ASSETSFOLDER/"; WASOK=$?
+                fi
+                [ $WASOK -eq 0 ] || break
+              done < "$RUNNINGFROM/games$M$N.txt"
+            fi
+            if [ $WASOK -eq 0 ]
+            then
+              echo -e "\e[1;30mcp \"$RUNNINGFROM/games$M$N\"* /.choko/\e[m"; cp "$RUNNINGFROM/games$M$N"* /.choko/; WASOK=$?
+            fi
+            if [ $WASOK -eq 0 ]
+            then
+              eval "echo \"\\\"\$GAMES$M$N\\\" installed.\""
+            else
+              echo -e "\e[1;31mThere was some error.\e[m"; sleep 10; exit 201
+            fi
           fi
         fi
       else
         # The list is only in CHA
+        WASOK=0
         eval "GAMES$M$N=\$(head -n 1 /.choko/games$M$N.nfo)"
         # Wait for buttons to be released before asking to delete
         /usr/sbin/evtest --query /dev/input/event3 EV_KEY BTN_BASE
@@ -228,7 +311,7 @@ do
         while [ "$CHA2S$CHA1A" = "00" ] && [ $COUNTDOWN -ge 0 ]
         do
           echo -ne "\rWaiting $COUNTDOWN seconds... "
-          COUNTDOWN=$(($COUNTDOWN - 1))
+          COUNTDOWN=$((COUNTDOWN - 1))
           sleep 1
           /usr/sbin/evtest --query /dev/input/event3 EV_KEY BTN_BASE
           CHA2S=$?
@@ -239,26 +322,61 @@ do
         if [ "$CHA2S$CHA1A" = "100" ]
         then
           eval "echo \"Deleting \\\"\$GAMES$M$N\\\" from the CHA...\""
-          echo -e "\e[1;30mrm /.choko/games$M$N*\e[m"; rm /.choko/games$M$N*; WASOK=$?
-          [ $WASOK -eq 0 ] && ( echo -e "\e[1;30mrm -rf /usr/share/roms/games$M$N\e[m"; rm -rf /usr/share/roms/games$M$N; WASOK=$? )
-          [ $WASOK -eq 0 ] && ( echo -e "\e[1;30mrm -rf /.choko/patches/games$M$N\e[m"; rm -rf /.choko/patches/games$M$N; WASOK=$? )
-          if [ $WASOK -eq 0 ] && [ $(ls /.choko/games??.nfo 2> /dev/null | wc -l) -eq 0 ]
+          echo -e "\e[1;30mDeleting old assets from /.choko/assets/\e[m"
+          while read -r FNAME; do
+            FNAME=${FNAME##*/}
+            if [ "$FNAME" != "neogeo.zip" ]
+            then
+              FNAME=${FNAME%.zip}
+              find "/.choko/assets" -type f -name "$FNAME.*" -exec rm {} +
+              WASOK=$?
+              [ $WASOK -eq 0 ] || break
+            fi
+          done <<EOF2
+$(find "/usr/share/roms/games$M$N" -mindepth 1 -maxdepth 2 -name '*.zip' -type f -print 2> /dev/null | sort -f)
+EOF2
+
+          if [ $WASOK -eq 0 ]
+          then
+            echo -e "\e[1;30mrm -rf /usr/share/roms/games$M$N\e[m"; rm -rf /usr/share/roms/games$M$N; WASOK=$?
+          fi
+          if [ $WASOK -eq 0 ]
+          then
+            echo -e "\e[1;30mrm -rf /.choko/patches/games$M$N\e[m"; rm -rf /.choko/patches/games$M$N; WASOK=$?
+          fi
+          if [ $WASOK -eq 0 ]
+          then
+            echo -e "\e[1;30mrm /.choko/games$M$N*\e[m"; rm /.choko/games$M$N*; WASOK=$?
+          fi
+          if [ $WASOK -eq 0 ] && [ $(find /.choko -name 'games??.nfo' -type f -print 2> /dev/null | wc -l) -eq 0 ] && [ ! -x "/.choko/.FTP/uFTP" ] && [ ! -x "/.choko/.SSH/dropbear" ]
           then
             # If all lists were deleted then also delete menu and libretro cores
             echo -e "\e[1;30mrm /.choko/usb_exec.sh\e[m"; rm /.choko/usb_exec.sh; WASOK=$?
-            [ $WASOK -eq 0 ] && ( echo -e "\e[1;30mrm -rf /.choko/patches\e[m"; rm -rf /.choko/patches; WASOK=$? )
-            [ $WASOK -eq 0 ] && ( echo -e "\e[1;30mrm -rf /.choko/assets\e[m"; rm -rf /.choko/assets; WASOK=$? )
+            if [ $WASOK -eq 0 ]
+            then
+              echo -e "\e[1;30mrm -rf /.choko/patches\e[m"; rm -rf /.choko/patches; WASOK=$?
+            fi
+            if [ $WASOK -eq 0 ]
+            then
+              echo -e "\e[1;30mrm -rf /.choko/assets\e[m"; rm -rf /.choko/assets; WASOK=$?
+            fi
           fi
-          [ $WASOK -eq 0 ] && ( eval "echo \"\\\"\$GAMES$M$N\\\" deleted from the CHA.\"" ) || ( echo -e "\e[1;31mThere was some error.\e[m"; sleep 10; exit 201 )
+          if [ $WASOK -eq 0 ]
+          then
+            eval "echo \"\\\"\$GAMES$M$N\\\" deleted from the CHA.\""
+          else
+            echo -e "\e[1;31mThere was some error.\e[m"; sleep 10; exit 201
+          fi
         fi
       fi
     else
-      if [ -f "$RUNNINGFROM/games$M$N.txt" ]
+      if [ -f "$RUNNINGFROM/games$M$N.txt" ] && [ -f "$RUNNINGFROM/games$M$N.nfo" ]
       then
         # The list is only in USB
+        WASOK=0
         eval "GAMES$M$N=\$(head -n 1 \"$RUNNINGFROM/games$M$N.nfo\")"
         FREESPACE=$(df -P / | tail -1 | awk '{print $4}')
-        USEDSPACEUSB=$(du -c "$RUNNINGFROM/assets" "$RUNNINGFROM/roms/games$M$N" "$RUNNINGFROM/patches/games$M$N" "$RUNNINGFROM/patches/fba_libretro.so" 2>/dev/null | tail -n 1 | awk '{print $1;}')
+        USEDSPACEUSB=$(du -c "$RUNNINGFROM/roms/games$M$N" "$RUNNINGFROM/patches/games$M$N" "$RUNNINGFROM/patches/fba_libretro.so" "$RUNNINGFROM/patches/fba_libretro.so" 2>/dev/null | tail -n 1 | awk '{print $1;}')
         if [ $USEDSPACEUSB -gt $FREESPACE ]
         then
           eval "echo -e \"\\nNot enought space to copy \\\"\$GAMES$M$N\\\".\""
@@ -282,7 +400,7 @@ do
           while [ "$CHA2S$CHA1A" = "00" ] && [ $COUNTDOWN -ge 0 ]
           do
             echo -ne "\rWaiting $COUNTDOWN seconds... "
-            COUNTDOWN=$(($COUNTDOWN - 1))
+            COUNTDOWN=$((COUNTDOWN - 1))
             sleep 1
             /usr/sbin/evtest --query /dev/input/event3 EV_KEY BTN_BASE
             CHA2S=$?
@@ -294,18 +412,66 @@ do
           then
             eval "echo \"Installing \\\"\$GAMES$M$N\\\" into CHA\"..."
             echo "This can take some time. Please wait."
-            echo -e "\e[1;30mcp -ru \"$RUNNINGFROM/assets\" /.choko/\e[m"; cp -ru "$RUNNINGFROM/assets" /.choko/; WASOK=$?
+            mkdir -p /.choko/assets
             mkdir -p /.choko/patches
-            [ $WASOK -eq 0 ] && ( echo -e "\e[1;30mcp -u \"$RUNNINGFROM/patches/fba_libretro.so\" /.choko/patches/\e[m"; cp -u "$RUNNINGFROM/patches/fba_libretro.so" /.choko/patches/; WASOK=$? )
-            [ $WASOK -eq 0 ] && ( echo -e "\e[1;30mcp -r \"$RUNNINGFROM/patches/games$M$N\" /.choko/patches/\e[m"; cp -r "$RUNNINGFROM/patches/games$M$N" /.choko/patches/; WASOK=$? )
-            [ $WASOK -eq 0 ] && ( echo -e "\e[1;30mcp -r \"$RUNNINGFROM/roms/games$M$N\" /usr/share/roms/\e[m"; cp -r "$RUNNINGFROM/roms/games$M$N" /usr/share/roms/; WASOK=$? )
-            [ $WASOK -eq 0 ] && ( echo -e "\e[1;30mcp \"$RUNNINGFROM/games$M$N\"* /.choko/\e[m"; cp "$RUNNINGFROM/games$M$N"* /.choko/; WASOK=$? )
+            echo -e "\e[1;30mcp -u \"$RUNNINGFROM/assets/capcom-home-arcade-last.png\" /.choko/assets/\e[m"; cp -u "$RUNNINGFROM/assets/capcom-home-arcade-last.png" /.choko/assets/; WASOK=$?
+            if [ $WASOK -eq 0 ]
+            then
+              echo -e "\e[1;30mcp -r \"$RUNNINGFROM/roms/games$M$N\" /usr/share/roms/\e[m"; cp -r "$RUNNINGFROM/roms/games$M$N" /usr/share/roms/; WASOK=$?
+            fi
+            if [ $WASOK -eq 0 ]
+            then
+              echo -e "\e[1;30mcp -u \"$RUNNINGFROM/patches/fba_libretro.so\" /.choko/patches/\e[m"; cp -u "$RUNNINGFROM/patches/fba_libretro.so" /.choko/patches/; WASOK=$?
+            fi
+            if [ $WASOK -eq 0 ] && [ -d "$RUNNINGFROM/patches/games$M$N" ]
+            then
+              echo -e "\e[1;30mcp -r \"$RUNNINGFROM/patches/games$M$N\" /.choko/patches/\e[m"; cp -r "$RUNNINGFROM/patches/games$M$N" /.choko/patches/; WASOK=$?
+            fi
+            if [ $WASOK -eq 0 ]
+            then
+              echo -e "\e[1;30mCopying new assets from \"$RUNNINGFROM/assets\"\e[m"
+              while read -r LINE || [ -n "$LINE" ]; do
+                PNGFILE=${LINE%'.png'*}; PNGFILE=${PNGFILE##*' '}
+                ZIPFILE=${LINE%'.zip'*}; ZIPFILE=${ZIPFILE##*' '}
+                ASSETSFOLDER="$(dirname "/.choko/assets/games/$PNGFILE.png")"
+                mkdir -p "$ASSETSFOLDER"
+                cp "$RUNNINGFROM/assets/games/$PNGFILE.png" "$ASSETSFOLDER/"; WASOK=$?
+                if [ $WASOK -eq 0 ] && [ -f "$RUNNINGFROM/assets/options/$ZIPFILE.png" ]
+                then
+                  ASSETSFOLDER="$(dirname "/.choko/assets/options/$ZIPFILE.png")"
+                  mkdir -p "$ASSETSFOLDER"
+                  cp "$RUNNINGFROM/assets/options/$ZIPFILE.png" "$ASSETSFOLDER/"; WASOK=$?
+                fi
+                if [ $WASOK -eq 0 ] && [ -f "$RUNNINGFROM/assets/options/large/$ZIPFILE.png" ]
+                then
+                  ASSETSFOLDER="$(dirname "/.choko/assets/options/large/$ZIPFILE.png")"
+                  mkdir -p "$ASSETSFOLDER"
+                  cp "$RUNNINGFROM/assets/options/large/$ZIPFILE.png" "$ASSETSFOLDER/"; WASOK=$?
+                fi
+                if [ $WASOK -eq 0 ] && [ -f "$RUNNINGFROM/assets/sounds/music/set2/$ZIPFILE.ogg" ]
+                then
+                  ASSETSFOLDER="$(dirname "/.choko/assets/sounds/music/set2/$ZIPFILE.ogg")"
+                  mkdir -p "$ASSETSFOLDER"
+                  cp "$RUNNINGFROM/assets/sounds/music/set2/$ZIPFILE.ogg" "$ASSETSFOLDER/"; WASOK=$?
+                fi
+                [ $WASOK -eq 0 ] || break
+              done < "$RUNNINGFROM/games$M$N.txt"
+            fi
+            if [ $WASOK -eq 0 ]
+            then
+              echo -e "\e[1;30mcp \"$RUNNINGFROM/games$M$N\"* /.choko/\e[m"; cp "$RUNNINGFROM/games$M$N"* /.choko/; WASOK=$?
+            fi
             if [ $WASOK -eq 0 ] && [ ! -x /.choko/usb_exec.sh ]
             then
               # If this is the first list of games being copied then install the menu
-               echo -e "\e[1;30mcp \"$RUNNINGFROM/usb_exec.sh\" /.choko/\e[m"; cp "$RUNNINGFROM/usb_exec.sh" /.choko/; WASOK=$?
+              echo -e "\e[1;30mcp \"$RUNNINGFROM/usb_exec.sh\" /.choko/\e[m"; cp "$RUNNINGFROM/usb_exec.sh" /.choko/; WASOK=$?
             fi
-            [ $WASOK -eq 0 ] && ( eval "echo \"\\\"\$GAMES$M$N\\\" installed.\"" ) || ( echo -e "\e[1;31mThere was some error.\e[m"; sleep 10; exit 201 )
+            if [ $WASOK -eq 0 ]
+            then
+              eval "echo \"\\\"\$GAMES$M$N\\\" installed.\""
+            else
+              echo -e "\e[1;31mThere was some error.\e[m"; sleep 10; exit 201
+            fi
           fi
         fi
       fi
@@ -319,7 +485,7 @@ COUNTDOWN=5
 while [ $COUNTDOWN -ge 0 ]
 do
   echo -ne "\rRebooting in $COUNTDOWN seconds... "
-  COUNTDOWN=$(($COUNTDOWN - 1))
+  COUNTDOWN=$((COUNTDOWN - 1))
   sleep 1
 done
 echo -e "\n"
