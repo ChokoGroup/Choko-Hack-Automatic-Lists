@@ -9,7 +9,7 @@ Install the pack, put some supported games and play:
 8.	Eject the USB disk safely and insert it in USB EXT of the CHA. Power on and select the list in the menus. Play!
 
 Create a new list and test games of mixed systems, and also using FB Neo core:
-9.	Repeat the steps 5 to 8 (using, for example, games1B).
+9.	Repeat the steps 5 to 7 (using, for example, games1B).
 10.	Open the folder 'patches' and create the folder 'games1B' (not 'games1b').
 11.	Copy the file 'fbneo_libretro.so' to the folder created (patches/games1B) and rename it 'fba_libretro.so'.
 12.	Eject the USB disk safely and insert it in USB EXT of the CHA. Power on and select the list in the menus. Play! 
