@@ -237,3 +237,5 @@ E 0 R 1991 trally.png trally.zip trally.ogg Thrash Rally
 E 0 R 1990 tpgolf.png tpgolf.zip tpgolf.ogg Top Player's Golf
 E 0 R 1994 wjammers.png wjammers.zip wjammers.ogg Windjammers
 E 0 Z 1996 zintrckb.png zintrckb.zip zintrckb.ogg ZinTrick
+A 3 F 1996 redearth.png redearth.zip redearth.ogg Red Earth
+A 0 B 1995 megadriv/comix.png megadriv/comix.zip megadriv/comix.ogg Comix Zone

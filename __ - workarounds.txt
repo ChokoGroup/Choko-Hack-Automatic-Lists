@@ -1,0 +1,3 @@
+# Comix Zone (megadriv)
+# Red Earth
+Dragon's Lair (megadriv) doesn't load... but AFTER calling Drangon's Lair once, the reboot trick works in Comix and in Red Earth.

@@ -1,3 +1,4 @@
+Install the pack, put some supported games and play:
 1.	Go to https://github.com/ChokoGroup/Choko-Hack-Automatic-Lists and read the front page.
 2.	Click in the green button 'Code' and select 'Download ZIP'
 3.	Save and open the ZIP file.
@@ -10,7 +11,13 @@
 Create a new list and test games of mixed systems, and also using FB Neo core:
 9.	Repeat the steps 5 to 8 (using, for example, games1B).
 10.	Open the folder 'patches' and create the folder 'games1B' (not 'games1b').
-11.	Copy the file ' fbneo_libretro.so' to the folder created ('patches/games1B') and rename it 'fba_libretro.so'.
-12.	Eject the USB disk safely and insert it in USB EXT of the CHA. Power on and select the list in the menus. Play!
+11.	Copy the file 'fbneo_libretro.so' to the folder created (patches/games1B) and rename it 'fba_libretro.so'.
+12.	Eject the USB disk safely and insert it in USB EXT of the CHA. Power on and select the list in the menus. Play! 
 Note: the pack include icons for thousands of parent ROMs. If one with the same name of the ROM is not found, you’ll see an image just saying “Game 01”, etc.
+
+Change buttons profile for a game and add data to the games database (for example, 'Comix Zone'):
+13.	Go to the folder 'CHA Choko Games Lists' and open the correspondent *.txt (in this example, games1B.txt).
+14.	The very first character of each line is the buttons layout ('A', 'B', 'C', 'D' or 'E'). In this example we won’t change it because none is good and the game has an option to change buttons config that works.
+15.	We can edit more info, like the type of game, the year of release and the game’s full name. Look for the possible options and structure in the Choko Wiki page ( https://cha-choko-mod.fandom.com/wiki/Instructions ).
+16.	When done, we can add this line to the games database (games_all.txt) to reuse latter (and share with others).
 
