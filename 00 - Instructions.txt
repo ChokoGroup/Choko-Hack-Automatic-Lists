@@ -17,7 +17,20 @@ Note: the pack include icons for thousands of parent ROMs. If one with the same 
 
 Change buttons profile for a game and add data to the games database (for example, 'Comix Zone'):
 13.	Go to the folder 'CHA Choko Games Lists' and open the correspondent *.txt (in this example, games1B.txt).
-14.	The very first character of each line is the buttons layout ('A', 'B', 'C', 'D' or 'E'). In this example we won’t change it because none is good and the game has an option to change buttons config that works.
-15.	We can edit more info, like the type of game, the year of release and the game’s full name. Look for the possible options and structure in the Choko Wiki page ( https://cha-choko-mod.fandom.com/wiki/Instructions ).
-16.	When done, we can add this line to the games database (games_all.txt) to reuse latter (and share with others).
+14.	The very first character of each line is the buttons layout ('A', 'B', 'C', 'D' or 'E'). In this example we won’t change it because none is perfect and the game has an option to change buttons config that works.
+15.	You can edit more info, like the type of game, the year of release and the game’s full name. Look for the possible options and structure in the Choko Wiki page ( https://cha-choko-mod.fandom.com/wiki/Instructions ).
+16.	When done, you can add this line to the games database (games_all.txt) to reuse later (and share with others).
 
+Activate 'diagnostic input', aka dipswitches:
+17.	Go to the folder 'CHA Choko Games Lists/patches' and create a folder correspondent to the list we want to use diagnostic input, aka dipswitches (in this example, games1A).
+18.	Copy the file 'capcom' from the folder 'games0A' into the folder created in the previous step.
+19.	If you want to use FB Neo core instead of FB Alpha core, you also have to copy one of the 'fbneo_libretro.so - patched to support both diagnostic input (Capcom) and UniBios (NeoGeo)' to the folder created in step 17 and rename it 'fba_libretro.so'.
+20.	Now when playing a game of this list in the CHA you call the diagnostic input menu by pressing 'Start' button for two seconds.
+
+Customizing the carousel interface (imported from the SNK pack with Neo Geo UniBIOS v4.0 support):
+21.	Repeat the steps 5 to 7 with Neo Geo games (using, for example, games1D) – don’t forget 'neogeo.zip'.
+22.	Open the folder 'patches' and create the folder 'games1D' (not 'games1d').
+23.	Copy all the files and folders inside 'games0B' to the folder created (patches/games1D).
+24.	Eject the USB disk safely and insert it in USB EXT of the CHA. Power on and you’ll the SNK logo replacing Capcom in the end of the boot animation. 
+25.	Now when playing a game of this list in the CHA you’ll see the UniBIOS boot screen that can be accessed by pressing A+B+C buttons (buttons are also changed to mimic the Neo Geo buttons).
+Note: During gameplay you’ll have to call the Insert + Start menu, then resume, and you’ll see the UniBIOS menu.
