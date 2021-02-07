@@ -5,7 +5,7 @@ with the Choko Hack v11 or later
 
 
 ## Intructions
-Read the file '00 - Instructions.txt' and/or whatch the videos (*.mkv files).
+Read the file '00 - Instructions.txt' and/or whatch the videos (*.mp4 files).
 
 If you change the roms in `roms/games1A` just delete `games1A.txt` and the list will be created again the next time you select it in menu.
 We can have up to 12 lists in one folder (from games1A to games2F) and we can have up to 12 folders (just change the folder's name).
