@@ -1,6 +1,6 @@
 Install the pack, put some supported games and play:
-1.	Go to https://github.com/ChokoGroup/Choko-Hack-Automatic-Lists and read the front page.
-2.	Click in the green button 'Code' and select 'Download ZIP'
+1.	Read all information supplied before testing.
+2.	Download the latest release pack or click in the green button 'Code' and select 'Download ZIP'
 3.	Save and open the ZIP file.
 4.	Copy the folder 'CHA Choko Games Lists' to the root of an USB disk.
 5.	Open the folder 'CHA Choko Games Lists' and enable one list (for example, games1A) removing the '.disabled' extension.
