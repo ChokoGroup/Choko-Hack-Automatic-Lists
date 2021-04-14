@@ -65,7 +65,7 @@ if [ "$RUNNINGFROM" = "/.choko" ]
 then
   # Check if USB:/*/usb_exec.sh is available
   COUNTDOWN=5
-  while [ ! -b /dev/sda1 ] && [ $COUNTDOWN -gt 0 ]
+  while [ ! -b /dev/sda1 ] && [ $COUNTDOWN -ge 0 ]
   do
     echo -ne "\rWaiting $COUNTDOWN seconds for USB drive..."
     COUNTDOWN=$((COUNTDOWN - 1))
