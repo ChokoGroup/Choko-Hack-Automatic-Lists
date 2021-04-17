@@ -56,11 +56,11 @@ then
     CHA1A=$?
   done
   echo -e "Press \e[1;94m[P2 START]\e[m to delete or [P1 A] to cancel."
-  COUNTDOWN=15
-  while [ "$CHA2S$CHA1A" = "00" ] && [ $COUNTDOWN -ge 0 ]
+  COUNTDOWN=11
+  while [ "$CHA2S$CHA1A" = "00" ] && [ $COUNTDOWN -gt 0 ]
   do
-    echo -ne "\rWaiting $COUNTDOWN seconds... "
     COUNTDOWN=$((COUNTDOWN - 1))
+    echo -ne "\rWaiting $COUNTDOWN seconds... "
     sleep 1
     /usr/sbin/evtest --query /dev/input/event3 EV_KEY BTN_BASE
     CHA2S=$?
@@ -116,11 +116,11 @@ do
       echo -e "\nThis games list from previous pack should still work but is not recommended to mix packs."
       eval "echo -e \"Do you want to \\e[1;93mdelete \\\"\$GAMES$M$N\\\" from the CHA?\\e[m\""
       echo -e "Press \e[1;94m[P2 START]\e[m to delete or [P1 A] to cancel."
-      COUNTDOWN=15
-      while [ "$CHA2S$CHA1A" = "00" ] && [ $COUNTDOWN -ge 0 ]
+      COUNTDOWN=11
+      while [ "$CHA2S$CHA1A" = "00" ] && [ $COUNTDOWN -gt 0 ]
       do
-        echo -ne "\rWaiting $COUNTDOWN seconds... "
         COUNTDOWN=$((COUNTDOWN - 1))
+        echo -ne "\rWaiting $COUNTDOWN seconds... "
         sleep 1
         /usr/sbin/evtest --query /dev/input/event3 EV_KEY BTN_BASE
         CHA2S=$?
@@ -191,11 +191,11 @@ do
           done
           eval "echo -e \"\nDo you want to copy \\\"\$GAMES$M$N\\\" from USB?\\n\\e[1;93m\\\"\$(head -n 1 /.choko/games$M$N.nfo)\\\" in the CHA will be overwritten!\\e[m\""
           echo -e "Press \e[1;94m[P2 START]\e[m to copy or [P1 A] to cancel."
-          COUNTDOWN=15
-          while [ "$CHA2S$CHA1A" = "00" ] && [ $COUNTDOWN -ge 0 ]
+          COUNTDOWN=11
+          while [ "$CHA2S$CHA1A" = "00" ] && [ $COUNTDOWN -gt 0 ]
           do
-            echo -ne "\rWaiting $COUNTDOWN seconds... "
             COUNTDOWN=$((COUNTDOWN - 1))
+            echo -ne "\rWaiting $COUNTDOWN seconds... "
             sleep 1
             /usr/sbin/evtest --query /dev/input/event3 EV_KEY BTN_BASE
             CHA2S=$?
@@ -307,11 +307,11 @@ EOF1
         done
         eval "echo -e \"\nDo you want to \\e[1;93mdelete \\\"\$GAMES$M$N\\\" from the CHA?\\e[m\""
         echo -e "Press \e[1;94m[P2 START]\e[m to delete or [P1 A] to cancel."
-        COUNTDOWN=15
-        while [ "$CHA2S$CHA1A" = "00" ] && [ $COUNTDOWN -ge 0 ]
+        COUNTDOWN=11
+        while [ "$CHA2S$CHA1A" = "00" ] && [ $COUNTDOWN -gt 0 ]
         do
-          echo -ne "\rWaiting $COUNTDOWN seconds... "
           COUNTDOWN=$((COUNTDOWN - 1))
+          echo -ne "\rWaiting $COUNTDOWN seconds... "
           sleep 1
           /usr/sbin/evtest --query /dev/input/event3 EV_KEY BTN_BASE
           CHA2S=$?
@@ -396,11 +396,11 @@ EOF2
           done
           eval "echo -e \"\nDo you want to copy \\\"\$GAMES$M$N\\\" from USB into the CHA?\""
           echo -e "Press \e[1;94m[P2 START]\e[m to copy or [P1 A] to cancel."
-          COUNTDOWN=15
-          while [ "$CHA2S$CHA1A" = "00" ] && [ $COUNTDOWN -ge 0 ]
+          COUNTDOWN=11
+          while [ "$CHA2S$CHA1A" = "00" ] && [ $COUNTDOWN -gt 0 ]
           do
-            echo -ne "\rWaiting $COUNTDOWN seconds... "
             COUNTDOWN=$((COUNTDOWN - 1))
+            echo -ne "\rWaiting $COUNTDOWN seconds... "
             sleep 1
             /usr/sbin/evtest --query /dev/input/event3 EV_KEY BTN_BASE
             CHA2S=$?
@@ -481,11 +481,11 @@ done
 
 FREESPACE=$(df -hP / | tail -1 | awk '{print $4}')
 echo -e "\n\nThere is nothing else to do here.\nYou still have $FREESPACE free.\n"
-COUNTDOWN=5
-while [ $COUNTDOWN -ge 0 ]
+COUNTDOWN=6
+while [ $COUNTDOWN -gt 0 ]
 do
-  echo -ne "\rRebooting in $COUNTDOWN seconds... "
   COUNTDOWN=$((COUNTDOWN - 1))
+  echo -ne "\rRebooting in $COUNTDOWN seconds... "
   sleep 1
 done
 echo -e "\n"
