@@ -1,3 +1,19 @@
+A 2 S 2000 1944.png 1944.zip 1944.ogg 1944 The Loop Master
+B 2 B 1994 avsp.png avsp.zip avsp.ogg Aliens vs Predator
+C 2 B 1994 armwar.png armwar.zip armwar.ogg Armored Warriors
+C 1 B 1991 captcomm.png captcomm.zip captcomm.ogg Captain Commando
+C 2 R 1997 csclub.png csclub.zip csclub.ogg Capcom Sports Club
+D 2 F 1995 cybots.png cybots.zip cybots.ogg Cyberbots Full Metal Madness
+A 2 F 1994 dstlk.png dstlk.zip dstlk.ogg Dalkstalkers
+C 2 S 1993 ecofghtr.png ecofghtr.zip ecofghtr.ogg Eco Fighters
+A 1 B 1989 ffight.png ffight.zip ffight.ogg Final Fight
+A 1 P 1988 ghouls.png ghouls.zip ghouls.ogg Ghouls n Ghosts
+A 2 S 1999 gigawing.png gigawing.zip gigawing.ogg Gigawing
+C 2 F 1995 megaman.png megaman.zip megaman.ogg Megaman The Power Battle
+E 2 S 2001 progear.png progear.zip progear.ogg Progear
+A 1 F 1992 sf2hf.png sf2hf.zip sf2hf.ogg Street Fighter 2 Hyper Fighting
+A 1 P 1989 strider.png strider.zip strider.ogg Strider
+A 2 Z 1996 spf2t.png spf2t.zip spf2t.ogg Super Puzzle Fighter 2 Turbo
 A 2 B 1997 batcir.png batcir.zip batcir.ogg Battle Circuit
 A 0 P 1987 bionicc.png bionicc.zip bionicc.ogg Bionic Commando
 A 0 P 1987 blktiger.png blktiger.zip blktiger.ogg Black Tiger
