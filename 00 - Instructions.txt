@@ -1,36 +1,45 @@
-Install the pack, put some supported games and play:
-1.	Read all information supplied before testing.
-2.	Download the latest release pack or click in the green button 'Code' and select 'Download ZIP'
-3.	Save and open the ZIP file.
-4.	Copy the folder 'CHA Choko Games Lists' to the root of an USB disk.
-5.	Open the folder 'CHA Choko Games Lists' and enable one list (for example, games1A) removing the '.disabled' extension.
-6.	Open the *.nfo file (in this example, games1A.nfo) and write a nice name for your list.
-7.	Copy the ROMs you want in this list to the correspondent folder (in this example, roms/games1A). Remember that the default core is FB Alpha and not all ROMs may run OK.
-8.	Eject the USB disk safely and insert it in USB EXT of the CHA. Power on and select the list in the menus. Play!
+How to install the pack, put some games and play:
+1.	Read all information supplied in https://github.com/ChokoGroup/Choko-Hack-Automatic-Lists .
+2.	Download the latest release pack or click in the green button 'Code' and select 'Download ZIP'. Another way is to install GitHub Desktop and clone the repository.
+3.	Open the downloaded *.zip or *.7z file (with 7-zip, for example) and copy the folder 'CHA Choko Games Lists' to the root of an USB disk.
+4.	Create folders inside 'CHA Choko Games Lists/roms' with any name (that name will be used in the Choko Menu).
+5.	Copy the ROMs you want to the folders created in the previous step. Remember that the default core is FB Alpha and not all ROMs may run OK.
+6.	Eject the USB disk safely and insert it in USB EXT of the CHA. Power on and select the wanted list in the menus. Play!
+Note: the pack includes icons for thousands of parent ROMs. If you put some ROMs that are not parent, it will try to use parent's assets. If not found, you'll see an image just saying "Game 01", etc.
 
-Create a new list and test games of mixed systems, and also using FB Neo core:
-9.	Repeat the steps 5 to 7 (using, for example, games1B).
-10.	Open the folder 'patches' and create the folder 'games1B' (not 'games1b').
-11.	Copy the file 'fbneo_libretro.so' to the folder created (patches/games1B) and rename it 'fba_libretro.so'.
-12.	Eject the USB disk safely and insert it in USB EXT of the CHA. Power on and select the list in the menus. Play! 
-Note: the pack include icons for thousands of parent ROMs. If one with the same name of the ROM is not found, you’ll see an image just saying “Game 01”, etc.
 
-Change buttons profile for a game and add data to the games database (for example, 'Comix Zone'):
-13.	Go to the folder 'CHA Choko Games Lists' and open the correspondent *.txt (in this example, games1B.txt).
-14.	The very first character of each line is the buttons layout ('A', 'B', 'C', 'D' or 'E'). In this example we won’t change it because none is perfect and the game has an option to change buttons config that works.
-15.	You can edit more info, like the type of game, the year of release and the game’s full name. Look for the possible options and structure in the Choko Wiki page ( https://cha-choko-mod.fandom.com/wiki/Instructions ).
-16.	When done, you can add this line to the games database (games_all.txt) to reuse later (and share with others).
+How use FB Neo core in one list and play games from other supported systems:
+7.	Repeat the step 4 but inside that folder you have to create subfolders to put your ROMs, depending on the system. For example, Mega Drive games have to go into a folder named 'megadrive'. Go to https://docs.libretro.com/library/fbneo/ to find the possible names.
+8.	Open the folder 'patches' and create a folder with exactly the same name you have in created in step 4.
+9.	Copy the file 'fbneo_libretro.so' to the folder created in step 8 and rename it 'fba_libretro.so'.
+10.	Eject the USB disk safely and insert it in USB EXT of the CHA. Power on and select the list in the menus. Play! 
 
-Activate 'diagnostic input', aka dipswitches:
-17.	Go to the folder 'CHA Choko Games Lists/patches' and create a folder correspondent to the list we want to use diagnostic input, aka dipswitches (in this example, games1A).
-18.	Copy the file 'capcom' from the folder 'games0A' into the folder created in the previous step.
-19.	If you want to use FB Neo core instead of FB Alpha core, you also have to copy one of the 'fbneo_libretro.so - patched to support both diagnostic input (Capcom) and UniBios (NeoGeo)' to the folder created in step 17 and rename it 'fba_libretro.so'.
-20.	Now when playing a game of this list in the CHA you call the diagnostic input menu by pressing 'Start' button for two seconds.
 
-Customizing the carousel interface (imported from the SNK pack with Neo Geo UniBIOS v4.0 support):
-21.	Repeat the steps 5 to 7 with Neo Geo games (using, for example, games1D) – don’t forget 'neogeo.zip'.
-22.	Open the folder 'patches' and create the folder 'games1D' (not 'games1d').
-23.	Copy all the files and folders inside 'games0B' to the folder created (patches/games1D).
-24.	Eject the USB disk safely and insert it in USB EXT of the CHA. Power on and you’ll the SNK logo replacing Capcom in the end of the boot animation. 
-25.	Now when playing a game of this list in the CHA you’ll see the UniBIOS boot screen that can be accessed by pressing A+B+C buttons (buttons are also changed to mimic the Neo Geo buttons).
-Note: During gameplay you’ll have to call the Insert + Start menu, then resume, and you’ll see the UniBIOS menu.
+How to change buttons profile for a game and add data to the games database:
+12.	After loading the list of games in the CHA at least once, go to the folder 'CHA Choko Games Lists' and open the *.txt file with the same name of the folder you created in step 4.
+13.	The very first character of each line is the buttons layout ('A', 'B', 'C', 'D' or 'E'). For games not listed in 'games_all.txt' it is set 'A', but you can change it here and test other profiles.
+14.	You can edit more info, like the type of game, the year of release and the game's full name. Look for the possible options and structure in the Choko Wiki page ( https://cha-choko-mod.fandom.com/wiki/Instructions ).
+15.	When done, you can add this line to the games database (games_all.txt) to reuse later (and share with others).
+
+
+How to activate 'diagnostic input', aka dipswitches:
+15.	Go to the folder 'CHA Choko Games Lists/patches' and create a folder with exactly the same name you have in created in step 4.
+16.	Copy the file 'capcom' from the folder 'EXAMPLE with patched files and using a core other than default' into the folder created in the previous step.
+17.	If you want to use FB Neo core with both diagnostic input (Capcom) and UniBios (NeoGeo)' look into 'EXAMPLE with patched files and customized UI (SNK colours)'.
+18.	Now when playing a game of this list in the CHA you call the diagnostic input menu by pressing 'Start' button for two seconds.
+
+
+How to customize the carousel interface (imported from the SNK pack developed by Woises, with Neo Geo UniBIOS v4.0 support):
+19.	Repeat the steps 4 and 5 using Neo Geo games – don't forget the bios file (neogeo.zip) with UniBIOS v4.0 support.
+20.	Open the folder 'patches' and create a folder with exactly the same name you have in created in step 4.
+21.	Copy all the files and folders inside 'EXAMPLE with patched files and customized UI (SNK colours)' to the folder created in step 20.
+22.	Eject the USB disk safely and insert it in USB EXT of the CHA. Power on and you'll the SNK logo replacing Capcom in the end of the boot animation. 
+Note: Now when playing a game of this list in the CHA you'll see the UniBIOS boot screen. Press A+B+C+D buttons while UniBios boot screen is visible to go to UniBios menu. During gameplay you'll have to call the Insert + Start menu, then resume, and you'll see the UniBIOS menu (C button to exit).
+
+
+Installing (and uninstalling) games into the CHA
+- When loading games from USB you will also have an option in the Choko Menu to (un)install games into the CHA.
+- You must first expand the CHA ext4 partition to use all available space in eMMC or, even better, use a SD card ( https://cha-choko-mod.fandom.com/wiki/SD_Card_reader_MOD ).
+- The script starts showing lists of installed games, one by one, asking if we want to uninstall (delete from the CHA's internal memory). Default answer is 'No'.
+- Last it will show, one by one, the available lists of games to install. If a list with exactly the same name exists in the CHA a warning is shown about the list already installed being uninstalled before the new is installed in case 'Yes' is selected.
+- The script ends showing the remaining free space before rebooting the CHA.

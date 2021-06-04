@@ -1,0 +1,21 @@
+### Known Issues ###
+
+- Vertical games are sideways, they won't rotate.
+
+- If the list has too many games, bezels or buttons options may not load, and games crash frequently.
+
+- Sometimes the "Insert coin" won't work (usually after playing several different games), but rebooting the CHA will fix.
+
+
+
+### Workarounds ###
+
+- "Dungeons & Dragons: Shadow Over Mystara": 
+Player 2 can't select and use weapons/magic. Use fbneo core extracted from Lakka.
+
+- Comix Zone (megadriv)
+- Red Earth
+Dragon's Lair (megadriv) doesn't load... but AFTER calling Drangon's Lair once, we can play "Comix Zone" and "Red Earth" by selecting 'restart' in the 'Insert + Start' menu.
+
+- Ghosts'n Goblins
+The parent set (gng.zip) doesn't allow to continue game. Use the US set instead (gngt.zip).

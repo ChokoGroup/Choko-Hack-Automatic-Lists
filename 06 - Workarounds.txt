@@ -1,3 +1,0 @@
-# Comix Zone (megadriv)
-# Red Earth
-Dragon's Lair (megadriv) doesn't load... but AFTER calling Drangon's Lair once, selecting 'restart' in the 'Insert + Start' menu fixes "Comix Zone" and "Red Earth".
