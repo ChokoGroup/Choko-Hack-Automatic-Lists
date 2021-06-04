@@ -76,3 +76,5 @@ We will appreciate all users contributions to enlarge this database.
 There is a folder with an alpha version of Game Manager.
 It very helpful to edit each games data and add it to games_all.txt, also see the assets for each game in a list.
 Be warned, it's still in a very early development stage.
+
+More info in the wiki, at https://cha-choko-mod.fandom.com/wiki/Game_Manager
