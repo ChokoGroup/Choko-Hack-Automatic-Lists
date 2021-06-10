@@ -11,6 +11,7 @@ with the Choko Hack v12 or later
 - Support for clones roms (tries to find parent rom's assets).
 - Updated the games installer/uninstaller. Easily install games lists into the CHA (you should expand the partition to make space for the roms - better yet, add a SD card reader: https://cha-choko-mod.fandom.com/wiki/SD_Card_reader_MOD ).
 - Moved the SSH and FTP servers to the Choko Hack pack ( https://github.com/ChokoGroup/Choko-Hack inside 'Extras' folder).
+- New Choko Logo.
 
 
 ## Instructions
