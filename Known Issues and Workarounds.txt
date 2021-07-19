@@ -18,4 +18,4 @@ Player 2 can't select and use weapons/magic. Use fbneo core extracted from Lakka
 Dragon's Lair (megadriv) doesn't load... but AFTER calling Drangon's Lair once, we can play "Comix Zone" and "Red Earth" by selecting 'restart' in the 'Insert + Start' menu.
 
 - Ghosts'n Goblins
-The parent set (gng.zip) doesn't allow to continue game. Use the US set instead (gngt.zip).
+The parent rom (gng.zip) doesn't allow to continue game. Use the US rom instead (gngt.zip).

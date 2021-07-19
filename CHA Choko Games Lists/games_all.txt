@@ -1,261 +1,283 @@
-A 2 S 2000 1944.png 1944.zip 1944.ogg 1944 The Loop Master
-B 2 B 1994 avsp.png avsp.zip avsp.ogg Aliens vs Predator
-C 2 B 1994 armwar.png armwar.zip armwar.ogg Armored Warriors
-C 1 B 1991 captcomm.png captcomm.zip captcomm.ogg Captain Commando
-C 2 R 1997 csclub.png csclub.zip csclub.ogg Capcom Sports Club
-D 2 F 1995 cybots.png cybots.zip cybots.ogg Cyberbots Full Metal Madness
-A 2 F 1994 dstlk.png dstlk.zip dstlk.ogg Dalkstalkers
-C 2 S 1993 ecofghtr.png ecofghtr.zip ecofghtr.ogg Eco Fighters
-A 1 B 1989 ffight.png ffight.zip ffight.ogg Final Fight
-A 1 P 1988 ghouls.png ghouls.zip ghouls.ogg Ghouls n Ghosts
-A 2 S 1999 gigawing.png gigawing.zip gigawing.ogg Gigawing
-C 2 F 1995 megaman.png megaman.zip megaman.ogg Megaman The Power Battle
-E 2 S 2001 progear.png progear.zip progear.ogg Progear
-A 1 F 1992 sf2hf.png sf2hf.zip sf2hf.ogg Street Fighter 2 Hyper Fighting
-A 1 P 1989 strider.png strider.zip strider.ogg Strider
-A 2 Z 1996 spf2t.png spf2t.zip spf2t.ogg Super Puzzle Fighter 2 Turbo
-A 2 B 1997 batcir.png batcir.zip batcir.ogg Battle Circuit
-A 0 P 1987 bionicc.png bionicc.zip bionicc.ogg Bionic Commando
-A 0 P 1987 blktiger.png blktiger.zip blktiger.ogg Black Tiger
-C 1 B 1992 dino.png dino.zip dino.ogg Cadillacs & Dinosaurs
-A 1 S 1990 cawing.png cawing.zip cawing.ogg Carrier Air Wing
-D 2 B 1996 ddsom.png ddsom.zip ddsom.ogg Dungeons & Dragons: Shadow Over Mystara
-D 2 B 1994 ddtod.png ddtod.zip ddtod.ogg Dungeons & Dragons: Tower of Doom
-C 1 B 1989 dynwar.png dynwar.zip dynwar.ogg Dynasty Wars
-A 0 R 1988 f1dreamb.png f1dreamb.zip f1dreamb.ogg F-1 Dream
-A 1 S 1988 forgottn.png forgottn.zip forgottn.ogg Forgotten Worlds
-A 0 S 2000 ganbare.png ganbare.zip ganbare.ogg Ganbare! Marine Kun
+A 0 B 1984 1942.png 1942.zip 1942.ogg 1942
+A 0 B 1984 higemaru.png higemaru.zip higemaru.ogg Pirate Ship HigeMaru
+A 0 B 1984 vulgus.png vulgus.zip vulgus.ogg Vulgus
+A 0 B 1985 commando.png commando.zip commando.ogg Commando
+A 0 B 1985 exedexes.png exedexes.zip exedexes.ogg Exed Exes
+A 0 B 1985 gunsmoke.png gunsmoke.zip gunsmoke.ogg Gunsmoke
+A 0 B 1986 lwings.png lwings.zip lwings.ogg Legendary Wings
+A 0 B 1986 srumbler.png srumbler.zip srumbler.ogg Speed Rumbler
+A 0 B 1986 trojan.png trojan.zip trojan.ogg Trojan
+A 0 B 1987 1943.png 1943.zip 1943.ogg 1943: The Battle of Midway
+A 0 B 1987 1943kai.png 1943kai.zip 1 1943kai.ogg 1943 Kai
+A 0 B 1987 avengers.png avengers.zip avengers.ogg Avengers
+A 0 B 1987 tigeroad.png tigeroad.zip tigeroad.ogg Tiger Road
+A 0 B 1988 lastduel.png lastduel.zip lastduel.ogg Last Duel
+A 0 B 1988 leds2011.png leds2011.zip leds2011.ogg Led Storm Rally 2011
+A 0 B 1988 ledstorm.png ledstorm.zip ledstorm.ogg Led Storm
+A 0 B 1990 1941.png 1941.zip 1941.ogg 1941: Counter Strike
+A 0 B 1990 mercs.png mercs.zip mercs.ogg Mercs
+A 0 B 1991 block.png block.zip block.ogg Block
+A 0 B 1992 varth.png varth.zip varth.ogg Varth: Operation Thunderstorm
+A 0 B 1995 megadrive/comix.png megadrive/comix.zip megadrive/comix.ogg Comix Zone
+A 0 B 1996 19xx.png 19xx.zip 19xx.ogg 19XX: The War Against Destiny
+A 0 B 1998 mtetrisc.png mtetrisc.zip mtetrisc.ogg Magical Tetris Challenge
+A 0 B 2000 dimahoo.png dimahoo.zip dimahoo.ogg Dimahoo
+A 0 F 1994 sftm.png sftm.zip sftm.ogg Street Fighter: The Movie
+A 0 P 1984 sonson.png sonson.zip sonson.ogg Son Son
 A 0 P 1985 gng.png gng.zip gng.ogg Ghosts'n Goblins
 A 0 P 1985 gng.png gngt.zip gng.ogg Ghosts'n Goblins
-A 3 F 1999 jojoba.png jojoba.zip jojoba.ogg Jojo's Bizarre Adventure: Heritage for the Future
-A 3 F 1998 jojo.png jojo.zip jojo.ogg Jojo's Venture
-A 1 B 1991 knights.png knights.zip knights.ogg Knights of the Round
-A 1 P 1990 msword.png msword.zip msword.ogg Magic Sword: Heroic Fantasy
-A 2 S 2000 mmatrix.png mmatrix.zip mmatrix.ogg Mars Matrix: Hyper Solid Shooting
-A 2 F 1995 msh.png msh.zip msh.ogg Marvel Super Heroes
-A 2 F 1997 mshvsf.png mshvsf.zip mshvsf.ogg Marvel Super Heroes vs Street Fighter
-A 2 F 1998 mvsc.png mvsc.zip mvsc.ogg Marvel vs Capcom: Clash of Super Heroes
-C 2 P 1996 megaman2.png megaman2.zip megaman2.ogg Mega Man 2: The Power Fighters
-C 1 P 1990 mtwins.png mtwins.zip mtwins.ogg Mega Twins
-B 1 B 1993 mbombrd.png mbombrd.zip mbombrd.ogg Muscle Bomber Duo: Ultimate Team Battle
-A 1 P 1990 nemo.png nemo.zip nemo.ogg Nemo
-A 2 F 1995 nwarr.png nwarr.zip nwarr.ogg Night Warriors: Darkstalkers' Revenge
-A 1 P 1989 pang.png pang.zip pang.ogg Pang
-A 1 P 1990 spang.png spang.zip spang.ogg Super Pang
-A 1 P 1995 pang3.png pang3.zip pang3.ogg Pang! 3
-A 2 P 2000 mpang.png mpang.zip mpang.ogg Mighty! Pang
-A 0 B 1984 higemaru.png higemaru.zip higemaru.ogg Pirate Ship HigeMaru
-A 1 Z 1994 pnickj.png pnickj.zip pnickj.ogg Pnickies
-A 1 S 1994 pokonyan.png pokonyan.zip pokonyan.ogg Pokonyan Balloon
-A 2 Z 2001 pzloop2.png pzloop2.zip pzloop2.ogg Puzz Loop 2
-C 1 B 1993 slammast.png slammast.zip slammast.ogg Saturday Night Slam Masters
-B 2 F 1994 ringdest.png ringdest.zip ringdest.ogg Ring of Destruction: Slammasters II
+A 0 P 1987 bionicc.png bionicc.zip bionicc.ogg Bionic Commando
+A 0 P 1987 blktiger.png blktiger.zip blktiger.ogg Black Tiger
+A 0 R 1988 f1dreamb.png f1dreamb.zip f1dreamb.ogg F-1 Dream
 A 0 S 1985 sectionz.png sectionz.zip sectionz.ogg Section Z
-C 0 S 1986 sidearms.png sidearms.zip sidearms.ogg Side Arms: Hyper Dyne
-A 0 P 1984 sonson.png sonson.zip sonson.ogg Son Son
-D 0 F 1987 sf.png sf.zip sf.ogg Street Fighter
+A 0 S 2000 ganbare.png ganbare.zip ganbare.ogg Ganbare! Marine Kun
+A 1 B 1989 ffight.png ffight.zip ffight.ogg Final Fight
+A 1 B 1991 knights.png knights.zip knights.ogg Knights of the Round
+A 1 B 1991 kod.png kod.zip kod.ogg The King of Dragons
+A 1 B 1992 wof.png wof.zip wof.ogg Warriors of Fate
+A 1 B 1993 punisher.png punisher.zip punisher.ogg The Punisher
 A 1 F 1991 sf2.png sf2.zip sf2.ogg Street Fighter II: The World Warrior
 A 1 F 1992 sf2ce.png sf2ce.zip sf2ce.ogg Street Fighter II': Champion Edition
+A 1 F 1992 sf2hf.png sf2hf.zip sf2hf.ogg Street Fighter 2 Hyper Fighting
+A 1 F 1992 sf2hf.png sf2hfj.zip sf2hf.ogg Street Fighter 2 Hyper Fighting
+A 1 P 1988 ghouls.png ghouls.zip ghouls.ogg Ghouls'n Ghosts
+A 1 P 1989 pang.png pang.zip pang.ogg Pang
+A 1 P 1989 strider.png strider.zip strider.ogg Strider
+A 1 P 1989 willow.png willow.zip willow.ogg Willow
+A 1 P 1990 msword.png msword.zip msword.ogg Magic Sword: Heroic Fantasy
+A 1 P 1990 nemo.png nemo.zip nemo.ogg Nemo
+A 1 P 1990 spang.png spang.zip spang.ogg Super Pang
+A 1 P 1991 3wonders.png 3wonders.zip 3wonders.ogg Three Wonders
+A 1 P 1995 pang3.png pang3.zip pang3.ogg Pang! 3
+A 1 S 1988 forgottn.png forgottn.zip forgottn.ogg Forgotten Worlds
+A 1 S 1989 unsquad.png unsquad.zip unsquad.ogg U. N. Squadron
+A 1 S 1990 cawing.png cawing.zip cawing.ogg Carrier Air Wing
+A 1 S 1994 pokonyan.png pokonyan.zip pokonyan.ogg Pokonyan Balloon
+A 1 Z 1992 qad.png qad.zip qad.ogg Quiz & Dragons
+A 1 Z 1993 gulunpa.png gulunpa.zip gulunpa.ogg Gulun.Pa!
+A 1 Z 1994 pnickj.png pnickj.zip pnickj.ogg Pnickies
+A 1 Z 1999 jyangoku.png jyangoku.zip jyangoku.ogg Jyangokushi: Haoh no Saihai
+A 1 Z 2001 choko.png choko.zip choko.ogg Janpai Puzzle Choukou
+A 2 B 1997 batcir.png batcir.zip batcir.ogg Battle Circuit
 A 2 F 1993 ssf2.png ssf2.zip ssf2.ogg Super Street Fighter II: The New Challengers
+A 2 F 1994 dstlk.png dstlk.zip dstlk.ogg Dalkstalkers
+A 2 F 1994 dstlk.png dstlku.zip dstlk.ogg Dalkstalkers
 A 2 F 1994 ssf2t.png ssf2t.zip ssf2t.ogg Super Street Fighter II Turbo
-A 2 F 2003 hsf2.png hsf2.zip hsf2.ogg Hyper Street Fighter II: The Anniversary Edition
+A 2 F 1994 xmcota.png xmcota.zip xmcota.ogg X-Men: Children of the Atom
+A 2 F 1995 msh.png msh.zip msh.ogg Marvel Super Heroes
+A 2 F 1995 nwarr.png nwarr.zip nwarr.ogg Night Warriors: Darkstalkers' Revenge
 A 2 F 1995 sfa.png sfa.zip sfa.ogg Street Fighter Alpha: Warriors' Dreams
 A 2 F 1996 sfa2.png sfa2.zip sfa2.ogg Street Fighter Alpha 2
 A 2 F 1996 sfz2al.png sfz2al.zip sfz2al.ogg Street Fighter Zero 2 Alpha
-A 3 F 1997 sfiii.png sfiii.zip sfiii.ogg Street Fighter III: New Generation
-A 3 F 1997 sfiii2.png sfiii2.zip sfiii2.ogg Street Fighter III 2nd Impact: Giant Attack
-A 2 F 1998 sfa3.png sfa3.zip sfa3.ogg Street Fighter Alpha 3
-A 3 F 1999 sfiii3.png sfiii3.zip sfiii3.ogg Street Fighter III 3rd Strike: Fight for the Future
-C 2 F 1997 sgemf.png sgemf.zip sgemf.ogg Super Gem Fighter Mini Mix
-A 1 B 1991 kod.png kod.zip kod.ogg The King of Dragons
-A 1 B 1993 punisher.png punisher.zip punisher.ogg The Punisher
-A 1 P 1991 3wonders.png 3wonders.zip 3wonders.ogg Three Wonders
-A 0 B 1987 tigeroad.png tigeroad.zip tigeroad.ogg Tiger Road
-A 0 B 1986 trojan.png trojan.zip trojan.ogg Trojan
-A 1 S 1989 unsquad.png unsquad.zip unsquad.ogg U. N. Squadron
+A 2 F 1996 xmvsf.png xmvsf.zip xmvsf.ogg X-Men vs Street Fighter
+A 2 F 1997 mshvsf.png mshvsf.zip mshvsf.ogg Marvel Super Heroes vs Street Fighter
 A 2 F 1997 vhunt2.png vhunt2.zip vhunt2.ogg Vampire Hunter 2: Darkstalkers' Revenge
 A 2 F 1997 vsav.png vsav.zip vsav.ogg Vampire Savior: The Lord of Vampire
 A 2 F 1997 vsav2.png vsav2.zip vsav2.ogg Vampire Savior 2: The Lord of Vampire
-A 1 B 1992 wof.png wof.zip wof.ogg Warriors of Fate
-A 1 P 1989 willow.png willow.zip willow.ogg Willow
-A 2 F 1994 xmcota.png xmcota.zip xmcota.ogg X-Men: Children of the Atom
-A 2 F 1996 xmvsf.png xmvsf.zip xmvsf.ogg X-Men vs Street Fighter
+A 2 F 1998 mvsc.png mvsc.zip mvsc.ogg Marvel vs Capcom: Clash of Super Heroes
+A 2 F 1998 sfa3.png sfa3.zip sfa3.ogg Street Fighter Alpha 3
+A 2 F 2003 hsf2.png hsf2.zip hsf2.ogg Hyper Street Fighter II: The Anniversary Edition
+A 2 P 2000 mpang.png mpang.zip mpang.ogg Mighty! Pang
+A 2 S 1999 gigawing.png gigawing.zip gigawing.ogg Gigawing
+A 2 S 2000 1944.png 1944.zip 1944.ogg 1944: The Loop Master
+A 2 S 2000 mmatrix.png mmatrix.zip mmatrix.ogg Mars Matrix: Hyper Solid Shooting
+A 2 Z 1996 spf2t.png spf2t.zip spf2t.ogg Super Puzzle Fighter 2 Turbo
+A 2 Z 2001 pzloop2.png pzloop2.zip pzloop2.ogg Puzz Loop 2
+A 3 F 1996 redearth.png redearth.zip redearth.ogg Red Earth
+A 3 F 1997 sfiii.png sfiii.zip sfiii.ogg Street Fighter III: New Generation
+A 3 F 1997 sfiii2.png sfiii2.zip sfiii2.ogg Street Fighter III 2nd Impact: Giant Attack
+A 3 F 1998 jojo.png jojo.zip jojo.ogg Jojo's Venture
+A 3 F 1999 jojoba.png jojoba.zip jojoba.ogg Jojo's Bizarre Adventure: Heritage for the Future
+A 3 F 1999 sfiii3.png sfiii3.zip sfiii3.ogg Street Fighter III 3rd Strike: Fight for the Future
+B 1 B 1993 mbombrd.png mbombrd.zip mbombrd.ogg Muscle Bomber Duo: Ultimate Team Battle
+B 2 B 1994 avsp.png avsp.zip avsp.ogg Aliens vs Predator
+B 2 F 1994 ringdest.png ringdest.zip ringdest.ogg Ring of Destruction: Slam Masters II
 C 0 P 1994 megadrive/greatcirj.png megadrive/greatcirj.zip megadrive/greatcirj.ogg Great Circus Mystery - Mickey to Minnie Magical Adventure 2
-A 1 Z 1993 gulunpa.png gulunpa.zip gulunpa.ogg Gulun.Pa!
 C 0 P 1994 megadrive/rockman.png megadrive/rockman.zip megadrive/rockman.ogg Mega Man: The Wily Wars
-A 0 F 1994 sftm.png sftm.zip sftm.ogg Street Fighter: The Movie
-E 0 F 1993 3countb.png 3countb.zip 3countb.ogg 3 Count Bout
-E 0 F 1994 aodk.png aodk.zip aodk.ogg Aggressors of Dark Kombat
-E 0 F 1992 aof.png aof.zip aof.ogg Art of Fighting
-E 0 F 1994 aof2.png aof2.zip aof2.ogg Art of Fighting 2
-E 0 F 1996 aof3.png aof3.zip aof3.ogg Art of Fighting 3: The Path of the Warrior
-E 0 F 2000 bangbead.png bangbead.zip bangbead.ogg Bang Bead
-E 0 F 1996 breakers.png breakers.zip breakers.ogg Breakers
-E 0 F 1998 breakrev.png breakrev.zip breakrev.ogg Breakers Revenge
-E 0 F 1995 doubledr.png doubledr.zip doubledr.ogg Double Dragon
-E 0 F 0000 dragonsh.png dragonsh.zip dragonsh.ogg Dragons' Heaven
-E 0 F 1995 kabukikl.png kabukikl.zip kabukikl.ogg Far East of Eden: Kabuki Klash
-E 0 F 1991 fatfury1.png fatfury1.zip fatfury1.ogg Fatal Fury: King of Fighters
-E 0 F 1992 fatfury2.png fatfury2.zip fatfury2.ogg Fatal Fury 2
-E 0 F 1993 fatfursp.png fatfursp.zip fatfursp.ogg Fatal Fury Special
-E 0 F 1995 fatfury3.png fatfury3.zip fatfury3.ogg Fatal Fury 3: Road to the Final Victory
-E 0 F 1994 fightfev.png fightfev.zip fightfev.ogg Fight Fever
-E 0 F 1995 galaxyfg.png galaxyfg.zip galaxyfg.ogg Galaxy Fight: Universal Warriors
-E 0 F 1999 garou.png garou.zip garou.ogg Garou: Mark of the Wolves
-E 0 F 1994 karnovr.png karnovr.zip karnovr.ogg Karnov's Revenge
-E 0 F 1991 kotm.png kotm.zip kotm.ogg King of the Monsters
-E 0 F 1992 kotm2.png kotm2.zip kotm2.ogg King of the Monsters 2
-E 0 F 1996 kizuna.png kizuna.zip kizuna.ogg Kizuna Encounter
+C 0 S 1986 sidearms.png sidearms.zip sidearms.ogg Side Arms: Hyper Dyne
+C 1 B 1989 dynwar.png dynwar.zip dynwar.ogg Dynasty Wars
+C 1 B 1991 captcomm.png captcomm.zip captcomm.ogg Captain Commando
+C 1 B 1992 dino.png dino.zip dino.ogg Cadillacs & Dinosaurs
+C 1 B 1993 slammast.png slammast.zip slammast.ogg Saturday Night Slam Masters
+C 1 P 1990 mtwins.png mtwins.zip mtwins.ogg Mega Twins
+C 2 B 1994 armwar.png armwar.zip armwar.ogg Armored Warriors
+C 2 F 1995 megaman.png megaman.zip megaman.ogg Megaman The Power Battle
+C 2 F 1997 sgemf.png sgemf.zip sgemf.ogg Super Gem Fighter Mini Mix
+C 2 P 1996 megaman2.png megaman2.zip megaman2.ogg Mega Man 2: The Power Fighters
+C 2 R 1997 csclub.png csclub.zip csclub.ogg Capcom Sports Club
+C 2 S 1993 ecofghtr.png ecofghtr.zip ecofghtr.ogg Eco Fighters
+D 0 B 1988 pow.png pow.zip pow.ogg P.O.W. - Prisoners of War
 D 0 F 1984 mainsnk.png mainsnk.zip mainsnk.ogg Main Event
-E 0 F 2003 matrim.png matrim.zip matrim.ogg Matrimelee
-E 0 F 1996 ninjamas.png ninjamas.zip ninjamas.ogg Ninja Master's
-E 0 F 2002 rotd.png rotd.zip rotd.ogg Rage of the Dragons
-E 0 F 1996 ragnagrd.png ragnagrd.zip ragnagrd.ogg Ragnagard
-E 0 F 1995 rbff1.png rbff1.zip rbff1.ogg Real Bout Fatal Fury
-E 0 F 1998 rbff2.png rbff2.zip rbff2.ogg Real Bout Fatal Fury 2: The Newcomers
-E 0 F 1997 rbffspec.png rbffspec.zip rbffspec.ogg Real Bout Fatal Fury Special
-E 0 F 1993 samsho.png samsho.zip samsho.ogg Samurai Shodown
-E 0 F 1994 samsho2.png samsho2.zip samsho2.ogg Samurai Shodown II
-E 0 F 1995 samsho3.png samsho3.zip samsho3.ogg Samurai Shodown III: Blades of Blood
-E 0 F 1996 samsho4.png samsho4.zip samsho4.ogg Samurai Shodown IV: Amakusa's Revenge
-E 0 F 2003 samsho5.png samsho5.zip samsho5.ogg Samurai Shodown V
-E 0 F 2004 samsh5sp.png samsh5sp.zip samsh5sp.ogg Samurai Shodown V Special
-E 0 F 2020 samsh5fe.png samsh5fe.zip samsh5fe.ogg Samurai Shodown V Perfect
-E 0 F 1995 savagere.png savagere.zip savagere.ogg Savage Reign
-E 0 F 2003 svc.png svc.zip svc.ogg SNK vs. Capcom: SVC Chaos
+D 0 F 1987 sf.png sf.zip sf.ogg Street Fighter
 D 0 F 1989 streetsm.png streetsm.zip streetsm.ogg Street Smart
+D 0 P 1986 athena.png athena.zip athena.ogg Athena
+D 0 P 1987 psychos.png psychos.zip psychos.ogg Psycho Soldier
+D 0 R 1984 madcrash.png madcrash.zip madcrash.ogg Mad Crasher
+D 0 R 1984 sgladiat.png sgladiat.zip sgladiat.ogg Gladiator 1984
+D 0 R 1988 fitegolf.png fitegolf.zip fitegolf.ogg Fighting Golf 
+D 0 R 1988 goldmedl.png goldmedl.zip goldmedl.ogg Gold Medalist
+D 0 R 1989 sbasebal.png sbasebal.zip sbasebal.ogg Super Champion Baseball
+D 0 S 1989 ikari3.png ikari3.zip ikari3.ogg Ikari III - The Rescue
+D 0 S 1989 prehisle.png prehisle.zip prehisle.ogg Prehistoric Isle in 1930
+D 2 B 1994 ddtod.png ddtod.zip ddtod.ogg Dungeons & Dragons: Tower of Doom
+D 2 B 1996 ddsom.png ddsom.zip ddsom.ogg Dungeons & Dragons: Shadow Over Mystara
+D 2 F 1995 cybots.png cybots.zip cybots.ogg Cyberbots Full Metal Madness
+E 0 B 1990 ncombat.png ncombat.zip ncombat.ogg Ninja Combat
+E 0 B 1990 superspy.png superspy.zip superspy.ogg The Super Spy
+E 0 B 1991 burningf.png burningf.zip burningf.ogg Burning Fight
+E 0 B 1991 crsword.png crsword.zip crsword.ogg Crossed Swords
+E 0 B 1991 eightman.png eightman.zip eightman.ogg Eight Man
+E 0 B 1991 legendos.png legendos.zip legendos.ogg Legend of Success Joe
+E 0 B 1991 roboarmy.png roboarmy.zip roboarmy.ogg Robo Army
+E 0 B 1991 sengoku.png sengoku.zip sengoku.ogg Sengoku
+E 0 B 1992 mutnat.png mutnat.zip mutnat.ogg Mutation Nation
+E 0 B 1993 sengoku2.png sengoku2.zip sengoku2.ogg Sengoku 2
+E 0 B 1995 crswd2bl.png crswd2bl.zip crswd2bl.ogg Crossed Swords II
+E 0 B 1999 ganryu.png ganryu.zip ganryu.ogg Ganryu
+E 0 B 2001 sengoku3.png sengoku3.zip sengoku3.ogg Sengoku 3
+E 0 F 0000 dragonsh.png dragonsh.zip dragonsh.ogg Dragons' Heaven
+E 0 F 1991 fatfury1.png fatfury1.zip fatfury1.ogg Fatal Fury: King of Fighters
+E 0 F 1991 kotm.png kotm.zip kotm.ogg King of the Monsters
+E 0 F 1992 aof.png aof.zip aof.ogg Art of Fighting
+E 0 F 1992 fatfury2.png fatfury2.zip fatfury2.ogg Fatal Fury 2
+E 0 F 1992 kotm2.png kotm2.zip kotm2.ogg King of the Monsters 2
+E 0 F 1992 wh1.png wh1.zip wh1.ogg World Heroes
+E 0 F 1993 3countb.png 3countb.zip 3countb.ogg 3 Count Bout
+E 0 F 1993 fatfursp.png fatfursp.zip fatfursp.ogg Fatal Fury Special
+E 0 F 1993 samsho.png samsho.zip samsho.ogg Samurai Shodown
+E 0 F 1993 wh2.png wh2.zip wh2.ogg World Heroes 2
+E 0 F 1994 aodk.png aodk.zip aodk.ogg Aggressors of Dark Kombat
+E 0 F 1994 aof2.png aof2.zip aof2.ogg Art of Fighting 2
+E 0 F 1994 fightfev.png fightfev.zip fightfev.ogg Fight Fever
+E 0 F 1994 karnovr.png karnovr.zip karnovr.ogg Karnov's Revenge
 E 0 F 1994 kof94.png kof94.zip kof94.ogg The King of Fighters '94
+E 0 F 1994 samsho2.png samsho2.zip samsho2.ogg Samurai Shodown II
+E 0 F 1994 wh2j.png wh2j.zip wh2j.ogg World Heroes 2 Jet
+E 0 F 1995 doubledr.png doubledr.zip doubledr.ogg Double Dragon
+E 0 F 1995 fatfury3.png fatfury3.zip fatfury3.ogg Fatal Fury 3: Road to the Final Victory
+E 0 F 1995 galaxyfg.png galaxyfg.zip galaxyfg.ogg Galaxy Fight: Universal Warriors
+E 0 F 1995 gowcaizr.png gowcaizr.zip gowcaizr.ogg Voltage Fighter Gowcaizer
+E 0 F 1995 kabukikl.png kabukikl.zip kabukikl.ogg Far East of Eden: Kabuki Klash
 E 0 F 1995 kof95.png kof95.zip kof95.ogg The King of Fighters '95
+E 0 F 1995 rbff1.png rbff1.zip rbff1.ogg Real Bout Fatal Fury
+E 0 F 1995 samsho3.png samsho3.zip samsho3.ogg Samurai Shodown III: Blades of Blood
+E 0 F 1995 savagere.png savagere.zip savagere.ogg Savage Reign
+E 0 F 1995 whp.png whp.zip whp.ogg World Heroes Perfect
+E 0 F 1996 aof3.png aof3.zip aof3.ogg Art of Fighting 3: The Path of the Warrior
+E 0 F 1996 breakers.png breakers.zip breakers.ogg Breakers
+E 0 F 1996 kizuna.png kizuna.zip kizuna.ogg Kizuna Encounter
 E 0 F 1996 kof96.png kof96.zip kof96.ogg The King of Fighters '96
+E 0 F 1996 ninjamas.png ninjamas.zip ninjamas.ogg Ninja Master's
+E 0 F 1996 ragnagrd.png ragnagrd.zip ragnagrd.ogg Ragnagard
+E 0 F 1996 samsho4.png samsho4.zip samsho4.ogg Samurai Shodown IV: Amakusa's Revenge
+E 0 F 1996 wakuwak7.png wakuwak7.zip wakuwak7.ogg Waku Waku 7
 E 0 F 1997 kof97.png kof97.zip kof97.ogg The King of Fighters '97
+E 0 F 1997 lastblad.png lastblad.zip lastblad.ogg The Last Blade
+E 0 F 1997 rbffspec.png rbffspec.zip rbffspec.ogg Real Bout Fatal Fury Special
+E 0 F 1998 breakrev.png breakrev.zip breakrev.ogg Breakers Revenge
 E 0 F 1998 kof98.png kof98.zip kof98.ogg The King of Fighters '98
+E 0 F 1998 lastbld2.png lastbld2.zip lastbld2.ogg The Last Blade 2
+E 0 F 1998 rbff2.png rbff2.zip rbff2.ogg Real Bout Fatal Fury 2: The Newcomers
+E 0 F 1999 garou.png garou.zip garou.ogg Garou: Mark of the Wolves
 E 0 F 1999 kof99.png kof99.zip kof99.ogg The King of Fighters '99
+E 0 F 2000 bangbead.png bangbead.zip bangbead.ogg Bang Bead
 E 0 F 2000 kof2000.png kof2000.zip kof2000.ogg The King of Fighters 2000
 E 0 F 2001 kof2001.png kof2001.zip kof2001.ogg The King of Fighters 2001
 E 0 F 2002 kof2002.png kof2002.zip kof2002.ogg The King of Fighters 2002
+E 0 F 2002 rotd.png rotd.zip rotd.ogg Rage of the Dragons
 E 0 F 2003 kof2003.png kof2003.zip kof2003.ogg The King of Fighters 2003
-E 0 F 1997 lastblad.png lastblad.zip lastblad.ogg The Last Blade
-E 0 F 1998 lastbld2.png lastbld2.zip lastbld2.ogg The Last Blade 2
-E 0 F 1995 gowcaizr.png gowcaizr.zip gowcaizr.ogg Voltage Fighter Gowcaizer
-E 0 F 1996 wakuwak7.png wakuwak7.zip wakuwak7.ogg Waku Waku 7
-E 0 F 1992 wh1.png wh1.zip wh1.ogg World Heroes
-E 0 F 1993 wh2.png wh2.zip wh2.ogg World Heroes 2
-E 0 F 1994 wh2j.png wh2j.zip wh2j.ogg World Heroes 2 Jet
-E 0 F 1995 whp.png whp.zip whp.ogg World Heroes Perfect
-E 0 S 1994 sonicwi2.png sonicwi2.zip sonicwi2.ogg Aero Fighters 2
-E 0 S 1995 sonicwi3.png sonicwi3.zip sonicwi3.ogg Aero Fighters 3
-E 0 S 1991 alpham2.png alpham2.zip alpham2.ogg Alpha Mission II
-E 0 S 1992 androdun.png androdun.zip androdun.ogg Andro Dunos
-D 0 P 1986 athena.png athena.zip athena.ogg Athena
-E 0 P 2010 b2b.png b2b.zip b2b.ogg Bang Bang Busters
-E 0 S 1998 blazstar.png blazstar.zip blazstar.ogg Blazing Star
-E 0 P 1991 bjourney.png bjourney.zip bjourney.ogg Blue's Journey
-E 0 B 1991 burningf.png burningf.zip burningf.ogg Burning Fight
-E 0 S 1999 ctomaday.png ctomaday.zip ctomaday.ogg Captain Tomaday
-E 0 B 1991 crsword.png crsword.zip crsword.ogg Crossed Swords
-E 0 B 1995 crswd2bl.png crswd2bl.zip crswd2bl.ogg Crossed Swords II
-E 0 S 1990 cyberlip.png cyberlip.zip cyberlip.ogg Cyber-Lip
-E 0 P 2000 diggerma.png diggerma.zip diggerma.ogg Digger Man
-E 0 B 1991 eightman.png eightman.zip eightman.ogg Eight Man
-E 0 B 1999 ganryu.png ganryu.zip ganryu.ogg Ganryu
-E 0 S 1991 gpilots.png gpilots.zip gpilots.ogg Ghost Pilots
-E 0 P 1996 ghostlop.png ghostlop.zip ghostlop.ogg Ghostlop
-D 0 S 1989 ikari3.png ikari3.zip ikari3.ogg Ikari III - The Rescue
-E 0 S 1996 ironclad.png ironclad.zip ironclad.ogg Ironclad
-E 0 S 1992 lresort.png lresort.zip lresort.ogg Last Resort
-E 0 S 2001 lasthope.png lasthope.zip lasthope.ogg lasthope
-E 0 B 1991 legendos.png legendos.zip legendos.ogg Legend of Success Joe
+E 0 F 2003 matrim.png matrim.zip matrim.ogg Matrimelee
+E 0 F 2003 samsho5.png samsho5.zip samsho5.ogg Samurai Shodown V
+E 0 F 2003 svc.png svc.zip svc.ogg SNK vs. Capcom: SVC Chaos
+E 0 F 2004 samsh5sp.png samsh5sp.zip samsh5sp.ogg Samurai Shodown V Special
+E 0 F 2020 samsh5fe.png samsh5fe.zip samsh5fe.ogg Samurai Shodown V Perfect
 E 0 P 1990 maglord.png maglord.zip maglord.ogg Magician Lord
+E 0 P 1991 bjourney.png bjourney.zip bjourney.ogg Blue's Journey
+E 0 P 1992 ncommand.png ncommand.zip ncommand.ogg Ninja Commando
+E 0 P 1993 spinmast.png spinmast.zip spinmast.ogg Spinmaster
+E 0 P 1994 tophuntr.png tophuntr.zip tophuntr.ogg Top Hunter: Roddy & Cathy
+E 0 P 1996 ghostlop.png ghostlop.zip ghostlop.ogg Ghostlop
 E 0 P 1996 mslug.png mslug.zip mslug.ogg Metal Slug
 E 0 P 1998 mslug2.png mslug2.zip mslug2.ogg Metal Slug 2
 E 0 P 1999 mslugx.png mslugx.zip mslugx.ogg Metal Slug X
+E 0 P 2000 diggerma.png diggerma.zip diggerma.ogg Digger Man
 E 0 P 2000 mslug3.png mslug3.zip mslug3.ogg Metal Slug 3
+E 0 P 2000 nitd.png nitd.zip nitd.ogg Nightmare in the Dark
+E 0 P 2001 zupapa.png zupapa.zip zupapa.ogg ZuPaPa!
 E 0 P 2002 mslug4.png mslug4.zip mslug4.ogg Metal Slug 4
 E 0 P 2003 mslug5.png mslug5.zip mslug5.ogg Metal Slug 5
-E 0 B 1992 mutnat.png mutnat.zip mutnat.ogg Mutation Nation
-E 0 S 1990 nam1975.png nam1975.zip nam1975.ogg NAM-1975
-E 0 P 2000 nitd.png nitd.zip nitd.ogg Nightmare in the Dark
-E 0 B 1990 ncombat.png ncombat.zip ncombat.ogg Ninja Combat
-E 0 P 1992 ncommand.png ncommand.zip ncommand.ogg Ninja Commando
-D 0 B 1988 pow.png pow.zip pow.ogg P.O.W. - Prisoners of War
-D 0 S 1989 prehisle.png prehisle.zip prehisle.ogg Prehistoric Isle in 1930
-E 0 S 1999 preisle2.png preisle2.zip preisle2.ogg Prehistoric Isle 2
-D 0 P 1987 psychos.png psychos.zip psychos.ogg Psycho Soldier
-E 0 S 1995 pulstar.png pulstar.zip pulstar.ogg Pulstar
-E 0 B 1991 roboarmy.png roboarmy.zip roboarmy.ogg Robo Army
-E 0 B 1991 sengoku.png sengoku.zip sengoku.ogg Sengoku
-E 0 B 1993 sengoku2.png sengoku2.zip sengoku2.ogg Sengoku 2
-E 0 B 2001 sengoku3.png sengoku3.zip sengoku3.ogg Sengoku 3
-E 0 S 1997 shocktro.png shocktro.zip shocktro.ogg Shock Troopers
-E 0 S 1998 shocktr2.png shocktr2.zip shocktr2.ogg Shock Troopers: 2nd Squad
-E 0 P 1993 spinmast.png spinmast.zip spinmast.ogg Spinmaster
-E 0 S 1995 s1945p.png s1945p.zip s1945p.ogg Strikers 1945 Plus
-E 0 B 1990 superspy.png superspy.zip superspy.ogg The Super Spy
-E 0 P 1994 tophuntr.png tophuntr.zip tophuntr.ogg Top Hunter: Roddy & Cathy
-E 0 S 1996 twinspri.png twinspri.zip twinspri.ogg Twinkle Star Sprites
-E 0 S 1992 viewpoin.png viewpoin.zip viewpoin.ogg Viewpoint
-E 0 S 1994 zedblade.png zedblade.zip zedblade.ogg Zed Blade
-E 0 P 2001 zupapa.png zupapa.zip zupapa.ogg ZuPaPa!
-E 0 R 1991 2020bb.png 2020bb.zip 2020bb.ogg 2020 Super Baseball
-E 0 Z 1991 bakatono.png bakatono.zip bakatono.ogg Bakatono-sama Mahjong Manyūki
+E 0 P 2010 b2b.png b2b.zip b2b.ogg Bang Bang Busters
 E 0 R 1990 bstars.png bstars.zip bstars.ogg Baseball Stars
-E 0 R 1992 bstars2.png bstars2.zip bstars2.ogg Baseball Stars 2
-E 0 R 1998 flipshot.png flipshot.zip flipshot.ogg Battle Flip Shot
-D 0 R 1988 fitegolf.png fitegolf.zip fitegolf.ogg Fighting Golf 
-E 0 R 1992 fbfrenzy.png fbfrenzy.zip fbfrenzy.ogg Football Frenzy
-D 0 R 1984 sgladiat.png sgladiat.zip sgladiat.ogg Gladiator 1984
-E 0 R 1995 goalx3.png goalx3.zip goalx3.ogg Goal! Goal! Goal!
-D 0 R 1988 goldmedl.png goldmedl.zip goldmedl.ogg Gold Medalist
-E 0 Z 1994 gururin.png gururin.zip gururin.ogg Gururin
-E 0 Z 1995 froman2b.png froman2b.zip froman2b.ogg Idol Mahjong Final Romance 2
-E 0 Z 1994 janshin.png janshin.zip janshin.ogg Janshin Densetsu: Quest of Jongmaster
-E 0 R 2001 jockeygp.png jockeygp.zip jockeygp.ogg Jockey grand prix
 E 0 R 1990 lbowling.png lbowling.zip lbowling.ogg League Bowling
-D 0 R 1984 madcrash.png madcrash.zip madcrash.ogg Mad Crasher
-E 0 Z 1996 magdrop2.png magdrop2.zip magdrop2.ogg Magical Drop II
-E 0 Z 1997 magdrop3.png magdrop3.zip magdrop3.ogg Magical Drop III
+E 0 R 1990 ridhero.png ridhero.zip ridhero.ogg Riding Hero
+E 0 R 1990 tpgolf.png tpgolf.zip tpgolf.ogg Top Player's Golf
+E 0 R 1991 2020bb.png 2020bb.zip 2020bb.ogg 2020 Super Baseball
+E 0 R 1991 trally.png trally.zip trally.ogg Thrash Rally
+E 0 R 1992 bstars2.png bstars2.zip bstars2.ogg Baseball Stars 2
+E 0 R 1992 fbfrenzy.png fbfrenzy.zip fbfrenzy.ogg Football Frenzy
+E 0 R 1992 socbrawl.png socbrawl.zip socbrawl.ogg Soccer Brawl
+E 0 R 1992 ssideki.png ssideki.zip ssideki.ogg Super Sidekicks
+E 0 R 1994 pspikes2.png pspikes2.zip pspikes2.ogg Power Spikes II
+E 0 R 1994 ssideki2.png ssideki2.zip ssideki2.ogg Super Sidekicks 2: The World Championship
+E 0 R 1994 strhoop.png strhoop.zip strhoop.ogg Street Hoop
+E 0 R 1994 wjammers.png wjammers.zip wjammers.ogg Windjammers
+E 0 R 1995 goalx3.png goalx3.zip goalx3.ogg Goal! Goal! Goal!
+E 0 R 1995 ssideki3.png ssideki3.zip ssideki3.ogg Super Sidekicks 3: The Next Glory
+E 0 R 1995 stakwin.png stakwin.zip stakwin.ogg Stakes Winner
+E 0 R 1996 neodrift.png neodrift.zip neodrift.ogg Neo Driftout - New Technology
+E 0 R 1996 overtop.png overtop.zip overtop.ogg Over Top
+E 0 R 1996 pgoal.png pgoal.zip pgoal.ogg Pleasure Goal: 5 on 5 Mini Soccer
+E 0 R 1996 sdodgeb.png sdodgeb.zip sdodgeb.ogg Super Dodge Ball
+E 0 R 1996 ssideki4.png ssideki4.zip ssideki4.ogg The Ultimate 11: SNK Football Championship
+E 0 R 1996 stakwin2.png stakwin2.zip stakwin2.ogg Stakes Winner 2
+E 0 R 1996 turfmast.png turfmast.zip turfmast.ogg Neo Turf Masters
+E 0 R 1996 twsoc96.png twsoc96.zip twsoc96.ogg Tecmo World Soccer '96
+E 0 R 1998 flipshot.png flipshot.zip flipshot.ogg Battle Flip Shot
+E 0 R 1998 neocup98.png neocup98.zip neocup98.ogg Neo Geo Cup '98: The Road to the Victory
+E 0 R 2001 jockeygp.png jockeygp.zip jockeygp.ogg Jockey grand prix
+E 0 S 1990 cyberlip.png cyberlip.zip cyberlip.ogg Cyber-Lip
+E 0 S 1990 nam1975.png nam1975.zip nam1975.ogg NAM-1975
+E 0 S 1991 alpham2.png alpham2.zip alpham2.ogg Alpha Mission II
+E 0 S 1991 gpilots.png gpilots.zip gpilots.ogg Ghost Pilots
+E 0 S 1992 androdun.png androdun.zip androdun.ogg Andro Dunos
+E 0 S 1992 lresort.png lresort.zip lresort.ogg Last Resort
+E 0 S 1992 viewpoin.png viewpoin.zip viewpoin.ogg Viewpoint
+E 0 S 1994 sonicwi2.png sonicwi2.zip sonicwi2.ogg Aero Fighters 2
+E 0 S 1994 zedblade.png zedblade.zip zedblade.ogg Zed Blade
+E 0 S 1995 pulstar.png pulstar.zip pulstar.ogg Pulstar
+E 0 S 1995 s1945p.png s1945p.zip s1945p.ogg Strikers 1945 Plus
+E 0 S 1995 sonicwi3.png sonicwi3.zip sonicwi3.ogg Aero Fighters 3
+E 0 S 1996 ironclad.png ironclad.zip ironclad.ogg Ironclad
+E 0 S 1996 twinspri.png twinspri.zip twinspri.ogg Twinkle Star Sprites
+E 0 S 1997 shocktro.png shocktro.zip shocktro.ogg Shock Troopers
+E 0 S 1998 blazstar.png blazstar.zip blazstar.ogg Blazing Star
+E 0 S 1998 shocktr2.png shocktr2.zip shocktr2.ogg Shock Troopers: 2nd Squad
+E 0 S 1999 ctomaday.png ctomaday.zip ctomaday.ogg Captain Tomaday
+E 0 S 1999 preisle2.png preisle2.zip preisle2.ogg Prehistoric Isle 2
+E 0 S 2001 lasthope.png lasthope.zip lasthope.ogg lasthope
+E 0 Z 1990 joyjoy.png joyjoy.zip joyjoy.ogg Puzzled
 E 0 Z 1990 mahretsu.png mahretsu.zip mahretsu.ogg Mahjong Kyōretsuden: Nishi Nihon Hen
+E 0 Z 1991 bakatono.png bakatono.zip bakatono.ogg Bakatono-sama Mahjong Manyūki
 E 0 Z 1991 marukodq.png marukodq.zip marukodq.ogg Minasan no Okagesama Desu!
 E 0 Z 1991 minasan.png minasan.zip minasan.ogg Minna-san no Okage-sama Desu! Dai Sugoroku Taikai
+E 0 Z 1991 quizdais.png quizdais.zip quizdais.ogg Quiz Daisōsasen: The Last Count Down
+E 0 Z 1992 quizdai2.png quizdai2.zip quizdai2.ogg Quiz Meitantei Neo & Geo: Quiz Daisōsasen Part 2
+E 0 Z 1994 gururin.png gururin.zip gururin.ogg Gururin
+E 0 Z 1994 janshin.png janshin.zip janshin.ogg Janshin Densetsu: Quest of Jongmaster
+E 0 Z 1994 pbobblen.png pbobblen.zip pbobblen.ogg Puzzle Bobble
+E 0 Z 1995 froman2b.png froman2b.zip froman2b.ogg Idol Mahjong Final Romance 2
+E 0 Z 1995 moshougi.png moshougi.zip moshougi.ogg Shōgi no Tatsujin: Master of Syougi
+E 0 Z 1995 panicbom.png panicbom.zip panicbom.ogg Panic Bomber
+E 0 Z 1995 puzzledp.png puzzledp.zip puzzledp.ogg Puzzle de Pon!
+E 0 Z 1995 quizkof.png quizkof.zip quizkof.ogg Quiz King of Fighters
+E 0 Z 1996 magdrop2.png magdrop2.zip magdrop2.ogg Magical Drop II
+E 0 Z 1996 zintrckb.png zintrckb.zip zintrckb.ogg ZinTrick
+E 0 Z 1997 magdrop3.png magdrop3.zip magdrop3.ogg Magical Drop III
 E 0 Z 1997 miexchng.png miexchng.zip miexchng.ogg Money Puzzle Exchanger
 E 0 Z 1997 neobombe.png neobombe.zip neobombe.ogg Neo Bomberman
-E 0 R 1996 neodrift.png neodrift.zip neodrift.ogg Neo Driftout - New Technology
-E 0 R 1998 neocup98.png neocup98.zip neocup98.ogg Neo Geo Cup '98: The Road to the Victory
 E 0 Z 1997 neomrdo.png neomrdo.zip neomrdo.ogg Neo Mr. Do!
-E 0 R 1996 turfmast.png turfmast.zip turfmast.ogg Neo Turf Masters
-E 0 R 1996 overtop.png overtop.zip overtop.ogg Over Top
-E 0 Z 1995 panicbom.png panicbom.zip panicbom.ogg Panic Bomber
-E 0 R 1996 pgoal.png pgoal.zip pgoal.ogg Pleasure Goal: 5 on 5 Mini Soccer
-E 0 Z 2003 pnyaa.png pnyaa.zip pnyaa.ogg Pochi and Nyaa
 E 0 Z 1997 popbounc.png popbounc.zip popbounc.ogg Pop'n Bounce
-E 0 R 1994 pspikes2.png pspikes2.zip pspikes2.ogg Power Spikes II
-E 0 Z 1994 pbobblen.png pbobblen.zip pbobblen.ogg Puzzle Bobble
-E 0 Z 1999 pbobbl2n.png pbobbl2n.zip pbobbl2n.ogg Puzzle Bobble 2
-E 0 Z 1995 puzzledp.png puzzledp.zip puzzledp.ogg Puzzle de Pon!
 E 0 Z 1997 puzzldpr.png puzzldpr.zip puzzldpr.ogg Puzzle de Pon! R
-E 0 Z 1990 joyjoy.png joyjoy.zip joyjoy.ogg Puzzled
-E 0 Z 1991 quizdais.png quizdais.zip quizdais.ogg Quiz Daisōsasen: The Last Count Down
-E 0 Z 1995 quizkof.png quizkof.zip quizkof.ogg Quiz King of Fighters
-E 0 Z 1992 quizdai2.png quizdai2.zip quizdai2.ogg Quiz Meitantei Neo & Geo: Quiz Daisōsasen Part 2
-E 0 R 1990 ridhero.png ridhero.zip ridhero.ogg Riding Hero
-E 0 Z 1995 moshougi.png moshougi.zip moshougi.ogg Shōgi no Tatsujin: Master of Syougi
-E 0 R 1992 socbrawl.png socbrawl.zip socbrawl.ogg Soccer Brawl
-E 0 R 1995 stakwin.png stakwin.zip stakwin.ogg Stakes Winner
-E 0 R 1996 stakwin2.png stakwin2.zip stakwin2.ogg Stakes Winner 2
-E 0 R 1994 strhoop.png strhoop.zip strhoop.ogg Street Hoop
-D 0 R 1989 sbasebal.png sbasebal.zip sbasebal.ogg Super Champion Baseball
-E 0 R 1996 sdodgeb.png sdodgeb.zip sdodgeb.ogg Super Dodge Ball
-E 0 R 1992 ssideki.png ssideki.zip ssideki.ogg Super Sidekicks
-E 0 R 1994 ssideki2.png ssideki2.zip ssideki2.ogg Super Sidekicks 2: The World Championship
-E 0 R 1995 ssideki3.png ssideki3.zip ssideki3.ogg Super Sidekicks 3: The Next Glory
-E 0 R 1996 twsoc96.png twsoc96.zip twsoc96.ogg Tecmo World Soccer '96
-E 0 R 1996 ssideki4.png ssideki4.zip ssideki4.ogg The Ultimate 11: SNK Football Championship
-E 0 R 1991 trally.png trally.zip trally.ogg Thrash Rally
-E 0 R 1990 tpgolf.png tpgolf.zip tpgolf.ogg Top Player's Golf
-E 0 R 1994 wjammers.png wjammers.zip wjammers.ogg Windjammers
-E 0 Z 1996 zintrckb.png zintrckb.zip zintrckb.ogg ZinTrick
-A 3 F 1996 redearth.png redearth.zip redearth.ogg Red Earth
-A 0 B 1995 megadrive/comix.png megadrive/comix.zip megadrive/comix.ogg Comix Zone
-A 1 Z 2001 choko.png choko.zip choko.ogg Janpai Puzzle Choukou
-A 1 Z 1999 jyangoku.png jyangoku.zip jyangoku.ogg Jyangokushi: Haoh no Saihai
-A 1 Z 1992 qad.png qad.zip qad.ogg Quiz & Dragons
+E 0 Z 1999 pbobbl2n.png pbobbl2n.zip pbobbl2n.ogg Puzzle Bobble 2
+E 0 Z 2003 pnyaa.png pnyaa.zip pnyaa.ogg Pochi and Nyaa
+E 2 S 2001 progear.png progear.zip progear.ogg Progear
