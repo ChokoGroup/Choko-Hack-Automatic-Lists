@@ -4,7 +4,17 @@ Create Lists of Games to Play in CHA
 with the Choko Hack v12 or later
 
 
-## What's new
+## What's new in v12.1.0
+- Fixed a bug handling roms folders with subfolders.
+- While music ogg files are by default in 'assets/sounds/music/set2' ("Remix" option in settings) you can now also have ogg files in 'assets/sounds' ("Original" option in settings).
+- Renamed 'megadrive' folder back to 'megadriv' for compatibility with older FB Neo cores.
+- Display info in screen when a new list TXT file is being created.
+- Added more games to and adapted games_all.txt and scripts to use the horizontal/vertical flag.
+- Added many games PNG and Hyperspin style PNG by Pararegistros and UnusualEarth.
+- Compressed all PNG files in assets/games to less than half the total size.
+
+
+## What's new in v12.0.0
 - Updated to work with Choko Hack v12, that allows navigation with joystick and any folder names under `roms/` and automatically creates menu items for them.
 - Automatically creates lists based in content of roms/ subfolders.
 - Added fbneo_libretro.so extracted from Lakka, that fixes a problem with "Dungeons & Dragons: Shadow Over Mystara" - now player two can select and use weapons/magic.
@@ -61,13 +71,15 @@ We can have as many lists as we want, just create subfolders inside `CHA Choko G
 * ZX Spectrum :                   spectrum | zxspectrum
 ```
 
-For example, to use Mega Drive roms you need to put roms in folder `roms/SUBFOLDERS_WITH_ANY_NAME/megadrive` (and use FB Neo core).
+For example, to use Mega Drive roms you need to put roms in folder `roms/SUBFOLDERS_WITH_ANY_NAME/megadriv` (and use FB Neo core).
 More in https://docs.libretro.com/library/fbneo/
+
+Note: It's possible to put roms in subfolders with any name (PNG and OGG files must also be in subfolders with the same names) but that is not recommended.
 
 
 ## Creating new assets
 - Of course you can create and add/replace icons to any game. Just save it as a PNG file with the same name as the rom file, in the folder `assets/games`
-- Music for the games in carousel go to the folder `assets/sounds/music/set2` in OGG format.
+- Music for the games in carousel go to the folder `assets/sounds/music/set2` (Remix in CHA settings) or `assets/sounds` (OGG format).
 - The in-game buttons layout go to `assets/options` and `assets/options/large`, also in PNG format.
 
 We will appreciate all users contributions to enlarge this database.

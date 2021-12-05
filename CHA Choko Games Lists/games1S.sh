@@ -396,14 +396,14 @@ then
                     done
                     if [ -f "$RUNNINGFROM/assets/games/$FPARENT.png" ]
                     then
-                      echo -n "A 0 B 0000 $FPARENT.png $FNAME.zip $FPARENT.ogg $FPARENT" >> "$RUNNINGFROM/$LISTNAME.txt"
+                      echo -n "A 0 B 0000 $FPARENT.png $FNAME.zip $FPARENT.ogg 0 $FPARENT" >> "$RUNNINGFROM/$LISTNAME.txt"
                     else
                       ICONNUMBER=$((ICONNUMBER + 1))
                       if [ ${#ICONNUMBER} -eq 1 ]
                       then
-                        echo -n "A 0 B 0000 game0$ICONNUMBER.png $FNAME.zip $FNAME.ogg $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt"
+                        echo -n "A 0 B 0000 game0$ICONNUMBER.png $FNAME.zip $FNAME.ogg 0 $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt"
                       else
-                        echo -n "A 0 B 0000 game$ICONNUMBER.png $FNAME.zip $FNAME.ogg $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt"
+                        echo -n "A 0 B 0000 game$ICONNUMBER.png $FNAME.zip $FNAME.ogg 0 $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt"
                       fi
                     fi
                   fi
@@ -435,6 +435,12 @@ then
                 ASSETSFOLDER="$(dirname "/.choko/assets/sounds/music/set2/$ZIPFILE.ogg")"
                 mkdir -p "$ASSETSFOLDER"
                 cp "$RUNNINGFROM/assets/sounds/music/set2/$ZIPFILE.ogg" "$ASSETSFOLDER/"; WASOK=$?
+              fi
+              if [ $WASOK -eq 0 ] && [ -f "$RUNNINGFROM/assets/sounds/$ZIPFILE.ogg" ]
+              then
+                ASSETSFOLDER="$(dirname "/.choko/assets/sounds/$ZIPFILE.ogg")"
+                mkdir -p "$ASSETSFOLDER"
+                cp "$RUNNINGFROM/assets/sounds/$ZIPFILE.ogg" "$ASSETSFOLDER/"; WASOK=$?
               fi
               [ $WASOK -eq 0 ] || break
             done < "$RUNNINGFROM/$LISTNAME.txt"

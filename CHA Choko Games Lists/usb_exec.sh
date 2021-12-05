@@ -36,6 +36,7 @@ fi
 
 
 creategamestxt () {
+  echo -n "Creating \"$LISTNAME.txt\""
   FIRSTLINE="Y"
   ICONNUMBER=0
   # Make 'for' loops use entire lines
@@ -46,11 +47,12 @@ creategamestxt () {
   for FNAME in $(find . -mindepth 1 -maxdepth 2 -name '*.zip' -type f -print 2> /dev/null | sort -f)
   do
     FNAME="${FNAME#./}"; FNAME="${FNAME%.zip}"
+    # Ignore BIOS only zip files
     if [ "$FNAME" != "neogeo" ] && [ "$FNAME" != "neocdz" ] && [ "$FNAME" != "decocass" ] && [ "$FNAME" != "isgsm" ] && [ "$FNAME" != "midssio" ] && [ "$FNAME" != "nmk004" ] && [ "$FNAME" != "pgm" ] && [ "$FNAME" != "skns" ] && [ "$FNAME" != "ym2608" ] && [ "$FNAME" != "cchip" ] && [ "$FNAME" != "bubsys" ] && [ "$FNAME" != "namcoc69" ] && [ "$FNAME" != "namcoc70" ] && [ "$FNAME" != "namcoc75" ] && [ "$FNAME" != "coleco" ] && [ "$FNAME" != "fdsbios" ] && [ "$FNAME" != "msx" ] && [ "$FNAME" != "ngp" ] && [ "$FNAME" != "spectrum" ] && [ "$FNAME" != "spec128" ] && [ "$FNAME" != "channelf" ]
     then
       FPARENT="$FNAME"
       GAMESTXTLINE="$(grep -m 1 " $FPARENT.zip" "$RUNNINGFROM/games_all.txt")"
-      # Search for parent rom in games_all.txt
+      # Search for parent rom in games_all.txt if exact zip not found n games_all.txt
       while [ -z "$GAMESTXTLINE" ] && [ ${#FPARENT} -gt 1 ]
       do
         FPARENT="${FPARENT%?}"
@@ -65,13 +67,57 @@ creategamestxt () {
       fi
       if [ -n "$GAMESTXTLINE" ]
       then
+        # Line found in games_all.txt
         if [ "$FNAME" != "$FPARENT" ]
         then
-          eval "GAMESTXTLINE=\"\${GAMESTXTLINE// $FPARENT.zip/ $FNAME.zip}\""
+          TMPFNAME="${FNAME//\//\\\/}"
+          TMPFPARENT="${FPARENT//\//\\\/}"
+          eval "GAMESTXTLINE=\"\${GAMESTXTLINE/ $TMPFPARENT.zip/ $TMPFNAME.zip}\""
+        fi
+        # Check if png exists and look for parent png if not
+        ASSETSFILENAME="${GAMESTXTLINE:11}"; ASSETSFILENAME="${ASSETSFILENAME%%' '*}"
+        if [ ! -f "$RUNNINGFROM/assets/games/$ASSETSFILENAME" ]
+        then
+          TMPASSETSFILENAME="${ASSETSFILENAME//\//\\\/}"
+          FPARENT="$FNAME"
+          while [ ! -f "$RUNNINGFROM/assets/games/$FPARENT.png" ] && [ ${#FPARENT} -gt 1 ]
+          do
+            FPARENT="${FPARENT%?}"
+          done
+          if [ -f "$RUNNINGFROM/assets/games/$FPARENT.png" ]
+          then
+            TMPFPARENT="${FPARENT//\//\\\/}"
+            eval "GAMESTXTLINE=\"\${GAMESTXTLINE/ $TMPASSETSFILENAME/ $TMPFPARENT.png}\""
+          else
+            ICONNUMBER=$((ICONNUMBER + 1))
+            if [ ${#ICONNUMBER} -eq 1 ]
+            then
+              eval "GAMESTXTLINE=\"\${GAMESTXTLINE/ $TMPASSETSFILENAME/ game0$ICONNUMBER.png}\""
+            else
+              eval "GAMESTXTLINE=\"\${GAMESTXTLINE/ $TMPASSETSFILENAME/ game$ICONNUMBER.png}\""
+            fi
+          fi
+        fi
+        # Check if ogg exists and look for parent ogg if not
+        ASSETSFILENAME="${GAMESTXTLINE#*'.zip '}"; ASSETSFILENAME="${ASSETSFILENAME%%' '*}"
+        if [ ! -f "$RUNNINGFROM/assets/sounds/$ASSETSFILENAME" ] && [ ! -f "$RUNNINGFROM/assets/sounds/music/set2/$ASSETSFILENAME" ]
+        then
+          FPARENT="$FNAME"
+          while [ ! -f "$RUNNINGFROM/assets/sounds/$FPARENT.ogg" ] && [ ! -f "$RUNNINGFROM/assets/sounds/music/set2/$FPARENT.ogg" ] && [ ${#FPARENT} -gt 1 ]
+          do
+            FPARENT="${FPARENT%?}"
+          done
+          if [ -f "$RUNNINGFROM/assets/sounds/$FPARENT.ogg" ] || [ -f "$RUNNINGFROM/assets/sounds/music/set2/$FPARENT.ogg" ]
+          then
+            TMPASSETSFILENAME="${ASSETSFILENAME//\//\\\/}"
+            TMPFPARENT="${FPARENT//\//\\\/}"
+            eval "GAMESTXTLINE=\"\${GAMESTXTLINE/ $TMPASSETSFILENAME/ $TMPFPARENT.ogg}\""
+          fi
         fi
         echo -n "$GAMESTXTLINE" >> "$RUNNINGFROM/$LISTNAME.txt"
       else
-        # Search for parent rom assets
+        # Line not found in games_all.txt
+        # Search for rom assets or parent rom assets
         FPARENT="$FNAME"
         while [ ! -f "$RUNNINGFROM/assets/games/$FPARENT.png" ] && [ ${#FPARENT} -gt 1 ]
         do
@@ -79,52 +125,27 @@ creategamestxt () {
         done
         if [ -f "$RUNNINGFROM/assets/games/$FPARENT.png" ]
         then
-          echo -n "A 0 B 0000 $FPARENT.png $FNAME.zip $FPARENT.ogg $FPARENT" >> "$RUNNINGFROM/$LISTNAME.txt"
+          echo -n "A 0 B 0000 $FPARENT.png $FNAME.zip $FPARENT.ogg 0 $FPARENT" >> "$RUNNINGFROM/$LISTNAME.txt"
         else
           ICONNUMBER=$((ICONNUMBER + 1))
           if [ ${#ICONNUMBER} -eq 1 ]
           then
-            echo -n "A 0 B 0000 game0$ICONNUMBER.png $FNAME.zip $FNAME.ogg $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt"
+            echo -n "A 0 B 0000 game0$ICONNUMBER.png $FNAME.zip $FNAME.ogg 0 $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt"
           else
-            echo -n "A 0 B 0000 game$ICONNUMBER.png $FNAME.zip $FNAME.ogg $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt"
+            echo -n "A 0 B 0000 game$ICONNUMBER.png $FNAME.zip $FNAME.ogg 0 $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt"
           fi
         fi
       fi
+      echo -n "."
     fi
   done
   cd "$RUNNINGFROM"
   IFS="$OIFS"
+  echo " Done!"
 }
 
 if [ -n "$LISTNAME" ] && [ -d "$ROMSFOLDER" ]
 then
-  # First time running?
-  if [ ! -f "$RUNNINGFROM/assets/options/slider.png" ]
-  then
-    for f in \
-      blank.png \
-      clock_reg.png \
-      coin_btn_over.png \
-      coin_btn_reg.png \
-      CP1.png \
-      CP2.png \
-      difficulty_btn_over.png \
-      difficulty_btn_reg.png \
-      difficulty_frame_over.png \
-      difficulty_frame_reg.png \
-      options_btn_over.png \
-      options_btn_reg.png \
-      options_frame_over.png \
-      options_frame_reg.png \
-      options_over.png \
-      options_reg.png \
-      play_btn_over.png \
-      play_btn_reg.png \
-      slider.png
-    do
-      cp /opt/capcom/assets/options/$f "$RUNNINGFROM/assets/options"/
-    done
-  fi
 
   # Create $LISTNAME.txt if it does not exist
   [ -f "$RUNNINGFROM/$LISTNAME.txt" ] || creategamestxt
@@ -136,7 +157,7 @@ then
     for DIR in \
       assets/games \
       assets/options \
-      assets/sounds/music/set2
+      assets/sounds
     do
       mount --bind "$RUNNINGFROM/$DIR" /opt/capcom/$DIR
     done
