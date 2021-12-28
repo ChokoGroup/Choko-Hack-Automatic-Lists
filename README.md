@@ -4,6 +4,11 @@ Create Lists of Games to Play in CHA
 with the Choko Hack v12 or later
 
 
+## What's new in v12.3.0
+- Fixed a bug installing and deleting games into the CHA when using roms other than "parents".
+Note that version number is only a reference to current Choko Hack version (and recommended).
+
+
 ## What's new in v12.1.0
 - Fixed a bug handling roms folders with subfolders.
 - While music ogg files are by default in 'assets/sounds/music/set2' ("Remix" option in settings) you can now also have ogg files in 'assets/sounds' ("Original" option in settings).
