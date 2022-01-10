@@ -592,7 +592,7 @@ A 0 ? 2000 20pacgalr3.png 20pacgalr3.zip 20pacgalr3.ogg 1 Ms. Pac-Man/Galaga - 2
 A 0 ? 2000 20pacgalr4.png 20pacgalr4.zip 20pacgalr4.ogg 1 Ms. Pac-Man/Galaga - 20th Anniversary Class of 1981 Reunion (V1.04)
 A 0 ? 2006 25pacman.png 25pacman.zip 25pacman.ogg 1 Pac-Man - 25th Anniversary Edition (Rev 3.00)
 A 0 ? 2005 25pacmano.png 25pacmano.zip 25pacmano.ogg 1 Pac-Man - 25th Anniversary Edition (Rev 2.00)
-A 0 ? 1998 3in1semi.png 3in1semi.zip 3in1semi.ogg 0 New HyperMan (3-in-1 with Cookie &amp; Bibi &amp; HyperMan)
+A 0 ? 1998 3in1semi.png 3in1semi.zip 3in1semi.ogg 0 New HyperMan (3-in-1 with Cookie & Bibi & HyperMan)
 A 0 ? 1996 3kokushi.png 3kokushi.zip 3kokushi.ogg 0 Sankokushi (Japan)
 A 0 ? 1996 3on3dunk.png 3on3dunk.zip 3on3dunk.ogg 0 3 On 3 Dunk Madness (US, prototype? 1997/02/04)
 A 0 ? 1984 3stooges.png 3stooges.zip 3stooges.ogg 0 The Three Stooges In Brides Is Brides (set 1)
@@ -864,8 +864,8 @@ A 0 ? 1990 astormud.png astormud.zip astormud.ogg 0 Alien Storm (US, 3 Players) 
 A 0 ? 1980 astrians.png astrians.zip astrians.ogg 1 Astrians (clone of Swarm)
 A 0 ? 1986 astrofl.png astrofl.zip astrofl.ogg 0 Astro Flash (Japan)
 A 0 ? 1989 astyanax.png astyanax.zip astyanax.ogg 0 The Astyanax
-A 0 ? 1988 asuka.png asuka.zip asuka.ogg 3 Asuka &amp; Asuka (World)
-A 0 ? 1988 asukaj.png asukaj.zip asukaj.ogg 3 Asuka &amp; Asuka (Japan)
+A 0 ? 1988 asuka.png asuka.zip asuka.ogg 3 Asuka & Asuka (World)
+A 0 ? 1988 asukaj.png asukaj.zip asukaj.ogg 3 Asuka & Asuka (Japan)
 A 0 ? 1998 asurabld.png asurabld.zip asurabld.ogg 0 Asura Blade - Sword of Dynasty (Japan)
 A 0 ? 2000 asurabus.png asurabus.zip asurabus.ogg 0 Asura Buster - Eternal Warriors (Japan)
 A 0 ? 1980 ataqandr.png ataqandr.zip ataqandr.ogg 1 Ataque Androide - Moon Cresta (FAR S.A. Spanish bootleg)
@@ -953,10 +953,10 @@ A 0 ? 1998 batriderja.png batriderja.zip batriderja.ogg 3 Armed Police Batrider 
 A 0 ? 1998 batriderk.png batriderk.zip batriderk.ogg 3 Armed Police Batrider (Korea) (Fri Feb 13 1998)
 A 0 ? 1998 batridert.png batridert.zip batridert.ogg 3 Armed Police Batrider (Taiwan) (Mon Dec 22 1997)
 A 0 ? 1998 batrideru.png batrideru.zip batrideru.ogg 3 Armed Police Batrider (USA) (Fri Feb 13 1998)
-A 0 ? 1993 batsugun.png batsugun.zip batsugun.ogg 3 Batsugun
-A 0 ? 1993 batsuguna.png batsuguna.zip batsuguna.ogg 3 Batsugun (older set)
-A 0 ? 1993 batsugunb.png batsugunb.zip batsugunb.ogg 3 Batsugun (Korean PCB)
-A 0 ? 1993 batsugunsp.png batsugunsp.zip batsugunsp.ogg 3 Batsugun - Special Version
+A 0 S 1993 batsugun.png batsugun.zip batsugun.ogg 3 Batsugun
+A 0 S 1993 batsuguna.png batsuguna.zip batsuguna.ogg 3 Batsugun (older set)
+A 0 S 1993 batsugunb.png batsugunb.zip batsugunb.ogg 3 Batsugun (Korean PCB)
+A 0 S 1993 batsugunsp.png batsugunsp.zip batsugunsp.ogg 3 Batsugun - Special Version
 A 0 ? 1986 battlane2.png battlane2.zip battlane2.ogg 1 Battle Lane! Vol. 5 (set 2)
 A 0 ? 1986 battlane3.png battlane3.zip battlane3.ogg 1 Battle Lane! Vol. 5 (set 3)
 A 0 ? 1982 battlex.png battlex.zip battlex.ogg 2 Battle Cross
@@ -1074,7 +1074,7 @@ A 0 ? 1994 blmbycar.png blmbycar.zip blmbycar.ogg 0 Blomby Car (Version 1P0)
 A 0 ? 1994 blmbycaru.png blmbycaru.zip blmbycaru.ogg 0 Blomby Car (Version 1P0, not encrypted)
 A 0 ? 1976 blockade.png blockade.zip blockade.ogg 0 Blockade
 A 0 ? 1991 blockbl.png blockbl.zip blockbl.ogg 3 Block Block (bootleg)
-A 0 ? 1992 blockcar.png blockcar.zip blockcar.ogg 1 Block Carnival / Thunder &amp; Lightning 2
+A 0 ? 1992 blockcar.png blockcar.zip blockcar.ogg 1 Block Carnival / Thunder & Lightning 2
 A 0 ? 1994 blocken.png blocken.zip blocken.ogg 0 Blocken (Japan)
 A 0 ? 1987 blockgal.png blockgal.zip blockgal.ogg 1 Block Gal (MC-8123B, 317-0029)
 A 0 ? 1991 blockj.png blockj.zip blockj.ogg 3 Block Block (Japan 910910)
@@ -1101,7 +1101,7 @@ A 0 ? 1987 blstroid2.png blstroid2.zip blstroid2.ogg 0 Blasteroids (rev 2)
 A 0 ? 1987 blstroid3.png blstroid3.zip blstroid3.ogg 0 Blasteroids (rev 3)
 A 0 ? 1987 blstroidg.png blstroidg.zip blstroidg.ogg 0 Blasteroids (German, rev 2)
 A 0 ? 1987 blstroidh.png blstroidh.zip blstroidh.ogg 0 Blasteroids (with heads)
-A 0 ? 1991 blswhstla.png blswhstla.zip blswhstla.ogg 1 Bells &amp; Whistles (Asia, version M)
+A 0 ? 1991 blswhstla.png blswhstla.zip blswhstla.ogg 1 Bells & Whistles (Asia, version M)
 A 0 ? 1993 bluehawk.png bluehawk.zip bluehawk.ogg 3 Blue Hawk
 A 0 ? 1993 bluehawkn.png bluehawkn.zip bluehawkn.ogg 3 Blue Hawk (Japan, NTC license)
 A 0 ? 1982 blueprnt.png blueprnt.zip blueprnt.ogg 3 Blue Print (Midway)
@@ -1233,7 +1233,7 @@ A 0 ? 1991 burningfh.png burningfh.zip burningfh.ogg 0 Burning Fight (NGH-018, U
 A 0 ? 1991 burningfp.png burningfp.zip burningfp.ogg 0 Burning Fight (prototype, older)
 A 0 ? 1991 burningfpa.png burningfpa.zip burningfpa.ogg 0 Burning Fight (prototype, near final, ver 23.3, 910326)
 A 0 ? 1991 burningfpb.png burningfpb.zip burningfpb.ogg 0 Burning Fight (prototype, newer, V07)
-A 0 ? 1987 butasan.png butasan.zip butasan.ogg 0 Butasan - Pig's &amp; Bomber's (Japan, English)
+A 0 ? 1987 butasan.png butasan.zip butasan.ogg 0 Butasan - Pig's & Bomber's (Japan, English)
 A 0 ? 1987 butasanj.png butasanj.zip butasanj.ogg 0 Butasan (Japan, Japanese)
 A 0 ? 1984 buzzard.png buzzard.zip buzzard.ogg 1 Buzzard
 A 0 ? 1983 bwcasino.png bwcasino.zip bwcasino.ogg 1 Boardwalk Casino
@@ -1427,10 +1427,10 @@ A 0 ? 1983 clapapa.png clapapa.zip clapapa.ogg 3 Rootin' Tootin' / La-Pa-Pa (DEC
 A 0 ? 1983 clapapa2.png clapapa2.zip clapapa2.ogg 3 Rootin' Tootin' (DECO Cassette) (US)
 A 0 ? 1989 clbowl.png clbowl.zip clbowl.ogg 3 Coors Light Bowling
 A 0 ? 1996 cleopatr.png cleopatr.zip cleopatr.ogg 0 Cleopatra Fortune (Ver 2.1J 1996/09/05)
-A 0 ? 1983 cloak.png cloak.zip cloak.ogg 0 Cloak &amp; Dagger (rev 5)
-A 0 ? 1983 cloakfr.png cloakfr.zip cloakfr.ogg 0 Cloak &amp; Dagger (French)
-A 0 ? 1983 cloakgr.png cloakgr.zip cloakgr.ogg 0 Cloak &amp; Dagger (German)
-A 0 ? 1983 cloaksp.png cloaksp.zip cloaksp.ogg 0 Cloak &amp; Dagger (Spanish)
+A 0 ? 1983 cloak.png cloak.zip cloak.ogg 0 Cloak & Dagger (rev 5)
+A 0 ? 1983 cloakfr.png cloakfr.zip cloakfr.ogg 0 Cloak & Dagger (French)
+A 0 ? 1983 cloakgr.png cloakgr.zip cloakgr.ogg 0 Cloak & Dagger (German)
+A 0 ? 1983 cloaksp.png cloaksp.zip cloaksp.ogg 0 Cloak & Dagger (Spanish)
 A 0 ? 1981 clocknch.png clocknch.zip clocknch.ogg 3 Lock'n'Chase (DECO Cassette) (US)
 A 0 ? 1981 clocknchj.png clocknchj.zip clocknchj.ogg 3 Lock'n'Chase (DECO Cassette) (Japan)
 A 0 ? 1983 cloud9.png cloud9.zip cloud9.ogg 0 Cloud 9 (prototype)
@@ -1468,7 +1468,7 @@ A 0 ? 1985 commandob3.png commandob3.zip commandob3.ogg 3 Commando (bootleg set 
 A 0 ? 1985 commandoj.png commandoj.zip commandoj.ogg 3 Senjou no Ookami
 A 0 ? 1985 commandou.png commandou.zip commandou.ogg 3 Commando (US set 1)
 A 0 ? 1985 commandou2.png commandou2.zip commandou2.ogg 3 Commando (US set 2)
-A 0 ? 1992 commandw.png commandw.zip commandw.ogg 0 Command War - Super Special Battle &amp; War Game (Ver 0.0J, prototype)
+A 0 ? 1992 commandw.png commandw.zip commandw.ogg 0 Command War - Super Special Battle & War Game (Ver 0.0J, prototype)
 A 0 ? 1983 commsega.png commsega.zip commsega.ogg 1 Commando (Sega)
 A 0 ? 1976 comotion.png comotion.zip comotion.ogg 0 CoMOTION
 A 0 ? 1984 complexx.png complexx.zip complexx.ogg 3 Complex X
@@ -1488,11 +1488,11 @@ A 0 ? 1987 contrabj1.png contrabj1.zip contrabj1.ogg 1 Contra (Japan bootleg, se
 A 0 ? 1987 contrae.png contrae.zip contrae.ogg 1 Contra (US / Asia, set 3)
 A 0 ? 1987 contraj.png contraj.zip contraj.ogg 1 Contra (Japan, set 1)
 A 0 ? 1987 contraj1.png contraj1.zip contraj1.ogg 1 Contra (Japan, set 2)
-A 0 ? 1995 cookbib.png cookbib.zip cookbib.ogg 0 Cookie &amp; Bibi (set 1)
-A 0 ? 1996 cookbib2.png cookbib2.zip cookbib2.ogg 0 Cookie &amp; Bibi 2 (set 1)
-A 0 ? 1996 cookbib2a.png cookbib2a.zip cookbib2a.ogg 0 Cookie &amp; Bibi 2 (set 2)
-A 0 ? 1997 cookbib3.png cookbib3.zip cookbib3.ogg 0 Cookie &amp; Bibi 3
-A 0 ? 1995 cookbiba.png cookbiba.zip cookbiba.ogg 0 Cookie &amp; Bibi (set 2)
+A 0 ? 1995 cookbib.png cookbib.zip cookbib.ogg 0 Cookie & Bibi (set 1)
+A 0 ? 1996 cookbib2.png cookbib2.zip cookbib2.ogg 0 Cookie & Bibi 2 (set 1)
+A 0 ? 1996 cookbib2a.png cookbib2a.zip cookbib2a.ogg 0 Cookie & Bibi 2 (set 2)
+A 0 ? 1997 cookbib3.png cookbib3.zip cookbib3.ogg 0 Cookie & Bibi 3
+A 0 ? 1995 cookbiba.png cookbiba.zip cookbiba.ogg 0 Cookie & Bibi (set 2)
 A 0 ? 1999 coolmini.png coolmini.zip coolmini.ogg 0 Cool Minigame Collection
 A 0 ? 1999 coolminii.png coolminii.zip coolminii.ogg 0 Cool Minigame Collection (Italy)
 A 0 ? 1984 coozumou.png coozumou.zip coozumou.ogg 3 Oozumou - The Grand Sumo (DECO Cassette) (Japan)
@@ -1742,31 +1742,31 @@ A 0 ? 1987 ddragonw.png ddragonw.zip ddragonw.ogg 0 Double Dragon (World set 1)
 A 0 ? 1987 ddragonw1.png ddragonw1.zip ddragonw1.ogg 0 Double Dragon (World set 2)
 A 0 ? 1995 ddream95.png ddream95.zip ddream95.ogg 0 Dunk Dream '95 (Japan 1.4, EAM)
 A 0 ? 1986 ddribblep.png ddribblep.zip ddribblep.ogg 0 Double Dribble (prototype?)
-A 2 ? 1996 ddsoma.png ddsoma.zip ddsoma.ogg 0 Dungeons &amp; Dragons: Shadow over Mystara (Asia 96061)
-A 2 ? 1996 ddsomar1.png ddsomar1.zip ddsomar1.ogg 0 Dungeons &amp; Dragons: Shadow over Mystara (Asia 960208)
-A 2 ? 1996 ddsomb.png ddsomb.zip ddsomb.ogg 0 Dungeons &amp; Dragons: Shadow over Mystara (Brazil 960223)
-A 2 ? 1996 ddsomh.png ddsomh.zip ddsomh.ogg 0 Dungeons &amp; Dragons: Shadow over Mystara (Hispanic 960223)
-A 2 ? 1996 ddsomj.png ddsomj.zip ddsomj.ogg 0 Dungeons &amp; Dragons: Shadow over Mystara (Japan 960619)
-A 2 ? 1996 ddsomjr1.png ddsomjr1.zip ddsomjr1.ogg 0 Dungeons &amp; Dragons: Shadow over Mystara (Japan 960206)
-A 2 ? 1996 ddsomjr2.png ddsomjr2.zip ddsomjr2.ogg 0 Dungeons &amp; Dragons: Shadow over Mystara (Japan 96022)
-A 2 ? 1996 ddsomr1.png ddsomr1.zip ddsomr1.ogg 0 Dungeons &amp; Dragons: Shadow over Mystara (Euro 960223)
-A 2 ? 1996 ddsomr2.png ddsomr2.zip ddsomr2.ogg 0 Dungeons &amp; Dragons: Shadow over Mystara (Euro 960209)
-A 2 ? 1996 ddsomr3.png ddsomr3.zip ddsomr3.ogg 0 Dungeons &amp; Dragons: Shadow over Mystara (Euro 960208)
-A 2 ? 1996 ddsomu.png ddsomu.zip ddsomu.ogg 0 Dungeons &amp; Dragons: Shadow over Mystara (USA 960619)
-A 2 ? 1996 ddsomud.png ddsomud.zip ddsomud.ogg 0 Dungeons &amp; Dragons: Shadow over Mystara (USA 960619 Phoenix Edition) (bootleg)
-A 2 ? 1996 ddsomur1.png ddsomur1.zip ddsomur1.ogg 0 Dungeons &amp; Dragons: Shadow over Mystara (USA 960209)
-A 2 ? 1993 ddtoda.png ddtoda.zip ddtoda.ogg 0 Dungeons &amp; Dragons: Tower of Doom (Asia 940412)
-A 2 ? 1993 ddtodar1.png ddtodar1.zip ddtodar1.ogg 0 Dungeons &amp; Dragons: Tower of Doom (Asia 940113)
-A 2 ? 1993 ddtodd.png ddtodd.zip ddtodd.ogg 0 Dungeons &amp; Dragons: Tower of Doom (Euro 940412 Phoenix Edition) (bootleg)
-A 2 ? 1993 ddtodh.png ddtodh.zip ddtodh.ogg 0 Dungeons &amp; Dragons: Tower of Doom (Hispanic 940412)
-A 2 ? 1993 ddtodhr1.png ddtodhr1.zip ddtodhr1.ogg 0 Dungeons &amp; Dragons: Tower of Doom (Hispanic 940125)
-A 2 ? 1993 ddtodhr2.png ddtodhr2.zip ddtodhr2.ogg 0 Dungeons &amp; Dragons: Tower of Doom (Hispanic 940113)
-A 2 ? 1993 ddtodj.png ddtodj.zip ddtodj.ogg 0 Dungeons &amp; Dragons: Tower of Doom (Japan 940412)
-A 2 ? 1993 ddtodjr1.png ddtodjr1.zip ddtodjr1.ogg 0 Dungeons &amp; Dragons: Tower of Doom (Japan 940125)
-A 2 ? 1993 ddtodjr2.png ddtodjr2.zip ddtodjr2.ogg 0 Dungeons &amp; Dragons: Tower of Doom (Japan 940113)
-A 2 ? 1993 ddtodr1.png ddtodr1.zip ddtodr1.ogg 0 Dungeons &amp; Dragons: Tower of Doom (Euro 940113)
-A 2 ? 1993 ddtodu.png ddtodu.zip ddtodu.ogg 0 Dungeons &amp; Dragons: Tower of Doom (USA 940125)
-A 2 ? 1993 ddtodur1.png ddtodur1.zip ddtodur1.ogg 0 Dungeons &amp; Dragons: Tower of Doom (USA 940113)
+A 2 ? 1996 ddsoma.png ddsoma.zip ddsoma.ogg 0 Dungeons & Dragons: Shadow over Mystara (Asia 96061)
+A 2 ? 1996 ddsomar1.png ddsomar1.zip ddsomar1.ogg 0 Dungeons & Dragons: Shadow over Mystara (Asia 960208)
+A 2 ? 1996 ddsomb.png ddsomb.zip ddsomb.ogg 0 Dungeons & Dragons: Shadow over Mystara (Brazil 960223)
+A 2 ? 1996 ddsomh.png ddsomh.zip ddsomh.ogg 0 Dungeons & Dragons: Shadow over Mystara (Hispanic 960223)
+A 2 ? 1996 ddsomj.png ddsomj.zip ddsomj.ogg 0 Dungeons & Dragons: Shadow over Mystara (Japan 960619)
+A 2 ? 1996 ddsomjr1.png ddsomjr1.zip ddsomjr1.ogg 0 Dungeons & Dragons: Shadow over Mystara (Japan 960206)
+A 2 ? 1996 ddsomjr2.png ddsomjr2.zip ddsomjr2.ogg 0 Dungeons & Dragons: Shadow over Mystara (Japan 96022)
+A 2 ? 1996 ddsomr1.png ddsomr1.zip ddsomr1.ogg 0 Dungeons & Dragons: Shadow over Mystara (Euro 960223)
+A 2 ? 1996 ddsomr2.png ddsomr2.zip ddsomr2.ogg 0 Dungeons & Dragons: Shadow over Mystara (Euro 960209)
+A 2 ? 1996 ddsomr3.png ddsomr3.zip ddsomr3.ogg 0 Dungeons & Dragons: Shadow over Mystara (Euro 960208)
+A 2 ? 1996 ddsomu.png ddsomu.zip ddsomu.ogg 0 Dungeons & Dragons: Shadow over Mystara (USA 960619)
+A 2 ? 1996 ddsomud.png ddsomud.zip ddsomud.ogg 0 Dungeons & Dragons: Shadow over Mystara (USA 960619 Phoenix Edition) (bootleg)
+A 2 ? 1996 ddsomur1.png ddsomur1.zip ddsomur1.ogg 0 Dungeons & Dragons: Shadow over Mystara (USA 960209)
+A 2 ? 1993 ddtoda.png ddtoda.zip ddtoda.ogg 0 Dungeons & Dragons: Tower of Doom (Asia 940412)
+A 2 ? 1993 ddtodar1.png ddtodar1.zip ddtodar1.ogg 0 Dungeons & Dragons: Tower of Doom (Asia 940113)
+A 2 ? 1993 ddtodd.png ddtodd.zip ddtodd.ogg 0 Dungeons & Dragons: Tower of Doom (Euro 940412 Phoenix Edition) (bootleg)
+A 2 ? 1993 ddtodh.png ddtodh.zip ddtodh.ogg 0 Dungeons & Dragons: Tower of Doom (Hispanic 940412)
+A 2 ? 1993 ddtodhr1.png ddtodhr1.zip ddtodhr1.ogg 0 Dungeons & Dragons: Tower of Doom (Hispanic 940125)
+A 2 ? 1993 ddtodhr2.png ddtodhr2.zip ddtodhr2.ogg 0 Dungeons & Dragons: Tower of Doom (Hispanic 940113)
+A 2 ? 1993 ddtodj.png ddtodj.zip ddtodj.ogg 0 Dungeons & Dragons: Tower of Doom (Japan 940412)
+A 2 ? 1993 ddtodjr1.png ddtodjr1.zip ddtodjr1.ogg 0 Dungeons & Dragons: Tower of Doom (Japan 940125)
+A 2 ? 1993 ddtodjr2.png ddtodjr2.zip ddtodjr2.ogg 0 Dungeons & Dragons: Tower of Doom (Japan 940113)
+A 2 ? 1993 ddtodr1.png ddtodr1.zip ddtodr1.ogg 0 Dungeons & Dragons: Tower of Doom (Euro 940113)
+A 2 ? 1993 ddtodu.png ddtodu.zip ddtodu.ogg 0 Dungeons & Dragons: Tower of Doom (USA 940125)
+A 2 ? 1993 ddtodur1.png ddtodur1.zip ddtodur1.ogg 0 Dungeons & Dragons: Tower of Doom (USA 940113)
 A 0 ? 1992 ddungeon.png ddungeon.zip ddungeon.ogg 0 Dangerous Dungeons (set 1)
 A 0 ? 1988 ddux.png ddux.zip ddux.ogg 0 Dynamite Dux (set 3, World) (FD1094 317-0096)
 A 0 ? 1988 ddux1.png ddux1.zip ddux1.ogg 0 Dynamite Dux (set 1, World) (8751 317-0095)
@@ -1805,11 +1805,11 @@ A 0 ? 2000 deluxe5b.png deluxe5b.zip deluxe5b.ogg 0 Deluxe 5 (ver. 0107, 07/01/2
 A 0 ? 1984 demoderb.png demoderb.zip demoderb.ogg 0 Demolition Derby
 A 0 ? 1984 demoderbc.png demoderbc.zip demoderbc.ogg 0 Demolition Derby (cocktail)
 A 0 ? 1984 demoderm.png demoderm.zip demoderm.ogg 0 Demolition Derby (MCR-3 Mono Board Version)
-A 0 ? 1990 demonwld.png demonwld.zip demonwld.ogg 0 Demon's World / Horror Story (set 1)
-A 0 ? 1989 demonwld1.png demonwld1.zip demonwld1.ogg 0 Demon's World / Horror Story (set 2)
-A 0 ? 1989 demonwld2.png demonwld2.zip demonwld2.ogg 0 Demon's World / Horror Story (set 3)
-A 0 ? 1989 demonwld3.png demonwld3.zip demonwld3.ogg 0 Demon's World / Horror Story (set 4)
-A 0 ? 1989 demonwld4.png demonwld4.zip demonwld4.ogg 0 Demon's World / Horror Story (set 5)
+A 0 S 1990 demonwld.png demonwld.zip demonwld.ogg 0 Demon's World / Horror Story (set 1)
+A 0 S 1989 demonwld1.png demonwld1.zip demonwld1.ogg 0 Demon's World / Horror Story (set 2)
+A 0 S 1989 demonwld2.png demonwld2.zip demonwld2.ogg 0 Demon's World / Horror Story (set 3)
+A 0 S 1989 demonwld3.png demonwld3.zip demonwld3.ogg 0 Demon's World / Horror Story (set 4)
+A 0 S 1989 demonwld4.png demonwld4.zip demonwld4.ogg 0 Demon's World / Horror Story (set 5)
 A 0 ? 1994 denjinmk.png denjinmk.zip denjinmk.ogg 0 Denjin Makai (set 1)
 A 0 ? 1994 denjinmka.png denjinmka.zip denjinmka.ogg 0 Denjin Makai (set 2)
 A 0 ? 1977 depthch.png depthch.zip depthch.ogg 0 Depthcharge
@@ -1911,9 +1911,9 @@ A 0 ? 1985 dogfgtu.png dogfgtu.zip dogfgtu.ogg 0 Acrobatic Dog-Fight (USA)
 A 0 ? 1983 dogfight.png dogfight.zip dogfight.ogg 3 Dog Fight (Thunderbolt)
 A 0 ? 1986 dogosokb.png dogosokb.zip dogosokb.ogg 3 Dogou Souken (Joystick hack bootleg)
 A 0 ? 1986 dogosoke.png dogosoke.zip dogosoke.ogg 3 Dogou Souken
-A 0 ? 1992 dogyuun.png dogyuun.zip dogyuun.ogg 3 Dogyuun
-A 0 ? 1992 dogyuuna.png dogyuuna.zip dogyuuna.ogg 3 Dogyuun (older set)
-A 0 ? 1992 dogyuunt.png dogyuunt.zip dogyuunt.ogg 3 Dogyuun (location test)
+A 0 S 1992 dogyuun.png dogyuun.zip dogyuun.ogg 3 Dogyuun
+A 0 S 1992 dogyuuna.png dogyuuna.zip dogyuuna.ogg 3 Dogyuun (older set)
+A 0 S 1992 dogyuunt.png dogyuunt.zip dogyuunt.ogg 3 Dogyuun (location test)
 A 0 ? 1989 dokaben.png dokaben.zip dokaben.ogg 0 Dokaben (Japan)
 A 0 ? 1995 dolmen.png dolmen.zip dolmen.ogg 0 Dolmen
 A 0 ? 1982 domino.png domino.zip domino.ogg 0 Domino Man
@@ -2215,7 +2215,7 @@ A 1 ? 1989 ffightu1.png ffightu1.zip ffightu1.ogg 0 Final Fight (USA, set 2)
 A 1 ? 1989 ffightua.png ffightua.zip ffightua.ogg 0 Final Fight (USA 900112)
 A 1 ? 1989 ffightub.png ffightub.zip ffightub.ogg 0 Final Fight (USA 900424)
 A 1 ? 1989 ffightuc.png ffightuc.zip ffightuc.ogg 0 Final Fight (USA 900613)
-A 0 ? 1992 fghtatck.png fghtatck.zip fghtatck.ogg 1 Fighter &amp; Attacker (US)
+A 0 ? 1992 fghtatck.png fghtatck.zip fghtatck.ogg 1 Fighter & Attacker (US)
 A 0 ? 1984 fghtbskt.png fghtbskt.zip fghtbskt.ogg 0 Fighting Basketball
 A 0 ? 1993 fghthist.png fghthist.zip fghthist.ogg 0 Fighter's History (World ver 43-09, DE-0395-1 PCB)
 A 0 ? 1993 fghthista.png fghthista.zip fghthista.ogg 0 Fighter's History (World ver 43-07, DE-0380-2 PCB)
@@ -2256,10 +2256,10 @@ A 0 ? 1993 firebarr.png firebarr.zip firebarr.ogg 3 Fire Barrel (Japan)
 A 0 ? 1984 firebatl.png firebatl.zip firebatl.ogg 1 Fire Battle
 A 0 ? 1983 firebeas.png firebeas.zip firebeas.ogg 0 Firebeast (prototype)
 A 0 ? 2001 firehawk.png firehawk.zip firehawk.ogg 2 Fire Hawk (World) / Huohu Chuanshuo (China) (horizontal)
-A 0 ? 1990 fireshrk.png fireshrk.zip fireshrk.ogg 3 Fire Shark
-A 0 ? 1989 fireshrka.png fireshrka.zip fireshrka.ogg 3 Fire Shark (earlier)
-A 0 ? 1990 fireshrkd.png fireshrkd.zip fireshrkd.ogg 3 Fire Shark (Korea, set 1, easier)
-A 0 ? 1990 fireshrkdh.png fireshrkdh.zip fireshrkdh.ogg 3 Fire Shark (Korea, set 2, harder)
+A 0 S 1990 fireshrk.png fireshrk.zip fireshrk.ogg 3 Fire Shark
+A 0 S 1989 fireshrka.png fireshrka.zip fireshrka.ogg 3 Fire Shark (earlier)
+A 0 S 1990 fireshrkd.png fireshrkd.zip fireshrkd.ogg 3 Fire Shark (Korea, set 1, easier)
+A 0 S 1990 fireshrkdh.png fireshrkdh.zip fireshrkdh.ogg 3 Fire Shark (Korea, set 2, harder)
 A 0 ? 1986 firetrap.png firetrap.zip firetrap.ogg 1 Fire Trap (US, rev A)
 A 0 ? 1986 firetrapa.png firetrapa.zip firetrapa.ogg 1 Fire Trap (US)
 A 0 ? 1986 firetrapbl.png firetrapbl.zip firetrapbl.ogg 1 Fire Trap (Japan bootleg)
@@ -2268,20 +2268,20 @@ A 0 ? 1988 fitegolfu.png fitegolfu.zip fitegolfu.ogg 0 Lee Trevino's Fighting Go
 A 0 ? 1988 fitegolfua.png fitegolfua.zip fitegolfua.ogg 0 Lee Trevino's Fighting Golf (US, Ver 2, set 2)
 A 0 ? 1981 fitter.png fitter.zip fitter.ogg 1 Fitter
 A 0 ? 1981 fitterbl.png fitterbl.zip fitterbl.ogg 1 Fitter (bootleg of Round-Up)
-A 0 ? 1992 fixeight.png fixeight.zip fixeight.ogg 3 FixEight (Europe)
-A 0 ? 1992 fixeighta.png fixeighta.zip fixeighta.ogg 3 FixEight (Southeast Asia)
-A 0 ? 1992 fixeightat.png fixeightat.zip fixeightat.ogg 3 FixEight (Southeast Asia, Taito license)
-A 0 ? 1992 fixeighth.png fixeighth.zip fixeighth.ogg 3 FixEight (Hong Kong)
-A 0 ? 1992 fixeightht.png fixeightht.zip fixeightht.ogg 3 FixEight (Hong Kong, Taito license)
-A 0 ? 1992 fixeightj.png fixeightj.zip fixeightj.ogg 3 FixEight (Japan)
-A 0 ? 1992 fixeightjt.png fixeightjt.zip fixeightjt.ogg 3 FixEight (Japan, Taito license)
-A 0 ? 1992 fixeightk.png fixeightk.zip fixeightk.ogg 3 FixEight (Korea)
-A 0 ? 1992 fixeightkt.png fixeightkt.zip fixeightkt.ogg 3 FixEight (Korea, Taito license)
-A 0 ? 1992 fixeightt.png fixeightt.zip fixeightt.ogg 3 FixEight (Europe, Taito license)
-A 0 ? 1992 fixeighttw.png fixeighttw.zip fixeighttw.ogg 3 FixEight (Taiwan)
-A 0 ? 1992 fixeighttwt.png fixeighttwt.zip fixeighttwt.ogg 3 FixEight (Taiwan, Taito license)
-A 0 ? 1992 fixeightu.png fixeightu.zip fixeightu.ogg 3 FixEight (USA)
-A 0 ? 1992 fixeightut.png fixeightut.zip fixeightut.ogg 3 FixEight (USA, Taito license)
+A 0 S 1992 fixeight.png fixeight.zip fixeight.ogg 3 FixEight (Europe)
+A 0 S 1992 fixeighta.png fixeighta.zip fixeighta.ogg 3 FixEight (Southeast Asia)
+A 0 S 1992 fixeightat.png fixeightat.zip fixeightat.ogg 3 FixEight (Southeast Asia, Taito license)
+A 0 S 1992 fixeighth.png fixeighth.zip fixeighth.ogg 3 FixEight (Hong Kong)
+A 0 S 1992 fixeightht.png fixeightht.zip fixeightht.ogg 3 FixEight (Hong Kong, Taito license)
+A 0 S 1992 fixeightj.png fixeightj.zip fixeightj.ogg 3 FixEight (Japan)
+A 0 S 1992 fixeightjt.png fixeightjt.zip fixeightjt.ogg 3 FixEight (Japan, Taito license)
+A 0 S 1992 fixeightk.png fixeightk.zip fixeightk.ogg 3 FixEight (Korea)
+A 0 S 1992 fixeightkt.png fixeightkt.zip fixeightkt.ogg 3 FixEight (Korea, Taito license)
+A 0 S 1992 fixeightt.png fixeightt.zip fixeightt.ogg 3 FixEight (Europe, Taito license)
+A 0 S 1992 fixeighttw.png fixeighttw.zip fixeighttw.ogg 3 FixEight (Taiwan)
+A 0 S 1992 fixeighttwt.png fixeighttwt.zip fixeighttwt.ogg 3 FixEight (Taiwan, Taito license)
+A 0 S 1992 fixeightu.png fixeightu.zip fixeightu.ogg 3 FixEight (USA)
+A 0 S 1992 fixeightut.png fixeightut.zip fixeightut.ogg 3 FixEight (USA, Taito license)
 A 0 ? 1992 fjbuster.png fjbuster.zip fjbuster.ogg 0 Fujiyama Buster (Japan)
 A 0 ? 1996 flagrall.png flagrall.zip flagrall.ogg 0 '96 Flag Rally
 A 0 ? 1985 flashgal.png flashgal.zip flashgal.ogg 0 Flashgal (set 1)
@@ -2353,13 +2353,13 @@ A 0 ? 1978 frogs.png frogs.zip frogs.ogg 0 Frogs
 A 0 ? 1982 frontlin.png frontlin.zip frontlin.ogg 3 Front Line (AA1, 4 PCB version)
 A 0 ? 1982 frontlina.png frontlina.zip frontlina.ogg 3 Front Line (FL, 5 PCB version)
 A 0 ? 1988 froundl.png froundl.zip froundl.ogg 0 The Final Round (version L)
-A 0 ? 1987 fshark.png fshark.zip fshark.ogg 3 Flying Shark (World)
-A 0 ? 1987 fsharkbt.png fsharkbt.zip fsharkbt.ogg 3 Flying Shark (bootleg with 8741)
+A 0 S 1987 fshark.png fshark.zip fshark.ogg 3 Flying Shark (World)
+A 0 S 1987 fsharkbt.png fsharkbt.zip fsharkbt.ogg 3 Flying Shark (bootleg with 8741)
 A 0 ? 1988 fsoccer.png fsoccer.zip fsoccer.ogg 0 Fighting Soccer (version 4)
 A 0 ? 1988 fsoccerb.png fsoccerb.zip fsoccerb.ogg 0 Fighting Soccer (Joystick hack bootleg)
 A 0 ? 1988 fsoccerba.png fsoccerba.zip fsoccerba.ogg 0 Fighting Soccer (Joystick hack bootleg, alt)
 A 0 ? 1988 fsoccerj.png fsoccerj.zip fsoccerj.ogg 0 Fighting Soccer (Japan)
-A 0 ? 1981 fspiderb.png fspiderb.zip fspiderb.ogg 1 Frog &amp; Spiders (bootleg?)
+A 0 ? 1981 fspiderb.png fspiderb.zip fspiderb.ogg 1 Frog & Spiders (bootleg?)
 A 0 ? 1992 fstarfrcj.png fstarfrcj.zip fstarfrcj.ogg 1 Final Star Force (Japan)
 A 0 ? 1992 fstarfrcw.png fstarfrcw.zip fstarfrcw.ogg 1 Final Star Force (World?)
 A 0 ? 1995 fswords.png fswords.zip fswords.ogg 0 Fighters Swords (Korean release of Samurai Shodown III)
@@ -2515,9 +2515,9 @@ A 0 ? 1994 genix.png genix.zip genix.ogg 0 Genix Family
 A 0 ? 1986 genpeitd.png genpeitd.zip genpeitd.ogg 0 Genpei ToumaDen
 A 0 ? 1989 gensitou.png gensitou.zip gensitou.ogg 0 Genshitou 1930's
 A 0 ? 1994 geostorm.png geostorm.zip geostorm.ogg 0 Geo Storm (Japan)
-A 0 ? 1986 getstarb1.png getstarb1.zip getstarb1.ogg 0 Get Star (bootleg set 1)
-A 0 ? 1986 getstarb2.png getstarb2.zip getstarb2.ogg 0 Get Star (bootleg set 2)
-A 0 ? 1986 getstarj.png getstarj.zip getstarj.ogg 0 Get Star (Japan)
+A 0 B 1986 getstarb1.png getstarb1.zip getstarb1.ogg 0 Get Star (bootleg set 1)
+A 0 B 1986 getstarb2.png getstarb2.zip getstarb2.ogg 0 Get Star (bootleg set 2)
+A 0 B 1986 getstarj.png getstarj.zip getstarj.ogg 0 Get Star (Japan)
 A 0 ? 1992 gfire2.png gfire2.zip gfire2.ogg 0 Golden Fire II
 A 0 ? 1988 gforce2.png gforce2.zip gforce2.ogg 0 Galaxy Force 2
 A 0 ? 1988 gforce2j.png gforce2j.zip gforce2j.ogg 0 Galaxy Force 2 (Japan)
@@ -2531,9 +2531,9 @@ A 0 ? 1987 ghostb3.png ghostb3.zip ghostb3.ogg 0 The Real Ghostbusters (US 3 Pla
 A 0 ? 1987 ghostb3a.png ghostb3a.zip ghostb3a.ogg 0 The Real Ghostbusters (US 3 Players, revision 2)
 A 0 ? 1981 ghostmun.png ghostmun.zip ghostmun.ogg 1 Ghost Muncher
 A 1 ? 1988 ghoulsu.png ghoulsu.zip ghoulsu.ogg 0 Ghouls'n Ghosts (USA)
-A 0 ? 1991 ghox.png ghox.zip ghox.ogg 3 Ghox (spinner)
-A 0 ? 1991 ghoxj.png ghoxj.zip ghoxj.ogg 3 Ghox (joystick)
-A 0 ? 1991 ghoxjo.png ghoxjo.zip ghoxjo.ogg 3 Ghox (joystick, older)
+A 0 Z 1991 ghox.png ghox.zip ghox.ogg 3 Ghox (spinner)
+A 0 Z 1991 ghoxj.png ghoxj.zip ghoxj.ogg 3 Ghox (joystick)
+A 0 Z 1991 ghoxjo.png ghoxjo.zip ghoxjo.ogg 3 Ghox (joystick, older)
 A 0 ? 1988 ghunter.png ghunter.zip ghunter.ogg 0 Gang Hunter / Dead Angle
 A 0 ? 1988 ghunters.png ghunters.zip ghunters.ogg 0 Gang Hunter / Dead Angle (Spain)
 A 2 ? 1996 gigaman2.png gigaman2.zip gigaman2.ogg 0 Giga Man 2: The Power Fighters (bootleg of Mega Man 2: The Power Fighters)
@@ -2622,8 +2622,8 @@ A 0 ? 1996 gratiaa.png gratiaa.zip gratiaa.ogg 0 Gratia - Second Earth (ver 1.0,
 A 0 ? 1982 gravitar.png gravitar.zip gravitar.ogg 0 Gravitar (version 3)
 A 0 ? 1982 gravitar1.png gravitar1.zip gravitar1.ogg 0 Gravitar (version 1)
 A 0 ? 1982 gravitar2.png gravitar2.zip gravitar2.ogg 0 Gravitar (version 2)
-A 0 ? 1986 grdian.png grdian.zip grdian.ogg 0 Guardian (US)
-A 0 ? 1995 grdians.png grdians.zip grdians.ogg 0 Guardians / Denjin Makai II (P-FG01-1 PCB)
+A 0 B 1986 grdian.png grdian.zip grdian.ogg 0 Guardian (US)
+A 0 B 1995 grdians.png grdians.zip grdians.ogg 0 Guardians / Denjin Makai II (P-FG01-1 PCB)
 A 0 ? 1998 grdnstrm.png grdnstrm.zip grdnstrm.ogg 2 Guardian Storm (horizontal, not encrypted)
 A 0 ? 1998 grdnstrmau.png grdnstrmau.zip grdnstrmau.ogg 2 Guardian Storm (horizontal, Australia)
 A 0 ? 1998 grdnstrmg.png grdnstrmg.zip grdnstrmg.ogg 3 Guardian Storm (Germany)
@@ -2631,8 +2631,8 @@ A 0 ? 1998 grdnstrmj.png grdnstrmj.zip grdnstrmj.ogg 3 Sen Jing - Guardian Storm
 A 0 ? 1998 grdnstrmk.png grdnstrmk.zip grdnstrmk.ogg 3 Jeon Sin - Guardian Storm (Korea)
 A 0 ? 1998 grdnstrmv.png grdnstrmv.zip grdnstrmv.ogg 3 Guardian Storm (vertical)
 A 0 ? 1980 griffon.png griffon.zip griffon.ogg 1 Griffon (Videotron bootleg of Phoenix)
-A 0 ? 1992 grindstm.png grindstm.zip grindstm.ogg 3 Grind Stormer
-A 0 ? 1992 grindstma.png grindstma.zip grindstma.ogg 3 Grind Stormer (older set)
+A 0 B 1992 grindstm.png grindstm.zip grindstm.ogg 3 Grind Stormer
+A 0 B 1992 grindstma.png grindstma.zip grindstma.ogg 3 Grind Stormer (older set)
 A 0 ? 1993 grndtour.png grndtour.zip grndtour.ogg 0 Grand Tour (V100U)
 A 0 ? 1984 grobda.png grobda.zip grobda.ogg 1 Grobda (New Ver.)
 A 0 ? 1984 grobda2.png grobda2.zip grobda2.ogg 1 Grobda (Old Ver. set 1)
@@ -2727,7 +2727,7 @@ A 0 ? 1995 gundharac.png gundharac.zip gundharac.ogg 3 Gundhara (Chinese, bootle
 A 0 ? 1994 gundl94.png gundl94.zip gundl94.ogg 0 Gun Dealer '94
 A 0 ? 1991 gunforcej.png gunforcej.zip gunforcej.ogg 0 Gunforce - Battle Fire Engulfed Terror Island (Japan)
 A 0 ? 1991 gunforceu.png gunforceu.zip gunforceu.ogg 0 Gunforce - Battle Fire Engulfed Terror Island (US)
-A 0 ? 1990 gunfront.png gunfront.zip gunfront.ogg 3 Gun &amp; Frontier (World)
+A 0 ? 1990 gunfront.png gunfront.zip gunfront.ogg 3 Gun & Frontier (World)
 A 0 ? 1990 gunfrontj.png gunfrontj.zip gunfrontj.ogg 3 Gun Frontier (Japan)
 A 0 ? 1992 gunhohki.png gunhohki.zip gunhohki.ogg 0 Mahou Keibitai Gun Hohki (Japan)
 A 0 ? 1993 gunlock.png gunlock.zip gunlock.ogg 1 Gunlock (Ver 2.3O 1994/01/20)
@@ -2815,10 +2815,10 @@ A 0 ? 2000 hedpanic.png hedpanic.zip hedpanic.ogg 0 Head Panic (ver. 0117, 17/01
 A 0 ? 1999 hedpanica.png hedpanica.zip hedpanica.ogg 0 Head Panic (ver. 0702, 02/07/1999)
 A 0 ? 2000 hedpanicf.png hedpanicf.zip hedpanicf.ogg 0 Head Panic (ver. 0315, 15/03/2000)
 A 0 ? 1979 heiankyo.png heiankyo.zip heiankyo.ogg 3 Heiankyo Alien
-A 0 ? 1989 hellfire.png hellfire.zip hellfire.ogg 0 Hellfire (2P set)
-A 0 ? 1989 hellfire1.png hellfire1.zip hellfire1.ogg 0 Hellfire (1P set)
-A 0 ? 1989 hellfire1a.png hellfire1a.zip hellfire1a.ogg 0 Hellfire (1P set, older)
-A 0 ? 1989 hellfire2a.png hellfire2a.zip hellfire2a.ogg 0 Hellfire (2P set, older)
+A 0 B 1989 hellfire.png hellfire.zip hellfire.ogg 0 Hellfire (2P set)
+A 0 B 1989 hellfire1.png hellfire1.zip hellfire1.ogg 0 Hellfire (1P set)
+A 0 B 1989 hellfire1a.png hellfire1a.zip hellfire1a.ogg 0 Hellfire (1P set, older)
+A 0 B 1989 hellfire2a.png hellfire2a.zip hellfire2a.ogg 0 Hellfire (2P set, older)
 A 0 ? 1984 herbiedk.png herbiedk.zip herbiedk.ogg 3 Herbie at the Olympics (DK conversion)
 A 0 ? 1984 hero.png hero.zip hero.ogg 1 Hero
 A 0 ? 1984 herodk.png herodk.zip herodk.ogg 3 Hero in the Castle of Doom (DK conversion)
@@ -2848,7 +2848,7 @@ A 0 ? 1989 himesiki.png himesiki.zip himesiki.ogg 1 Himeshikibu (Japan)
 A 0 ? 1983 hipoly.png hipoly.zip hipoly.ogg 0 Hipoly (bootleg of Hyper Olympic)
 A 0 ? 1989 hippodrm.png hippodrm.zip hippodrm.ogg 0 Hippodrome (US)
 A 0 ? 1985 hiryuken.png hiryuken.zip hiryuken.ogg 0 Hokuha Syourin Hiryu no Ken
-A 0 ? 1987 hishouza.png hishouza.zip hishouza.ogg 3 Hishou Zame (Japan)
+A 0 B 1987 hishouza.png hishouza.zip hishouza.ogg 3 Hishou Zame (Japan)
 A 0 ? 1990 hitice.png hitice.zip hitice.ogg 0 Hit the Ice (US)
 A 0 ? 1990 hiticej.png hiticej.zip hiticej.ogg 0 Hit the Ice (Japan)
 A 0 ? 1984 hncholms.png hncholms.zip hncholms.ogg 1 Hunchback Olympic (Scramble hardware)
@@ -2968,7 +2968,7 @@ A 0 ? 1984 intrepidb.png intrepidb.zip intrepidb.ogg 1 Intrepid (Elsys bootleg, 
 A 0 ? 1984 intrepidb2.png intrepidb2.zip intrepidb2.ogg 1 Intrepid (Loris bootleg)
 A 0 ? 1984 intrepidb3.png intrepidb3.zip intrepidb3.ogg 1 Intrepid (Elsys bootleg, set 2)
 A 0 ? 1998 inttoote.png inttoote.zip inttoote.ogg 0 International Toote (Germany, P523.V01)
-A 0 ? 1998 inufuku.png inufuku.zip inufuku.ogg 0 Quiz &amp; Variety Sukusuku Inufuku (Japan)
+A 0 ? 1998 inufuku.png inufuku.zip inufuku.ogg 0 Quiz & Variety Sukusuku Inufuku (Japan)
 A 0 ? 1978 invaders.png invaders.zip invaders.ogg 3 Space Invaders / Space Invaders M
 A 0 ? 1979 invds.png invds.zip invds.ogg 3 Invinco / Deep Scan
 A 0 ? 1979 invho2.png invho2.zip invho2.ogg 3 Invinco / Head On 2
@@ -3014,10 +3014,10 @@ A 0 ? 1999 jmpbreak.png jmpbreak.zip jmpbreak.ogg 0 Jumping Break (set 1)
 A 0 ? 1999 jmpbreaka.png jmpbreaka.zip jmpbreaka.ogg 0 Jumping Break (set 2)
 A 0 ? 1990 jockeyc.png jockeyc.zip jockeyc.ogg 0 Jockey Club (v1.18)
 A 0 ? 2001 jockeygpa.png jockeygpa.zip jockeygpa.ogg 0 Jockey Grand Prix (set 2)
-A 0 ? 1991 joemac.png joemac.zip joemac.ogg 0 Tatakae Genshizin Joe &amp; Mac (Japan ver 1)
-A 0 ? 1994 joemacr.png joemacr.zip joemacr.ogg 0 Joe &amp; Mac Returns (World, Version 1.1, 1994.05.27)
-A 0 ? 1994 joemacra.png joemacra.zip joemacra.ogg 0 Joe &amp; Mac Returns (World, Version 1.0, 1994.05.19)
-A 0 ? 1994 joemacrj.png joemacrj.zip joemacrj.ogg 0 Joe &amp; Mac Returns (Japan, Version 1.2, 1994.06.06)
+A 0 ? 1991 joemac.png joemac.zip joemac.ogg 0 Tatakae Genshizin Joe & Mac (Japan ver 1)
+A 0 ? 1994 joemacr.png joemacr.zip joemacr.ogg 0 Joe & Mac Returns (World, Version 1.1, 1994.05.27)
+A 0 ? 1994 joemacra.png joemacra.zip joemacra.ogg 0 Joe & Mac Returns (World, Version 1.0, 1994.05.19)
+A 0 ? 1994 joemacrj.png joemacrj.zip joemacrj.ogg 0 Joe & Mac Returns (Japan, Version 1.2, 1994.06.06)
 A 0 ? 1983 joinem.png joinem.zip joinem.ogg 1 Joinem
 A 3 F 1999 jojobaj.png jojobaj.zip jojobaj.ogg 0 JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927)
 A 3 F 1999 jojobajr1.png jojobajr1.zip jojobajr1.ogg 0 JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990913)
@@ -3114,15 +3114,15 @@ A 0 ? 1987 karnov.png karnov.zip karnov.ogg 0 Karnov (US, rev 6)
 A 0 ? 1987 karnova.png karnova.zip karnova.ogg 0 Karnov (US, rev 5)
 A 0 ? 1987 karnovj.png karnovj.zip karnovj.ogg 0 Karnov (Japan)
 A 0 ? 1988 kazan.png kazan.zip kazan.ogg 0 Ninja Kazan (World)
-A 0 ? 1993 kbash.png kbash.zip kbash.ogg 0 Knuckle Bash
-A 0 ? 1999 kbash2.png kbash2.zip kbash2.ogg 0 Knuckle Bash 2 (bootleg)
-A 0 ? 1993 kbashk.png kbashk.zip kbashk.ogg 0 Knuckle Bash (Korean PCB)
+A 0 B 1993 kbash.png kbash.zip kbash.ogg 0 Knuckle Bash
+A 0 B 1999 kbash2.png kbash2.zip kbash2.ogg 0 Knuckle Bash 2 (bootleg)
+A 0 B 1993 kbashk.png kbashk.zip kbashk.ogg 0 Knuckle Bash (Korean PCB)
 A 0 ? 1984 kchamp.png kchamp.zip kchamp.ogg 1 Karate Champ (US)
 A 0 ? 1984 kchampvs.png kchampvs.zip kchampvs.ogg 1 Karate Champ (US VS version, set 1)
 A 0 ? 1984 kchampvs2.png kchampvs2.zip kchampvs2.ogg 1 Karate Champ (US VS version, set 2)
 A 0 ? 1984 kchampvs3.png kchampvs3.zip kchampvs3.ogg 1 Karate Champ (US VS version, set 3)
 A 0 ? 1984 kchampvs4.png kchampvs4.zip kchampvs4.ogg 1 Karate Champ (US VS version, set 4)
-A 0 ? 1993 keithlcy.png keithlcy.zip keithlcy.ogg 0 Dramatic Adventure Quiz Keith &amp; Lucy (Japan)
+A 0 ? 1993 keithlcy.png keithlcy.zip keithlcy.ogg 0 Dramatic Adventure Quiz Keith & Lucy (Japan)
 A 0 ? 1991 kengo.png kengo.zip kengo.ogg 0 Ken-Go (set 1)
 A 0 ? 1991 kengoa.png kengoa.zip kengoa.ogg 0 Ken-Go (set 2)
 A 0 ? 1994 kenseim.png kenseim.zip kenseim.ogg 0 Ken Sei Mogura: Street Fighter II (Japan 940418, Ver 1.00)
@@ -3171,8 +3171,8 @@ A 0 ? 1998 killbld.png killbld.zip killbld.ogg 0 The Killing Blade / Ao Jian Kua
 A 0 ? 1998 killbld104.png killbld104.zip killbld104.ogg 0 The Killing Blade / Ao Jian Kuang Dao (ver. 104)
 A 0 ? 1998 killbld106.png killbld106.zip killbld106.ogg 0 The Killing Blade / Ao Jian Kuang Dao (ver. 106)
 A 0 ? 2005 killbldp.png killbldp.zip killbldp.ogg 0 The Killing Blade Plus / Ao Jian Kuang Dao Jiaqiang Ban (China, ver. 300)
-A 0 ? 1980 kingball.png kingball.zip kingball.ogg 1 King &amp; Balloon (US)
-A 0 ? 1980 kingballj.png kingballj.zip kingballj.ogg 1 King &amp; Balloon (Japan)
+A 0 ? 1980 kingball.png kingball.zip kingball.ogg 1 King & Balloon (US)
+A 0 ? 1980 kingballj.png kingballj.zip kingballj.ogg 1 King & Balloon (Japan)
 A 0 ? 1994 kingdmgp.png kingdmgp.zip kingdmgp.ogg 3 Kingdom Grandprix
 A 0 ? 1985 kingofb.png kingofb.zip kingofb.ogg 1 King of Boxer (World)
 A 0 ? 1985 kingofbj.png kingofbj.zip kingofbj.ogg 1 King of Boxer (Japan)
@@ -3284,8 +3284,8 @@ A 0 ? 1982 kroozr.png kroozr.zip kroozr.ogg 0 Kozmik Kroozr
 A 0 ? 1983 krull.png krull.zip krull.ogg 3 Krull
 A 0 ? 1994 krzybowl.png krzybowl.zip krzybowl.ogg 3 Krazy Bowl
 A 0 ? 1985 ksayakyu.png ksayakyu.zip ksayakyu.ogg 2 Kusayakyuu
-A 0 ? 1987 ktiger.png ktiger.zip ktiger.ogg 3 Kyukyoku Tiger (Japan)
-A 0 ? 1995 ktiger2.png ktiger2.zip ktiger2.ogg 3 Kyukyoku Tiger II (Ver 2.1J 1995/11/30)
+A 0 B 1987 ktiger.png ktiger.zip ktiger.ogg 3 Kyukyoku Tiger (Japan)
+A 0 B 1995 ktiger2.png ktiger2.zip ktiger2.ogg 3 Kyukyoku Tiger II (Ver 2.1J 1995/11/30)
 A 0 ? 1989 kuhga.png kuhga.zip kuhga.ogg 3 Kuhga - Operation Code 'Vapor Trail' (Japan revision 3)
 A 0 ? 1984 kungfub.png kungfub.zip kungfub.ogg 0 Kung-Fu Master (bootleg set 1)
 A 0 ? 1984 kungfub2.png kungfub2.zip kungfub2.ogg 0 Kung-Fu Master (bootleg set 2)
@@ -3422,8 +3422,8 @@ A 0 ? 1987 lottofun.png lottofun.zip lottofun.ogg 0 Lotto Fun
 A 0 ? 1983 loverboy.png loverboy.zip loverboy.ogg 1 Lover Boy
 A 0 ? 1992 lresortp.png lresortp.zip lresortp.ogg 0 Last Resort (prototype)
 A 0 ? 1986 lsasquad.png lsasquad.zip lsasquad.ogg 3 Land Sea Air Squad / Riku Kai Kuu Saizensen
-A 0 ? 1992 luckywld.png luckywld.zip luckywld.ogg 0 Lucky &amp; Wild
-A 0 ? 1992 luckywldj.png luckywldj.zip luckywldj.ogg 0 Lucky &amp; Wild (Japan)
+A 0 ? 1992 luckywld.png luckywld.zip luckywld.ogg 0 Lucky & Wild
+A 0 ? 1992 luckywldj.png luckywldj.zip luckywldj.ogg 0 Lucky & Wild (Japan)
 A 0 ? 1980 luctoday.png luctoday.zip luctoday.ogg 3 Lucky Today
 A 0 ? 1982 lunarba1.png lunarba1.zip lunarba1.ogg 0 Lunar Battle (prototype, earlier)
 A 0 ? 1982 lunarbat.png lunarbat.zip lunarbat.ogg 0 Lunar Battle (prototype, later)
@@ -4079,12 +4079,12 @@ A 0 ? 2013 outrundxeh.png outrundxeh.zip outrundxeh.ogg 0 Out Run (deluxe sitdow
 A 0 ? 1986 outrundxj.png outrundxj.zip outrundxj.ogg 0 Out Run (Japan, deluxe sitdown) (FD1089A 317-0019)
 A 0 ? 2014 outruneh.png outruneh.zip outruneh.ogg 0 Out Run (sitdown/upright, Rev B) (Enhanced Edition v1.1.0)
 A 0 ? 1986 outrunra.png outrunra.zip outrunra.ogg 0 Out Run (sitdown/upright, Rev A)
-A 0 ? 1990 outzone.png outzone.zip outzone.ogg 3 Out Zone
-A 0 ? 1990 outzonea.png outzonea.zip outzonea.ogg 3 Out Zone (old set)
-A 0 ? 1990 outzoneb.png outzoneb.zip outzoneb.ogg 3 Out Zone (older set)
-A 0 ? 1990 outzonec.png outzonec.zip outzonec.ogg 3 Out Zone (oldest set)
-A 0 ? 1990 outzonecv.png outzonecv.zip outzonecv.ogg 3 Out Zone (Zero Wing TP-015 PCB conversion)
-A 0 ? 1990 outzoneh.png outzoneh.zip outzoneh.ogg 3 Out Zone (harder)
+A 0 S 1990 outzone.png outzone.zip outzone.ogg 3 Out Zone
+A 0 S 1990 outzonea.png outzonea.zip outzonea.ogg 3 Out Zone (old set)
+A 0 S 1990 outzoneb.png outzoneb.zip outzoneb.ogg 3 Out Zone (older set)
+A 0 S 1990 outzonec.png outzonec.zip outzonec.ogg 3 Out Zone (oldest set)
+A 0 S 1990 outzonecv.png outzonecv.zip outzonecv.ogg 3 Out Zone (Zero Wing TP-015 PCB conversion)
+A 0 S 1990 outzoneh.png outzoneh.zip outzoneh.ogg 3 Out Zone (harder)
 A 0 ? 1979 ozmawars.png ozmawars.zip ozmawars.ogg 3 Ozma Wars (set 1)
 A 0 ? 1979 ozmawars2.png ozmawars2.zip ozmawars2.ogg 3 Ozma Wars (set 2)
 A 0 ? 1983 ozon1.png ozon1.zip ozon1.ogg 1 Ozon I
@@ -4118,9 +4118,9 @@ A 0 ? 1980 pacmansp.png pacmansp.zip pacmansp.ogg 1 Puck Man (Spanish, 'Made in 
 A 0 ? 1980 pacmanug.png pacmanug.zip pacmanug.ogg 1 Pac Man (U.Games bootleg of Puck Man)
 A 0 ? 1980 pacmanvg.png pacmanvg.zip pacmanvg.ogg 1 Pac-Man (bootleg, Video Game SA)
 A 0 ? 1981 pacmod.png pacmod.zip pacmod.ogg 1 Pac-Man (Midway, harder)
-A 0 ? 1983 pacnchmp.png pacnchmp.zip pacnchmp.ogg 1 Pac-Man &amp; Chomp Chomp
-A 0 ? 1983 pacnpal.png pacnpal.zip pacnpal.ogg 1 Pac &amp; Pal
-A 0 ? 1983 pacnpal2.png pacnpal2.zip pacnpal2.ogg 1 Pac &amp; Pal (older)
+A 0 ? 1983 pacnchmp.png pacnchmp.zip pacnchmp.ogg 1 Pac-Man & Chomp Chomp
+A 0 ? 1983 pacnpal.png pacnpal.zip pacnpal.ogg 1 Pac & Pal
+A 0 ? 1983 pacnpal2.png pacnpal2.zip pacnpal2.ogg 1 Pac & Pal (older)
 A 0 ? 1979 pacominv.png pacominv.zip pacominv.ogg 3 Pacom Invader (set 1)
 A 0 ? 1982 pacplus.png pacplus.zip pacplus.ogg 1 Pac-Man Plus
 A 0 ? 1980 pacuman.png pacuman.zip pacuman.ogg 1 Pacu-Man (Spanish bootleg of Puck Man)
@@ -4206,8 +4206,8 @@ A 0 ? 1982 pengo5.png pengo5.zip pengo5.ogg 1 Pengo (set 5, encrypted)
 A 0 ? 1982 pengob.png pengob.zip pengob.ogg 1 Pengo (bootleg)
 A 0 ? 1982 penta.png penta.zip penta.ogg 1 Penta
 A 0 ? 1981 percuss.png percuss.zip percuss.ogg 3 The Percussor
-A 0 ? 1985 perfrman.png perfrman.zip perfrman.ogg 3 Performan (Japan)
-A 0 ? 1985 perfrmanu.png perfrmanu.zip perfrmanu.ogg 3 Performan (US)
+A 0 B 1985 perfrman.png perfrman.zip perfrman.ogg 3 Performan (Japan)
+A 0 B 1985 perfrmanu.png perfrmanu.zip perfrmanu.ogg 3 Performan (US)
 A 0 ? 1983 pestplce.png pestplce.zip pestplce.ogg 0 Pest Place
 A 0 ? 1984 pettanp.png pettanp.zip pettanp.ogg 0 Pettan Pyuu (Japan)
 A 2 ? 1997 pfghtj.png pfghtj.zip pfghtj.ogg 0 Pocket Fighter (Japan 970904)
@@ -4230,7 +4230,7 @@ A 0 ? 1981 phoenixc.png phoenixc.zip phoenixc.ogg 1 Phoenix (Irecsa / G.G.I Corp
 A 0 ? 1981 phoenixc2.png phoenixc2.zip phoenixc2.ogg 1 Phoenix (Irecsa / G.G.I Corp, set 2)
 A 0 ? 1981 phoenixc3.png phoenixc3.zip phoenixc3.ogg 1 Phoenix (Irecsa / G.G.I Corp, set 3)
 A 0 ? 1981 phoenixc4.png phoenixc4.zip phoenixc4.ogg 1 Phoenix (Irecsa / G.G.I Corp, set 4)
-A 0 ? 1980 phoenixdal.png phoenixdal.zip phoenixdal.ogg 1 Phoenix (D&amp;L bootleg)
+A 0 ? 1980 phoenixdal.png phoenixdal.zip phoenixdal.ogg 1 Phoenix (D&L bootleg)
 A 0 ? 1981 phoenixgu.png phoenixgu.zip phoenixgu.ogg 1 Phoenix (G. Universal Video bootleg)
 A 0 ? 1981 phoenixha.png phoenixha.zip phoenixha.ogg 1 Phoenix (Hellomat Automaten bootleg)
 A 0 ? 1981 phoenixi.png phoenixi.zip phoenixi.ogg 1 Phoenix (IDI bootleg)
@@ -4252,9 +4252,9 @@ A 0 ? 1990 pipedrm.png pipedrm.zip pipedrm.ogg 0 Pipe Dream (World)
 A 0 ? 1990 pipedrmj.png pipedrmj.zip pipedrmj.ogg 0 Pipe Dream (Japan)
 A 0 ? 1990 pipedrmt.png pipedrmt.zip pipedrmt.ogg 0 Pipe Dream (Taiwan)
 A 0 ? 1990 pipedrmu.png pipedrmu.zip pipedrmu.ogg 0 Pipe Dream (US)
-A 0 ? 1991 pipibibs.png pipibibs.zip pipibibs.ogg 0 Pipi &amp; Bibis / Whoopee!! (Z80 sound cpu, set 1)
-A 0 ? 1991 pipibibsa.png pipibibsa.zip pipibibsa.ogg 0 Pipi &amp; Bibis / Whoopee!! (Z80 sound cpu, set 2)
-A 0 ? 1991 pipibibsp.png pipibibsp.zip pipibibsp.ogg 0 Pipi &amp; Bibis / Whoopee!! (prototype)
+A 0 P 1991 pipibibs.png pipibibs.zip pipibibs.ogg 0 Pipi & Bibis / Whoopee!! (Z80 sound cpu, set 1)
+A 0 P 1991 pipibibsa.png pipibibsa.zip pipibibsa.ogg 0 Pipi & Bibis / Whoopee!! (Z80 sound cpu, set 2)
+A 0 P 1991 pipibibsp.png pipibibsp.zip pipibibsp.ogg 0 Pipi & Bibis / Whoopee!! (prototype)
 A 0 ? 1981 piranha.png piranha.zip piranha.ogg 1 Piranha
 A 0 ? 1981 piranhah.png piranhah.zip piranhah.ogg 1 Piranha (hack)
 A 0 ? 1981 piranhao.png piranhao.zip piranhao.ogg 1 Piranha (older)
@@ -4270,8 +4270,8 @@ A 0 ? 1985 pitfall2a.png pitfall2a.zip pitfall2a.ogg 0 Pitfall II (315-5093, Fli
 A 0 ? 1985 pitfall2u.png pitfall2u.zip pitfall2u.ogg 0 Pitfall II (not encrypted)
 A 0 ? 1990 pitfight.png pitfight.zip pitfight.ogg 0 Pit Fighter (rev 9)
 A 0 ? 1990 pitfight3.png pitfight3.zip pitfight3.ogg 0 Pit Fighter (rev 3)
-A 0 ? 1984 pitnrun.png pitnrun.zip pitnrun.ogg 1 Pit &amp; Run - F-1 Race (set 1)
-A 0 ? 1984 pitnruna.png pitnruna.zip pitnruna.ogg 1 Pit &amp; Run - F-1 Race (set 2)
+A 0 ? 1984 pitnrun.png pitnrun.zip pitnrun.ogg 1 Pit & Run - F-1 Race (set 1)
+A 0 ? 1984 pitnruna.png pitnruna.zip pitnruna.ogg 1 Pit & Run - F-1 Race (set 2)
 A 0 ? 1989 pkladies.png pkladies.zip pkladies.ogg 0 Poker Ladies
 A 0 ? 1989 pkladiesl.png pkladiesl.zip pkladiesl.ogg 0 Poker Ladies (Leprechaun ver. 510)
 A 0 ? 1989 pkladiesla.png pkladiesla.zip pkladiesla.ogg 0 Poker Ladies (Leprechaun ver. 401)
@@ -4412,7 +4412,7 @@ A 0 ? 1999 puzlbanga.png puzlbanga.zip puzlbanga.ogg 0 Puzzle Bang Bang (Korea, 
 A 0 ? 1990 puzlclub.png puzlclub.zip puzlclub.ogg 1 Puzzle Club (Japan prototype)
 A 0 ? 1999 puzlstar.png puzlstar.zip puzlstar.ogg 0 Puzzle Star / Mohuan Xingzuo (ver. 100MG, 09/30/99 build)
 A 0 ? 1999 puzlstara.png puzlstara.zip puzlstara.ogg 0 Puzzle Star / Mohuan Xingzuo (ver. 100MG, 09/20/99 build)
-A 0 ? 1998 puzzlekg.png puzzlekg.zip puzzlekg.ogg 0 Puzzle King (Dance &amp; Puzzle)
+A 0 ? 1998 puzzlekg.png puzzlekg.zip puzzlekg.ogg 0 Puzzle King (Dance & Puzzle)
 A 0 ? 1995 puzzli.png puzzli.zip puzzli.ogg 0 Puzzli (revision B)
 A 0 ? 1999 puzzli2.png puzzli2.zip puzzli2.ogg 0 Puzzli 2 / Pao Pao Yu (ver. 100)
 A 0 ? 2001 puzzli2s.png puzzli2s.zip puzzli2s.ogg 0 Puzzli 2 Super / Pao Pao Yu Super (ver. 200)
@@ -4437,13 +4437,13 @@ A 0 ? 1994 pwrinst2.png pwrinst2.zip pwrinst2.ogg 0 Power Instinct 2 (US, Ver. 9
 A 0 ? 1994 pwrinst2j.png pwrinst2j.zip pwrinst2j.ogg 0 Gouketsuji Ichizoku 2 (Japan, Ver. 94/04/08)
 A 0 ? 2001 py2k2.png py2k2.zip py2k2.ogg 0 Photo Y2K 2 / Chaoji Bi Yi Bi 2 / Dajia Lai Zhao Cha 2 / Real and Fake 2 Photo Y2K (M101XX 05/25/01 11:02:54)
 A 0 ? 2000 py2k2100.png py2k2100.zip py2k2100.ogg 0 Photo Y2K 2 / Chaoji Bi Yi Bi 2 / Dajia Lai Zhao Cha 2 / Real and Fake 2 Photo Y2K (ver. 100, Japanese Board)
-A 0 ? 1987 pyros.png pyros.zip pyros.ogg 0 Pyros (US)
+A 0 B 1987 pyros.png pyros.zip pyros.ogg 0 Pyros (US)
 A 0 ? 1999 pzlbowl.png pzlbowl.zip pzlbowl.ogg 0 Puzzle De Bowling (Japan)
 A 0 ? 1997 pzlbreak.png pzlbreak.zip pzlbreak.ogg 0 Puzzle Break
 A 2 ? 2001 pzloop2j.png pzloop2j.zip pzloop2j.ogg 0 Puzz Loop 2 (Japan 010226)
 A 2 ? 2001 pzloop2jd.png pzloop2jd.zip pzloop2jd.ogg 0 Puzz Loop 2 (Japan 010226 Phoenix Edition) (bootleg)
 A 2 ? 2001 pzloop2jr1.png pzloop2jr1.zip pzloop2jr1.ogg 0 Puzz Loop 2 (Japan 010205)
-A 1 ? 1994 qadjr.png qadjr.zip qadjr.ogg 0 Quiz &amp; Dragons: Capcom Quiz Game (Japan Resale Ver. 940921)
+A 1 ? 1994 qadjr.png qadjr.zip qadjr.ogg 0 Quiz & Dragons: Capcom Quiz Game (Japan Resale Ver. 940921)
 A 0 ? 1982 qbert.png qbert.zip qbert.ogg 3 Q*bert (US set 1)
 A 0 ? 1982 qberta.png qberta.zip qberta.ogg 3 Q*bert (US set 2)
 A 0 ? 1982 qbertj.png qbertj.zip qbertj.ogg 3 Q*bert (Japan)
@@ -4558,11 +4558,11 @@ A 0 ? 1991 raiga.png raiga.zip raiga.ogg 0 Raiga - Strato Fighter (Japan)
 A 0 ? 1988 raimais.png raimais.zip raimais.ogg 0 Raimais (World)
 A 0 ? 1988 raimaisj.png raimaisj.zip raimaisj.ogg 0 Raimais (Japan)
 A 0 ? 1988 raimaisjo.png raimaisjo.zip raimaisjo.ogg 0 Raimais (Japan, first revision)
-A 0 ? 1988 rallybik.png rallybik.zip rallybik.ogg 3 Rally Bike / Dash Yarou
-A 0 ? 1980 rallyx.png rallyx.zip rallyx.ogg 0 Rally X (32k Ver.?)
-A 0 ? 1980 rallyxa.png rallyxa.zip rallyxa.ogg 0 Rally X
-A 0 ? 1980 rallyxm.png rallyxm.zip rallyxm.ogg 0 Rally X (Midway)
-A 0 ? 1980 rallyxmr.png rallyxmr.zip rallyxmr.ogg 0 Rally X (Model Racing bootleg)
+A 0 B 1988 rallybik.png rallybik.zip rallybik.ogg 3 Rally Bike / Dash Yarou
+A 0 B 1980 rallyx.png rallyx.zip rallyx.ogg 0 Rally X (32k Ver.?)
+A 0 B 1980 rallyxa.png rallyxa.zip rallyxa.ogg 0 Rally X
+A 0 B 1980 rallyxm.png rallyxm.zip rallyxm.ogg 0 Rally X (Midway)
+A 0 B 1980 rallyxmr.png rallyxmr.zip rallyxmr.ogg 0 Rally X (Model Racing bootleg)
 A 0 ? 1989 rambo3.png rambo3.zip rambo3.ogg 0 Rambo III (Europe)
 A 0 ? 1989 rambo3p.png rambo3p.zip rambo3p.ogg 0 Rambo III (Europe, Proto?)
 A 0 ? 1989 rambo3u.png rambo3u.zip rambo3u.ogg 0 Rambo III (US)
@@ -4630,7 +4630,7 @@ A 0 ? 1996 rdfts.png rdfts.zip rdfts.ogg 3 Raiden Fighters (Taiwan, single board
 A 0 ? 1996 rdftu.png rdftu.zip rdftu.ogg 3 Raiden Fighters (US, earlier)
 A 0 ? 1996 rdftua.png rdftua.zip rdftua.ogg 3 Raiden Fighters (US, newer)
 A 0 ? 1982 reactor.png reactor.zip reactor.ogg 0 Reactor
-A 0 ? 1987 reaktor.png reaktor.zip reaktor.ogg 1 Reaktor (Track &amp; Field conversion)
+A 0 ? 1987 reaktor.png reaktor.zip reaktor.ogg 1 Reaktor (Track & Field conversion)
 A 0 ? 1994 recalh.png recalh.zip recalh.ogg 0 Recalhorn (Ver 1.42J 1994/5/11, prototype)
 A 0 ? 1988 recordbr.png recordbr.zip recordbr.ogg 0 Recordbreaker (World)
 A 0 ? 1980 redbaron.png redbaron.zip redbaron.ogg 0 Red Baron (Revised Hardware)
@@ -4642,7 +4642,7 @@ A 0 ? 1981 redclashta.png redclashta.zip redclashta.ogg 3 Red Clash (Tehkan, set
 A 3 ? 1996 redearthr1.png redearthr1.zip redearthr1.ogg 0 Red Earth (Euro 961023)
 A 0 ? 1998 redfoxwp2.png redfoxwp2.zip redfoxwp2.ogg 3 Hong Hu Zhanji II (China, set 1)
 A 0 ? 1998 redfoxwp2a.png redfoxwp2a.zip redfoxwp2a.ogg 3 Hong Hu Zhanji II (China, set 2)
-A 0 ? 1997 redhawk.png redhawk.zip redhawk.ogg 3 Red Hawk (USA, Canada &amp; South America)
+A 0 ? 1997 redhawk.png redhawk.zip redhawk.ogg 3 Red Hawk (USA, Canada & South America)
 A 0 ? 1997 redhawkb.png redhawkb.zip redhawkb.ogg 0 Red Hawk (horizontal, bootleg)
 A 0 ? 1997 redhawke.png redhawke.zip redhawke.ogg 3 Red Hawk (Excellent Co., Ltd)
 A 0 ? 1997 redhawkg.png redhawkg.zip redhawkg.ogg 0 Red Hawk (horizontal, Greece)
@@ -4702,7 +4702,7 @@ A 0 ? 1992 ringragej.png ringragej.zip ringragej.ogg 0 Ring Rage (Ver 2.3J 1992/
 A 0 ? 1992 ringrageu.png ringrageu.zip ringrageu.ogg 0 Ring Rage (Ver 2.3A 1992/08/09)
 A 0 ? 1992 riot.png riot.zip riot.ogg 0 Riot
 A 0 ? 1991 riotcity.png riotcity.zip riotcity.ogg 0 Riot City (Japan)
-A 0 ? 1990 rittam.png rittam.zip rittam.ogg 0 R&amp;T (Rod-Land prototype)
+A 0 ? 1990 rittam.png rittam.zip rittam.ogg 0 R&T (Rod-Land prototype)
 A 0 ? 1984 rjammer.png rjammer.zip rjammer.ogg 0 Roller Jammer
 A 2 ? 1995 rmancp2j.png rmancp2j.zip rmancp2j.ogg 0 Rockman: The Power Battle (CPS2, Japan 950922)
 A 0 ? 1997 rmpgwt.png rmpgwt.zip rmpgwt.ogg 0 Rampage: World Tour (rev 1.3)
@@ -4795,7 +4795,7 @@ A 0 ? 1983 rugrats.png rugrats.zip rugrats.ogg 1 Rug Rats
 A 0 ? 1984 rumba.png rumba.zip rumba.ogg 3 Rumba Lumber
 A 0 ? 1990 runark.png runark.zip runark.ogg 0 Runark (Japan)
 A 0 ? 1988 rundeep.png rundeep.zip rundeep.ogg 3 Run Deep
-A 0 ? 1986 rushcrsh.png rushcrsh.zip rushcrsh.ogg 3 Rush &amp; Crash (Japan)
+A 0 ? 1986 rushcrsh.png rushcrsh.zip rushcrsh.ogg 3 Rush & Crash (Japan)
 A 0 ? 1986 rygar2.png rygar2.zip rygar2.ogg 0 Rygar (US set 2)
 A 0 ? 1986 rygar3.png rygar3.zip rygar3.ogg 0 Rygar (US set 3 Old Version)
 A 0 ? 1986 rygarj.png rygarj.zip rygarj.ogg 0 Argus no Senshi (Japan)
@@ -4845,10 +4845,10 @@ A 0 ? 1988 saiyugou.png saiyugou.zip saiyugou.ogg 0 Sai Yu Gou Ma Roku (Japan)
 A 0 ? 1988 saiyugoub1.png saiyugoub1.zip saiyugoub1.ogg 0 Sai Yu Gou Ma Roku (Japan bootleg 1)
 A 0 ? 1988 saiyugoub2.png saiyugoub2.zip saiyugoub2.ogg 0 Sai Yu Gou Ma Roku (Japan bootleg 2)
 A 0 ? 1986 salamandj.png salamandj.zip salamandj.ogg 0 Salamander (version J)
-A 0 ? 1989 samesame.png samesame.zip samesame.ogg 3 Same! Same! Same! (1P set)
-A 0 ? 1989 samesame2.png samesame2.zip samesame2.ogg 3 Same! Same! Same! (2P set)
-A 0 ? 1990 samesamecn.png samesamecn.zip samesamecn.ogg 3 Jiao! Jiao! Jiao! (China, 2P set)
-A 0 ? 2015 samesamenh.png samesamenh.zip samesamenh.ogg 3 Same! Same! Same! (1P set, NEW VER! hack)
+A 0 B 1989 samesame.png samesame.zip samesame.ogg 3 Same! Same! Same! (1P set)
+A 0 B 1989 samesame2.png samesame2.zip samesame2.ogg 3 Same! Same! Same! (2P set)
+A 0 B 1990 samesamecn.png samesamecn.zip samesamecn.ogg 3 Jiao! Jiao! Jiao! (China, 2P set)
+A 0 B 2015 samesamenh.png samesamenh.zip samesamenh.ogg 3 Same! Same! Same! (1P set, NEW VER! hack)
 A 0 ? 2004 samsh5sph.png samsh5sph.zip samsh5sph.ogg 0 Samurai Shodown V Special / Samurai Spirits Zero Special (NGH-2720, 2nd release, less censored)
 A 0 ? 2004 samsh5spho.png samsh5spho.zip samsh5spho.ogg 0 Samurai Shodown V Special / Samurai Spirits Zero Special (NGH-2720, 1st release, censored)
 A 0 ? 1994 samsho2k.png samsho2k.zip samsho2k.ogg 0 Saulabi Spirits / Jin Saulabi Tu Hon (Korean release of Samurai Shodown II, set 1)
@@ -5255,7 +5255,7 @@ A 0 ? 1992 skingame2.png skingame2.zip skingame2.ogg 0 The Irem Skins Game (US s
 A 0 ? 1996 skullfng.png skullfng.zip skullfng.ogg 3 Skull Fang (Europe 1.13)
 A 0 ? 1996 skullfnga.png skullfnga.zip skullfnga.ogg 3 Skull Fang (Asia 1.13)
 A 0 ? 1996 skullfngj.png skullfngj.zip skullfngj.ogg 3 Skull Fang (Japan 1.09)
-A 0 ? 1989 skullxbo.png skullxbo.zip skullxbo.ogg 0 Skull &amp; Crossbones (rev 5)
+A 0 ? 1989 skullxbo.png skullxbo.zip skullxbo.ogg 0 Skull & Crossbones (rev 5)
 A 0 ? 1989 skyadvnt.png skyadvnt.zip skyadvnt.ogg 1 Sky Adventure (World)
 A 0 ? 1989 skyadvntj.png skyadvntj.zip skyadvntj.ogg 1 Sky Adventure (Japan)
 A 0 ? 1989 skyadvntu.png skyadvntu.zip skyadvntu.ogg 1 Sky Adventure (US)
@@ -5274,8 +5274,8 @@ A 0 ? 1983 skylancr.png skylancr.zip skylancr.ogg 1 Sky Lancer
 A 0 ? 1983 skylancre.png skylancre.zip skylancre.ogg 1 Sky Lancer (Esco Trading Co license)
 A 0 ? 1980 skyraidr.png skyraidr.zip skyraidr.ogg 1 Sky Raider (Uniwars bootleg)
 A 0 ? 1989 skyrobo.png skyrobo.zip skyrobo.ogg 0 Sky Robo
-A 0 ? 1987 skyshark.png skyshark.zip skyshark.ogg 3 Sky Shark (US, set 1)
-A 0 ? 1987 skysharka.png skysharka.zip skysharka.ogg 3 Sky Shark (US, set 2)
+A 0 B 1987 skyshark.png skyshark.zip skyshark.ogg 3 Sky Shark (US, set 1)
+A 0 B 1987 skysharka.png skysharka.zip skysharka.ogg 3 Sky Shark (US, set 2)
 A 0 ? 1981 skyskipr.png skyskipr.zip skyskipr.ogg 0 Sky Skipper
 A 0 ? 1990 skysmash.png skysmash.zip skysmash.ogg 3 Sky Smasher
 A 0 ? 1988 skysoldr.png skysoldr.zip skysoldr.ogg 1 Sky Soldiers (US)
@@ -5286,11 +5286,11 @@ A 0 ? 1987 skywolf3.png skywolf3.zip skywolf3.ogg 0 Sky Wolf (set 3)
 A 1 ? 1993 slammastu.png slammastu.zip slammastu.ogg 0 Saturday Night Slam Masters (USA 930713)
 A 0 ? 1993 slampic.png slampic.zip slampic.ogg 0 Saturday Night Slam Masters (bootleg with PIC16C57, set 1)
 A 0 ? 1993 slampic2.png slampic2.zip slampic2.ogg 0 Saturday Night Slam Masters (bootleg with PIC16C57, set 2)
-A 0 ? 1986 slapfigh.png slapfigh.zip slapfigh.ogg 3 Slap Fight (A77 set, 8606M PCB)
-A 0 ? 1986 slapfigha.png slapfigha.zip slapfigha.ogg 3 Slap Fight (A76 set, GX-006-A PCB)
-A 0 ? 1986 slapfighb1.png slapfighb1.zip slapfighb1.ogg 3 Slap Fight (bootleg set 1)
-A 0 ? 1986 slapfighb2.png slapfighb2.zip slapfighb2.ogg 3 Slap Fight (bootleg set 2)
-A 0 ? 1986 slapfighb3.png slapfighb3.zip slapfighb3.ogg 3 Slap Fight (bootleg set 3)
+A 0 S 1986 slapfigh.png slapfigh.zip slapfigh.ogg 3 Slap Fight (A77 set, 8606M PCB)
+A 0 S 1986 slapfigha.png slapfigha.zip slapfigha.ogg 3 Slap Fight (A76 set, GX-006-A PCB)
+A 0 S 1986 slapfighb1.png slapfighb1.zip slapfighb1.ogg 3 Slap Fight (bootleg set 1)
+A 0 S 1986 slapfighb2.png slapfighb2.zip slapfighb2.ogg 3 Slap Fight (bootleg set 2)
+A 0 S 1986 slapfighb3.png slapfighb3.zip slapfighb3.ogg 3 Slap Fight (bootleg set 3)
 A 0 ? 1994 slapshot.png slapshot.zip slapshot.ogg 0 Slap Shot (Ver 3.0 O)
 A 0 ? 1994 slapshotj.png slapshotj.zip slapshotj.ogg 0 Slap Shot (Ver 2.2 J)
 A 0 ? 1986 slapshtr.png slapshtr.zip slapshtr.ogg 0 Slap Shooter
@@ -5331,16 +5331,16 @@ A 0 ? 1993 sngkace.png sngkace.zip sngkace.ogg 3 Sengoku Ace (Japan, set 1)
 A 0 ? 1993 sngkacea.png sngkacea.zip sngkacea.ogg 3 Sengoku Ace (Japan, set 2)
 A 0 ? 1996 snowboar.png snowboar.zip snowboar.ogg 0 Snow Board Championship (Version 2.1)
 A 0 ? 1996 snowboara.png snowboara.zip snowboara.ogg 0 Snow Board Championship (Version 2.0)
-A 0 ? 1994 snowbro2.png snowbro2.zip snowbro2.ogg 0 Snow Bros. 2 - With New Elves / Otenki Paradise (Hanafram)
-A 0 ? 1994 snowbro2ny.png snowbro2ny.zip snowbro2ny.ogg 0 Snow Bros. 2 - With New Elves / Otenki Paradise (Nyanko)
-A 0 ? 2002 snowbro3.png snowbro3.zip snowbro3.ogg 0 Snow Brothers 3 - Magical Adventure
-A 0 ? 1990 snowbros.png snowbros.zip snowbros.ogg 0 Snow Bros. - Nick &amp; Tom (set 1)
-A 0 ? 1990 snowbrosa.png snowbrosa.zip snowbrosa.ogg 0 Snow Bros. - Nick &amp; Tom (set 2)
-A 0 ? 1990 snowbrosb.png snowbrosb.zip snowbrosb.ogg 0 Snow Bros. - Nick &amp; Tom (set 3)
-A 0 ? 1990 snowbrosc.png snowbrosc.zip snowbrosc.ogg 0 Snow Bros. - Nick &amp; Tom (set 4)
-A 0 ? 1990 snowbrosd.png snowbrosd.zip snowbrosd.ogg 0 Snow Bros. - Nick &amp; Tom (Dooyong license)
-A 0 ? 1990 snowbrosj.png snowbrosj.zip snowbrosj.ogg 0 Snow Bros. - Nick &amp; Tom (Japan)
-A 0 ? 1990 snowbroswb.png snowbroswb.zip snowbroswb.ogg 0 Snow Bros. - Nick &amp; Tom (The Winter Bobble hardware bootleg)
+A 0 P 1994 snowbro2.png snowbro2.zip snowbro2.ogg 0 Snow Bros. 2 - With New Elves / Otenki Paradise (Hanafram)
+A 0 P 1994 snowbro2ny.png snowbro2ny.zip snowbro2ny.ogg 0 Snow Bros. 2 - With New Elves / Otenki Paradise (Nyanko)
+A 0 P 2002 snowbro3.png snowbro3.zip snowbro3.ogg 0 Snow Brothers 3 - Magical Adventure
+A 0 P 1990 snowbros.png snowbros.zip snowbros.ogg 0 Snow Bros. - Nick & Tom (set 1)
+A 0 P 1990 snowbrosa.png snowbrosa.zip snowbrosa.ogg 0 Snow Bros. - Nick & Tom (set 2)
+A 0 P 1990 snowbrosb.png snowbrosb.zip snowbrosb.ogg 0 Snow Bros. - Nick & Tom (set 3)
+A 0 P 1990 snowbrosc.png snowbrosc.zip snowbrosc.ogg 0 Snow Bros. - Nick & Tom (set 4)
+A 0 P 1990 snowbrosd.png snowbrosd.zip snowbrosd.ogg 0 Snow Bros. - Nick & Tom (Dooyong license)
+A 0 P 1990 snowbrosj.png snowbrosj.zip snowbrosj.ogg 0 Snow Bros. - Nick & Tom (Japan)
+A 0 P 1990 snowbroswb.png snowbroswb.zip snowbroswb.ogg 0 Snow Bros. - Nick & Tom (The Winter Bobble hardware bootleg)
 A 0 ? 1991 socbrawlh.png socbrawlh.zip socbrawlh.ogg 0 Soccer Brawl (NGH-031)
 A 0 ? 1995 sokonuke.png sokonuke.zip sokonuke.ogg 0 Sokonuke Taisen Game (Japan)
 A 0 ? 1981 solarfox.png solarfox.zip solarfox.ogg 3 Solar Fox (upright)
@@ -5408,8 +5408,8 @@ A 0 ? 1981 spctbird.png spctbird.zip spctbird.ogg 1 Space Thunderbird
 A 0 ? 1981 spctrek.png spctrek.zip spctrek.ogg 1 Space Trek (Video Game S.A., Spanish bootleg of Scramble)
 A 0 ? 1985 spdball.png spdball.zip spdball.ogg 0 Speed Ball - Contest at Neonworld (prototype)
 A 0 ? 1984 spdcoin.png spdcoin.zip spdcoin.ogg 1 Speed Coin (prototype)
-A 0 ? 1980 speakres.png speakres.zip speakres.ogg 3 Speak &amp; Rescue
-A 0 ? 1980 speakresb.png speakresb.zip speakresb.ogg 3 Speak &amp; Rescue (bootleg)
+A 0 ? 1980 speakres.png speakres.zip speakres.ogg 3 Speak & Rescue
+A 0 ? 1980 speakresb.png speakresb.zip speakresb.ogg 3 Speak & Rescue (bootleg)
 A 0 ? 2000 spec2k.png spec2k.zip spec2k.ogg 3 Spectrum 2000 (vertical, Korea)
 A 0 ? 2000 spec2kh.png spec2kh.zip spec2kh.ogg 2 Spectrum 2000 (horizontal, buggy) (Europe)
 A 0 ? 1987 speedbal.png speedbal.zip speedbal.ogg 3 Speed Ball (set 1)
@@ -5584,7 +5584,7 @@ A 0 ? 1985 strivf.png strivf.zip strivf.ogg 3 Super Triv (French questions)
 A 0 ? 1991 strkfgtr.png strkfgtr.zip strkfgtr.ogg 0 Strike Fighter (World)
 A 0 ? 1991 strkfgtrj.png strkfgtrj.zip strkfgtrj.ogg 0 Strike Fighter (Japan)
 A 0 ? 1991 strkforc.png strkforc.zip strkforc.ogg 0 Strike Force (rev 1 02/25/91)
-A 0 ? 1984 strnskil.png strnskil.zip strnskil.ogg 0 Strength &amp; Skill
+A 0 ? 1984 strnskil.png strnskil.zip strnskil.ogg 0 Strength & Skill
 A 0 ? 1982 strongx.png strongx.zip strongx.ogg 0 Strong X
 A 0 ? 1986 strvmstr.png strvmstr.zip strvmstr.ogg 3 Super Trivia Master
 A 0 ? 1983 stuntair.png stuntair.zip stuntair.ogg 1 Stunt Air
@@ -5720,8 +5720,8 @@ A 0 ? 1991 tdragonb.png tdragonb.zip tdragonb.ogg 3 Thunder Dragon (bootleg)
 A 0 ? 1985 teddybb.png teddybb.zip teddybb.ogg 0 TeddyBoy Blues (315-5115, New Ver.)
 A 0 ? 1985 teddybbo.png teddybbo.zip teddybbo.ogg 0 TeddyBoy Blues (315-5115, Old Ver.)
 A 0 ? 1985 teddybbobl.png teddybbobl.zip teddybbobl.ogg 0 TeddyBoy Blues (Old Ver. bootleg)
-A 0 ? 1991 tekipaki.png tekipaki.zip tekipaki.ogg 0 Teki Paki
-A 0 ? 1991 tekipakit.png tekipakit.zip tekipakit.ogg 0 Teki Paki (location test)
+A 0 Z 1991 tekipaki.png tekipaki.zip tekipaki.ogg 0 Teki Paki
+A 0 Z 1991 tekipakit.png tekipakit.zip tekipakit.ogg 0 Teki Paki (location test)
 A 0 ? 1999 teljan.png teljan.zip teljan.ogg 0 Tel Jan
 A 0 ? 1980 tempest.png tempest.zip tempest.ogg 3 Tempest (rev 3, Revised Hardware)
 A 0 ? 1980 tempest1.png tempest1.zip tempest1.ogg 3 Tempest (rev 1)
@@ -5807,18 +5807,18 @@ A 0 ? 1994 thoop2.png thoop2.zip thoop2.ogg 0 TH Strikes Back (Non North America
 A 0 ? 1994 thoop2a.png thoop2a.zip thoop2a.ogg 0 TH Strikes Back (Non North America, Version 1.0, Checksum 020EB356)
 A 0 ? 1990 thunderj.png thunderj.zip thunderj.ogg 0 ThunderJaws (rev 3)
 A 0 ? 1990 thunderja.png thunderja.zip thunderja.ogg 0 ThunderJaws (rev 2)
-A 0 ? 1990 thunderl.png thunderl.zip thunderl.ogg 3 Thunder &amp; Lightning
+A 0 ? 1990 thunderl.png thunderl.zip thunderl.ogg 3 Thunder & Lightning
 A 0 ? 1988 thunderxa.png thunderxa.zip thunderxa.ogg 0 Thunder Cross (set 2)
 A 0 ? 1988 thunderxb.png thunderxb.zip thunderxb.ogg 0 Thunder Cross (set 3)
 A 0 ? 1988 thunderxj.png thunderxj.zip thunderxj.ogg 0 Thunder Cross (Japan)
 A 0 ? 1990 thundfox.png thundfox.zip thundfox.ogg 0 Thunder Fox (World)
 A 0 ? 1990 thundfoxj.png thundfoxj.zip thundfoxj.ogg 0 Thunder Fox (Japan)
 A 0 ? 1990 thundfoxu.png thundfoxu.zip thundfoxu.ogg 0 Thunder Fox (US)
-A 0 ? 1985 tigerh.png tigerh.zip tigerh.ogg 3 Tiger-Heli (US)
-A 0 ? 1985 tigerhb1.png tigerhb1.zip tigerhb1.ogg 3 Tiger-Heli (bootleg set 1)
-A 0 ? 1985 tigerhb2.png tigerhb2.zip tigerhb2.ogg 3 Tiger-Heli (bootleg set 2)
-A 0 ? 1985 tigerhb3.png tigerhb3.zip tigerhb3.ogg 3 Tiger-Heli (bootleg set 3)
-A 0 ? 1985 tigerhj.png tigerhj.zip tigerhj.ogg 3 Tiger-Heli (Japan)
+A 0 B 1985 tigerh.png tigerh.zip tigerh.ogg 3 Tiger-Heli (US)
+A 0 B 1985 tigerhb1.png tigerhb1.zip tigerhb1.ogg 3 Tiger-Heli (bootleg set 1)
+A 0 B 1985 tigerhb2.png tigerhb2.zip tigerhb2.ogg 3 Tiger-Heli (bootleg set 2)
+A 0 B 1985 tigerhb3.png tigerhb3.zip tigerhb3.ogg 3 Tiger-Heli (bootleg set 3)
+A 0 B 1985 tigerhj.png tigerhj.zip tigerhj.ogg 3 Tiger-Heli (Japan)
 A 0 ? 1987 tigeroadb.png tigeroadb.zip tigeroadb.ogg 0 Tiger Road (US bootleg)
 A 0 ? 1987 tigeroadu.png tigeroadu.zip tigeroadu.ogg 0 Tiger Road (US, Romstar license)
 A 0 ? 1984 timber.png timber.zip timber.ogg 0 Timber
@@ -5902,8 +5902,8 @@ A 0 ? 1988 toobine.png toobine.zip toobine.ogg 3 Toobin' (Europe, rev 3)
 A 0 ? 1988 toobing.png toobing.zip toobing.ogg 3 Toobin' (German, rev 3)
 A 0 ? 1986 topgunbl.png topgunbl.zip topgunbl.ogg 1 Top Gunner (bootleg, Rotary Joystick)
 A 0 ? 1986 topgunr.png topgunr.zip topgunr.ogg 1 Top Gunner (US, 8-way Joystick)
-A 0 ? 1994 tophuntrh.png tophuntrh.zip tophuntrh.ogg 0 Top Hunter - Roddy &amp; Cathy (NGH-046)
-A 0 ? 1996 toppyrap.png toppyrap.zip toppyrap.ogg 0 Toppy &amp; Rappy
+A 0 ? 1994 tophuntrh.png tophuntrh.zip tophuntrh.ogg 0 Top Hunter - Roddy & Cathy (NGH-046)
+A 0 ? 1996 toppyrap.png toppyrap.zip toppyrap.ogg 0 Toppy & Rappy
 A 0 ? 1987 topsecrt.png topsecrt.zip topsecrt.ogg 0 Top Secret (Japan, old revision)
 A 0 ? 1987 topsecrt2.png topsecrt2.zip topsecrt2.ogg 0 Top Secret (Japan, revision B)
 A 0 ? 1995 topshoot.png topshoot.zip topshoot.ogg 0 Top Shooter
@@ -5920,10 +5920,10 @@ A 0 ? 1994 toryumon.png toryumon.zip toryumon.ogg 0 Toryumon
 A 0 ? 1992 totcarn.png totcarn.zip totcarn.ogg 0 Total Carnage (rev LA1 03/10/92)
 A 0 ? 1992 totcarnp.png totcarnp.zip totcarnp.ogg 0 Total Carnage (prototype, rev 1.0 01/25/92)
 A 0 ? 1996 toto.png toto.zip toto.ogg 0 Come Back Toto
-A 0 ? 1995 touchgo.png touchgo.zip touchgo.ogg 0 Touch &amp; Go (World)
-A 0 ? 1995 touchgoe.png touchgoe.zip touchgoe.ogg 0 Touch &amp; Go (earlier revision)
-A 0 ? 1995 touchgok.png touchgok.zip touchgok.ogg 0 Touch &amp; Go (Korea, unprotected)
-A 0 ? 1995 touchgon.png touchgon.zip touchgon.ogg 0 Touch &amp; Go (Non North America)
+A 0 ? 1995 touchgo.png touchgo.zip touchgo.ogg 0 Touch & Go (World)
+A 0 ? 1995 touchgoe.png touchgoe.zip touchgoe.ogg 0 Touch & Go (earlier revision)
+A 0 ? 1995 touchgok.png touchgok.zip touchgok.ogg 0 Touch & Go (Korea, unprotected)
+A 0 ? 1995 touchgon.png touchgon.zip touchgon.ogg 0 Touch & Go (Non North America)
 A 0 ? 1989 toutrun.png toutrun.zip toutrun.ogg 0 Turbo Out Run (Out Run upgrade) (FD1094 317-0118)
 A 0 ? 1989 toutrun1.png toutrun1.zip toutrun1.ogg 0 Turbo Out Run (deluxe cockpit) (FD1094 317-0109)
 A 0 ? 1989 toutrun2.png toutrun2.zip toutrun2.ogg 0 Turbo Out Run (cockpit) (FD1094 317-0106)
@@ -5940,8 +5940,8 @@ A 0 ? 1986 toypop.png toypop.zip toypop.ogg 2 Toypop
 A 0 ? 1997 tp2m32.png tp2m32.zip tp2m32.ogg 0 Tetris Plus 2 (ver 1.0, MegaSystem 32 Version)
 A 0 ? 1984 tp84a.png tp84a.zip tp84a.ogg 1 Time Pilot '84 (set 2)
 A 0 ? 1984 tp84b.png tp84b.zip tp84b.ogg 1 Time Pilot '84 (set 3)
-A 0 ? 1983 trackfldc.png trackfldc.zip trackfldc.ogg 0 Track &amp; Field (Centuri)
-A 0 ? 1982 trackfldnz.png trackfldnz.zip trackfldnz.ogg 0 Track &amp; Field (NZ bootleg?)
+A 0 ? 1983 trackfldc.png trackfldc.zip trackfldc.ogg 0 Track & Field (Centuri)
+A 0 ? 1982 trackfldnz.png trackfldnz.zip trackfldnz.ogg 0 Track & Field (NZ bootleg?)
 A 0 ? 1980 tranqgun.png tranqgun.zip tranqgun.ogg 3 Tranquillizer Gun
 A 0 ? 1986 transfrm.png transfrm.zip transfrm.ogg 0 Transformer
 A 0 ? 1983 travrusab.png travrusab.zip travrusab.ogg 3 Traverse USA (bootleg, set 1)
@@ -5972,13 +5972,13 @@ A 0 ? 1982 tron3.png tron3.zip tron3.ogg 1 Tron (6/17)
 A 0 ? 1982 tron4.png tron4.zip tron4.ogg 1 Tron (6/15)
 A 0 ? 1982 tron5.png tron5.zip tron5.ogg 1 Tron (5/12)
 A 0 ? 1982 tronger.png tronger.zip tronger.ogg 1 Tron (Germany)
-A 0 ? 2002 trophyh.png trophyh.zip trophyh.ogg 0 Trophy Hunting - Bear &amp; Moose V1.00
+A 0 ? 2002 trophyh.png trophyh.zip trophyh.ogg 0 Trophy Hunting - Bear & Moose V1.00
 A 0 ? 1993 trstar.png trstar.zip trstar.ogg 0 Top Ranking Stars (Ver 2.1O 1993/05/21) (New Version)
 A 0 ? 1993 trstarj.png trstarj.zip trstarj.ogg 0 Top Ranking Stars (Ver 2.1J 1993/05/21) (New Version)
 A 0 ? 1993 trstaro.png trstaro.zip trstaro.ogg 0 Top Ranking Stars (Ver 2.1O 1993/05/21) (Old Version)
 A 0 ? 1993 trstaroj.png trstaroj.zip trstaroj.ogg 0 Top Ranking Stars (Ver 2.1J 1993/05/21) (Old Version)
-A 0 ? 1988 truxton.png truxton.zip truxton.ogg 3 Truxton / Tatsujin
-A 0 ? 1992 truxton2.png truxton2.zip truxton2.ogg 3 Truxton II / Tatsujin Oh
+A 0 B 1988 truxton.png truxton.zip truxton.ogg 3 Truxton / Tatsujin
+A 0 S 1992 truxton2.png truxton2.zip truxton2.ogg 3 Truxton II / Tatsujin Oh
 A 0 ? 1985 trvgns.png trvgns.zip trvgns.ogg 1 Trivia Genius
 A 0 ? 1985 trvmstr.png trvmstr.zip trvmstr.ogg 1 Trivia Master (set 1)
 A 0 ? 1985 trvmstra.png trvmstra.zip trvmstra.ogg 1 Trivia Master (set 2)
@@ -6035,8 +6035,8 @@ A 0 ? 1985 twinbeeb.png twinbeeb.zip twinbeeb.ogg 1 TwinBee (Bubble System)
 A 0 ? 1995 twinbrat.png twinbrat.zip twinbrat.ogg 0 Twin Brats (set 1)
 A 0 ? 1995 twinbrata.png twinbrata.zip twinbrata.ogg 0 Twin Brats (set 2)
 A 0 ? 1995 twinbratb.png twinbratb.zip twinbratb.ogg 0 Twin Brats (set 3)
-A 0 ? 1987 twincobr.png twincobr.zip twincobr.ogg 3 Twin Cobra (World)
-A 0 ? 1987 twincobru.png twincobru.zip twincobru.ogg 3 Twin Cobra (US)
+A 0 B 1987 twincobr.png twincobr.zip twincobr.ogg 3 Twin Cobra (World)
+A 0 B 1987 twincobru.png twincobru.zip twincobru.ogg 3 Twin Cobra (US)
 A 0 ? 1994 twineag2.png twineag2.zip twineag2.ogg 3 Twin Eagle II - The Rescue Mission
 A 0 ? 1988 twineagl.png twineagl.zip twineagl.ogg 3 Twin Eagle - Revenge Joe's Brother
 A 0 ? 1989 twinfalc.png twinfalc.zip twinfalc.ogg 0 Twin Falcons
@@ -6137,7 +6137,7 @@ A 0 ? 1991 vendettaun.png vendettaun.zip vendettaun.ogg 0 Vendetta (World, 4 Pla
 A 0 ? 1991 vendettaz.png vendettaz.zip vendettaz.ogg 0 Vendetta (Asia, 4 Players, ver. Z)
 A 0 ? 1983 venus.png venus.zip venus.ogg 1 Venus (bootleg of Gyruss)
 A 0 ? 1980 verbena.png verbena.zip verbena.ogg 3 Verbena (bootleg of Carnival)
-A 0 ? 1993 vfive.png vfive.zip vfive.ogg 3 V-Five (Japan)
+A 0 B 1993 vfive.png vfive.zip vfive.ogg 3 V-Five (Japan)
 A 2 ? 1997 vhunt2d.png vhunt2d.zip vhunt2d.ogg 0 Vampire Hunter 2: Darkstalkers Revenge (Japan 970913 Phoenix Edition) (bootleg)
 A 2 ? 1997 vhunt2r1.png vhunt2r1.zip vhunt2r1.ogg 0 Vampire Hunter 2: Darkstalkers Revenge (Japan 970913)
 A 2 ? 1995 vhuntj.png vhuntj.zip vhuntj.ogg 0 Vampire Hunter: Darkstalkers' Revenge (Japan 950316)
@@ -6157,9 +6157,9 @@ A 0 ? 1988 vigilantc.png vigilantc.zip vigilantc.ogg 0 Vigilante (World, Rev C)
 A 0 ? 1988 vigilantd.png vigilantd.zip vigilantd.ogg 0 Vigilante (Japan, Rev D)
 A 0 ? 1988 vigilantg.png vigilantg.zip vigilantg.ogg 0 Vigilante (US, Rev G)
 A 0 ? 1988 vigilanto.png vigilanto.zip vigilanto.ogg 0 Vigilante (US)
-A 0 ? 1991 vimana.png vimana.zip vimana.ogg 3 Vimana (World, set 1)
-A 0 ? 1991 vimanaj.png vimanaj.zip vimanaj.ogg 3 Vimana (Japan)
-A 0 ? 1991 vimanan.png vimanan.zip vimanan.ogg 3 Vimana (World, set 2)
+A 0 S 1991 vimana.png vimana.zip vimana.ogg 3 Vimana (World, set 1)
+A 0 S 1991 vimanaj.png vimanaj.zip vimanaj.ogg 3 Vimana (Japan)
+A 0 S 1991 vimanan.png vimanan.zip vimanan.ogg 3 Vimana (World, set 2)
 A 0 ? 1988 vindctr2.png vindctr2.zip vindctr2.ogg 0 Vindicators Part II (rev 3)
 A 0 ? 1988 vindctr2r1.png vindctr2r1.zip vindctr2r1.ogg 0 Vindicators Part II (rev 1)
 A 0 ? 1988 vindctr2r2.png vindctr2r2.zip vindctr2r2.ogg 0 Vindicators Part II (rev 2)
@@ -6225,13 +6225,13 @@ A 0 ? 1982 wacko.png wacko.zip wacko.ogg 0 Wacko
 A 0 ? 1984 wallc.png wallc.zip wallc.ogg 0 Wall Crash (set 1)
 A 0 ? 1984 wallca.png wallca.zip wallca.ogg 0 Wall Crash (set 2)
 A 0 ? 1984 wanted.png wanted.zip wanted.ogg 1 Wanted
-A 0 ? 1987 wardner.png wardner.zip wardner.ogg 0 Wardner (World)
-A 0 ? 1987 wardnerj.png wardnerj.zip wardnerj.ogg 0 Wardner no Mori (Japan)
+A 0 B 1987 wardner.png wardner.zip wardner.ogg 0 Wardner (World)
+A 0 B 1987 wardnerj.png wardnerj.zip wardnerj.ogg 0 Wardner no Mori (Japan)
 A 0 ? 1981 warofbug.png warofbug.zip warofbug.ogg 1 War of the Bugs or Monsterous Manouvers in a Mushroom Maze
 A 0 ? 1981 warofbugg.png warofbugg.zip warofbugg.ogg 1 War of the Bugs or Monsterous Manouvers in a Mushroom Maze (German)
 A 0 ? 1981 warofbugu.png warofbugu.zip warofbugu.ogg 1 War of the Bugs or Monsterous Manouvers in a Mushroom Maze (US)
 A 0 ? 19790 warpsped.png warpsped.zip warpsped.ogg 0 Warp Speed (prototype)
-A 0 ? 1981 warpwarp.png warpwarp.zip warpwarp.ogg 1 Warp &amp; Warp
+A 0 ? 1981 warpwarp.png warpwarp.zip warpwarp.ogg 1 Warp & Warp
 A 0 ? 1981 warpwarpr.png warpwarpr.zip warpwarpr.ogg 1 Warp Warp (Rock-Ola set 1)
 A 0 ? 1981 warpwarpr2.png warpwarpr2.zip warpwarpr2.ogg 1 Warp Warp (Rock-Ola set 2)
 A 0 ? 1991 warriorb.png warriorb.zip warriorb.ogg 0 Warrior Blade - Rastan Saga Episode III (Japan)
@@ -6298,7 +6298,7 @@ A 0 ? 1992 wh1ha.png wh1ha.zip wh1ha.ogg 0 World Heroes (set 3)
 A 0 ? 1993 wh2h.png wh2h.zip wh2h.ogg 0 World Heroes 2 (ALH-006)
 A 0 ? 1900 wheelrun.png wheelrun.zip wheelrun.ogg 0 Wheels Runner
 A 0 ? 1989 whizz.png whizz.zip whizz.ogg 0 Whizz
-A 0 ? 1991 whoopee.png whoopee.zip whoopee.ogg 0 Pipi &amp; Bibis / Whoopee!! (Teki Paki hardware)
+A 0 ? 1991 whoopee.png whoopee.zip whoopee.ogg 0 Pipi & Bibis / Whoopee!! (Teki Paki hardware)
 A 0 ? 1994 wiggie.png wiggie.zip wiggie.ogg 3 Wiggie Waggie
 A 0 ? 1989 wildfang.png wildfang.zip wildfang.ogg 0 Wild Fang / Tecmo Knight
 A 0 ? 1989 wildfangs.png wildfangs.zip wildfangs.ogg 0 Wild Fang
@@ -6499,14 +6499,14 @@ A 0 ? 1979 zerotimed.png zerotimed.zip zerotimed.ogg 1 Zero Time (Datamat)
 A 0 ? 1979 zerotimemc.png zerotimemc.zip zerotimemc.ogg 1 Zero Time (Marti Colls)
 A 0 ? 1979 zerotimeu.png zerotimeu.zip zerotimeu.ogg 1 Zero Time (Spanish bootleg)
 A 0 ? 2000 zerotm2k.png zerotm2k.zip zerotm2k.ogg 0 Zero Team 2000
-A 0 ? 1989 zerowing.png zerowing.zip zerowing.ogg 0 Zero Wing (2P set)
-A 0 ? 1989 zerowing1.png zerowing1.zip zerowing1.ogg 0 Zero Wing (1P set)
-A 0 ? 1989 zerowingw.png zerowingw.zip zerowingw.ogg 0 Zero Wing (2P set, Williams license)
+A 0 B 1989 zerowing.png zerowing.zip zerowing.ogg 0 Zero Wing (2P set)
+A 0 B 1989 zerowing1.png zerowing1.zip zerowing1.ogg 0 Zero Wing (1P set)
+A 0 B 1989 zerowingw.png zerowingw.zip zerowingw.ogg 0 Zero Wing (2P set, Williams license)
 A 0 ? 1993 zerozone.png zerozone.zip zerozone.ogg 0 Zero Zone
 A 0 ? 1982 zigzagb.png zigzagb.zip zigzagb.ogg 1 Zig Zag (Dig Dug conversion on Galaxian hardware, bootleg set 1)
 A 0 ? 1982 zigzagb2.png zigzagb2.zip zigzagb2.ogg 1 Zig Zag (Dig Dug conversion on Galaxian hardware, bootleg set 2)
 A 0 ? 1992 zingzip.png zingzip.zip zingzip.ogg 3 Zing Zing Zip
-A 0 ? 1995 zipzap.png zipzap.zip zipzap.ogg 1 Zip &amp; Zap (Explicit)
+A 0 ? 1995 zipzap.png zipzap.zip zipzap.ogg 1 Zip & Zap (Explicit)
 A 0 ? 1982 zoar.png zoar.zip zoar.ogg 3 Zoar
 A 0 ? 1983 zodiack.png zodiack.zip zodiack.ogg 3 Zodiack
 A 0 ? 1995 zombraid.png zombraid.zip zombraid.ogg 0 Zombie Raid (9/28/95, US)
@@ -6544,7 +6544,7 @@ A 0 ? 1976 chf/mthquiz1.png chf/mthquiz1.zip chf/mthquiz1.ogg 0 Math Quiz 1
 A 0 ? 1977 chf/mthquiz2.png chf/mthquiz2.zip chf/mthquiz2.ogg 0 Math Quiz 2
 A 0 ? 1977 chf/mazea.png chf/mazea.zip chf/mazea.ogg 0 Maze / Jailbreak / Blind-man's-bluff / Trailblazer (Alt)
 A 0 ? 1977 chf/maze.png chf/maze.zip chf/maze.ogg 0 Maze / Jailbreak / Blind-man's-bluff / Trailblazer
-A 0 ? 1978 chf/memory.png chf/memory.zip chf/memory.ogg 0 Memory Match 1 &amp; 2
+A 0 ? 1978 chf/memory.png chf/memory.zip chf/memory.ogg 0 Memory Match 1 & 2
 A 0 ? 1978 chf/muehle.png chf/muehle.zip chf/muehle.ogg 0 Muehle / Tontauben-Schiessen / Kreatives Malspiel / Videoscope (Ger)
 A 0 ? 1978 chf/ordtvlng.png chf/ordtvlng.zip chf/ordtvlng.ogg 0 Ordtavling (Swe)
 A 0 ? 2004 chf/pacman.png chf/pacman.zip chf/pacman.ogg 0 Pac-Man (HB) [Homebrew]
@@ -6714,7 +6714,7 @@ A 0 ? 2017 coleco/kaboom.png coleco/kaboom.zip coleco/kaboom.ogg 0 Kaboom! (HB) 
 A 0 ? 1983 coleco/kubjpok.png coleco/kubjpok.zip coleco/kubjpok.ogg 0 Ken Uston Blackjack-Poker
 A 0 ? 1996 coleco/kevtris.png coleco/kevtris.zip coleco/kevtris.ogg 0 Kevtris (HB) [Homebrew]
 A 0 ? 1984 coleco/keykaper.png coleco/keykaper.zip coleco/keykaper.ogg 0 Keystone Kapers
-A 0 ? 2018 coleco/kingball.png coleco/kingball.zip coleco/kingball.ogg 0 King &amp; Balloon (HB) [Homebrew, SGM - Published by Team Pixelboy]
+A 0 ? 2018 coleco/kingball.png coleco/kingball.zip coleco/kingball.ogg 0 King & Balloon (HB) [Homebrew, SGM - Published by Team Pixelboy]
 A 0 ? 2018 coleco/kvalley.png coleco/kvalley.zip coleco/kvalley.ogg 0 King's Valley (HB) [Homebrew, SGM - Published by Team Pixelboy]
 A 0 ? 2012 coleco/kingvalley.png coleco/kingvalley.zip coleco/kingvalley.ogg 0 King's Valley (SGM) [Homebrew, (SGM) - Published by Team Pixelboy]
 A 0 ? 2021 coleco/ksolitaire.png coleco/ksolitaire.zip coleco/ksolitaire.ogg 0 Klondike Solitaire (HB) [Homebrew]
@@ -6801,7 +6801,7 @@ A 0 ? 1984 coleco/power.png coleco/power.zip coleco/power.ogg 0 Power Lords: Que
 A 0 ? 2012 coleco/pquest.png coleco/pquest.zip coleco/pquest.ogg 0 Princess Quest (HB) [Homebrew, SGM - Super Game Module]
 A 0 ? 1996 coleco/purpdino.png coleco/purpdino.zip coleco/purpdino.ogg 0 Purple Dinosaur Massacre (HB) [Homebrew]
 A 0 ? 2011 coleco/puzzli.png coleco/puzzli.zip coleco/puzzli.ogg 0 Puzzli (HB) [Homebrew]
-A 0 ? 2009 coleco/pyrawbc2.png coleco/pyrawbc2.zip coleco/pyrawbc2.ogg 0 Pyramid Warp &amp; Battleship Clapton 2 (HB) [Homebrew, Published by Collectorvision Games]
+A 0 ? 2009 coleco/pyrawbc2.png coleco/pyrawbc2.zip coleco/pyrawbc2.ogg 0 Pyramid Warp & Battleship Clapton 2 (HB) [Homebrew, Published by Collectorvision Games]
 A 0 ? 1983 coleco/qberta.png coleco/qberta.zip coleco/qberta.ogg 0 Q*bert (Alt)
 A 0 ? 1984 coleco/qbertqub.png coleco/qbertqub.zip coleco/qbertqub.ogg 0 Q*bert Qubes
 A 0 ? 1983 coleco/qbert.png coleco/qbert.zip coleco/qbert.ogg 0 Q*bert
@@ -6911,7 +6911,7 @@ A 0 ? 1983 coleco/threshld.png coleco/threshld.zip coleco/threshld.ogg 0 Thresho
 A 0 ? 1983 coleco/timeplt.png coleco/timeplt.zip coleco/timeplt.ogg 0 Time Pilot
 A 0 ? 1984 coleco/tomarc.png coleco/tomarc.zip coleco/tomarc.ogg 0 Tomarc the Barbarian
 A 0 ? 1984 coleco/ttennis.png coleco/ttennis.zip coleco/ttennis.ogg 0 Tournament Tennis
-A 0 ? 2010 coleco/trackfld.png coleco/trackfld.zip coleco/trackfld.ogg 0 Track &amp; Field (HB) [Homebrew, Published by Team Pixelboy]
+A 0 ? 2010 coleco/trackfld.png coleco/trackfld.zip coleco/trackfld.ogg 0 Track & Field (HB) [Homebrew, Published by Team Pixelboy]
 A 0 ? 2016 coleco/trafcjam.png coleco/trafcjam.zip coleco/trafcjam.ogg 0 Traffic Jam (HB) [Homebrew, (SGM) - Published by Team Pixelboy]
 A 0 ? 1983 coleco/tunnels.png coleco/tunnels.zip coleco/tunnels.ogg 0 Tunnels and Trolls (Demo)
 A 0 ? 1982 coleco/turbo.png coleco/turbo.zip coleco/turbo.ogg 0 Turbo
@@ -7086,7 +7086,7 @@ A 0 ? 1989 fds/superlodrunii.png fds/superlodrunii.zip fds/superlodrunii.ogg 0 S
 A 0 ? 1989 fds/supermarbroc.png fds/supermarbroc.zip fds/supermarbroc.ogg 0 Super Mario Brothers (Japan) - Castellano v1.0
 A 0 ? 1989 fds/supermarbro.png fds/supermarbro.zip fds/supermarbro.ogg 0 Super Mario Brothers (Japan)
 A 0 ? 1989 fds/supermarbro2.png fds/supermarbro2.zip fds/supermarbro2.ogg 0 Super Mario Brothers 2 (Japan)
-A 0 ? 1989 fds/tamafri.png fds/tamafri.zip fds/tamafri.ogg 0 Tama &amp; Friends - 3 Choume Daibouken (Japan)
+A 0 ? 1989 fds/tamafri.png fds/tamafri.zip fds/tamafri.ogg 0 Tama & Friends - 3 Choume Daibouken (Japan)
 A 0 ? 1989 fds/tennis.png fds/tennis.zip fds/tennis.ogg 0 Tennis (Japan)
 A 0 ? 1989 fds/tobiddai.png fds/tobiddai.zip fds/tobiddai.ogg 0 Tobidase Daisakusen (Japan)
 A 0 ? 1989 fds/topplezip.png fds/topplezip.zip fds/topplezip.ogg 0 Topple Zip (Japan)
@@ -7885,7 +7885,7 @@ A 0 ? 1991 megadriv/16ton.png megadriv/16ton.zip megadriv/16ton.ogg 0 16 Ton (Jp
 A 0 ? 1990 megadriv/16zhan.png megadriv/16zhan.zip megadriv/16zhan.ogg 0 16 Zhang Ma Jiang (Chi)
 A 0 ? 1990 megadriv/16zhangmah.png megadriv/16zhangmah.zip megadriv/16zhangmah.ogg 0 16 Zhang Mahjong II
 A 0 ? 2018 megadriv/16bitrhythmld.png megadriv/16bitrhythmld.zip megadriv/16bitrhythmld.ogg 0 16-Bit Rhythm Land (HB) [Homebrew]
-A 0 ? 1993 megadriv/2psymmac.png megadriv/2psymmac.zip megadriv/2psymmac.ogg 0 2 in 1 - Psycho Pinball &amp; Micro Machines (Euro)
+A 0 ? 1993 megadriv/2psymmac.png megadriv/2psymmac.zip megadriv/2psymmac.ogg 0 2 in 1 - Psycho Pinball & Micro Machines (Euro)
 A 0 ? 1994 megadriv/2020bbj.png megadriv/2020bbj.zip megadriv/2020bbj.ogg 0 2020 Toshi Super Baseball (Jpn)
 A 0 ? 1990 megadriv/3in1fwt.png megadriv/3in1fwt.zip megadriv/3in1fwt.ogg 0 3 in 1 Flashback - World Championship Soccer - Tecmo World Cup 92 (Pirate)
 A 0 ? 1990 megadriv/3in1rmb.png megadriv/3in1rmb.zip megadriv/3in1rmb.ogg 0 3 in 1 Road Rash - Ms. Pac-Man - Block Out (Pirate)
@@ -8051,7 +8051,7 @@ A 0 ? 1994 megadriv/bk3pro.png megadriv/bk3pro.zip megadriv/bk3pro.ogg 0 Bare Kn
 A 0 ? 1993 megadriv/barkley.png megadriv/barkley.zip megadriv/barkley.ogg 0 Barkley Shut Up and Jam! (Euro, USA)
 A 0 ? 1995 megadriv/barkley2.png megadriv/barkley2.zip megadriv/barkley2.ogg 0 Barkley Shut Up and Jam! 2 (USA)
 A 0 ? 1995 megadriv/barkley2p.png megadriv/barkley2p.zip megadriv/barkley2p.ogg 0 Barkley Shut Up and Jam! 2 (USA, Prototype)
-A 0 ? 1993 megadriv/barney.png megadriv/barney.zip megadriv/barney.ogg 0 Barney's Hide &amp; Seek Game (USA)
+A 0 ? 1993 megadriv/barney.png megadriv/barney.zip megadriv/barney.ogg 0 Barney's Hide & Seek Game (USA)
 A 0 ? 1996 megadriv/barver.png megadriv/barver.zip megadriv/barver.ogg 0 Barver Battle Saga - Tai Kong Zhan Shi (Chi)
 A 0 ? 2010 megadriv/barvere.png megadriv/barvere.zip megadriv/barvere.ogg 0 Barver Battle Saga - Tai Kong Zhan Shi (Hack, English)
 A 0 ? 1995 megadriv/bassmc.png megadriv/bassmc.zip megadriv/bassmc.ogg 0 BASS Masters Classic (USA)
@@ -8076,8 +8076,8 @@ A 0 ? 2018 megadriv/battlesqs.png megadriv/battlesqs.zip megadriv/battlesqs.ogg 
 A 0 ? 1990 megadriv/battlesqp.png megadriv/battlesqp.zip megadriv/battlesqp.ogg 0 Battle Squadron (Prototype, 19910118)
 A 0 ? 1991 megadriv/battlems.png megadriv/battlems.zip megadriv/battlems.ogg 0 Battlemaster (USA)
 A 0 ? 1994 megadriv/btech.png megadriv/btech.zip megadriv/btech.ogg 0 BattleTech (USA)
-A 0 ? 2019 megadriv/btoadsdds.png megadriv/btoadsdds.zip megadriv/btoadsdds.ogg 0 Battletoads &amp; Double Dragon (Hack, Spanish)
-A 0 ? 1993 megadriv/btoadsdd.png megadriv/btoadsdd.zip megadriv/btoadsdd.ogg 0 Battletoads &amp; Double Dragon - The Ultimate Team (USA)
+A 0 ? 2019 megadriv/btoadsdds.png megadriv/btoadsdds.zip megadriv/btoadsdds.ogg 0 Battletoads & Double Dragon (Hack, Spanish)
+A 0 ? 1993 megadriv/btoadsdd.png megadriv/btoadsdd.zip megadriv/btoadsdd.ogg 0 Battletoads & Double Dragon - The Ultimate Team (USA)
 A 0 ? 2018 megadriv/btoadss.png megadriv/btoadss.zip megadriv/btoadss.ogg 0 Battletoads (Hack, Spanish)
 A 0 ? 1991 megadriv/btoads.png megadriv/btoads.zip megadriv/btoads.ogg 0 Battletoads (World)
 A 0 ? 2016 megadriv/bcdverifier.png megadriv/bcdverifier.zip megadriv/bcdverifier.ogg 0 BCD Verifier (HB, Test) [Homebrew]
@@ -8313,7 +8313,7 @@ A 0 ? 1995 megadriv/comixup06.png megadriv/comixup06.zip megadriv/comixup06.ogg 
 A 0 ? 1995 megadriv/comixup03.png megadriv/comixup03.zip megadriv/comixup03.ogg 0 Comix Zone (USA, Prototype, 19950602)
 A 0 ? 1995 megadriv/comixup04.png megadriv/comixup04.zip megadriv/comixup04.ogg 0 Comix Zone (USA, Prototype, 19950602-B)
 A 0 ? 1995 megadriv/comixup02.png megadriv/comixup02.zip megadriv/comixup02.ogg 0 Comix Zone (USA, Prototype, 19950603)
-A 0 ? 1990 megadriv/commconq.png megadriv/commconq.zip megadriv/commconq.ogg 0 Command &amp; Conquer (Prototype)
+A 0 ? 1990 megadriv/commconq.png megadriv/commconq.zip megadriv/commconq.ogg 0 Command & Conquer (Prototype)
 A 0 ? 1990 megadriv/commands.png megadriv/commands.zip megadriv/commands.ogg 0 Commandos (Rus)
 A 0 ? 1990 megadriv/congo.png megadriv/congo.zip megadriv/congo.ogg 0 Congo (Prototype)
 A 0 ? 2013 megadriv/contras.png megadriv/contras.zip megadriv/contras.ogg 0 Contra - Hard Corps (Hack, Spanish)
@@ -8510,7 +8510,7 @@ A 0 ? 1993 megadriv/dunep.png megadriv/dunep.zip megadriv/dunep.ogg 0 Dune - The
 A 0 ? 1993 megadriv/duneu.png megadriv/duneu.zip megadriv/duneu.ogg 0 Dune - The Battle for Arrakis (USA)
 A 0 ? 1993 megadriv/dune2.png megadriv/dune2.zip megadriv/dune2.ogg 0 Dune II - Battle for Arrakis (Euro)
 A 0 ? 1993 megadriv/dune2g.png megadriv/dune2g.zip megadriv/dune2g.ogg 0 Dune II - Kampf um den Wustenplaneten (Ger)
-A 0 ? 1992 megadriv/ddwares.png megadriv/ddwares.zip megadriv/ddwares.ogg 0 Dungeons &amp; Dragons - Warriors of the Eternal Sun (Euro, USA)
+A 0 ? 1992 megadriv/ddwares.png megadriv/ddwares.zip megadriv/ddwares.ogg 0 Dungeons & Dragons - Warriors of the Eternal Sun (Euro, USA)
 A 0 ? 1992 megadriv/dynabr.png megadriv/dynabr.zip megadriv/dynabr.ogg 0 Dyna Brothers (Jpn)
 A 0 ? 1993 megadriv/dynabr2.png megadriv/dynabr2.zip megadriv/dynabr2.ogg 0 Dyna Brothers 2 (Jpn)
 A 0 ? 1991 megadriv/dynabr2sp.png megadriv/dynabr2sp.zip megadriv/dynabr2sp.ogg 0 Dyna Brothers 2 Special - Sega Channel (Jpn, Sega Channel)
@@ -8691,7 +8691,7 @@ A 0 ? 1993 megadriv/funngame.png megadriv/funngame.zip megadriv/funngame.ogg 0 F
 A 0 ? 1993 megadriv/funngameu.png megadriv/funngameu.zip megadriv/funngameu.ogg 0 Fun 'N' Games (USA)
 A 0 ? 2019 megadriv/funcars.png megadriv/funcars.zip megadriv/funcars.ogg 0 Fun Car Rally (Hack, Spanish) (Prototype)
 A 0 ? 1990 megadriv/funcar.png megadriv/funcar.zip megadriv/funcar.ogg 0 Fun Car Rally (USA, Prototype)
-A 0 ? 1993 megadriv/funnywld.png megadriv/funnywld.zip megadriv/funnywld.ogg 0 Funny World &amp; Balloon Boy (USA)
+A 0 ? 1993 megadriv/funnywld.png megadriv/funnywld.zip megadriv/funnywld.ogg 0 Funny World & Balloon Boy (USA)
 A 0 ? 2011 megadriv/nadiae.png megadriv/nadiae.zip megadriv/nadiae.ogg 0 Fushigi no Umi no Nadia (Hack, English)
 A 0 ? 1991 megadriv/nadia.png megadriv/nadia.zip megadriv/nadia.ogg 0 Fushigi no Umi no Nadia (Jpn)
 A 0 ? 1990 megadriv/futbol.png megadriv/futbol.zip megadriv/futbol.ogg 0 Futbol Argentino 98 - Pasion de Multitudes (Pirate)
@@ -8907,8 +8907,8 @@ A 0 ? 1990 megadriv/jimpower.png megadriv/jimpower.zip megadriv/jimpower.ogg 0 J
 A 0 ? 2014 megadriv/jimpowerpiko.png megadriv/jimpowerpiko.zip megadriv/jimpowerpiko.ogg 0 Jim Power - The Lost Dimension in 3D (HB) [Homebrew, Original title by Loricel]
 A 0 ? 1991 megadriv/jimmywws.png megadriv/jimmywws.zip megadriv/jimmywws.ogg 0 Jimmy White's Whirlwind Snooker (Euro)
 A 0 ? 1990 megadriv/jiujim.png megadriv/jiujim.zip megadriv/jiujim.ogg 0 Jiu Ji Ma Jiang II - Ye Yan Bian (Chi)
-A 0 ? 2019 megadriv/joemacs.png megadriv/joemacs.zip megadriv/joemacs.ogg 0 Joe &amp; Mac (Hack, Spanish)
-A 0 ? 1991 megadriv/joemac.png megadriv/joemac.zip megadriv/joemac.ogg 0 Joe &amp; Mac (USA)
+A 0 ? 2019 megadriv/joemacs.png megadriv/joemacs.zip megadriv/joemacs.ogg 0 Joe & Mac (Hack, Spanish)
+A 0 ? 1991 megadriv/joemac.png megadriv/joemac.zip megadriv/joemac.ogg 0 Joe & Mac (USA)
 A 0 ? 1990 megadriv/joemont.png megadriv/joemont.zip megadriv/joemont.ogg 0 Joe Montana Football (World)
 A 0 ? 1991 megadriv/joemont2a.png megadriv/joemont2a.zip megadriv/joemont2a.ogg 0 Joe Montana II Sports Talk Football (World)
 A 0 ? 1991 megadriv/joemont2.png megadriv/joemont2.zip megadriv/joemont2.ogg 0 Joe Montana II Sports Talk Football (World, Rev. A)
@@ -8917,7 +8917,7 @@ A 0 ? 1992 megadriv/madden93.png megadriv/madden93.zip megadriv/madden93.ogg 0 J
 A 0 ? 1992 megadriv/madd93ce.png megadriv/madd93ce.zip megadriv/madd93ce.ogg 0 John Madden Football '93 - Championship Edition (USA)
 A 0 ? 1990 megadriv/madden.png megadriv/madden.zip megadriv/madden.ogg 0 John Madden Football (Euro, USA)
 A 0 ? 1992 megadriv/maddenj.png megadriv/maddenj.zip megadriv/maddenj.ogg 0 John Madden Football - Pro Football (Jpn)
-A 0 ? 1992 megadriv/joshua.png megadriv/joshua.zip megadriv/joshua.ogg 0 Joshua &amp; The Battle of Jericho (USA)
+A 0 ? 1992 megadriv/joshua.png megadriv/joshua.zip megadriv/joshua.ogg 0 Joshua & The Battle of Jericho (USA)
 A 0 ? 1995 megadriv/jdreddp1.png megadriv/jdreddp1.zip megadriv/jdreddp1.ogg 0 Judge Dredd (USA, Prototype)
 A 0 ? 1995 megadriv/jdreddp2.png megadriv/jdreddp2.zip megadriv/jdreddp2.ogg 0 Judge Dredd (USA, Prototype, Alt)
 A 0 ? 1995 megadriv/jdredd.png megadriv/jdredd.zip megadriv/jdredd.ogg 0 Judge Dredd (World)
@@ -9146,10 +9146,10 @@ A 0 ? 2019 megadriv/mwalks.png megadriv/mwalks.zip megadriv/mwalks.ogg 0 Michael
 A 0 ? 1990 megadriv/mwalkp.png megadriv/mwalkp.zip megadriv/mwalkp.ogg 0 Michael Jackson's Moonwalker (Prototype, 19900424)
 A 0 ? 1990 megadriv/mwalk1.png megadriv/mwalk1.zip megadriv/mwalk1.ogg 0 Michael Jackson's Moonwalker (World)
 A 0 ? 1990 megadriv/mwalk.png megadriv/mwalk.zip megadriv/mwalk.ogg 0 Michael Jackson's Moonwalker (World, Rev. A)
-A 0 ? 1993 megadriv/mickmack.png megadriv/mickmack.zip megadriv/mickmack.ogg 0 Mick &amp; Mack as the Global Gladiators (Euro)
-A 0 ? 2018 megadriv/mickmacks.png megadriv/mickmacks.zip megadriv/mickmacks.ogg 0 Mick &amp; Mack as the Global Gladiators (Hack, Spanish)
-A 0 ? 1992 megadriv/mickmacku.png megadriv/mickmacku.zip megadriv/mickmacku.ogg 0 Mick &amp; Mack as the Global Gladiators (USA)
-A 0 ? 1992 megadriv/mickmackup.png megadriv/mickmackup.zip megadriv/mickmackup.ogg 0 Mick &amp; Mack as the Global Gladiators (USA, Prototype)
+A 0 ? 1993 megadriv/mickmack.png megadriv/mickmack.zip megadriv/mickmack.ogg 0 Mick & Mack as the Global Gladiators (Euro)
+A 0 ? 2018 megadriv/mickmacks.png megadriv/mickmacks.zip megadriv/mickmacks.ogg 0 Mick & Mack as the Global Gladiators (Hack, Spanish)
+A 0 ? 1992 megadriv/mickmacku.png megadriv/mickmacku.zip megadriv/mickmacku.ogg 0 Mick & Mack as the Global Gladiators (USA)
+A 0 ? 1992 megadriv/mickmackup.png megadriv/mickmackup.zip megadriv/mickmackup.ogg 0 Mick & Mack as the Global Gladiators (USA, Prototype)
 A 0 ? 1994 megadriv/mmania.png megadriv/mmania.zip megadriv/mmania.ogg 0 Mickey Mania - The Timeless Adventures of Mickey Mouse (Euro)
 A 0 ? 2017 megadriv/mmanias.png megadriv/mmanias.zip megadriv/mmanias.ogg 0 Mickey Mania - The Timeless Adventures of Mickey Mouse (Hack, Spanish)
 A 0 ? 1995 megadriv/mmaniaj.png megadriv/mmaniaj.zip megadriv/mmaniaj.ogg 0 Mickey Mania - The Timeless Adventures of Mickey Mouse (Jpn)
@@ -9563,8 +9563,8 @@ A 0 ? 1995 megadriv/puttysquadp2.png megadriv/puttysquadp2.zip megadriv/puttysqu
 A 0 ? 1992 megadriv/puyopuyo.png megadriv/puyopuyo.zip megadriv/puyopuyo.ogg 0 Puyo Puyo (Jpn)
 A 0 ? 1994 megadriv/puyopuy2a.png megadriv/puyopuy2a.zip megadriv/puyopuy2a.ogg 0 Puyo Puyo 2 (Jpn)
 A 0 ? 1994 megadriv/puyopuy2.png megadriv/puyopuy2.zip megadriv/puyopuy2.ogg 0 Puyo Puyo 2 (Jpn, v1.1)
-A 0 ? 1995 megadriv/ichir.png megadriv/ichir.zip megadriv/ichir.ogg 0 Puzzle &amp; Action - Ichidant-R (Jpn)
-A 0 ? 1994 megadriv/tantr.png megadriv/tantr.zip megadriv/tantr.ogg 0 Puzzle &amp; Action - Tant-R (Jpn)
+A 0 ? 1995 megadriv/ichir.png megadriv/ichir.zip megadriv/ichir.ogg 0 Puzzle & Action - Ichidant-R (Jpn)
+A 0 ? 1994 megadriv/tantr.png megadriv/tantr.zip megadriv/tantr.ogg 0 Puzzle & Action - Tant-R (Jpn)
 A 0 ? 2020 megadriv/puzzli.png megadriv/puzzli.zip megadriv/puzzli.ogg 0 Puzzli (HB, v1.1) [Homebrew]
 A 0 ? 1991 megadriv/pyramidgnk.png megadriv/pyramidgnk.zip megadriv/pyramidgnk.ogg 0 Pyramid Magic (Jpn, Game no Kandume MegaCD Rip)
 A 0 ? 1991 megadriv/pyramid.png megadriv/pyramid.zip megadriv/pyramid.ogg 0 Pyramid Magic (Jpn, SegaNet)
@@ -9815,8 +9815,8 @@ A 0 ? 1990 megadriv/smartmouse.png megadriv/smartmouse.zip megadriv/smartmouse.o
 A 0 ? 1993 megadriv/snakernr.png megadriv/snakernr.zip megadriv/snakernr.ogg 0 Snake Rattle n' Roll (Euro)
 A 0 ? 2019 megadriv/snakernrs.png megadriv/snakernrs.zip megadriv/snakernrs.ogg 0 Snake Rattle n' Roll (Hack, Spanish)
 A 0 ? 1990 megadriv/snezkoro.png megadriv/snezkoro.zip megadriv/snezkoro.ogg 0 Snezhnaya Koroleva (Rus)
-A 0 ? 2018 megadriv/snowbross.png megadriv/snowbross.zip megadriv/snowbross.ogg 0 Snow Bros. - Nick &amp; Tom (Hack, Spanish)
-A 0 ? 1993 megadriv/snowbros.png megadriv/snowbros.zip megadriv/snowbros.ogg 0 Snow Bros. - Nick &amp; Tom (Jpn)
+A 0 ? 2018 megadriv/snowbross.png megadriv/snowbross.zip megadriv/snowbross.ogg 0 Snow Bros. - Nick & Tom (Hack, Spanish)
+A 0 ? 1993 megadriv/snowbros.png megadriv/snowbros.zip megadriv/snowbros.ogg 0 Snow Bros. - Nick & Tom (Jpn)
 A 0 ? 1994 megadriv/socket.png megadriv/socket.zip megadriv/socket.ogg 0 Socket (USA)
 A 0 ? 1992 megadriv/soldeacep.png megadriv/soldeacep.zip megadriv/soldeacep.ogg 0 Sol-Deace (Prototype, 19920203)
 A 0 ? 1992 megadriv/soldeace.png megadriv/soldeace.zip megadriv/soldeace.ogg 0 Sol-Deace (USA)
@@ -9827,22 +9827,22 @@ A 0 ? 1994 megadriv/soleilf.png megadriv/soleilf.zip megadriv/soleilf.ogg 0 Sole
 A 0 ? 1994 megadriv/soleilg.png megadriv/soleilg.zip megadriv/soleilg.ogg 0 Soleil (Ger)
 A 0 ? 1994 megadriv/soleils.png megadriv/soleils.zip megadriv/soleils.ogg 0 Soleil (Spa)
 A 0 ? 2015 megadriv/somarita.png megadriv/somarita.zip megadriv/somarita.ogg 0 Somari The Adventurer (Hack V1.1)
-A 0 ? 1994 megadriv/skp12.png megadriv/skp12.zip megadriv/skp12.ogg 0 Sonic &amp; Knuckles (Prototype 0525, 19940525, 15.28)
-A 0 ? 1994 megadriv/skp10.png megadriv/skp10.zip megadriv/skp10.ogg 0 Sonic &amp; Knuckles (Prototype 0606, 19940606, 10.02)
-A 0 ? 1994 megadriv/skp08.png megadriv/skp08.zip megadriv/skp08.ogg 0 Sonic &amp; Knuckles (Prototype 0608, 19940608, 05.03)
-A 0 ? 1994 megadriv/skp06.png megadriv/skp06.zip megadriv/skp06.ogg 0 Sonic &amp; Knuckles (Prototype 0610, 19940610, 07.49)
-A 0 ? 1994 megadriv/skp04.png megadriv/skp04.zip megadriv/skp04.ogg 0 Sonic &amp; Knuckles (Prototype 0612, 19940612, 18.27)
-A 0 ? 1994 megadriv/skp02.png megadriv/skp02.zip megadriv/skp02.ogg 0 Sonic &amp; Knuckles (Prototype 0618, 19940618, 09.15)
-A 0 ? 1994 megadriv/skp01.png megadriv/skp01.zip megadriv/skp01.ogg 0 Sonic &amp; Knuckles (Prototype 0619, 19940619, 08.18)
-A 0 ? 1994 megadriv/sk.png megadriv/sk.zip megadriv/sk.ogg 0 Sonic &amp; Knuckles (World)
-A 0 ? 1994 megadriv/sks1.png megadriv/sks1.zip megadriv/sks1.ogg 0 Sonic &amp; Knuckles + Sonic the Hedgehog (World) [Lock-On Technology]
-A 0 ? 1994 megadriv/sks2.png megadriv/sks2.zip megadriv/sks2.ogg 0 Sonic &amp; Knuckles + Sonic the Hedgehog 2 (World) [Lock-On Technology]
-A 0 ? 1994 megadriv/sks3.png megadriv/sks3.zip megadriv/sks3.ogg 0 Sonic &amp; Knuckles + Sonic the Hedgehog 3 (World) [Lock-On Technology]
+A 0 ? 1994 megadriv/skp12.png megadriv/skp12.zip megadriv/skp12.ogg 0 Sonic & Knuckles (Prototype 0525, 19940525, 15.28)
+A 0 ? 1994 megadriv/skp10.png megadriv/skp10.zip megadriv/skp10.ogg 0 Sonic & Knuckles (Prototype 0606, 19940606, 10.02)
+A 0 ? 1994 megadriv/skp08.png megadriv/skp08.zip megadriv/skp08.ogg 0 Sonic & Knuckles (Prototype 0608, 19940608, 05.03)
+A 0 ? 1994 megadriv/skp06.png megadriv/skp06.zip megadriv/skp06.ogg 0 Sonic & Knuckles (Prototype 0610, 19940610, 07.49)
+A 0 ? 1994 megadriv/skp04.png megadriv/skp04.zip megadriv/skp04.ogg 0 Sonic & Knuckles (Prototype 0612, 19940612, 18.27)
+A 0 ? 1994 megadriv/skp02.png megadriv/skp02.zip megadriv/skp02.ogg 0 Sonic & Knuckles (Prototype 0618, 19940618, 09.15)
+A 0 ? 1994 megadriv/skp01.png megadriv/skp01.zip megadriv/skp01.ogg 0 Sonic & Knuckles (Prototype 0619, 19940619, 08.18)
+A 0 ? 1994 megadriv/sk.png megadriv/sk.zip megadriv/sk.ogg 0 Sonic & Knuckles (World)
+A 0 ? 1994 megadriv/sks1.png megadriv/sks1.zip megadriv/sks1.ogg 0 Sonic & Knuckles + Sonic the Hedgehog (World) [Lock-On Technology]
+A 0 ? 1994 megadriv/sks2.png megadriv/sks2.zip megadriv/sks2.ogg 0 Sonic & Knuckles + Sonic the Hedgehog 2 (World) [Lock-On Technology]
+A 0 ? 1994 megadriv/sks3.png megadriv/sks3.zip megadriv/sks3.ogg 0 Sonic & Knuckles + Sonic the Hedgehog 3 (World) [Lock-On Technology]
 A 0 ? 2012 megadriv/sonic2brc.png megadriv/sonic2brc.zip megadriv/sonic2brc.ogg 0 Sonic 2 Battle Race (Hack)
 A 0 ? 2015 megadriv/s2delta.png megadriv/s2delta.zip megadriv/s2delta.ogg 0 Sonic 2 Delta (Hack, v0.25a)
 A 0 ? 2013 megadriv/s2rpt1.png megadriv/s2rpt1.zip megadriv/s2rpt1.ogg 0 Sonic 2 Recreation - Part One (Hack, Contest Build)
 A 0 ? 2007 megadriv/s2smtp.png megadriv/s2smtp.zip megadriv/s2smtp.ogg 0 Sonic 2 SMTP (Hack, v0.5)
-A 0 ? 2009 megadriv/s3ktc.png megadriv/s3ktc.zip megadriv/s3ktc.ogg 0 Sonic 3 &amp; Knuckles - The Challenges (Hack) [Lock-On Technology]
+A 0 ? 2009 megadriv/s3ktc.png megadriv/s3ktc.zip megadriv/s3ktc.ogg 0 Sonic 3 & Knuckles - The Challenges (Hack) [Lock-On Technology]
 A 0 ? 1990 megadriv/sonic3c.png megadriv/sonic3c.zip megadriv/sonic3c.ogg 0 Sonic 3C (Prototype 0408, 19940408, 17.29) [Sonic the Hedgehog 3 Limited Edition (Prototype)]
 A 0 ? 1990 megadriv/sonic3ca.png megadriv/sonic3ca.zip megadriv/sonic3ca.ogg 0 Sonic 3C (Prototype 0517, 19940517, 17.08) [Sonic the Hedgehog 3 Limited Edition (Prototype)]
 A 0 ? 1996 megadriv/sonic3d.png megadriv/sonic3d.zip megadriv/sonic3d.ogg 0 Sonic 3D - Flickies' Island (Euro) ~ Sonic 3D Blast (USA, Kor)
@@ -9929,8 +9929,8 @@ A 0 ? 1992 megadriv/speedbl2.png megadriv/speedbl2.zip megadriv/speedbl2.ogg 0 S
 A 0 ? 1992 megadriv/speedbl2j.png megadriv/speedbl2j.zip megadriv/speedbl2j.ogg 0 Speedball 2 (Jpn)
 A 0 ? 1991 megadriv/speedbl2p.png megadriv/speedbl2p.zip megadriv/speedbl2p.ogg 0 Speedball 2 - Brutal Deluxe (Prototype, 19910607)
 A 0 ? 1991 megadriv/speedbl2u.png megadriv/speedbl2u.zip megadriv/speedbl2u.ogg 0 Speedball 2 - Brutal Deluxe (USA)
-A 0 ? 2018 megadriv/spidmaxcs.png megadriv/spidmaxcs.zip megadriv/spidmaxcs.ogg 0 Spider-Man &amp; Venom - Maximum Carnage (Hack, Spanish)
-A 0 ? 1994 megadriv/spidmaxc.png megadriv/spidmaxc.zip megadriv/spidmaxc.ogg 0 Spider-Man &amp; Venom - Maximum Carnage (World)
+A 0 ? 2018 megadriv/spidmaxcs.png megadriv/spidmaxcs.zip megadriv/spidmaxcs.ogg 0 Spider-Man & Venom - Maximum Carnage (Hack, Spanish)
+A 0 ? 1994 megadriv/spidmaxc.png megadriv/spidmaxc.zip megadriv/spidmaxc.ogg 0 Spider-Man & Venom - Maximum Carnage (World)
 A 0 ? 1995 megadriv/spidermn.png megadriv/spidermn.zip megadriv/spidermn.ogg 0 Spider-Man (Euro, USA)
 A 0 ? 1995 megadriv/spidermnp1.png megadriv/spidermnp1.zip megadriv/spidermnp1.ogg 0 Spider-Man (USA, Prototype)
 A 0 ? 1995 megadriv/spidermnp2.png megadriv/spidermnp2.zip megadriv/spidermnp2.ogg 0 Spider-Man (USA, Prototype, Earlier)
@@ -9978,9 +9978,9 @@ A 0 ? 1992 megadriv/steelemp.png megadriv/steelemp.zip megadriv/steelemp.ogg 0 S
 A 0 ? 1992 megadriv/steeltal.png megadriv/steeltal.zip megadriv/steeltal.ogg 0 Steel Talons (Euro, USA)
 A 0 ? 1993 megadriv/steeltalj.png megadriv/steeltalj.zip megadriv/steeltalj.ogg 0 Steel Talons (Jpn, Kor)
 A 0 ? 1992 megadriv/steeltalp.png megadriv/steeltalp.zip megadriv/steeltalp.ogg 0 Steel Talons (USA, Prototype)
-A 0 ? 1993 megadriv/renstim.png megadriv/renstim.zip megadriv/renstim.ogg 0 Stimpy's Invention Starring Starring Ren Hoek &amp; Stimpy (Euro)
-A 0 ? 1993 megadriv/renstimu.png megadriv/renstimu.zip megadriv/renstimu.ogg 0 Stimpy's Invention Starring Starring Ren Hoek &amp; Stimpy (USA)
-A 0 ? 1993 megadriv/renstimup.png megadriv/renstimup.zip megadriv/renstimup.ogg 0 Stimpy's Invention Starring Starring Ren Hoek &amp; Stimpy (USA, Prototype)
+A 0 ? 1993 megadriv/renstim.png megadriv/renstim.zip megadriv/renstim.ogg 0 Stimpy's Invention Starring Starring Ren Hoek & Stimpy (Euro)
+A 0 ? 1993 megadriv/renstimu.png megadriv/renstimu.zip megadriv/renstimu.ogg 0 Stimpy's Invention Starring Starring Ren Hoek & Stimpy (USA)
+A 0 ? 1993 megadriv/renstimup.png megadriv/renstimup.zip megadriv/renstimup.ogg 0 Stimpy's Invention Starring Starring Ren Hoek & Stimpy (USA, Prototype)
 A 0 ? 1994 megadriv/stonprot.png megadriv/stonprot.zip megadriv/stonprot.ogg 0 Stone Protectors (USA, Prototype)
 A 0 ? 2020 megadriv/strmlords.png megadriv/strmlords.zip megadriv/strmlords.ogg 0 Stormlord (Hack, Spanish) [Hack]
 A 0 ? 1990 megadriv/strmlordj.png megadriv/strmlordj.zip megadriv/strmlordj.ogg 0 Stormlord (Jpn)
@@ -10138,7 +10138,7 @@ A 0 ? 1990 megadriv/vermil.png megadriv/vermil.zip megadriv/vermil.ogg 0 Sword o
 A 0 ? 2018 megadriv/vermils.png megadriv/vermils.zip megadriv/vermils.ogg 0 Sword of Vermilion (Hack, Spanish)
 A 0 ? 2017 megadriv/sydvaliss.png megadriv/sydvaliss.zip megadriv/sydvaliss.ogg 0 Syd of Valis (Hack, Spanish)
 A 0 ? 1992 megadriv/sydvalis.png megadriv/sydvalis.zip megadriv/sydvalis.ogg 0 Syd of Valis (USA)
-A 0 ? 1994 megadriv/sylvestr.png megadriv/sylvestr.zip megadriv/sylvestr.ogg 0 Sylvester &amp; Tweety in Cagey Capers (Euro)
+A 0 ? 1994 megadriv/sylvestr.png megadriv/sylvestr.zip megadriv/sylvestr.ogg 0 Sylvester & Tweety in Cagey Capers (Euro)
 A 0 ? 1993 megadriv/sylvestru.png megadriv/sylvestru.zip megadriv/sylvestru.ogg 0 Sylvester and Tweety in Cagey Capers (USA)
 A 0 ? 1994 megadriv/syndicat.png megadriv/syndicat.zip megadriv/syndicat.ogg 0 Syndicate (Euro, USA)
 A 0 ? 2015 megadriv/tgunii.png megadriv/tgunii.zip megadriv/tgunii.ogg 0 T*GUN II (HB) [Homebrew]
@@ -10213,21 +10213,21 @@ A 0 ? 1990 megadriv/tetris1.png megadriv/tetris1.zip megadriv/tetris1.ogg 0 Tetr
 A 0 ? 1994 megadriv/addfam.png megadriv/addfam.zip megadriv/addfam.ogg 0 The Addams Family (Euro, USA)
 A 0 ? 2018 megadriv/addfams.png megadriv/addfams.zip megadriv/addfams.ogg 0 The Addams Family (Hack, Spanish) [Hack]
 A 0 ? 1994 megadriv/addfamp1.png megadriv/addfamp1.zip megadriv/addfamp1.ogg 0 The Addams Family (USA, Prototype)
-A 0 ? 1995 megadriv/advbatr.png megadriv/advbatr.zip megadriv/advbatr.ogg 0 The Adventures of Batman &amp; Robin (Euro)
-A 0 ? 2014 megadriv/advbatrs.png megadriv/advbatrs.zip megadriv/advbatrs.ogg 0 The Adventures of Batman &amp; Robin (Hack, Spanish)
-A 0 ? 1995 megadriv/advbatrp12.png megadriv/advbatrp12.zip megadriv/advbatrp12.ogg 0 The Adventures of Batman &amp; Robin (Prototype, 19950406)
-A 0 ? 1995 megadriv/advbatrp11.png megadriv/advbatrp11.zip megadriv/advbatrp11.ogg 0 The Adventures of Batman &amp; Robin (Prototype, 19950410)
-A 0 ? 1995 megadriv/advbatrp10.png megadriv/advbatrp10.zip megadriv/advbatrp10.ogg 0 The Adventures of Batman &amp; Robin (Prototype, 19950411)
-A 0 ? 1995 megadriv/advbatrp09.png megadriv/advbatrp09.zip megadriv/advbatrp09.ogg 0 The Adventures of Batman &amp; Robin (Prototype, 19950418)
-A 0 ? 1995 megadriv/advbatrp08.png megadriv/advbatrp08.zip megadriv/advbatrp08.ogg 0 The Adventures of Batman &amp; Robin (Prototype, 19950419)
-A 0 ? 1995 megadriv/advbatrp07.png megadriv/advbatrp07.zip megadriv/advbatrp07.ogg 0 The Adventures of Batman &amp; Robin (Prototype, 19950421)
-A 0 ? 1995 megadriv/advbatrp06.png megadriv/advbatrp06.zip megadriv/advbatrp06.ogg 0 The Adventures of Batman &amp; Robin (Prototype, 19950422)
-A 0 ? 1995 megadriv/advbatrp05.png megadriv/advbatrp05.zip megadriv/advbatrp05.ogg 0 The Adventures of Batman &amp; Robin (Prototype, 19950424)
-A 0 ? 1995 megadriv/advbatrp04.png megadriv/advbatrp04.zip megadriv/advbatrp04.ogg 0 The Adventures of Batman &amp; Robin (Prototype, 19950426)
-A 0 ? 1995 megadriv/advbatrp03.png megadriv/advbatrp03.zip megadriv/advbatrp03.ogg 0 The Adventures of Batman &amp; Robin (Prototype, 19950427)
-A 0 ? 1995 megadriv/advbatrp02.png megadriv/advbatrp02.zip megadriv/advbatrp02.ogg 0 The Adventures of Batman &amp; Robin (Prototype, 19950428)
-A 0 ? 1995 megadriv/advbatrp01.png megadriv/advbatrp01.zip megadriv/advbatrp01.ogg 0 The Adventures of Batman &amp; Robin (Prototype, 19950501)
-A 0 ? 1995 megadriv/advbatru.png megadriv/advbatru.zip megadriv/advbatru.ogg 0 The Adventures of Batman &amp; Robin (USA)
+A 0 ? 1995 megadriv/advbatr.png megadriv/advbatr.zip megadriv/advbatr.ogg 0 The Adventures of Batman & Robin (Euro)
+A 0 ? 2014 megadriv/advbatrs.png megadriv/advbatrs.zip megadriv/advbatrs.ogg 0 The Adventures of Batman & Robin (Hack, Spanish)
+A 0 ? 1995 megadriv/advbatrp12.png megadriv/advbatrp12.zip megadriv/advbatrp12.ogg 0 The Adventures of Batman & Robin (Prototype, 19950406)
+A 0 ? 1995 megadriv/advbatrp11.png megadriv/advbatrp11.zip megadriv/advbatrp11.ogg 0 The Adventures of Batman & Robin (Prototype, 19950410)
+A 0 ? 1995 megadriv/advbatrp10.png megadriv/advbatrp10.zip megadriv/advbatrp10.ogg 0 The Adventures of Batman & Robin (Prototype, 19950411)
+A 0 ? 1995 megadriv/advbatrp09.png megadriv/advbatrp09.zip megadriv/advbatrp09.ogg 0 The Adventures of Batman & Robin (Prototype, 19950418)
+A 0 ? 1995 megadriv/advbatrp08.png megadriv/advbatrp08.zip megadriv/advbatrp08.ogg 0 The Adventures of Batman & Robin (Prototype, 19950419)
+A 0 ? 1995 megadriv/advbatrp07.png megadriv/advbatrp07.zip megadriv/advbatrp07.ogg 0 The Adventures of Batman & Robin (Prototype, 19950421)
+A 0 ? 1995 megadriv/advbatrp06.png megadriv/advbatrp06.zip megadriv/advbatrp06.ogg 0 The Adventures of Batman & Robin (Prototype, 19950422)
+A 0 ? 1995 megadriv/advbatrp05.png megadriv/advbatrp05.zip megadriv/advbatrp05.ogg 0 The Adventures of Batman & Robin (Prototype, 19950424)
+A 0 ? 1995 megadriv/advbatrp04.png megadriv/advbatrp04.zip megadriv/advbatrp04.ogg 0 The Adventures of Batman & Robin (Prototype, 19950426)
+A 0 ? 1995 megadriv/advbatrp03.png megadriv/advbatrp03.zip megadriv/advbatrp03.ogg 0 The Adventures of Batman & Robin (Prototype, 19950427)
+A 0 ? 1995 megadriv/advbatrp02.png megadriv/advbatrp02.zip megadriv/advbatrp02.ogg 0 The Adventures of Batman & Robin (Prototype, 19950428)
+A 0 ? 1995 megadriv/advbatrp01.png megadriv/advbatrp01.zip megadriv/advbatrp01.ogg 0 The Adventures of Batman & Robin (Prototype, 19950501)
+A 0 ? 1995 megadriv/advbatru.png megadriv/advbatru.zip megadriv/advbatru.ogg 0 The Adventures of Batman & Robin (USA)
 A 0 ? 1994 megadriv/mightmax.png megadriv/mightmax.zip megadriv/mightmax.ogg 0 The Adventures of Mighty Max (Euro)
 A 0 ? 1994 megadriv/mightmaxu.png megadriv/mightmaxu.zip megadriv/mightmaxu.ogg 0 The Adventures of Mighty Max (USA)
 A 0 ? 1993 megadriv/rockybw.png megadriv/rockybw.zip megadriv/rockybw.ogg 0 The Adventures of Rocky and Bullwinkle and Friends (USA)
@@ -10270,8 +10270,8 @@ A 0 ? 2014 megadriv/flints.png megadriv/flints.zip megadriv/flints.ogg 0 The Fli
 A 0 ? 1993 megadriv/flintj.png megadriv/flintj.zip megadriv/flintj.ogg 0 The Flintstones (Jpn)
 A 0 ? 1993 megadriv/flintu.png megadriv/flintu.zip megadriv/flintu.ogg 0 The Flintstones (USA)
 A 0 ? 1992 megadriv/wintchal1.png megadriv/wintchal1.zip megadriv/wintchal1.ogg 0 The Games: Winter Challenge (Euro, USA)
-A 0 ? 2018 megadriv/mickeycms.png megadriv/mickeycms.zip megadriv/mickeycms.ogg 0 The Great Circus Mystery Starring Mickey &amp; Minnie (Hack, Spanish)
-A 0 ? 1994 megadriv/mickeycm.png megadriv/mickeycm.zip megadriv/mickeycm.ogg 0 The Great Circus Mystery Starring Mickey &amp; Minnie (USA)
+A 0 ? 2018 megadriv/mickeycms.png megadriv/mickeycms.zip megadriv/mickeycms.ogg 0 The Great Circus Mystery Starring Mickey & Minnie (Hack, Spanish)
+A 0 ? 1994 megadriv/mickeycm.png megadriv/mickeycm.zip megadriv/mickeycm.ogg 0 The Great Circus Mystery Starring Mickey & Minnie (USA)
 A 0 ? 1992 megadriv/waldo.png megadriv/waldo.zip megadriv/waldo.ogg 0 The Great Waldo Search (USA)
 A 0 ? 1992 megadriv/humans.png megadriv/humans.zip megadriv/humans.ogg 0 The Humans (USA)
 A 0 ? 1994 megadriv/hybridf.png megadriv/hybridf.zip megadriv/hybridf.ogg 0 The Hybrid Front (Jpn)
@@ -10365,7 +10365,7 @@ A 0 ? 2020 megadriv/termintruh.png megadriv/termintruh.zip megadriv/termintruh.o
 A 0 ? 1994 megadriv/tick.png megadriv/tick.zip megadriv/tick.ogg 0 The Tick (USA)
 A 0 ? 1990 megadriv/youngind.png megadriv/youngind.zip megadriv/youngind.ogg 0 The Young Indiana Jones Chronicles (USA, Prototype)
 A 0 ? 1995 megadriv/themeprk.png megadriv/themeprk.zip megadriv/themeprk.ogg 0 Theme Park (Euro, USA)
-A 0 ? 1993 megadriv/thomas.png megadriv/thomas.zip megadriv/thomas.ogg 0 Thomas the Tank Engine &amp; Friends (USA)
+A 0 ? 1993 megadriv/thomas.png megadriv/thomas.zip megadriv/thomas.ogg 0 Thomas the Tank Engine & Friends (USA)
 A 0 ? 1989 megadriv/tf2.png megadriv/tf2.zip megadriv/tf2.ogg 0 Thunder Force II (Euro, USA)
 A 0 ? 2018 megadriv/tf2s.png megadriv/tf2s.zip megadriv/tf2s.ogg 0 Thunder Force II (Hack. Spanish)
 A 0 ? 1989 megadriv/tf2j.png megadriv/tf2j.zip megadriv/tf2j.ogg 0 Thunder Force II MD (Jpn)
@@ -10399,14 +10399,14 @@ A 0 ? 1993 megadriv/tnnbass.png megadriv/tnnbass.zip megadriv/tnnbass.ogg 0 TNN 
 A 0 ? 1996 megadriv/tnnout.png megadriv/tnnout.zip megadriv/tnnout.ogg 0 TNN Outdoors Bass Tournament '96 (USA)
 A 0 ? 2019 megadriv/slimews.png megadriv/slimews.zip megadriv/slimews.ogg 0 Todd's Adventures in Slime World (Hack, Spanish)
 A 0 ? 1991 megadriv/slimew.png megadriv/slimew.zip megadriv/slimew.ogg 0 Todd's Adventures in Slime World (USA)
-A 0 ? 2019 megadriv/toejams.png megadriv/toejams.zip megadriv/toejams.ogg 0 Toe Jam &amp; Earl (Hack, Spanish)
-A 0 ? 1992 megadriv/toejama.png megadriv/toejama.zip megadriv/toejama.ogg 0 Toe Jam &amp; Earl (World)
-A 0 ? 1992 megadriv/toejam.png megadriv/toejam.zip megadriv/toejam.ogg 0 Toe Jam &amp; Earl (World, Rev. A)
-A 0 ? 1993 megadriv/toejam2g.png megadriv/toejam2g.zip megadriv/toejam2g.ogg 0 Toe Jam &amp; Earl in Panic auf Funkotron (Ger)
-A 0 ? 1993 megadriv/toejam2.png megadriv/toejam2.zip megadriv/toejam2.ogg 0 Toe Jam &amp; Earl in Panic on Funkotron (Euro)
-A 0 ? 2018 megadriv/toejam2s.png megadriv/toejam2s.zip megadriv/toejam2s.ogg 0 Toe Jam &amp; Earl in Panic on Funkotron (Hack, Spanish)
-A 0 ? 1993 megadriv/toejam2j.png megadriv/toejam2j.zip megadriv/toejam2j.ogg 0 Toe Jam &amp; Earl in Panic on Funkotron (Jpn)
-A 0 ? 1993 megadriv/toejam2u.png megadriv/toejam2u.zip megadriv/toejam2u.ogg 0 Toe Jam &amp; Earl in Panic on Funkotron (USA)
+A 0 ? 2019 megadriv/toejams.png megadriv/toejams.zip megadriv/toejams.ogg 0 Toe Jam & Earl (Hack, Spanish)
+A 0 ? 1992 megadriv/toejama.png megadriv/toejama.zip megadriv/toejama.ogg 0 Toe Jam & Earl (World)
+A 0 ? 1992 megadriv/toejam.png megadriv/toejam.zip megadriv/toejam.ogg 0 Toe Jam & Earl (World, Rev. A)
+A 0 ? 1993 megadriv/toejam2g.png megadriv/toejam2g.zip megadriv/toejam2g.ogg 0 Toe Jam & Earl in Panic auf Funkotron (Ger)
+A 0 ? 1993 megadriv/toejam2.png megadriv/toejam2.zip megadriv/toejam2.ogg 0 Toe Jam & Earl in Panic on Funkotron (Euro)
+A 0 ? 2018 megadriv/toejam2s.png megadriv/toejam2s.zip megadriv/toejam2s.ogg 0 Toe Jam & Earl in Panic on Funkotron (Hack, Spanish)
+A 0 ? 1993 megadriv/toejam2j.png megadriv/toejam2j.zip megadriv/toejam2j.ogg 0 Toe Jam & Earl in Panic on Funkotron (Jpn)
+A 0 ? 1993 megadriv/toejam2u.png megadriv/toejam2u.zip megadriv/toejam2u.ogg 0 Toe Jam & Earl in Panic on Funkotron (USA)
 A 0 ? 2017 megadriv/tokis.png megadriv/tokis.zip megadriv/tokis.ogg 0 Toki - Going Ape Spit ~ JuJu Densetsu (Hack, Spanish)
 A 0 ? 1991 megadriv/toki1.png megadriv/toki1.zip megadriv/toki1.ogg 0 Toki - Going Ape Spit ~ JuJu Densetsu (World)
 A 0 ? 1991 megadriv/toki.png megadriv/toki.zip megadriv/toki.ogg 0 Toki - Going Ape Spit ~ JuJu Densetsu (World, Rev. A)
@@ -10525,8 +10525,8 @@ A 0 ? 1996 megadriv/vecman2p4.png megadriv/vecman2p4.zip megadriv/vecman2p4.ogg 
 A 0 ? 1996 megadriv/vecman2p3.png megadriv/vecman2p3.zip megadriv/vecman2p3.ogg 0 Vectorman 2 (Prototype, 19960826)
 A 0 ? 1996 megadriv/vecman2p2.png megadriv/vecman2p2.zip megadriv/vecman2p2.ogg 0 Vectorman 2 (Prototype, 19960827)
 A 0 ? 1996 megadriv/vecman2.png megadriv/vecman2.zip megadriv/vecman2.ogg 0 Vectorman 2 (USA)
-A 0 ? 1995 megadriv/venom.png megadriv/venom.zip megadriv/venom.ogg 0 Venom &amp; Spider-Man - Separation Anxiety (Euro, USA)
-A 0 ? 2019 megadriv/venoms.png megadriv/venoms.zip megadriv/venoms.ogg 0 Venom &amp; Spider-Man - Separation Anxiety (Hack, Spanish)
+A 0 ? 1995 megadriv/venom.png megadriv/venom.zip megadriv/venom.ogg 0 Venom & Spider-Man - Separation Anxiety (Euro, USA)
+A 0 ? 2019 megadriv/venoms.png megadriv/venoms.zip megadriv/venoms.ogg 0 Venom & Spider-Man - Separation Anxiety (Hack, Spanish)
 A 0 ? 1989 megadriv/vermilj.png megadriv/vermilj.zip megadriv/vermilj.ogg 0 Vermilion (Jpn)
 A 0 ? 1991 megadriv/verytex.png megadriv/verytex.zip megadriv/verytex.ogg 0 Verytex (Jpn)
 A 0 ? 1994 megadriv/viewpoin.png megadriv/viewpoin.zip megadriv/viewpoin.ogg 0 Viewpoint (USA)
@@ -10914,14 +10914,14 @@ A 0 ? 1984 msx/beamridr.png msx/beamridr.zip msx/beamridr.ogg 0 Beam Rider (Jpn)
 A 0 ? 1983 msx/becky.png msx/becky.zip msx/becky.ogg 0 Becky (Jpn)
 A 0 ? 1983 msx/beckyb.png msx/beckyb.zip msx/beckyb.ogg 0 Becky (Jpn, Alt 2)
 A 0 ? 1983 msx/beckya.png msx/beckya.zip msx/beckya.ogg 0 Becky (Jpn, Alt)
-A 0 ? 1983 msx/beeflowr.png msx/beeflowr.zip msx/beeflowr.ogg 0 Bee &amp; Flower (Jpn)
-A 0 ? 1983 msx/beeflowrb.png msx/beeflowrb.zip msx/beeflowrb.ogg 0 Bee &amp; Flower (Jpn, Alt 2)
-A 0 ? 1983 msx/beeflowra.png msx/beeflowra.zip msx/beeflowra.ogg 0 Bee &amp; Flower (Jpn, Alt)
+A 0 ? 1983 msx/beeflowr.png msx/beeflowr.zip msx/beeflowr.ogg 0 Bee & Flower (Jpn)
+A 0 ? 1983 msx/beeflowrb.png msx/beeflowrb.zip msx/beeflowrb.ogg 0 Bee & Flower (Jpn, Alt 2)
+A 0 ? 1983 msx/beeflowra.png msx/beeflowra.zip msx/beeflowra.ogg 0 Bee & Flower (Jpn, Alt)
 A 0 ? 2006 msx/beez.png msx/beez.zip msx/beez.ogg 0 BeeZ (HB) [Homebrew]
 A 0 ? 1989 msx/bestwarr.png msx/bestwarr.zip msx/bestwarr.ogg 0 Bestial Warrior (Spanish)
 A 0 ? 2007 msx/betiled.png msx/betiled.zip msx/betiled.ogg 0 Betiled! (HB) [Homebrew]
 A 0 ? 1984 msx/binarylnd.png msx/binarylnd.zip msx/binarylnd.ogg 0 Binary Land
-A 0 ? 2017 msx/birdchairs.png msx/birdchairs.zip msx/birdchairs.ogg 0 Bird &amp; Chairs (HB) [Homebrew]
+A 0 ? 2017 msx/birdchairs.png msx/birdchairs.zip msx/birdchairs.ogg 0 Bird & Chairs (HB) [Homebrew]
 A 0 ? 2015 msx/bitlogic.png msx/bitlogic.zip msx/bitlogic.ogg 0 BitLogic (HB) [Homebrew]
 A 0 ? 1988 msx/blackbeard.png msx/blackbeard.zip msx/blackbeard.ogg 0 Blackbeard (Spanish)
 A 0 ? 2013 msx/blaggerenh.png msx/blaggerenh.zip msx/blaggerenh.ogg 0 Blagger Enhanced (HB) [Homebrew]
@@ -11424,8 +11424,8 @@ A 0 ? 1989 msx/khazzad.png msx/khazzad.zip msx/khazzad.ogg 0 Khazzad-Dum (Spanis
 A 0 ? 1986 msx/kickit.png msx/kickit.zip msx/kickit.ogg 0 Kick It (Jpn)
 A 0 ? 1986 msx/kickita.png msx/kickita.zip msx/kickita.ogg 0 Kick It (Jpn, Alt)
 A 0 ? 2011 msx/killmice.png msx/killmice.zip msx/killmice.ogg 0 Kill Mice (HB) [Homebrew]
-A 0 ? 1984 msx/kingball.png msx/kingball.zip msx/kingball.ogg 0 King &amp; Balloon (Jpn)
-A 0 ? 1984 msx/kingballa.png msx/kingballa.zip msx/kingballa.ogg 0 King &amp; Balloon (Jpn, Alt)
+A 0 ? 1984 msx/kingball.png msx/kingball.zip msx/kingball.ogg 0 King & Balloon (Jpn)
+A 0 ? 1984 msx/kingballa.png msx/kingballa.zip msx/kingballa.ogg 0 King & Balloon (Jpn, Alt)
 A 0 ? 1986 msx/kingleon.png msx/kingleon.zip msx/kingleon.ogg 0 King Leonard (Spanish)
 A 0 ? 1986 msx/kingkngt.png msx/kingkngt.zip msx/kingkngt.ogg 0 King's Knight (Jpn)
 A 0 ? 1986 msx/kingkngtb.png msx/kingkngtb.zip msx/kingkngtb.ogg 0 King's Knight (Jpn, Alt 2)
@@ -11678,7 +11678,7 @@ A 0 ? 2019 msx/nogals.png msx/nogals.zip msx/nogals.ogg 0 Nogalious (HB) [Homebr
 A 0 ? 2018 msx/nogalsdemo.png msx/nogalsdemo.zip msx/nogalsdemo.ogg 0 Nogalious Demo (HB) [Homebrew]
 A 0 ? 2019 msx/nohzdyve.png msx/nohzdyve.zip msx/nohzdyve.ogg 0 Nohzdyve (HB) [Homebrew]
 A 0 ? 1986 msx/nuclearbowls.png msx/nuclearbowls.zip msx/nuclearbowls.ogg 0 Nuclear Bowls (Spanish)
-A 0 ? 1983 msx/nutsmilk.png msx/nutsmilk.zip msx/nutsmilk.ogg 0 Nuts &amp; Milk (Jpn)
+A 0 ? 1983 msx/nutsmilk.png msx/nutsmilk.zip msx/nutsmilk.ogg 0 Nuts & Milk (Jpn)
 A 0 ? 1983 msx/omacfarm.png msx/omacfarm.zip msx/omacfarm.ogg 0 O'Mac Farmer (Jpn)
 A 0 ? 1990 msx/oberon69.png msx/oberon69.zip msx/oberon69.ogg 0 Oberon 69
 A 0 ? 1989 msx/obliter.png msx/obliter.zip msx/obliter.ogg 0 Obliterator (Spanish)
@@ -11909,7 +11909,7 @@ A 0 ? 1986 msx/spelunkr.png msx/spelunkr.zip msx/spelunkr.ogg 0 Spelunker (Jpn)
 A 0 ? 1986 msx/spelunkra.png msx/spelunkra.zip msx/spelunkra.ogg 0 Spelunker (Jpn, Alt)
 A 0 ? 1987 msx/spirits.png msx/spirits.zip msx/spirits.ogg 0 Spirits (Spanish)
 A 0 ? 1986 msx/splash.png msx/splash.zip msx/splash.ogg 0 Splash (Spanish)
-A 0 ? 1985 msx/spooksl.png msx/spooksl.zip msx/spooksl.ogg 0 Spooks &amp; Ladders
+A 0 ? 1985 msx/spooksl.png msx/spooksl.zip msx/spooksl.ogg 0 Spooks & Ladders
 A 0 ? 1987 msx/spyvssp2.png msx/spyvssp2.zip msx/spyvssp2.ogg 0 Spy vs Spy II - The Island Caper (Euro)
 A 0 ? 1984 msx/squardan.png msx/squardan.zip msx/squardan.ogg 0 Square Dancer (Jpn) [Use keys 'Z', '/' and Enter]
 A 0 ? 2021 msx/squareball.png msx/squareball.zip msx/squareball.ogg 0 SquareBall (HB) [Homebrew]
@@ -12063,8 +12063,8 @@ A 0 ? 1984 msx/toprollr.png msx/toprollr.zip msx/toprollr.ogg 0 Top Roller! (Jpn
 A 0 ? 1986 msx/topzip.png msx/topzip.zip msx/topzip.ogg 0 Topple Zip (Jpn)
 A 0 ? 2021 msx/tortillaen.png msx/tortillaen.zip msx/tortillaen.ogg 0 Tortilla Sunrise (English) (HB, v1.1) [Homebrew, Redefine controls before starting to play]
 A 0 ? 2021 msx/tortillaes.png msx/tortillaes.zip msx/tortillaes.ogg 0 Tortilla Sunrise (Spanish) (HB, v1.1) [Homebrew, Redefine controls before starting to play]
-A 0 ? 1984 msx/trackfld.png msx/trackfld.zip msx/trackfld.ogg 0 Track &amp; Field 1 (Euro)
-A 0 ? 1984 msx/trackfl2.png msx/trackfl2.zip msx/trackfl2.ogg 0 Track &amp; Field 2 (Euro)
+A 0 ? 1984 msx/trackfld.png msx/trackfld.zip msx/trackfld.ogg 0 Track & Field 1 (Euro)
+A 0 ? 1984 msx/trackfl2.png msx/trackfl2.zip msx/trackfl2.ogg 0 Track & Field 2 (Euro)
 A 0 ? 1986 msx/traffic.png msx/traffic.zip msx/traffic.ogg 0 Traffic (Jpn)
 A 0 ? 1986 msx/traffica.png msx/traffica.zip msx/traffica.ogg 0 Traffic (Jpn, Alt)
 A 0 ? 2006 msx/trafcjam.png msx/trafcjam.zip msx/trafcjam.ogg 0 Traffic Jam (HB) [Homebrew]
@@ -12109,7 +12109,7 @@ A 0 ? 1987 msx/voidrun.png msx/voidrun.zip msx/voidrun.ogg 0 Void Runner (Euro)
 A 0 ? 1985 msx/volguard.png msx/volguard.zip msx/volguard.ogg 0 Volguard (Jpn)
 A 0 ? 1988 msx/vortraid.png msx/vortraid.zip msx/vortraid.ogg 0 Vortex Raider (Euro)
 A 0 ? 1988 msx/wampcola.png msx/wampcola.zip msx/wampcola.ogg 0 Wamp Cola (Spanish)
-A 0 ? 1984 msx/warpwarp.png msx/warpwarp.zip msx/warpwarp.ogg 0 Warp &amp; Warp (Jpn)
+A 0 ? 1984 msx/warpwarp.png msx/warpwarp.zip msx/warpwarp.ogg 0 Warp & Warp (Jpn)
 A 0 ? 1985 msx/warroid.png msx/warroid.zip msx/warroid.ogg 0 Warroid (Jpn)
 A 0 ? 1985 msx/warroida.png msx/warroida.zip msx/warroida.ogg 0 Warroid (Jpn, Alt)
 A 0 ? 1984 msx/waterdrv.png msx/waterdrv.zip msx/waterdrv.ogg 0 Water Driver (Jpn)
@@ -12198,14 +12198,14 @@ A 0 ? 1989 nes/addamfamc.png nes/addamfamc.zip nes/addamfamc.ogg 0 Addams Family
 A 0 ? 1992 nes/addamfam.png nes/addamfam.zip nes/addamfam.ogg 0 Addams Family, The (USA)
 A 0 ? 1989 nes/addamfampugsschuc.png nes/addamfampugsschuc.zip nes/addamfampugsschuc.ogg 0 Addams Family, The - Pugsley's Scavenger Hunt (USA) - Castellano v1.1
 A 0 ? 1993 nes/addamfampugsschu.png nes/addamfampugsschu.zip nes/addamfampugsschu.ogg 0 Addams Family, The - Pugsley's Scavenger Hunt (USA)
-A 0 ? 1989 nes/advdddsc.png nes/advdddsc.zip nes/advdddsc.ogg 0 Advanced Dungeons &amp; Dragons - Dragon Strike (USA) - Castellano v1.0
-A 0 ? 1990 nes/advddds.png nes/advddds.zip nes/advddds.ogg 0 Advanced Dungeons &amp; Dragons - Dragon Strike (USA)
-A 0 ? 1989 nes/advdddfj.png nes/advdddfj.zip nes/advdddfj.ogg 0 Advanced Dungeons &amp; Dragons - Dragons of Flame (Japan)
-A 0 ? 1989 nes/advdddf.png nes/advdddf.zip nes/advdddf.ogg 0 Advanced Dungeons &amp; Dragons - Dragons of Flame (T-eng)
-A 0 ? 1989 nes/advddhlc.png nes/advddhlc.zip nes/advddhlc.ogg 0 Advanced Dungeons &amp; Dragons - Heroes of the Lance (USA) - Castellano v1.0
-A 0 ? 1988 nes/advddhl.png nes/advddhl.zip nes/advddhl.ogg 0 Advanced Dungeons &amp; Dragons - Heroes of the Lance (USA)
-A 0 ? 1992 nes/advddhllfr.png nes/advddhllfr.zip nes/advddhllfr.ogg 0 Advanced Dungeons &amp; Dragons - Hillsfar (USA)
-A 0 ? 1992 nes/advddpor.png nes/advddpor.zip nes/advddpor.ogg 0 Advanced Dungeons &amp; Dragons - Pool of Radiance (USA)
+A 0 ? 1989 nes/advdddsc.png nes/advdddsc.zip nes/advdddsc.ogg 0 Advanced Dungeons & Dragons - Dragon Strike (USA) - Castellano v1.0
+A 0 ? 1990 nes/advddds.png nes/advddds.zip nes/advddds.ogg 0 Advanced Dungeons & Dragons - Dragon Strike (USA)
+A 0 ? 1989 nes/advdddfj.png nes/advdddfj.zip nes/advdddfj.ogg 0 Advanced Dungeons & Dragons - Dragons of Flame (Japan)
+A 0 ? 1989 nes/advdddf.png nes/advdddf.zip nes/advdddf.ogg 0 Advanced Dungeons & Dragons - Dragons of Flame (T-eng)
+A 0 ? 1989 nes/advddhlc.png nes/advddhlc.zip nes/advddhlc.ogg 0 Advanced Dungeons & Dragons - Heroes of the Lance (USA) - Castellano v1.0
+A 0 ? 1988 nes/advddhl.png nes/advddhl.zip nes/advddhl.ogg 0 Advanced Dungeons & Dragons - Heroes of the Lance (USA)
+A 0 ? 1992 nes/advddhllfr.png nes/advddhllfr.zip nes/advddhllfr.ogg 0 Advanced Dungeons & Dragons - Hillsfar (USA)
+A 0 ? 1992 nes/advddpor.png nes/advddpor.zip nes/advddpor.ogg 0 Advanced Dungeons & Dragons - Pool of Radiance (USA)
 A 0 ? 1989 nes/adventureislandc.png nes/adventureislandc.zip nes/adventureislandc.ogg 0 Adventure Island (USA) - Castellano v1.0
 A 0 ? 1988 nes/adventureisland.png nes/adventureisland.zip nes/adventureisland.ogg 0 Adventure Island (USA)
 A 0 ? 1989 nes/advenisl3c.png nes/advenisl3c.zip nes/advenisl3c.ogg 0 Adventure Island 3 (USA) - Castellano v1.1
@@ -12295,7 +12295,7 @@ A 0 ? 1986 nes/bwings.png nes/bwings.zip nes/bwings.ogg 0 B-Wings (Japan)
 A 0 ? 1986 nes/babelnotou.png nes/babelnotou.zip nes/babelnotou.ogg 0 Babel no Tou (Japan)
 A 0 ? 1989 nes/babyboomer.png nes/babyboomer.zip nes/babyboomer.ogg 0 Baby Boomer (USA)
 A 0 ? 1989 nes/backfut.png nes/backfut.zip nes/backfut.ogg 0 Back to the Future (USA)
-A 0 ? 1990 nes/backfutpariiiii.png nes/backfutpariiiii.zip nes/backfutpariiiii.ogg 0 Back to the Future Part II &amp; III (USA)
+A 0 ? 1990 nes/backfutpariiiii.png nes/backfutpariiiii.zip nes/backfutpariiiii.ogg 0 Back to the Future Part II & III (USA)
 A 0 ? 2015 nes/badapple.png nes/badapple.zip nes/badapple.ogg 0 Bad Apple (HB, Tech-Demo) [Homebrew]
 A 0 ? 1990 nes/baddudes.png nes/baddudes.zip nes/baddudes.ogg 0 Bad Dudes (USA)
 A 0 ? 1990 nes/badnewbas.png nes/badnewbas.zip nes/badnewbas.ogg 0 Bad News Baseball (USA)
@@ -12328,7 +12328,7 @@ A 0 ? 1989 nes/batmavidgamj.png nes/batmavidgamj.zip nes/batmavidgamj.ogg 0 Batm
 A 0 ? 2020 nes/batmavidgamc.png nes/batmavidgamc.zip nes/batmavidgamc.ogg 0 Batman - The Video Game (T-Chi)
 A 0 ? 1990 nes/batmavidgam.png nes/batmavidgam.zip nes/batmavidgam.ogg 0 Batman - The Video Game (USA)
 A 0 ? 1993 nes/batmanreturns.png nes/batmanreturns.zip nes/batmanreturns.ogg 0 Batman Returns (USA)
-A 0 ? 1987 nes/batsuterii.png nes/batsuterii.zip nes/batsuterii.ogg 0 Batsu &amp; Terii (Japan)
+A 0 ? 1987 nes/batsuterii.png nes/batsuterii.zip nes/batsuterii.ogg 0 Batsu & Terii (Japan)
 A 0 ? 2019 nes/batterychad.png nes/batterychad.zip nes/batterychad.ogg 0 Battery Chad - Shock the World (HB) [Homebrew]
 A 0 ? 1989 nes/battlebaseball.png nes/battlebaseball.zip nes/battlebaseball.ogg 0 Battle Baseball (Japan)
 A 0 ? 1990 nes/battlechess.png nes/battlechess.zip nes/battlechess.ogg 0 Battle Chess (USA)
@@ -12354,7 +12354,7 @@ A 0 ? 1993 nes/biblebuffet.png nes/biblebuffet.zip nes/biblebuffet.ogg 0 Bible B
 A 0 ? 1992 nes/bignosfreout.png nes/bignosfreout.zip nes/bignosfreout.ogg 0 Big Nose Freaks Out (USA)
 A 0 ? 1991 nes/bignoscav.png nes/bignoscav.zip nes/bignoscav.ogg 0 Big Nose the Caveman (USA)
 A 0 ? 1990 nes/bigfoot.png nes/bigfoot.zip nes/bigfoot.ogg 0 Bigfoot (USA)
-A 0 ? 1991 nes/billtedsexcvigaad.png nes/billtedsexcvigaad.zip nes/billtedsexcvigaad.ogg 0 Bill &amp; Ted's Excellent Video Game Adventure (USA)
+A 0 ? 1991 nes/billtedsexcvigaad.png nes/billtedsexcvigaad.zip nes/billtedsexcvigaad.ogg 0 Bill & Ted's Excellent Video Game Adventure (USA)
 A 0 ? 1985 nes/binaryland.png nes/binaryland.zip nes/binaryland.ogg 0 Binary Land (Japan)
 A 0 ? 1989 nes/bioforceape.png nes/bioforceape.zip nes/bioforceape.ogg 0 Bio Force Ape (Japan) (En) (Proto)
 A 0 ? 1989 nes/biohazardc.png nes/biohazardc.zip nes/biohazardc.ogg 0 Bio Hazard (China)
@@ -12414,7 +12414,7 @@ A 0 ? 1988 nes/bumpnjump.png nes/bumpnjump.zip nes/bumpnjump.ogg 0 Bump'n'Jump (
 A 0 ? 1990 nes/buraifighterj.png nes/buraifighterj.zip nes/buraifighterj.ogg 0 Burai Fighter (Japan)
 A 0 ? 1990 nes/buraifighter.png nes/buraifighter.zip nes/buraifighter.ogg 0 Burai Fighter (USA)
 A 0 ? 1987 nes/burgertime.png nes/burgertime.zip nes/burgertime.ogg 0 BurgerTime (USA)
-A 0 ? 1989 nes/buzzwaldog.png nes/buzzwaldog.zip nes/buzzwaldog.ogg 0 Buzz &amp; Waldog (USA) (Proto) (Unl)
+A 0 ? 1989 nes/buzzwaldog.png nes/buzzwaldog.zip nes/buzzwaldog.ogg 0 Buzz & Waldog (USA) (Proto) (Unl)
 A 0 ? 1990 nes/cabal.png nes/cabal.zip nes/cabal.ogg 0 Cabal (USA)
 A 0 ? 2018 nes/cadaverion.png nes/cadaverion.zip nes/cadaverion.ogg 0 Cadaverion (HB) [Homebrew]
 A 0 ? 1989 nes/californiagames.png nes/californiagames.zip nes/californiagames.ogg 0 California Games (USA)
@@ -12746,7 +12746,7 @@ A 0 ? 1993 nes/famista94.png nes/famista94.zip nes/famista94.ogg 0 Famista '94 (
 A 0 ? 1991 nes/fantaadvdiz.png nes/fantaadvdiz.zip nes/fantaadvdiz.ogg 0 Fantastic Adventures of Dizzy, The (USA)
 A 0 ? 1987 nes/fantasyzone.png nes/fantasyzone.zip nes/fantasyzone.ogg 0 Fantasy Zone (Japan)
 A 0 ? 1988 nes/fantazonii.png nes/fantazonii.zip nes/fantazonii.ogg 0 Fantasy Zone II - Opa-Opa no Namida (Japan)
-A 0 ? 1991 nes/faria.png nes/faria.zip nes/faria.ogg 0 Faria - A World of Mystery &amp; Danger! (USA)
+A 0 ? 1991 nes/faria.png nes/faria.zip nes/faria.ogg 0 Faria - A World of Mystery & Danger! (USA)
 A 0 ? 1987 nes/faxanaduj.png nes/faxanaduj.zip nes/faxanaduj.ogg 0 Faxanadu (Japan)
 A 0 ? 1987 nes/faxanadut.png nes/faxanadut.zip nes/faxanadut.ogg 0 Faxanadu (T-Eng)
 A 0 ? 1989 nes/faxanaduc.png nes/faxanaduc.zip nes/faxanaduc.ogg 0 Faxanadu (USA) (Rev A) - Castellano v0.7
@@ -12763,8 +12763,8 @@ A 0 ? 1988 nes/fightingroad.png nes/fightingroad.zip nes/fightingroad.ogg 0 Figh
 A 0 ? 1989 nes/finalcombat.png nes/finalcombat.zip nes/finalcombat.ogg 0 Final Combat (Asia) (NTSC) (Unl)
 A 0 ? 1989 nes/finalfantasyc.png nes/finalfantasyc.zip nes/finalfantasyc.ogg 0 Final Fantasy (USA) - Castellano v1.0
 A 0 ? 1990 nes/finalfantasy.png nes/finalfantasy.zip nes/finalfantasy.ogg 0 Final Fantasy (USA)
-A 0 ? 1994 nes/finalfan12j.png nes/finalfan12j.zip nes/finalfan12j.ogg 0 Final Fantasy 1 &amp; 2 (Japan)
-A 0 ? 1989 nes/finalfan12.png nes/finalfan12.zip nes/finalfan12.ogg 0 Final Fantasy 1 &amp; 2 (T-eng)
+A 0 ? 1994 nes/finalfan12j.png nes/finalfan12j.zip nes/finalfan12j.ogg 0 Final Fantasy 1 & 2 (Japan)
+A 0 ? 1989 nes/finalfan12.png nes/finalfan12.zip nes/finalfan12.ogg 0 Final Fantasy 1 & 2 (T-eng)
 A 0 ? 1989 nes/finalfantasyiic.png nes/finalfantasyiic.zip nes/finalfantasyiic.ogg 0 Final Fantasy II (Japan) (Headered) - Castellano v1.0
 A 0 ? 0000 nes/finalfantasyii.png nes/finalfantasyii.zip nes/finalfantasyii.ogg 0 Final Fantasy II (USA) (Proto)
 A 0 ? 1989 nes/finalfaniiic.png nes/finalfaniiic.zip nes/finalfaniiic.ogg 0 Final Fantasy III (Japan) - Castellano v1.0
@@ -12791,8 +12791,8 @@ A 0 ? 2014 nes/flappybird.png nes/flappybird.zip nes/flappybird.ogg 0 Flappy Bir
 A 0 ? 2020 nes/flea.png nes/flea.zip nes/flea.ogg 0 FLEA! (HB) [Homebrew]
 A 0 ? 2019 nes/fleademo.png nes/fleademo.zip nes/fleademo.ogg 0 FLEA! demo (HB) [Homebrew]
 A 0 ? 1991 nes/flighint.png nes/flighint.zip nes/flighint.ogg 0 Flight of the Intruder (USA)
-A 0 ? 1991 nes/flintresdinhopj.png nes/flintresdinhopj.zip nes/flintresdinhopj.ogg 0 Flintstones, The - The Rescue of Dino &amp; Hoppy (Japan)
-A 0 ? 1991 nes/flintresdinhop.png nes/flintresdinhop.zip nes/flintresdinhop.ogg 0 Flintstones, The - The Rescue of Dino &amp; Hoppy (USA)
+A 0 ? 1991 nes/flintresdinhopj.png nes/flintresdinhopj.zip nes/flintresdinhopj.ogg 0 Flintstones, The - The Rescue of Dino & Hoppy (Japan)
+A 0 ? 1991 nes/flintresdinhop.png nes/flintresdinhop.zip nes/flintresdinhop.ogg 0 Flintstones, The - The Rescue of Dino & Hoppy (USA)
 A 0 ? 1994 nes/flintsuratdinpe.png nes/flintsuratdinpe.zip nes/flintsuratdinpe.ogg 0 Flintstones, The - The Surprise at Dinosaur Peak! (USA)
 A 0 ? 1989 nes/flipull.png nes/flipull.zip nes/flipull.ogg 0 Flipull - An Exciting Cube Game (Japan)
 A 0 ? 1989 nes/flyindra.png nes/flyindra.zip nes/flyindra.ogg 0 Flying Dragon - The Secret Scroll (USA)
@@ -12992,7 +12992,7 @@ A 0 ? 1990 nes/infiltrator.png nes/infiltrator.zip nes/infiltrator.ogg 0 Infiltr
 A 0 ? 1990 nes/insectorx.png nes/insectorx.zip nes/insectorx.ogg 0 Insector X (Japan)
 A 0 ? 1992 nes/intercri.png nes/intercri.zip nes/intercri.ogg 0 International Cricket (Australia)
 A 0 ? 1988 nes/irontan.png nes/irontan.zip nes/irontan.ogg 0 Iron Tank - The Invasion of Normandy (USA)
-A 0 ? 1989 nes/irons.png nes/irons.zip nes/irons.ogg 0 Ironsword - Wizards &amp; Warriors II (USA)
+A 0 ? 1989 nes/irons.png nes/irons.zip nes/irons.ogg 0 Ironsword - Wizards & Warriors II (USA)
 A 0 ? 1991 nes/isolatedwarrior.png nes/isolatedwarrior.zip nes/isolatedwarrior.ogg 0 Isolated Warrior (USA)
 A 0 ? 1990 nes/ivanirostessuoffro.png nes/ivanirostessuoffro.zip nes/ivanirostessuoffro.ogg 0 Ivan 'Ironman' Stewart's Super Off Road (USA)
 A 0 ? 1989 nes/jleafigsoc.png nes/jleafigsoc.zip nes/jleafigsoc.ogg 0 J.League Fighting Soccer - The King of Ace Strikers (Japan)
@@ -13023,11 +13023,11 @@ A 0 ? 1987 nes/jikuuyuu.png nes/jikuuyuu.zip nes/jikuuyuu.ogg 0 Jikuu Yuuden - D
 A 0 ? 2020 nes/jimpower.png nes/jimpower.zip nes/jimpower.ogg 0 Jim Power - The Lost Dimension (HB) [Homebrew]
 A 0 ? 1993 nes/jimmyconten.png nes/jimmyconten.zip nes/jimmyconten.ogg 0 Jimmy Connors Tennis (USA)
 A 0 ? 1987 nes/jj.png nes/jj.zip nes/jj.ogg 0 JJ (Japan)
-A 0 ? 1992 nes/joemac.png nes/joemac.zip nes/joemac.ogg 0 Joe &amp; Mac (USA)
+A 0 ? 1992 nes/joemac.png nes/joemac.zip nes/joemac.ogg 0 Joe & Mac (USA)
 A 0 ? 1989 nes/johnelwsqua.png nes/johnelwsqua.zip nes/johnelwsqua.ogg 0 John Elway's Quarterback (USA)
 A 0 ? 1987 nes/jongbou.png nes/jongbou.zip nes/jongbou.ogg 0 Jongbou (Japan)
 A 0 ? 1989 nes/jordavsbir.png nes/jordavsbir.zip nes/jordavsbir.ogg 0 Jordan vs Bird - One On One (USA)
-A 0 ? 1992 nes/joshubatjer.png nes/joshubatjer.zip nes/joshubatjer.ogg 0 Joshua &amp; the Battle of Jericho (USA)
+A 0 ? 1992 nes/joshubatjer.png nes/joshubatjer.zip nes/joshubatjer.ogg 0 Joshua & the Battle of Jericho (USA)
 A 0 ? 1990 nes/journsil.png nes/journsil.zip nes/journsil.ogg 0 Journey to Silius (USA)
 A 0 ? 2019 nes/journeyal.png nes/journeyal.zip nes/journeyal.ogg 0 Journey to the Center of the Alien (HB) [Homebrew]
 A 0 ? 1988 nes/joust.png nes/joust.zip nes/joust.ogg 0 Joust (USA)
@@ -13169,7 +13169,7 @@ A 0 ? 1991 nes/littlmerj.png nes/littlmerj.zip nes/littlmerj.ogg 0 Little Mermai
 A 0 ? 1991 nes/littlmer.png nes/littlmer.zip nes/littlmer.ogg 0 Little Mermaid, The (USA)
 A 0 ? 1990 nes/littlnem.png nes/littlnem.zip nes/littlnem.ogg 0 Little Nemo - The Dream Master (USA)
 A 0 ? 1990 nes/littlninbro.png nes/littlninbro.zip nes/littlninbro.ogg 0 Little Ninja Brothers (USA)
-A 0 ? 1992 nes/littlesamsonh.png nes/littlesamsonh.zip nes/littlesamsonh.ogg 0 Little Samson (Restoration &amp; Sound Hack)
+A 0 ? 1992 nes/littlesamsonh.png nes/littlesamsonh.zip nes/littlesamsonh.ogg 0 Little Samson (Restoration & Sound Hack)
 A 0 ? 1992 nes/littlesamson.png nes/littlesamson.zip nes/littlesamson.ogg 0 Little Samson (USA)
 A 0 ? 2018 nes/lizard.png nes/lizard.zip nes/lizard.ogg 0 Lizard (HB) [Homebrew]
 A 0 ? 1987 nes/loderunner.png nes/loderunner.zip nes/loderunner.ogg 0 Lode Runner (USA)
@@ -13269,7 +13269,7 @@ A 0 ? 1989 nes/metalgearc.png nes/metalgearc.zip nes/metalgearc.ogg 0 Metal Gear
 A 0 ? 1988 nes/metalgear.png nes/metalgear.zip nes/metalgear.ogg 0 Metal Gear (USA)
 A 0 ? 1991 nes/metalmaxj.png nes/metalmaxj.zip nes/metalmaxj.ogg 0 Metal Max (Japan)
 A 0 ? 1991 nes/metalmax.png nes/metalmax.zip nes/metalmax.ogg 0 Metal Max (T-Eng)
-A 0 ? 1991 nes/metalmec.png nes/metalmec.zip nes/metalmec.ogg 0 Metal Mech - Man &amp; Machine (USA)
+A 0 ? 1991 nes/metalmec.png nes/metalmec.zip nes/metalmec.ogg 0 Metal Mech - Man & Machine (USA)
 A 0 ? 1991 nes/metalslagloj.png nes/metalslagloj.zip nes/metalslagloj.ogg 0 Metal Slader Glory (Japan)
 A 0 ? 1991 nes/metalslaglo.png nes/metalslaglo.zip nes/metalslaglo.ogg 0 Metal Slader Glory (T-Eng)
 A 0 ? 1991 nes/metalstorm.png nes/metalstorm.zip nes/metalstorm.ogg 0 Metal Storm (USA)
@@ -13371,7 +13371,7 @@ A 0 ? 1991 nes/newzeasto.png nes/newzeasto.zip nes/newzeasto.ogg 0 New Zealand S
 A 0 ? 1993 nes/nigelmansworchch.png nes/nigelmansworchch.zip nes/nigelmansworchch.ogg 0 Nigel Mansell's World Championship Challenge (USA)
 A 0 ? 1990 nes/nightonelmstra.png nes/nightonelmstra.zip nes/nightonelmstra.ogg 0 Nightmare on Elm Street, A (USA)
 A 0 ? 1992 nes/nightshade.png nes/nightshade.zip nes/nightshade.ogg 0 Nightshade (USA)
-A 0 ? 2018 nes/nimnom.png nes/nimnom.zip nes/nimnom.ogg 0 Nim &amp; Nom (HB, v1.2) [Homebrew]
+A 0 ? 2018 nes/nimnom.png nes/nimnom.zip nes/nimnom.ogg 0 Nim & Nom (HB, v1.2) [Homebrew]
 A 0 ? 2010 nes/deadfoxc.png nes/deadfoxc.zip nes/deadfoxc.ogg 0 Ningen Heiki - Dead Fox (T-Chi, v2.0)
 A 0 ? 1989 nes/ninjacopsaizou.png nes/ninjacopsaizou.zip nes/ninjacopsaizou.ogg 0 Ninja Cop Saizou (Japan)
 A 0 ? 1990 nes/ninjacrusaders.png nes/ninjacrusaders.zip nes/ninjacrusaders.ogg 0 Ninja Crusaders (USA)
@@ -13401,10 +13401,10 @@ A 0 ? 1990 nes/ninteworcup.png nes/ninteworcup.zip nes/ninteworcup.ogg 0 Nintend
 A 0 ? 2020 nes/nixrelic.png nes/nixrelic.zip nes/nixrelic.ogg 0 Nix: the Paradox Relic (HB, v1.9) [Homebrew]
 A 0 ? 1992 nes/noahsark.png nes/noahsark.zip nes/noahsark.ogg 0 Noah's Ark (Europe)
 A 0 ? 2014 nes/nomolos.png nes/nomolos.zip nes/nomolos.ogg 0 Nomolos (HB) [Homebrew]
-A 0 ? 1989 nes/northsouthc.png nes/northsouthc.zip nes/northsouthc.ogg 0 North &amp; South (USA) - Castellano v2.0
-A 0 ? 1990 nes/northsouth.png nes/northsouth.zip nes/northsouth.ogg 0 North &amp; South (USA)
+A 0 ? 1989 nes/northsouthc.png nes/northsouthc.zip nes/northsouthc.ogg 0 North & South (USA) - Castellano v2.0
+A 0 ? 1990 nes/northsouth.png nes/northsouth.zip nes/northsouth.ogg 0 North & South (USA)
 A 0 ? 2018 nes/novasqu.png nes/novasqu.zip nes/novasqu.ogg 0 Nova the Squirrel (HB) [Homebrew]
-A 0 ? 1984 nes/nutsmilk.png nes/nutsmilk.zip nes/nutsmilk.ogg 0 Nuts &amp; Milk (Japan)
+A 0 ? 1984 nes/nutsmilk.png nes/nutsmilk.zip nes/nutsmilk.ogg 0 Nuts & Milk (Japan)
 A 0 ? 1985 nes/obakenoqtar.png nes/obakenoqtar.zip nes/obakenoqtar.ogg 0 Obake no Q Tarou - Wanwan Panic (Japan)
 A 0 ? 1985 nes/onyankotown.png nes/onyankotown.zip nes/onyankotown.ogg 0 Onyanko Town (Japan)
 A 0 ? 1989 nes/operationwolf.png nes/operationwolf.zip nes/operationwolf.ogg 0 Operation Wolf (USA)
@@ -13438,14 +13438,14 @@ A 0 ? 1990 nes/parodiusdaj.png nes/parodiusdaj.zip nes/parodiusdaj.ogg 0 Parodiu
 A 0 ? 1990 nes/parodiusda.png nes/parodiusda.zip nes/parodiusda.ogg 0 Parodius Da! (T-Eng)
 A 0 ? 1989 nes/peekaboopoker.png nes/peekaboopoker.zip nes/peekaboopoker.ogg 0 Peek-A-Boo Poker (Unl)
 A 0 ? 1990 nes/peepartime.png nes/peepartime.zip nes/peepartime.ogg 0 Peepar Time (Japan)
-A 0 ? 1989 nes/pengusea.png nes/pengusea.zip nes/pengusea.ogg 0 Penguin &amp; Seal, The (Unl)
+A 0 ? 1989 nes/pengusea.png nes/pengusea.zip nes/pengusea.ogg 0 Penguin & Seal, The (Unl)
 A 0 ? 1985 nes/penguinkunwars.png nes/penguinkunwars.zip nes/penguinkunwars.ogg 0 Penguin-kun Wars (Japan)
 A 0 ? 1989 nes/perfectbowling.png nes/perfectbowling.zip nes/perfectbowling.ogg 0 Perfect Bowling (Japan)
 A 0 ? 2016 nes/perfectpair.png nes/perfectpair.zip nes/perfectpair.ogg 0 Perfect Pair (HB) [Homebrew]
 A 0 ? 1990 nes/perman.png nes/perman.zip nes/perman.ogg 0 Perman (Japan)
 A 0 ? 1991 nes/permapar2.png nes/permapar2.zip nes/permapar2.ogg 0 Perman Part 2 - Himitsu Kessha Madoodan o Taose! (Japan)
 A 0 ? 1990 nes/pesterminator.png nes/pesterminator.zip nes/pesterminator.ogg 0 Pesterminator (USA) (Unl)
-A 0 ? 1991 nes/peterpanpir.png nes/peterpanpir.zip nes/peterpanpir.ogg 0 Peter Pan &amp; The Pirates (USA)
+A 0 ? 1991 nes/peterpanpir.png nes/peterpanpir.zip nes/peterpanpir.ogg 0 Peter Pan & The Pirates (USA)
 A 0 ? 1990 nes/phantomfighter.png nes/phantomfighter.zip nes/phantomfighter.ogg 0 Phantom Fighter (USA)
 A 0 ? 1990 nes/pictionary.png nes/pictionary.zip nes/pictionary.ogg 0 Pictionary (USA)
 A 0 ? 1990 nes/pinbot.png nes/pinbot.zip nes/pinbot.ogg 0 Pin Bot (USA)
@@ -13520,7 +13520,7 @@ A 0 ? 1991 nes/rbibas3.png nes/rbibas3.zip nes/rbibas3.ogg 0 R.B.I. Baseball 3 (
 A 0 ? 1988 nes/rcproam.png nes/rcproam.zip nes/rcproam.ogg 0 R.C. Pro-Am (USA) (Rev A)
 A 0 ? 1992 nes/rcproamii.png nes/rcproamii.zip nes/rcproamii.ogg 0 R.C. Pro-Am II (USA)
 A 0 ? 1988 nes/racketattack.png nes/racketattack.zip nes/racketattack.ogg 0 Racket Attack (USA)
-A 0 ? 1989 nes/racketsrivals.png nes/racketsrivals.zip nes/racketsrivals.ogg 0 Rackets &amp; Rivals (Europe)
+A 0 ? 1989 nes/racketsrivals.png nes/racketsrivals.zip nes/racketsrivals.ogg 0 Rackets & Rivals (Europe)
 A 0 ? 1988 nes/radracer.png nes/radracer.zip nes/radracer.ogg 0 Rad Racer (USA)
 A 0 ? 1990 nes/radracerii.png nes/radracerii.zip nes/radracerii.ogg 0 Rad Racer II (USA)
 A 0 ? 1991 nes/radrac.png nes/radrac.zip nes/radrac.ogg 0 Rad Racket - Deluxe Tennis II (USA)
@@ -13538,7 +13538,7 @@ A 0 ? 1988 nes/rambo.png nes/rambo.zip nes/rambo.ogg 0 Rambo (USA) (Rev A)
 A 0 ? 1988 nes/rampage.png nes/rampage.zip nes/rampage.ogg 0 Rampage (USA)
 A 0 ? 1992 nes/rampart.png nes/rampart.zip nes/rampart.ogg 0 Rampart (USA)
 A 0 ? 1989 nes/redarremerii.png nes/redarremerii.zip nes/redarremerii.ogg 0 Red Arremer II (Japan)
-A 0 ? 1993 nes/renstisho.png nes/renstisho.zip nes/renstisho.ogg 0 Ren &amp; Stimpy Show, The - Buckeroo$! (USA)
+A 0 ? 1993 nes/renstisho.png nes/renstisho.zip nes/renstisho.ogg 0 Ren & Stimpy Show, The - Buckeroo$! (USA)
 A 0 ? 1989 nes/renegadec.png nes/renegadec.zip nes/renegadec.ogg 0 Renegade (USA) - Castellano v1.0
 A 0 ? 1988 nes/renegade.png nes/renegade.zip nes/renegade.ogg 0 Renegade (USA)
 A 0 ? 1989 nes/rescuec.png nes/rescuec.zip nes/rescuec.ogg 0 Rescue - The Embassy Mission (USA) - Castellano v1.0
@@ -13660,7 +13660,7 @@ A 0 ? 1992 nes/skateboy.png nes/skateboy.zip nes/skateboy.ogg 0 Skate Boy (Spain
 A 0 ? 1988 nes/skateordie.png nes/skateordie.zip nes/skateordie.ogg 0 Skate or Die (USA)
 A 0 ? 1990 nes/skateordie2.png nes/skateordie2.zip nes/skateordie2.ogg 0 Skate or Die 2 - The Search for Double Trouble (USA)
 A 0 ? 1991 nes/skiordie.png nes/skiordie.zip nes/skiordie.ogg 0 Ski or Die (USA)
-A 0 ? 1990 nes/skullcro.png nes/skullcro.zip nes/skullcro.ogg 0 Skull &amp; Crossbones (USA) (Unl)
+A 0 ? 1990 nes/skullcro.png nes/skullcro.zip nes/skullcro.ogg 0 Skull & Crossbones (USA) (Unl)
 A 0 ? 1985 nes/skydestroyer.png nes/skydestroyer.zip nes/skydestroyer.ogg 0 Sky Destroyer (Japan)
 A 0 ? 1987 nes/skykid.png nes/skykid.zip nes/skykid.ogg 0 Sky Kid (USA)
 A 0 ? 1989 nes/skyshark.png nes/skyshark.zip nes/skyshark.ogg 0 Sky Shark (USA) (Rev 0A)
@@ -13809,8 +13809,8 @@ A 0 ? 1989 nes/swordmasterc.png nes/swordmasterc.zip nes/swordmasterc.ogg 0 Swor
 A 0 ? 1992 nes/swordmasterh.png nes/swordmasterh.zip nes/swordmasterh.ogg 0 Sword Master (USA)(Hack Sample Fix)
 A 0 ? 1992 nes/swordmaster.png nes/swordmaster.zip nes/swordmaster.ogg 0 Sword Master (USA)
 A 0 ? 1990 nes/swordandser.png nes/swordandser.zip nes/swordandser.ogg 0 Swords and Serpents (USA)
-A 0 ? 1992 nes/tc2.png nes/tc2.zip nes/tc2.ogg 0 T&amp;C 2 - Thrilla's Surfari (USA)
-A 0 ? 1988 nes/tcsurfdesign.png nes/tcsurfdesign.zip nes/tcsurfdesign.ogg 0 T&amp;C Surf Design (USA)
+A 0 ? 1992 nes/tc2.png nes/tc2.zip nes/tc2.ogg 0 T&C 2 - Thrilla's Surfari (USA)
+A 0 ? 1988 nes/tcsurfdesign.png nes/tcsurfdesign.zip nes/tcsurfdesign.ogg 0 T&C Surf Design (USA)
 A 0 ? 1989 nes/taboo.png nes/taboo.zip nes/taboo.ogg 0 Taboo - The Sixth Sense (USA)
 A 0 ? 1986 nes/tagteawre.png nes/tagteawre.zip nes/tagteawre.ogg 0 Tag Team Wrestling (USA)
 A 0 ? 1990 nes/tagindragon.png nes/tagindragon.zip nes/tagindragon.ogg 0 Tagin' Dragon (Unl)
@@ -13880,7 +13880,7 @@ A 0 ? 2015 nes/riseamo.png nes/riseamo.zip nes/riseamo.ogg 0 The Rise of Amondus
 A 0 ? 1989 nes/thexderc.png nes/thexderc.zip nes/thexderc.ogg 0 Thexder (Japan) - Castellano v1.0
 A 0 ? 1985 nes/thexder.png nes/thexder.zip nes/thexder.ogg 0 Thexder (Japan)
 A 0 ? 1989 nes/threestooges.png nes/threestooges.zip nes/threestooges.ogg 0 Three Stooges (USA)
-A 0 ? 1990 nes/thundlig.png nes/thundlig.zip nes/thundlig.ogg 0 Thunder &amp; Lightning (USA)
+A 0 ? 1990 nes/thundlig.png nes/thundlig.zip nes/thundlig.ogg 0 Thunder & Lightning (USA)
 A 0 ? 1989 nes/thunderwarrior.png nes/thunderwarrior.zip nes/thunderwarrior.ogg 0 Thunder Warrior (Asia) (Unl)
 A 0 ? 1990 nes/thunderbirds.png nes/thunderbirds.zip nes/thunderbirds.ogg 0 Thunderbirds (USA)
 A 0 ? 1989 nes/thunderbolt2.png nes/thunderbolt2.zip nes/thunderbolt2.ogg 0 Thunderbolt 2 (Ch)
@@ -13906,8 +13906,8 @@ A 0 ? 1991 nes/toki.png nes/toki.zip nes/toki.ogg 0 Toki (USA)
 A 0 ? 1989 nes/tokkyshisolj.png nes/tokkyshisolj.zip nes/tokkyshisolj.ogg 0 Tokkyuu Shirei Solbrain (Japan)
 A 0 ? 1989 nes/tokkyshisol.png nes/tokkyshisol.zip nes/tokkyshisol.ogg 0 Tokkyuu Shirei Solbrain (T-Eng)
 A 0 ? 1987 nes/tokorsannomammosemo.png nes/tokorsannomammosemo.zip nes/tokorsannomammosemo.ogg 0 Tokoro-san no Mamoru mo Semeru mo (Japan)
-A 0 ? 1989 nes/tomjerultgamcatandmc.png nes/tomjerultgamcatandmc.zip nes/tomjerultgamcatandmc.ogg 0 Tom &amp; Jerry - The Ultimate Game of Cat and Mouse! (USA) - Castellano v1.0
-A 0 ? 1991 nes/tomjerultgamcatandm.png nes/tomjerultgamcatandm.zip nes/tomjerultgamcatandm.ogg 0 Tom &amp; Jerry - The Ultimate Game of Cat and Mouse! (USA)
+A 0 ? 1989 nes/tomjerultgamcatandmc.png nes/tomjerultgamcatandmc.zip nes/tomjerultgamcatandmc.ogg 0 Tom & Jerry - The Ultimate Game of Cat and Mouse! (USA) - Castellano v1.0
+A 0 ? 1991 nes/tomjerultgamcatandm.png nes/tomjerultgamcatandm.zip nes/tomjerultgamcatandm.ogg 0 Tom & Jerry - The Ultimate Game of Cat and Mouse! (USA)
 A 0 ? 1989 nes/toobin.png nes/toobin.zip nes/toobin.ogg 0 Toobin' (USA)
 A 0 ? 1989 nes/topgunc.png nes/topgunc.zip nes/topgunc.ogg 0 Top Gun (USA) (Rev 1) - Castellano v1.0
 A 0 ? 1987 nes/topgun.png nes/topgun.zip nes/topgun.ogg 0 Top Gun (USA) (Rev A)
@@ -13924,8 +13924,8 @@ A 0 ? 1992 nes/toukonclub.png nes/toukonclub.zip nes/toukonclub.ogg 0 Toukon Clu
 A 0 ? 1985 nes/towerdru.png nes/towerdru.zip nes/towerdru.ogg 0 Tower of Druaga, The (Japan)
 A 0 ? 2019 nes/towerofturmoil.png nes/towerofturmoil.zip nes/towerofturmoil.ogg 0 Tower of Turmoil (HB, v1.03) [Homebrew]
 A 0 ? 1992 nes/toxiccrusaders.png nes/toxiccrusaders.zip nes/toxiccrusaders.ogg 0 Toxic Crusaders (USA)
-A 0 ? 1987 nes/trackfield.png nes/trackfield.zip nes/trackfield.ogg 0 Track &amp; Field (USA)
-A 0 ? 1989 nes/trackfieldii.png nes/trackfieldii.zip nes/trackfieldii.ogg 0 Track &amp; Field II (USA) (Rev A)
+A 0 ? 1987 nes/trackfield.png nes/trackfield.zip nes/trackfield.ogg 0 Track & Field (USA)
+A 0 ? 1989 nes/trackfieldii.png nes/trackfieldii.zip nes/trackfieldii.ogg 0 Track & Field II (USA) (Rev A)
 A 0 ? 1991 nes/treasuremaster.png nes/treasuremaster.zip nes/treasuremaster.ogg 0 Treasure Master (USA)
 A 0 ? 1991 nes/trog.png nes/trog.zip nes/trog.ogg 0 Trog (USA)
 A 0 ? 1987 nes/trojan.png nes/trojan.zip nes/trojan.ogg 0 Trojan (USA)
@@ -13985,7 +13985,7 @@ A 0 ? 1991 nes/waiwaiwor2j.png nes/waiwaiwor2j.zip nes/waiwaiwor2j.ogg 0 Wai Wai
 A 0 ? 1991 nes/waiwaiwor2.png nes/waiwaiwor2.zip nes/waiwaiwor2.ogg 0 Wai Wai World 2 - SOS!! Paseri Jou (T-Eng)
 A 0 ? 1999 nes/wall.png nes/wall.zip nes/wall.ogg 0 Wall (HB, Demo) [Homebrew]
 A 0 ? 1990 nes/wallstreetkid.png nes/wallstreetkid.zip nes/wallstreetkid.ogg 0 Wall Street Kid (USA)
-A 0 ? 1990 nes/wallybeanogan.png nes/wallybeanogan.zip nes/wallybeanogan.ogg 0 Wally Bear &amp; the No Gang (Unl)
+A 0 ? 1990 nes/wallybeanogan.png nes/wallybeanogan.zip nes/wallybeanogan.ogg 0 Wally Bear & the No Gang (Unl)
 A 0 ? 2020 nes/wanpakuduck.png nes/wanpakuduck.zip nes/wanpakuduck.ogg 0 Wanpaku Duck Yume Bouken (T-Chi)
 A 0 ? 1992 nes/wanpakoknogouwo.png nes/wanpakoknogouwo.zip nes/wanpakoknogouwo.ogg 0 Wanpaku Kokkun no Gourmet World (Japan)
 A 0 ? 1991 nes/warinthegulf.png nes/warinthegulf.zip nes/warinthegulf.ogg 0 War in the Gulf (Unl)
@@ -14008,9 +14008,9 @@ A 0 ? 1986 nes/wingmad.png nes/wingmad.zip nes/wingmad.ogg 0 Wing of Madoola, Th
 A 0 ? 1987 nes/wintergames.png nes/wintergames.zip nes/wintergames.ogg 0 Winter Games (USA)
 A 0 ? 1990 nes/wits.png nes/wits.zip nes/wits.ogg 0 Wit's (Japan)
 A 0 ? 2021 nes/witchnwiz.png nes/witchnwiz.zip nes/witchnwiz.ogg 0 Witch n' Wiz (HB) [Homebrew]
-A 0 ? 1987 nes/wizarwar.png nes/wizarwar.zip nes/wizarwar.ogg 0 Wizards &amp; Warriors (USA)
-A 0 ? 1989 nes/wizarwariiic.png nes/wizarwariiic.zip nes/wizarwariiic.ogg 0 Wizards &amp; Warriors III - Kuros - Visions of Power (USA) - Castellano v1.0
-A 0 ? 1992 nes/wizarwariii.png nes/wizarwariii.zip nes/wizarwariii.ogg 0 Wizards &amp; Warriors III - Kuros - Visions of Power (USA)
+A 0 ? 1987 nes/wizarwar.png nes/wizarwar.zip nes/wizarwar.ogg 0 Wizards & Warriors (USA)
+A 0 ? 1989 nes/wizarwariiic.png nes/wizarwariiic.zip nes/wizarwariiic.ogg 0 Wizards & Warriors III - Kuros - Visions of Power (USA) - Castellano v1.0
+A 0 ? 1992 nes/wizarwariii.png nes/wizarwariii.zip nes/wizarwariii.ogg 0 Wizards & Warriors III - Kuros - Visions of Power (USA)
 A 0 ? 2016 nes/wxniao.png nes/wxniao.zip nes/wxniao.ogg 0 Wo Xiang Niao Niao (HB) [Homebrew]
 A 0 ? 2021 nes/wolfspirit.png nes/wolfspirit.zip nes/wolfspirit.ogg 0 Wolf Spirit (HB) [Homebrew, Demo version]
 A 0 ? 2018 nes/wolfling.png nes/wolfling.zip nes/wolfling.ogg 0 Wolfling (HB, v1.4) [Homebrew]
@@ -14095,7 +14095,7 @@ A 0 ? 2000 ngp/ganbaren.png ngp/ganbaren.zip ngp/ganbaren.ogg 0 Ganbare Neo Poke
 A 0 ? 2000 ngp/gearsoffate.png ngp/gearsoffate.zip ngp/gearsoffate.ogg 0 Gears of Fate (HB) [Homebrew]
 A 0 ? 2000 ngp/infinity.png ngp/infinity.zip ngp/infinity.ogg 0 Infinity Cure (Jpn)
 A 0 ? 2000 ngp/kikousei.png ngp/kikousei.zip ngp/kikousei.ogg 0 Kikou Seiki Unitron - Sono Tsuide. Hikari Umareru Chi Yori. (Jpn)
-A 0 ? 1998 ngp/kof_mlon.png ngp/kof_mlon.zip ngp/kof_mlon.ogg 0 King of Fighters R-1 &amp; Melon-chan no Seichou Nikki (Jpn, Prototype)
+A 0 ? 1998 ngp/kof_mlon.png ngp/kof_mlon.zip ngp/kof_mlon.ogg 0 King of Fighters R-1 & Melon-chan no Seichou Nikki (Jpn, Prototype)
 A 0 ? 2000 ngp/koikoi.png ngp/koikoi.zip ngp/koikoi.ogg 0 Koi Koi Mahjong (Jpn)
 A 0 ? 1999 ngp/magdropjd.png ngp/magdropjd.zip ngp/magdropjd.ogg 0 Magical Drop Pocket (Demo)
 A 0 ? 1999 ngp/magdrop.png ngp/magdrop.zip ngp/magdrop.ogg 0 Magical Drop Pocket (Euro, USA)
@@ -14162,8 +14162,8 @@ A 0 ? 1999 ngp/puzzlink.png ngp/puzzlink.zip ngp/puzzlink.ogg 0 Puzzle Link (Eur
 A 0 ? 2000 ngp/puzzlnk2.png ngp/puzzlnk2.zip ngp/puzzlnk2.ogg 0 Puzzle Link 2 (Euro, USA)
 A 0 ? 1998 ngp/tsunapn.png ngp/tsunapn.zip ngp/tsunapn.ogg 0 Renketsu Puzzle Tsunagete Pon! (Jpn)
 A 0 ? 1999 ngp/tsunapnc.png ngp/tsunapnc.zip ngp/tsunapnc.ogg 0 Renketsu Puzzle Tsunagete Pon! Color (Jpn)
-A 0 ? 2000 ngp/rockmanb.png ngp/rockmanb.zip ngp/rockmanb.ogg 0 Rockman - Battle &amp; Fighters (Jpn)
-A 0 ? 2000 ngp/rockmanbd.png ngp/rockmanbd.zip ngp/rockmanbd.ogg 0 Rockman - Battle &amp; Fighters (Jpn, Demo)
+A 0 ? 2000 ngp/rockmanb.png ngp/rockmanb.zip ngp/rockmanb.ogg 0 Rockman - Battle & Fighters (Jpn)
+A 0 ? 2000 ngp/rockmanbd.png ngp/rockmanbd.zip ngp/rockmanbd.ogg 0 Rockman - Battle & Fighters (Jpn, Demo)
 A 0 ? 1999 ngp/shanghaipj.png ngp/shanghaipj.zip ngp/shanghaipj.ogg 0 Shanghai Mini (Jpn, Prototype)
 A 0 ? 1999 ngp/shanghaipu.png ngp/shanghaipu.zip ngp/shanghaipu.ogg 0 Shanghai Mini (USA, Prototype)
 A 0 ? 1999 ngp/shanghai.png ngp/shanghai.zip ngp/shanghai.ogg 0 Shanghai Mini (World)
@@ -14319,7 +14319,7 @@ A 0 ? 1989 pce/juuouki1.png pce/juuouki1.zip pce/juuouki1.ogg 0 Juuouki (Alt)
 A 0 ? 1989 pce/juuouki.png pce/juuouki.zip pce/juuouki.ogg 0 Juuouki
 A 0 ? 1991 pce/shubibi2.png pce/shubibi2.zip pce/shubibi2.ogg 0 Kaizou Choujin Shubibinman 2 - Aratanaru Teki
 A 0 ? 1989 pce/shubibi.png pce/shubibi.zip pce/shubibi.ogg 0 Kaizou Choujin Shubibinman
-A 0 ? 1987 pce/katochan.png pce/katochan.zip pce/katochan.ogg 0 Kato Chan &amp; Ken Chan
+A 0 ? 1987 pce/katochan.png pce/katochan.zip pce/katochan.ogg 0 Kato Chan & Ken Chan
 A 0 ? 1990 pce/kattobi.png pce/kattobi.zip pce/kattobi.ogg 0 Kattobi! Takuhai Kun
 A 0 ? 1990 pce/kickball.png pce/kickball.zip pce/kickball.ogg 0 Kickball
 A 0 ? 1990 pce/kikikai.png pce/kikikai.zip pce/kikikai.ogg 0 Kiki KaiKai
@@ -15046,8 +15046,8 @@ A 0 ? 2021 sms/krustyfhc.png sms/krustyfhc.zip sms/krustyfhc.ogg 0 Krusty's Fun 
 A 0 ? 1992 sms/krustyfh.png sms/krustyfh.zip sms/krustyfh.ogg 0 Krusty's Fun House (Euro, Bra)
 A 0 ? 1988 sms/kujaku.png sms/kujaku.zip sms/kujaku.ogg 0 Kujaku Ou (Jpn)
 A 0 ? 1987 sms/kungfuk.png sms/kungfuk.zip sms/kungfuk.ogg 0 Kung Fu Kid (Euro, USA, Bra)
-A 0 ? 2006 sms/kunkun.png sms/kunkun.zip sms/kunkun.ogg 0 KunKun &amp; KokoKun (HB) [Homebrew]
-A 0 ? 2011 sms/kunkun2.png sms/kunkun2.zip sms/kunkun2.ogg 0 KunKun &amp; KokoKun 2 (HB) [Homebrew]
+A 0 ? 2006 sms/kunkun.png sms/kunkun.zip sms/kunkun.ogg 0 KunKun & KokoKun (HB) [Homebrew]
+A 0 ? 2011 sms/kunkun2.png sms/kunkun2.zip sms/kunkun2.ogg 0 KunKun & KokoKun 2 (HB) [Homebrew]
 A 0 ? 2015 sms/lambo.png sms/lambo.zip sms/lambo.ogg 0 Lambo (HB, Demo) [Homebrew]
 A 0 ? 1992 sms/landill.png sms/landill.zip sms/landill.ogg 0 Land of Illusion Starring Mickey Mouse (Euro, Bra)
 A 0 ? 1991 sms/lghost.png sms/lghost.zip sms/lghost.ogg 0 Laser Ghost (Euro) [Light Phaser game]
@@ -15577,7 +15577,7 @@ A 0 ? 2009 spectrum/biniax.png spectrum/biniax.zip spectrum/biniax.ogg 0 Biniax 
 A 0 ? 1988 spectrum/bionicc.png spectrum/bionicc.zip spectrum/bionicc.ogg 0 Bionic Commando (128K)
 A 0 ? 1988 spectrum/bionicc_48.png spectrum/bionicc_48.zip spectrum/bionicc_48.ogg 0 Bionic Commando (48K)
 A 0 ? 2017 spectrum/biscuitsih.png spectrum/biscuitsih.zip spectrum/biscuitsih.ogg 0 Biscuits In Hell (HB) [Homebrew]
-A 0 ? 2020 spectrum/bnw.png spectrum/bnw.zip spectrum/bnw.ogg 0 Black &amp; White (HB, v1.1) [Homebrew]
+A 0 ? 2020 spectrum/bnw.png spectrum/bnw.zip spectrum/bnw.ogg 0 Black & White (HB, v1.1) [Homebrew]
 A 0 ? 2009 spectrum/blackhorse.png spectrum/blackhorse.zip spectrum/blackhorse.ogg 0 Black Horse (HB) [Homebrew]
 A 0 ? 1988 spectrum/blacklamp.png spectrum/blacklamp.zip spectrum/blacklamp.ogg 0 Black Lamp (128K)
 A 0 ? 2015 spectrum/blackstar.png spectrum/blackstar.zip spectrum/blackstar.ogg 0 Black Star (HB) [Homebrew]
@@ -16245,7 +16245,7 @@ A 0 ? 1989 spectrum/motopera3.png spectrum/motopera3.zip spectrum/motopera3.ogg 
 A 0 ? 1989 spectrum/motocrosssim.png spectrum/motocrosssim.zip spectrum/motocrosssim.ogg 0 Moto Cross Simulator
 A 0 ? 1991 spectrum/mountainbikesim.png spectrum/mountainbikesim.zip spectrum/mountainbikesim.ogg 0 Mountain Bike Simulator
 A 0 ? 2020 spectrum/mousetrap.png spectrum/mousetrap.zip spectrum/mousetrap.ogg 0 Mousetrap (HB) [Homebrew]
-A 0 ? 2021 spectrum/mrhair2.png spectrum/mrhair2.zip spectrum/mrhair2.ogg 0 Mr Hair &amp; The Fly (HB) [Homebrew]
+A 0 ? 2021 spectrum/mrhair2.png spectrum/mrhair2.zip spectrum/mrhair2.ogg 0 Mr Hair & The Fly (HB) [Homebrew]
 A 0 ? 1989 spectrum/mrheli.png spectrum/mrheli.zip spectrum/mrheli.ogg 0 Mr Heli (48K)
 A 0 ? 2014 spectrum/mrheli128rm.png spectrum/mrheli128rm.zip spectrum/mrheli128rm.ogg 0 Mr Heli Remastered (128K) (HB) [Hack, Homebrew, Trainer version]
 A 0 ? 2019 spectrum/mrdo.png spectrum/mrdo.zip spectrum/mrdo.ogg 0 Mr. Do! (HB) [Homebrew, Arcade conversion]
@@ -16268,8 +16268,8 @@ A 0 ? 1991 spectrum/nvyseals.png spectrum/nvyseals.zip spectrum/nvyseals.ogg 0 N
 A 0 ? 1991 spectrum/nvyseals2.png spectrum/nvyseals2.zip spectrum/nvyseals2.ogg 0 Navy SEALs (Part 2 of 2) (128K)
 A 0 ? 1987 spectrum/nebulus.png spectrum/nebulus.zip spectrum/nebulus.ogg 0 Nebulus (48K)
 A 0 ? 1987 spectrum/necrisdome.png spectrum/necrisdome.zip spectrum/necrisdome.ogg 0 Necris Dome
-A 0 ? 2010 spectrum/neloquqoen.png spectrum/neloquqoen.zip spectrum/neloquqoen.ogg 0 Nelo &amp; Quqo and the Last Butifarreisson (English) (128K) (HB) [Homebrew]
-A 0 ? 2010 spectrum/neloquqoes.png spectrum/neloquqoes.zip spectrum/neloquqoes.ogg 0 Nelo &amp; Quqo and the Last Butifarreisson (Spanish) (128K) (HB) [Homebrew]
+A 0 ? 2010 spectrum/neloquqoen.png spectrum/neloquqoen.zip spectrum/neloquqoen.ogg 0 Nelo & Quqo and the Last Butifarreisson (English) (128K) (HB) [Homebrew]
+A 0 ? 2010 spectrum/neloquqoes.png spectrum/neloquqoes.zip spectrum/neloquqoes.ogg 0 Nelo & Quqo and the Last Butifarreisson (Spanish) (128K) (HB) [Homebrew]
 A 0 ? 1987 spectrum/nemesis.png spectrum/nemesis.zip spectrum/nemesis.ogg 0 Nemesis (Konami) (48K)
 A 0 ? 1987 spectrum/nemesishs.png spectrum/nemesishs.zip spectrum/nemesishs.ogg 0 Nemesis (The Hit Squad) (48K)
 A 0 ? 1987 spectrum/nwarlock.png spectrum/nwarlock.zip spectrum/nwarlock.ogg 0 Nemesis the Warlock (128K) [at intro press Fire and Space to view 'credits+music' screen]
@@ -16296,7 +16296,7 @@ A 0 ? 1985 spectrum/noyesod128.png spectrum/noyesod128.zip spectrum/noyesod128.o
 A 0 ? 1985 spectrum/noyesod48.png spectrum/noyesod48.zip spectrum/noyesod48.ogg 0 Nodes of Yesod (48K)
 A 0 ? 2018 spectrum/nohzdyve.png spectrum/nohzdyve.zip spectrum/nohzdyve.ogg 0 Nohzdyve (HB) [Homebrew]
 A 0 ? 1987 spectrum/nonamed.png spectrum/nonamed.zip spectrum/nonamed.ogg 0 Nonamed (48K)
-A 0 ? 1991 spectrum/northnsouth.png spectrum/northnsouth.zip spectrum/northnsouth.ogg 0 North &amp; South (128K) [O, P and Space for startup setting]
+A 0 ? 1991 spectrum/northnsouth.png spectrum/northnsouth.zip spectrum/northnsouth.ogg 0 North & South (128K) [O, P and Space for startup setting]
 A 0 ? 1988 spectrum/northstar.png spectrum/northstar.zip spectrum/northstar.ogg 0 North Star
 A 0 ? 2020 spectrum/nosy.png spectrum/nosy.zip spectrum/nosy.ogg 0 Nosy (HB) [Homebrew]
 A 0 ? 1986 spectrum/nubowls.png spectrum/nubowls.zip spectrum/nubowls.ogg 0 Nuclear Bowls (48K)
@@ -16305,9 +16305,9 @@ A 0 ? 2010 spectrum/oddi128k.png spectrum/oddi128k.zip spectrum/oddi128k.ogg 0 O
 A 0 ? 2010 spectrum/oddi48k.png spectrum/oddi48k.zip spectrum/oddi48k.ogg 0 Oddi The Viking (48K) (HB) [Homebrew]
 A 0 ? 1984 spectrum/ohmummy.png spectrum/ohmummy.zip spectrum/ohmummy.ogg 0 Oh Mummy (16K) [A, Z, K, and L to play]
 A 0 ? 2019 spectrum/oldtower.png spectrum/oldtower.zip spectrum/oldtower.ogg 0 Old Tower (HB) [Homebrew]
-A 0 ? 1986 spectrum/ollilsa.png spectrum/ollilsa.zip spectrum/ollilsa.ogg 0 Olli &amp; Lissa - The Ghost of Shilmoore Castle (48K)
-A 0 ? 1987 spectrum/ollilsa2.png spectrum/ollilsa2.zip spectrum/ollilsa2.ogg 0 Olli &amp; Lissa II - Halloween (48K)
-A 0 ? 1989 spectrum/ollilsa3.png spectrum/ollilsa3.zip spectrum/ollilsa3.ogg 0 Olli &amp; Lissa III - The Candlelight Adventure (48K)
+A 0 ? 1986 spectrum/ollilsa.png spectrum/ollilsa.zip spectrum/ollilsa.ogg 0 Olli & Lissa - The Ghost of Shilmoore Castle (48K)
+A 0 ? 1987 spectrum/ollilsa2.png spectrum/ollilsa2.zip spectrum/ollilsa2.ogg 0 Olli & Lissa II - Halloween (48K)
+A 0 ? 1989 spectrum/ollilsa3.png spectrum/ollilsa3.zip spectrum/ollilsa3.ogg 0 Olli & Lissa III - The Candlelight Adventure (48K)
 A 0 ? 2017 spectrum/omelettes.png spectrum/omelettes.zip spectrum/omelettes.ogg 0 Omelettes For Breakfast (HB) [Homebrew]
 A 0 ? 2017 spectrum/ooze.png spectrum/ooze.zip spectrum/ooze.ogg 0 Ooze (HB) [Homebrew]
 A 0 ? 1989 spectrum/operationgunship.png spectrum/operationgunship.zip spectrum/operationgunship.ogg 0 Operation Gunship
@@ -16874,7 +16874,7 @@ A 0 ? 1992 tg16/ghostman.png tg16/ghostman.zip tg16/ghostman.ogg 0 Ghost Manor [
 A 0 ? 1992 tg16/gunboat.png tg16/gunboat.zip tg16/gunboat.ogg 0 Gunboat
 A 0 ? 1992 tg16/hitice.png tg16/hitice.zip tg16/hitice.ogg 0 Hit the Ice - VHL - The Official Video Hockey League
 A 0 ? 1991 tg16/impossam.png tg16/impossam.zip tg16/impossam.ogg 0 Impossamole
-A 0 ? 1990 tg16/jjnjeff.png tg16/jjnjeff.zip tg16/jjnjeff.ogg 0 J.J. &amp; Jeff
+A 0 ? 1990 tg16/jjnjeff.png tg16/jjnjeff.zip tg16/jjnjeff.ogg 0 J.J. & Jeff
 A 0 ? 1990 tg16/nicklaus.png tg16/nicklaus.zip tg16/nicklaus.ogg 0 Jack Nicklaus' Turbo Golf
 A 0 ? 1992 tg16/jchan.png tg16/jchan.zip tg16/jchan.ogg 0 Jackie Chan's Action Kung Fu
 A 0 ? 1989 tg16/keithcor.png tg16/keithcor.zip tg16/keithcor.ogg 0 Keith Courage in Alpha Zones

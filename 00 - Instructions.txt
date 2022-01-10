@@ -1,6 +1,6 @@
 How to install the pack, put some games and play:
 1.	Read all information supplied in https://github.com/ChokoGroup/Choko-Hack-Automatic-Lists .
-2.	Download the latest release pack or click in the green button 'Code' and select 'Download ZIP'. Another way is to install GitHub Desktop and clone the repository.
+2.	Download the latest release pack from https://github.com/ChokoGroup/Choko-Hack-Automatic-Lists/releases/latest
 3.	Open the downloaded *.zip or *.7z file (with 7-zip, for example) and copy the folder 'CHA Choko Games Lists' to the root of an USB disk.
 4.	Create folders inside 'CHA Choko Games Lists/roms' with any name (that name will be used in the Choko Menu).
 5.	Copy the ROMs you want to the folders created in the previous step. Remember that the default core is FB Alpha and not all ROMs may run OK.
