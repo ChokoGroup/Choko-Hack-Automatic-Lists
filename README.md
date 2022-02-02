@@ -4,6 +4,10 @@ Create Lists of Games to Play in CHA
 with the Choko Hack v12 or later
 
 
+## What's new in v12.3.1
+- If a folder with the name of the folder with ROMs is not found inside 'patches' but there is a 'default' folder, that will be used.
+- Improved the way files inside patches are applied when customizing UI, now all files inside matching folder (or default) are recursively mounted.
+
 ## What's new in v12.3.0
 - Fixed a bug installing and deleting games into the CHA when using roms other than "parents".
 Note that version number is only a reference to current Choko Hack version (and recommended).

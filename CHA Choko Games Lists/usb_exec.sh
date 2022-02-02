@@ -162,39 +162,42 @@ then
       mount --bind "$RUNNINGFROM/$DIR" /opt/capcom/$DIR
     done
 
-    # Mount assets to change UI if they exist
-    if [ -f "$RUNNINGFROM/patches/$LISTNAME/assets/capcom-home-arcade-last.png" ]
+    # Where to look for patches
+    if [ -d "$RUNNINGFROM/patches/$LISTNAME" ]
     then
-      mount --bind "$RUNNINGFROM/patches/$LISTNAME/assets/capcom-home-arcade-last.png" /opt/capcom/assets/capcom-home-arcade-last.png
+      PATH2PATCHES="$RUNNINGFROM/patches/$LISTNAME"
     else
-      mount --bind "$RUNNINGFROM/assets/capcom-home-arcade-last.png" /opt/capcom/assets/capcom-home-arcade-last.png
+      PATH2PATCHES="$RUNNINGFROM/patches/default"
     fi
-    [ -d "$RUNNINGFROM/patches/$LISTNAME/assets/retro" ] && mount --bind "$RUNNINGFROM/patches/$LISTNAME/assets/retro" /opt/capcom/assets/retro
-    [ -d "$RUNNINGFROM/patches/$LISTNAME/assets/screen" ] && mount --bind "$RUNNINGFROM/patches/$LISTNAME/assets/screen" /opt/capcom/assets/screen
-    [ -f "$RUNNINGFROM/patches/$LISTNAME/assets/bg.png" ] && mount --bind "$RUNNINGFROM/patches/$LISTNAME/assets/bg.png" /opt/capcom/assets/bg.png
-    [ -f "$RUNNINGFROM/patches/$LISTNAME/assets/bg_single.png" ] && mount --bind "$RUNNINGFROM/patches/$LISTNAME/assets/bg_single.png" /opt/capcom/assets/bg_single.png
-    [ -f "$RUNNINGFROM/patches/$LISTNAME/assets/CP1.png" ] && mount --bind "$RUNNINGFROM/patches/$LISTNAME/assets/CP1.png" /opt/capcom/assets/CP1.png
-    [ -f "$RUNNINGFROM/patches/$LISTNAME/assets/CP2.png" ] && mount --bind "$RUNNINGFROM/patches/$LISTNAME/assets/CP2.png" /opt/capcom/assets/CP2.png
-    [ -f "$RUNNINGFROM/patches/$LISTNAME/assets/sounds/movement.ogg" ] && mount --bind "$RUNNINGFROM/patches/$LISTNAME/assets/sounds/movement.ogg" /opt/capcom/assets/sounds/movement.ogg
+
+    # Make 'for' loops use entire lines
+    OIFS="$IFS"
+    IFS=$'\n'
+    # Mount assets to change UI if they exist
+    for ASSETFNAME in $(find "$PATH2PATCHES/assets" -name '*' -type f -print 2> /dev/null)
+    do
+      mount --bind "$ASSETFNAME" "/opt/capcom/assets/${ASSETFNAME#*'/assets/'}"
+    done
+    IFS="$OIFS"
+    [ -f "$PATH2PATCHES/assets/capcom-home-arcade-last.png" ] || mount --bind "$RUNNINGFROM/assets/capcom-home-arcade-last.png" /opt/capcom/assets/capcom-home-arcade-last.png
 
     # Don't ruin Easter Egg
-    if [ -f "$RUNNINGFROM/patches/$LISTNAME/assets/gold/BARS_top.png" ] && [ "$LUCKY" = "10" ] && [ -f /opt/capcom/assets/gold/bg.png ]
+    if [ -f "$PATH2PATCHES/assets/gold/BARS_top.png" ] && [ "$LUCKY" = "10" ] && [ -f /opt/capcom/assets/gold/bg.png ]
     then
-      mount --bind "$RUNNINGFROM/patches/$LISTNAME/assets/gold/BARS_top.png" /opt/capcom/assets/BARS_top.png
-    else
-      [ -f "$RUNNINGFROM/patches/$LISTNAME/assets/BARS_top.png" ] && mount --bind "$RUNNINGFROM/patches/$LISTNAME/assets/BARS_top.png" /opt/capcom/assets/BARS_top.png
+      umount /opt/capcom/assets/BARS_top.png 2>/dev/null
+      mount --bind "$PATH2PATCHES/assets/gold/BARS_top.png" /opt/capcom/assets/BARS_top.png
     fi
 
     # Mount list of games for carousel
     mount --bind "$RUNNINGFROM/$LISTNAME.txt" /opt/capcom/assets/games.txt
 
     # Mount patched 'capcom' if exists
-    [ -f "$RUNNINGFROM/patches/$LISTNAME/capcom" ] && mount --bind "$RUNNINGFROM/patches/$LISTNAME/capcom" /opt/capcom/capcom
+    [ -f "$PATH2PATCHES/capcom" ] && mount --bind "$PATH2PATCHES/capcom" /opt/capcom/capcom
 
     # Mount libretro core
-    if [ -f "$RUNNINGFROM/patches/$LISTNAME/fba_libretro.so" ]
+    if [ -f "$PATH2PATCHES/fba_libretro.so" ]
     then
-      mount --bind "$RUNNINGFROM/patches/$LISTNAME/fba_libretro.so" /usr/lib/libretro/fba_libretro.so
+      mount --bind "$PATH2PATCHES/fba_libretro.so" /usr/lib/libretro/fba_libretro.so
     else
       mount --bind "$RUNNINGFROM/patches/fba_libretro.so" /usr/lib/libretro/fba_libretro.so
     fi
