@@ -8,6 +8,7 @@ with the Choko Hack v12 or later
 - If a folder with the name of the folder with ROMs is not found inside 'patches' but there is a 'default' folder, assets and core inside 'default' will be used.
 - Improved the way files inside 'patches' are applied when customizing UI, now all files inside matching folder (or 'default') are recursively mounted.
 - Fixed a bug when installing games were in CHA and some UI sounds and icons would be missing.
+- Added new styles of games images and some audio files.
 
 ## What's new in v12.3.0
 - Fixed a bug installing and deleting games into the CHA when using roms other than "parents".
