@@ -1,6 +1,6 @@
 #!/bin/sh
 # games1S.sh - Script to install games in CHA
-# For Choko Hack 12.0.0+
+# v12.3.1
 
 # Simple string compare, since until 10.0.0 CHOKOVERSION wasn't set
 # Future versions need to keep this in mind
@@ -24,78 +24,6 @@ then
 fi
 
 RUNNINGFROM="$(dirname "$(readlink -f "$0")")"
-
-# Look for games installed with older unsupported packs
-if [ -d /.CAPCOM ] || [ -d /.SNK ] || [ -d /usr/share/roms/CPS1 ] || [ -d /usr/share/roms/CPS2 ] || [ -d /usr/share/roms/CPS3 ] || [ -d /usr/share/roms/NEO-GEO ] || [ -d /usr/share/roms/PRE-CPS ] || [ -d /usr/share/roms/PRE-NEOGEO ] || [ -f /usr/share/roms/sftm.zip ] || [ -d /usr/share/roms/cps1 ] || [ -d /usr/share/roms/cps2 ] || [ -d /usr/share/roms/cps3 ] || [ -d /usr/share/roms/itech32 ] || [ -d /usr/share/roms/megadriv ] || [ -d /usr/share/roms/neogeo ] || [ -d /usr/share/roms/precps ] || [ -d /usr/share/roms/preneogeo ]
-then
-  echo -en "\n\n\e[1;33mGames from older packs were found!\n\e[1;93mThey are no longer supported, you should delete them.\e[m\nSpace that can be recovered: "
-  du -hc /.CAPCOM /.SNK /usr/share/roms/CPS1 /usr/share/roms/CPS2 /usr/share/roms/CPS3 /usr/share/roms/NEO-GEO /usr/share/roms/PRE-CPS /usr/share/roms/PRE-NEOGEO /usr/share/roms/sftm.zip /usr/share/roms/cps1 /usr/share/roms/cps2 /usr/share/roms/cps3 /usr/share/roms/itech32 /usr/share/roms/megadriv /usr/share/roms/neogeo /usr/share/roms/precps /usr/share/roms/preneogeo 2>/dev/null | tail -n 1
-  echo -e "\n\e[m"
-  sleep 5
-
-  # Wait for buttons to be released before asking to delete
-  while [ "$(readjoysticks j1 j2 -b)" != "0000000000000000" ]
-  do
-    sleep 1
-  done
-  COUNTDOWN=15
-  STOPCOUNT="N"
-  ANSWER="No"
-  echo -ne "Do you want to \e[1;31mdelete\e[m them? \e[1;93m$ANSWER \n\e[1;30mUse joystick to change answer. Waiting $COUNTDOWN seconds...\e[m "
-
-  # Read joystick
-  while [ $COUNTDOWN -gt 0 ]
-  do
-    case "$(readjoysticks j1)" in
-      U|D|L|R)
-        if [ "$ANSWER" = "No" ]
-        then
-          ANSWER="Yes"
-        else
-          ANSWER="No"
-        fi
-        if [ "$STOPCOUNT" = "N" ]
-        then
-          STOPCOUNT="Y"
-        fi
-        echo -ne "\r\e[1ADo you want to \e[1;31mdelete\e[m them? \e[1;93m$ANSWER \n\e[m\e[K"
-      ;;
-      0|1|2|3|4|5|6|7)
-        COUNTDOWN=0
-      ;;
-      *)
-        if [ "$STOPCOUNT" = "N" ]
-        then
-          COUNTDOWN=$((COUNTDOWN - 1))
-          echo -ne "\r\e[1ADo you want to \e[1;31mdelete\e[m them? \e[1;93m$ANSWER \n\e[1;30mUse joystick to change answer. Waiting $COUNTDOWN seconds...\e[m "
-        fi
-      ;;
-    esac
-  done
-  echo -ne "\r\e[1ADo you want to \e[1;31mdelete\e[m them? \e[1;93m$ANSWER \n\e[m\e[K\r"
-  if [ "$ANSWER" = "Yes" ]
-  then
-    [ -d /.CAPCOM ] && ( rm -rf /.CAPCOM; echo -e "\e[1;30m/.CAPCOM deleted\e[m" )
-    [ -d /.SNK ] && ( rm -rf /.SNK; echo -e "\e[1;30m/.SNK deleted\e[m" )
-    [ -d /usr/share/roms/CPS1 ] && ( rm -rf /usr/share/roms/CPS1; echo -e "\e[1;30m/usr/share/roms/CPS1 deleted\e[m" )
-    [ -d /usr/share/roms/CPS2 ] && ( rm -rf /usr/share/roms/CPS2; echo -e "\e[1;30m/usr/share/roms/CPS2 deleted\e[m" )
-    [ -d /usr/share/roms/CPS3 ] && ( rm -rf /usr/share/roms/CPS3; echo -e "\e[1;30m/usr/share/roms/CPS3 deleted\e[m" )
-    [ -d /usr/share/roms/NEO-GEO ] && ( rm -rf /usr/share/roms/NEO-GEO; echo -e "\e[1;30m/usr/share/roms/NEO-GEO deleted\e[m" )
-    [ -d /usr/share/roms/PRE-CPS ] && ( rm -rf /usr/share/roms/PRE-CPS; echo -e "\e[1;30m/usr/share/roms/PRE-CPS deleted\e[m" )
-    [ -d /usr/share/roms/PRE-NEOGEO ] && ( rm -rf /usr/share/roms/PRE-NEOGEO; echo -e "\e[1;30m/usr/share/roms/PRE-NEOGEO deleted\e[m" )
-    [ -f /usr/share/roms/sftm.zip ] && ( rm -f /usr/share/roms/sftm.zip; echo -e "\e[1;30m/usr/share/roms/sftm.zip deleted\e[m" )
-    [ -d /usr/share/roms/cps1 ] && ( rm -rf /usr/share/roms/cps1; echo -e "\e[1;30m/usr/share/roms/cps1 deleted\e[m" )
-    [ -d /usr/share/roms/cps2 ] && ( rm -rf /usr/share/roms/cps2; echo -e "\e[1;30m/usr/share/roms/cps2 deleted\e[m" )
-    [ -d /usr/share/roms/cps3 ] && ( rm -rf /usr/share/roms/cps3; echo -e "\e[1;30m/usr/share/roms/cps3 deleted\e[m" )
-    [ -d /usr/share/roms/itech32 ] && ( rm -rf /usr/share/roms/itech32; echo -e "\e[1;30m/usr/share/roms/itech32 deleted\e[m" )
-    [ -d /usr/share/roms/megadriv ] && ( rm -rf /usr/share/roms/megadriv; echo -e "\e[1;30m/usr/share/roms/megadriv deleted\e[m" )
-    [ -d /usr/share/roms/neogeo ] && ( rm -rf /usr/share/roms/neogeo; echo -e "\e[1;30m/usr/share/roms/neogeo deleted\e[m" )
-    [ -d /usr/share/roms/precps ] && ( rm -rf /usr/share/roms/precps; echo -e "\e[1;30m/usr/share/roms/precps deleted\e[m" )
-    [ -d /usr/share/roms/preneogeo ] && ( rm -rf /usr/share/roms/preneogeo; echo -e "\e[1;30m/usr/share/roms/preneogeo deleted\e[m" )
-  else
-    echo "Old games not deleted."
-  fi
-fi
 
 # Make 'for' loops use entire lines
 OIFS="$IFS"
@@ -164,19 +92,28 @@ then
       then
         echo "Uninstalling \"$LISTNAME\"..."
         echo -e "\e[1;30mrm -rf \"$ROMSFOLDER\"\e[m"; rm -rf "$ROMSFOLDER"; WASOK=$?
-        if [ $WASOK -eq 0 ] && [ $(find /usr/share/roms -name '*.zip' -mindepth 2 -type f -print 2> /dev/null | wc -l) -eq 0 ]
+        if [ -d "/.choko/patches/${ROMSFOLDER##*/}" ] && [ $WASOK -eq 0 ]
         then
-          echo -e "\e[1;30mLast games uninstalled. Deleting all assets and patches remaining.\e[m"
-          [ -d /.choko/patches ] && ( echo -e "\e[1;30mrm -rf \"/.choko/patches\"\e[m"; rm -rf /.choko/patches; WASOK=$? )
-          [ $WASOK -eq 0 ] && [ -d /.choko/assets ] && ( echo -e "\e[1;30mrm -rf \"/.choko/assets\"\e[m"; rm -rf /.choko/assets; WASOK=$? )
-          [ $WASOK -eq 0 ] && [ -f /.choko/usb_exec.sh ] && ( echo -e "\e[1;30mrm \"/.choko/usb_exec.sh\"\e[m"; rm /.choko/usb_exec.sh; WASOK=$? )
-        else
-          if [ -d "/.choko/patches/${ROMSFOLDER##*/}" ] && [ $WASOK -eq 0 ]
+          echo -e "\e[1;30mrm -rf \"/.choko/patches/${ROMSFOLDER##*/}\"\e[m"; rm -rf "/.choko/patches/${ROMSFOLDER##*/}"; WASOK=$?
+        fi
+        if [ $WASOK -eq 0 ]
+        then
+          if [ $(find /usr/share/roms -name '*.zip' -mindepth 2 -type f -print 2> /dev/null | wc -l) -eq 0 ]
           then
-            echo -e "\e[1;30mrm -rf \"/.choko/patches/${ROMSFOLDER##*/}\"\e[m"; rm -rf "/.choko/patches/${ROMSFOLDER##*/}"; WASOK=$?
-          fi
-          if [ $WASOK -eq 0 ]
-          then
+            echo -e "\e[1;30mLast games uninstalled. Deleting all assets and patches left behind.\e[m"
+            if [ -d /.choko/patches ]
+            then
+              echo -e "\e[1;30mrm -rf \"/.choko/patches\"\e[m"; rm -rf /.choko/patches; WASOK=$?
+            fi
+            if [ $WASOK -eq 0 ] && [ -d /.choko/assets ]
+            then
+              echo -e "\e[1;30mrm -rf \"/.choko/assets\"\e[m"; rm -rf /.choko/assets; WASOK=$?
+            fi
+            if [ $WASOK -eq 0 ] && [ -f /.choko/usb_exec.sh ]
+            then
+              echo -e "\e[1;30mrm \"/.choko/usb_exec.sh\"\e[m"; rm /.choko/usb_exec.sh; WASOK=$?
+            fi
+          else
             echo -e "\e[1;30mDeleting unneeded assets...\e[m";
             while read -r LINE || [ -n "$LINE" ]; do
               OGGFILE=${LINE%'.ogg'*}; OGGFILE=${OGGFILE##*' '}
@@ -281,21 +218,29 @@ then
           if [ -d "/usr/share/roms/$LISTNAME" ]
           then
             echo "Uninstalling old \"$LISTNAME\" from the CHA..."
-            echo -e "\e[1;30mrm -rf \"/usr/share/roms/$LISTNAME\"\e[m"; rm -rf "/usr/share/roms/$LISTNAME"; WASOK=$?
-            if [ $WASOK -eq 0 ] && [ $(find /usr/share/roms -name '*.zip' -mindepth 2 -type f -print 2> /dev/null | wc -l) -eq 0 ]
+            if [ -d "/usr/share/roms/$LISTNAME" ]
             then
-              echo -e "\e[1;30mLast games uninstalled. Deleting all assets and patches remaining.\e[m"
-              [ -d /.choko/patches ] && ( echo -e "\e[1;30mrm -rf \"/.choko/patches\"\e[m"; rm -rf /.choko/patches; WASOK=$? )
-              [ $WASOK -eq 0 ] && [ -d /.choko/assets ] && ( echo -e "\e[1;30mrm -rf \"/.choko/assets\"\e[m"; rm -rf /.choko/assets; WASOK=$? )
-              [ $WASOK -eq 0 ] && [ -f /.choko/usb_exec.sh ] && ( echo -e "\e[1;30mrm \"/.choko/usb_exec.sh\"\e[m"; rm /.choko/usb_exec.sh; WASOK=$? )
-            else
-              if [ -d "/.choko/patches/$LISTNAME" ] && [ $WASOK -eq 0 ]
+              echo -e "\e[1;30mrm -rf \"/usr/share/roms/$LISTNAME\"\e[m"; rm -rf "/usr/share/roms/$LISTNAME"; WASOK=$?
+            fi
+            if [ $WASOK -eq 0 ]
+            then
+              if [ $(find /usr/share/roms -name '*.zip' -mindepth 2 -type f -print 2> /dev/null | wc -l) -eq 0 ]
               then
-                echo -e "\e[1;30mrm -rf \"/.choko/patches/$LISTNAME\"\e[m"; rm -rf "/.choko/patches/$LISTNAME"; WASOK=$?
-              fi
-              if [ $WASOK -eq 0 ]
-              then
-                echo -e "\e[1;30mDeleting unneeded assets...";
+                echo -e "\e[1;30mLast games uninstalled. Deleting all assets and patches left behind.\e[m"
+                if [ -d /.choko/patches ]
+                then
+                  echo -e "\e[1;30mrm -rf \"/.choko/patches\"\e[m"; rm -rf /.choko/patches; WASOK=$?
+                fi
+                if [ $WASOK -eq 0 ] && [ -d /.choko/assets ]
+                then
+                  echo -e "\e[1;30mrm -rf \"/.choko/assets\"\e[m"; rm -rf /.choko/assets; WASOK=$?
+                fi
+                if [ $WASOK -eq 0 ] && [ -f /.choko/usb_exec.sh ]
+                then
+                  echo -e "\e[1;30mrm \"/.choko/usb_exec.sh\"\e[m"; rm /.choko/usb_exec.sh; WASOK=$?
+                fi
+              else
+                echo -e "\e[1;30mDeleting unneeded assets...\e[m";
                 while read -r LINE || [ -n "$LINE" ]; do
                   OGGFILE=${LINE%'.ogg'*}; OGGFILE=${OGGFILE##*' '}
                   PNGFILE=${LINE%'.png'*}; PNGFILE=${PNGFILE##*' '}
@@ -303,7 +248,7 @@ then
                   find "/.choko/assets" -type f \( -name "$OGGFILE.*" -or -name "$PNGFILE.*" -or -name "$ZIPFILE.*" \) -exec rm {} +
                   WASOK=$?
                   [ $WASOK -eq 0 ] || break
-                done < "/.choko/$LISTNAME.txt"
+                done < "/.choko/${ROMSFOLDER##*/}.txt"
               fi
             fi
             if [ $WASOK -eq 0 ]
@@ -312,7 +257,7 @@ then
             fi
             if [ $WASOK -eq 0 ]
             then
-              echo -e "\e[1;32mOlder \"$LISTNAME\" was uninstalled from CHA.\e[m"
+              echo -e "\e[1;32mOld \"$LISTNAME\" was uninstalled from CHA.\e[m"
             else
               echo -e "\e[1;31mThere was some error.\e[m"; sleep 10; exit 201
             fi
@@ -320,6 +265,7 @@ then
           echo "Installing \"$LISTNAME\"..."
           mkdir -p /.choko/assets
           mkdir -p /.choko/patches
+          mkdir -p /.choko/options
           [ -f /.choko/assets/capcom-home-arcade-last.png ] || cp -u "$RUNNINGFROM/assets/capcom-home-arcade-last.png" /.choko/assets/
           echo -ne "\e[1;30mcp -r \"$ROMSFOLDER\" /usr/share/roms/   \e[m\e[5m Please wait... \e[m"; cp -r "$ROMSFOLDER" /usr/share/roms/; WASOK=$?
           if [ $WASOK -eq 0 ]
@@ -336,6 +282,15 @@ then
               if [ $WASOK -eq 0 ]
               then
                 echo -e "\r\e[1;30mcp -r \"$RUNNINGFROM/patches/$LISTNAME\" /.choko/patches/    (OK)           \e[m"
+              fi
+            else
+              if [ -d "$RUNNINGFROM/patches/default" ]
+              then
+                echo -ne "\e[1;30mcp -r \"$RUNNINGFROM/patches/default\" /.choko/patches/   \e[m\e[5m Please wait... \e[m"; cp -r "$RUNNINGFROM/patches/default" /.choko/patches/; WASOK=$?
+                if [ $WASOK -eq 0 ]
+                then
+                  echo -e "\r\e[1;30mcp -r \"$RUNNINGFROM/patches/default\" /.choko/patches/    (OK)           \e[m"
+                fi
               fi
             fi
           fi
@@ -488,11 +443,33 @@ then
           if [ $WASOK -eq 0 ]
           then
             echo -e "\r\e[1;30mcp \"$RUNNINGFROM/$LISTNAME.\"* /.choko/    (OK)           \e[m"
-            echo -ne "\e[1;30mcp -u \"$RUNNINGFROM/usb_exec.sh\" /.choko/   \e[m\e[5m Please wait... \e[m"; cp -u "$RUNNINGFROM/usb_exec.sh" /.choko/; WASOK=$?
+            echo -ne "\e[1;30mcp \"$RUNNINGFROM/usb_exec.sh\" /.choko/   \e[m\e[5m Please wait... \e[m"; cp "$RUNNINGFROM/usb_exec.sh" /.choko/; WASOK=$?
           fi
           if [ $WASOK -eq 0 ]
           then
-            echo -e "\r\e[1;30mcp -u \"$RUNNINGFROM/usb_exec.sh\" /.choko/    (OK)           \e[m"
+            echo -e "\r\e[1;30mcp \"$RUNNINGFROM/usb_exec.sh\" /.choko/    (OK)           \e[m"
+            [ -f "/.choko/assets/sounds/intro.ogg" ] || cp /opt/capcom/assets/sounds/intro.ogg /.choko/assets/sounds/
+            [ -f "/.choko/assets/sounds/movement.wav" ] || cp /opt/capcom/assets/sounds/movement.wav /.choko/assets/sounds/
+            [ -f "/.choko/assets/sounds/trigger.wav" ] || cp /opt/capcom/assets/sounds/trigger.wav /.choko/assets/sounds/
+            [ -f "/.choko/assets/options/blank.png" ] || cp /opt/capcom/assets/options/blank.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/clock_reg.png" ] || cp /opt/capcom/assets/options/clock_reg.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/coin_btn_over.png" ] || cp /opt/capcom/assets/options/coin_btn_over.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/coin_btn_reg.png" ] || cp /opt/capcom/assets/options/coin_btn_reg.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/CP1.png" ] || cp /opt/capcom/assets/options/CP1.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/CP2.png" ] || cp /opt/capcom/assets/options/CP2.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/difficulty_btn_over.png" ] || cp /opt/capcom/assets/options/difficulty_btn_over.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/difficulty_btn_reg.png" ] || cp /opt/capcom/assets/options/difficulty_btn_reg.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/difficulty_frame_over.png" ] || cp /opt/capcom/assets/options/difficulty_frame_over.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/difficulty_frame_reg.png" ] || cp /opt/capcom/assets/options/difficulty_frame_reg.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/options_btn_over.png" ] || cp /opt/capcom/assets/options/options_btn_over.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/options_btn_reg.png" ] || cp /opt/capcom/assets/options/options_btn_reg.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/options_frame_over.png" ] || cp /opt/capcom/assets/options/options_frame_over.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/options_frame_reg.png" ] || cp /opt/capcom/assets/options/options_frame_reg.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/options_over.png" ] || cp /opt/capcom/assets/options/options_over.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/options_reg.png" ] || cp /opt/capcom/assets/options/options_reg.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/play_btn_over.png" ] || cp /opt/capcom/assets/options/play_btn_over.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/play_btn_reg.png" ] || cp /opt/capcom/assets/options/play_btn_reg.png /.choko/assets/options/
+            [ -f "/.choko/assets/options/slider.png" ] || cp /opt/capcom/assets/options/slider.png /.choko/assets/options/
             echo -e "\e[1;32m\"$LISTNAME\" was installed in the CHA.\e[m"
           else
             echo -e "\e[1;31mThere was some error.\e[m"; sleep 10; exit 201

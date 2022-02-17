@@ -1,6 +1,6 @@
-#! /bin/sh
+#!/bin/sh
 # usb_exec.sh
-# For Choko Hack 12.0.0+
+# v12.3.1
 
 # Simple string compare, since until 10.0.0 CHOKOVERSION wasn't set
 # Future versions need to keep this in mind
@@ -182,10 +182,16 @@ then
     [ -f "$PATH2PATCHES/assets/capcom-home-arcade-last.png" ] || mount --bind "$RUNNINGFROM/assets/capcom-home-arcade-last.png" /opt/capcom/assets/capcom-home-arcade-last.png
 
     # Don't ruin Easter Egg
-    if [ -f "$PATH2PATCHES/assets/gold/BARS_top.png" ] && [ "$LUCKY" = "10" ] && [ -f /opt/capcom/assets/gold/bg.png ]
+    if [ "$LUCKY" = "10" ] && [ -f /opt/capcom/assets/gold/bg.png ]
     then
-      umount /opt/capcom/assets/BARS_top.png 2>/dev/null
-      mount --bind "$PATH2PATCHES/assets/gold/BARS_top.png" /opt/capcom/assets/BARS_top.png
+      for GOLDENFILES in \
+        BARS_top.png \
+        bg.png \
+        bg_single.png
+      do
+        [ -f "$PATH2PATCHES/assets/gold/$GOLDENFILES" ] && umount "/opt/capcom/assets/$GOLDENFILES" 2>/dev/null
+        [ -f "$PATH2PATCHES/assets/gold/$GOLDENFILES" ] && mount --bind "$PATH2PATCHES/assets/gold/$GOLDENFILES" "/opt/capcom/assets/$GOLDENFILES"
+      done
     fi
 
     # Mount list of games for carousel
