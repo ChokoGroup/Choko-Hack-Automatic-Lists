@@ -1,12 +1,12 @@
 #!/bin/sh
 # games1S.sh - Script to install games in CHA
-# v12.3.1
+# v12.6.0
 
 # Simple string compare, since until 10.0.0 CHOKOVERSION wasn't set
 # Future versions need to keep this in mind
-if [ "$CHOKOVERSION" \< "12.0.0" ]
+if [ "$CHOKOVERSION" \< "12.6.0" ]
 then
-  echo -e "\nYou are running an outdated version of Choko Hack.\nYou need v12.0.0 or later.\n";
+  echo -e "\nYou are running an outdated version of Choko Hack.\nYou need v12.6.0 or later.\n";
   COUNTDOWN=5
   while [ $COUNTDOWN -ge 0 ]
   do
@@ -31,11 +31,11 @@ IFS=$'\n'
 
 # Look for installed games
 echo -e "\n\nLooking for installed games..."
-if [ $(find /usr/share/roms -name '*.zip' -mindepth 2 -type f -print 2> /dev/null | wc -l) -gt 0 ]
+if [ $(find /usr/share/roms -iname '*.zip' -mindepth 2 -type f -print 2> /dev/null | wc -l) -gt 0 ]
 then
-  for ROMSFOLDER in $(find /usr/share/roms -name '*' -mindepth 1 -maxdepth 1 -type d -print 2> /dev/null | sort -f)
+  for ROMSFOLDER in $(find /usr/share/roms -iname '*' -mindepth 1 -maxdepth 1 -type d -print 2> /dev/null | sort -f)
   do
-    if [ $(find "$ROMSFOLDER" -name '*.zip' -type f -print 2> /dev/null | wc -l) -gt 0 ]
+    if [ $(find "$ROMSFOLDER" -iname '*.zip' -type f -print 2> /dev/null | wc -l) -gt 0 ]
     then
       case "$ROMSFOLDER" in 
         # 'games??' logic from Choko Hack v11
@@ -98,7 +98,7 @@ then
         fi
         if [ $WASOK -eq 0 ]
         then
-          if [ $(find /usr/share/roms -name '*.zip' -mindepth 2 -type f -print 2> /dev/null | wc -l) -eq 0 ]
+          if [ $(find /usr/share/roms -iname '*.zip' -mindepth 2 -type f -print 2> /dev/null | wc -l) -eq 0 ]
           then
             echo -e "\e[1;30mLast games uninstalled. Deleting all assets and patches left behind.\e[m"
             if [ -d /.choko/patches ]
@@ -119,7 +119,7 @@ then
               OGGFILE=${LINE%'.ogg'*}; OGGFILE=${OGGFILE##*' '}
               PNGFILE=${LINE%'.png'*}; PNGFILE=${PNGFILE##*' '}
               ZIPFILE=${LINE%'.zip'*}; ZIPFILE=${ZIPFILE##*' '}
-              find "/.choko/assets" -type f \( -name "$OGGFILE.*" -or -name "$PNGFILE.*" -or -name "$ZIPFILE.*" \) -exec rm {} +
+              find "/.choko/assets" -type f \( -iname "$OGGFILE.*" -or -iname "$PNGFILE.*" -or -iname "$ZIPFILE.*" \) -exec rm {} +
               WASOK=$?
               [ $WASOK -eq 0 ] || break
             done < "/.choko/${ROMSFOLDER##*/}.txt"
@@ -147,11 +147,11 @@ fi
 
 # Look for games to install
 echo -e "\n\nLooking for games to install..."
-if [ $(find "$RUNNINGFROM/roms" -name '*.zip' -mindepth 2 -type f -print 2> /dev/null | wc -l) -gt 0 ]
+if [ $(find "$RUNNINGFROM/roms" -iname '*.zip' -mindepth 2 -type f -print 2> /dev/null | wc -l) -gt 0 ]
 then
-  for ROMSFOLDER in $(find "$RUNNINGFROM/roms" -name '*' -mindepth 1 -maxdepth 1 -type d -print 2> /dev/null | sort -f)
+  for ROMSFOLDER in $(find "$RUNNINGFROM/roms" -iname '*' -mindepth 1 -maxdepth 1 -type d -print 2> /dev/null | sort -f)
   do
-    if [ $(find "$ROMSFOLDER" -name '*.zip' -type f -print 2> /dev/null | wc -l) -gt 0 ]
+    if [ $(find "$ROMSFOLDER" -iname '*.zip' -type f -print 2> /dev/null | wc -l) -gt 0 ]
     then
       LISTNAME="${ROMSFOLDER##*/}"
       FREESPACE=$(df -P / | tail -1 | awk '{print $4}')
@@ -163,7 +163,7 @@ then
         USEDSPACECHA=$(du -c "/usr/share/roms/$LISTNAME" "/.choko/patches/$LISTNAME" 2>/dev/null | tail -n 1 | awk '{print $1;}')
         FREESPACE=$((FREESPACE + USEDSPACECHA))
       fi
-      if [ $USEDSPACEUSB -gt $FREESPACE ]
+      if [ $((USEDSPACEUSB)) -gt $((FREESPACE)) ]
       then
         echo -e "\nNot enought space to install \"$LISTNAME\"."
       else
@@ -224,7 +224,7 @@ then
             fi
             if [ $WASOK -eq 0 ]
             then
-              if [ $(find /usr/share/roms -name '*.zip' -mindepth 2 -type f -print 2> /dev/null | wc -l) -eq 0 ]
+              if [ $(find /usr/share/roms -iname '*.zip' -mindepth 2 -type f -print 2> /dev/null | wc -l) -eq 0 ]
               then
                 echo -e "\e[1;30mLast games uninstalled. Deleting all assets and patches left behind.\e[m"
                 if [ -d /.choko/patches ]
@@ -245,7 +245,7 @@ then
                   OGGFILE=${LINE%'.ogg'*}; OGGFILE=${OGGFILE##*' '}
                   PNGFILE=${LINE%'.png'*}; PNGFILE=${PNGFILE##*' '}
                   ZIPFILE=${LINE%'.zip'*}; ZIPFILE=${ZIPFILE##*' '}
-                  find "/.choko/assets" -type f \( -name "$OGGFILE.*" -or -name "$PNGFILE.*" -or -name "$ZIPFILE.*" \) -exec rm {} +
+                  find "/.choko/assets" -type f \( -iname "$OGGFILE.*" -or -iname "$PNGFILE.*" -or -iname "$ZIPFILE.*" \) -exec rm {} +
                   WASOK=$?
                   [ $WASOK -eq 0 ] || break
                 done < "/.choko/${ROMSFOLDER##*/}.txt"
@@ -303,7 +303,7 @@ then
               ICONNUMBER=0
               # Go to folder to avoid problems with apostrophes in folders names
               cd "$ROMSFOLDER"
-              for FNAME in $(find . -mindepth 1 -maxdepth 2 -name '*.zip' -type f -print 2> /dev/null | sort -f)
+              for FNAME in $(find . -mindepth 1 -maxdepth 2 -iname '*.zip' -type f -print 2> /dev/null | sort -f)
               do
                 FNAME="${FNAME#./}"; FNAME="${FNAME%.zip}"
                 # Ignore BIOS only zip files
@@ -484,6 +484,7 @@ else
   echo "Did not found games to install."
 fi
 
+sync
 IFS="$OIFS"
 FREESPACE=$(df -hP / | tail -1 | awk '{print $4}')
 echo -e "\nThere is nothing else to do here.\nYou have $FREESPACE free in the CHA."

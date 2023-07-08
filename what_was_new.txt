@@ -1,0 +1,31 @@
+
+## What's new in v12.3.1
+- If a folder with the name of the folder with ROMs is not found inside 'patches' but there is a 'default' folder, assets and core inside 'default' will be used.
+- Improved the way files inside 'patches' are applied when customizing UI, now all files inside matching folder (or 'default') are recursively mounted.
+- Fixed a bug when installing games in CHA and some UI sounds and icons would be missing.
+- Added new styles of games images and some audio files.
+
+## What's new in v12.3.0
+- Fixed a bug installing and deleting games into the CHA when using roms other than "parents".
+Note that version number is only a reference to current Choko Hack version (and recommended).
+
+
+## What's new in v12.1.0
+- Fixed a bug handling roms folders with subfolders.
+- While music ogg files are by default in 'assets/sounds/music/set2' ("Remix" option in settings) you can now also have ogg files in 'assets/sounds' ("Original" option in settings).
+- Renamed 'megadrive' folder back to 'megadriv' for compatibility with older FB Neo cores.
+- Display info in screen when a new list TXT file is being created.
+- Added more games to and adapted games_all.txt and scripts to use the horizontal/vertical flag.
+- Added many games PNG and Hyperspin style PNG by Pararegistros and UnusualEarth.
+- Compressed all PNG files in assets/games to less than half the total size.
+
+
+## What's new in v12.0.0
+- Updated to work with Choko Hack v12, that allows navigation with joystick and any folder names under `roms/` and automatically creates menu items for them.
+- Automatically creates lists based in content of roms/ subfolders.
+- Added fbneo_libretro.so extracted from Lakka, that fixes a problem with "Dungeons & Dragons: Shadow Over Mystara" - now player two can select and use weapons/magic.
+- Support for clones roms (tries to find parent rom's assets).
+- Updated the games installer/uninstaller. Easily install games lists into the CHA (you should expand the partition to make space for the roms - better yet, add a SD card reader: https://cha-choko-mod.fandom.com/wiki/SD_Card_reader_MOD ).
+- Moved the SSH and FTP servers to the Choko Hack pack ( https://github.com/ChokoGroup/Choko-Hack inside 'Extras' folder).
+- New Choko Logo.
+

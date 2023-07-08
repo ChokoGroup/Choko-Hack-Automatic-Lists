@@ -6,16 +6,11 @@
 
 - Sometimes the "Insert coin" won't work (usually after playing several different games), but rebooting the CHA will fix.
 
+If you are having issues with a game, test the latest fbneo core from https://github.com/ChokoGroup/FBNeo/releases/tag/libretro-latest
+(rename it `fba_libretro.so` and put it in `patches/default` or in `patches/SUBFOLDER_WITH_SAME_NAME_AS_ROMS_FOLDER`)
 
 
 ### Workarounds ###
 
 - "Dungeons & Dragons: Shadow Over Mystara": 
 Player 2 can't select and use weapons/magic. Use fbneo core extracted from Lakka.
-
-- Comix Zone (megadriv)
-- Red Earth
-Dragon's Lair (megadriv) doesn't load... but AFTER calling Drangon's Lair once, we can play "Comix Zone" and "Red Earth" by selecting 'restart' in the 'Insert + Start' menu.
-
-- Ghosts'n Goblins
-The parent rom (gng.zip) doesn't allow to continue game. Use the US rom instead (gngt.zip).

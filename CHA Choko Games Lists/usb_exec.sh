@@ -1,6 +1,6 @@
 #!/bin/sh
 # usb_exec.sh
-# v12.3.1
+# v12.6.0
 
 # Simple string compare, since until 10.0.0 CHOKOVERSION wasn't set
 # Future versions need to keep this in mind
@@ -142,6 +142,8 @@ creategamestxt () {
   cd "$RUNNINGFROM"
   IFS="$OIFS"
   echo " Done!"
+  sync
+  sleep 1
 }
 
 if [ -n "$LISTNAME" ] && [ -d "$ROMSFOLDER" ]

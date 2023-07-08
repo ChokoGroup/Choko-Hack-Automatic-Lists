@@ -1,43 +1,30 @@
 # Choko Hack Automatic Lists
 Create Lists of Games to Play in CHA
 (to load from USB or install in CHA)
-with the Choko Hack v12 or later
+with the Choko Hack v12.6.0
 
 
-## What's new in v12.3.1
-- If a folder with the name of the folder with ROMs is not found inside 'patches' but there is a 'default' folder, assets and core inside 'default' will be used.
-- Improved the way files inside 'patches' are applied when customizing UI, now all files inside matching folder (or 'default') are recursively mounted.
-- Fixed a bug when installing games in CHA and some UI sounds and icons would be missing.
-- Added new styles of games images and some audio files.
-
-## What's new in v12.3.0
-- Fixed a bug installing and deleting games into the CHA when using roms other than "parents".
-Note that version number is only a reference to current Choko Hack version (and recommended).
+<p align="center"><img src="https://raw.githubusercontent.com/ChokoGroup/Choko-Hack/main/screenshot_Choko_Menu.png" style="width:60%"></p>
 
 
-## What's new in v12.1.0
-- Fixed a bug handling roms folders with subfolders.
-- While music ogg files are by default in 'assets/sounds/music/set2' ("Remix" option in settings) you can now also have ogg files in 'assets/sounds' ("Original" option in settings).
-- Renamed 'megadrive' folder back to 'megadriv' for compatibility with older FB Neo cores.
-- Display info in screen when a new list TXT file is being created.
-- Added more games to and adapted games_all.txt and scripts to use the horizontal/vertical flag.
-- Added many games PNG and Hyperspin style PNG by Pararegistros and UnusualEarth.
-- Compressed all PNG files in assets/games to less than half the total size.
+## What's new in v12.6.0
+- Games (\*.zip and folders) names are not case sensitive, to avoid problems for Windows users.
+- Added a new script ("Rebuild games lists") to delete easily the list of games in case of corruption or user changing \*.zip in folder but forgetting to delete the matching "games.txt" list.
+- Fixed verification of needed space before installing games in CHA.
+
+Please read the file `whatsnew.txt` to see what was new in previous versions.
+
+Note: the jump in version number (and required Choko Hack versio) is meant to match the new release of Choko Hack, that hopelly fixes the problem with USB disks getting frequently corrupted.
+Please update if you are using any previous Choko Hack version. https://github.com/ChokoGroup/Choko-Hack
 
 
-## What's new in v12.0.0
-- Updated to work with Choko Hack v12, that allows navigation with joystick and any folder names under `roms/` and automatically creates menu items for them.
-- Automatically creates lists based in content of roms/ subfolders.
-- Added fbneo_libretro.so extracted from Lakka, that fixes a problem with "Dungeons & Dragons: Shadow Over Mystara" - now player two can select and use weapons/magic.
-- Support for clones roms (tries to find parent rom's assets).
-- Updated the games installer/uninstaller. Easily install games lists into the CHA (you should expand the partition to make space for the roms - better yet, add a SD card reader: https://cha-choko-mod.fandom.com/wiki/SD_Card_reader_MOD ).
-- Moved the SSH and FTP servers to the Choko Hack pack ( https://github.com/ChokoGroup/Choko-Hack inside 'Extras' folder).
-- New Choko Logo.
+<p align="center"><img src="https://raw.githubusercontent.com/ChokoGroup/Choko-Hack-Automatic-Lists/main/screenshot_Custom_Games_List.png" style="width:60%"></p>
 
 
 ## Instructions
-The most basic: put `CHA Choko Games Lists` in the root of USB pendrive, create folders inside `CHA Choko Games Lists/roms` and put your roms in them.
-Read the file '00 - Instructions.txt' and/or watch the videos for details.
+The most basic: put `CHA Choko Games Lists` in the root of USB pendrive, create folders inside `CHA Choko Games Lists/roms` and put your roms in them. That's all.
+
+Read the file '00 - Instructions.txt' and/or watch the videos for details and advanced customization.
 
 If you change the roms in one subfolder of `CHA Choko Games Lists/roms` just delete the `*.txt` file with the same name of the folder (in `CHA Choko Games Lists`) and the list will be recreated the next time you select it in menu.
 We can have as many lists as we want, just create subfolders inside `CHA Choko Games Lists/roms`.
@@ -48,6 +35,9 @@ We can have as many lists as we want, just create subfolders inside `CHA Choko G
 - `assets`    has the icons, buttons layout and sounds for games in carousel. You can change them or add your own assets.
 - `patches`   has the 'fba_libretro.so' used by default in all lists (and some extra cores we can use/test).
 - `patches/SUBFOLDERS_WITH_ANY_NAME`  has specific files to the correspondent list, for UI customization or using patched binaries (look into examples included).
+
+Note: An updated fbneo core is compiled every week and released in https://github.com/ChokoGroup/FBNeo/releases/tag/libretro-latest
+Just extract the file `fbneo_libretro.so`, rename it to `fba_libretro.so` and put it in `patches/default` or in `patches/SUBFOLDER_WITH_SAME_NAME_AS_ROMS_FOLDER`
 
 
 ## Notes:
@@ -99,6 +89,4 @@ We will appreciate all users contributions to enlarge this database.
 ## Game Manager
 There is a folder with an alpha version of Game Manager.
 It very helpful to edit each games data and add it to games_all.txt, also see the assets for each game in a list.
-Be warned, it's still in a very early development stage.
-
-More info in the wiki, at https://cha-choko-mod.fandom.com/wiki/Game_Manager
+Be warned, it's in a very early development stage.
