@@ -7,7 +7,7 @@
 - Sometimes the "Insert coin" won't work (usually after playing several different games), but rebooting the CHA will fix.
 
 If you are having issues with a game, test the latest fbneo core from https://github.com/ChokoGroup/FBNeo/releases/tag/libretro-latest
-(rename it `fba_libretro.so` and put it in `patches/default` or in `patches/SUBFOLDER_WITH_SAME_NAME_AS_ROMS_FOLDER`)
+(use Core Manager from Choko Menu to download and select.)
 
 
 ### Workarounds ###

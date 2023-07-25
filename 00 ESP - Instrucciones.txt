@@ -10,29 +10,28 @@ Nota: El paquete incluye iconos para miles de roms principales. Si ponen algunas
 
 Cómo crear una nueva lista con juegos de sistemas mixtos compatibles con FB Neo core:
 7. Repite el paso 4 pero dentro de esa carpeta tienes que crear subcarpetas para poner tus ROMs, dependiendo del sistema. Por ejemplo, los juegos de Mega Drive deben ir a una carpeta llamada 'megadrive'. Mire en https://docs.libretro.com/library/fbneo/ para ver los posibles nombres.
-8. Abra la carpeta 'patches' y cree una carpeta con exactamente el mismo nombre que creó en el paso 4.
-9. Copie el archivo 'fbneo_libretro.so' en la carpeta creada en el paso 8 y cámbiele el nombre a 'fba_libretro.so'.
-10. Extrae el disco USB de forma segura e insértelo en USB EXT del CHA. Encienda y seleccione la lista en los menús. ¡A jugar!
+8. Usa el Core Manager desde Choko Menu y selecciona 'fbneo_libretro.so' en tu lista de juegos.
+9. Extrae el disco USB de forma segura e insértelo en USB EXT del CHA. Encienda y seleccione la lista en los menús. ¡A jugar!
 
 
 Cómo cambiar el perfil de los botones de un juego y agregar datos a la base de datos de los juegos:
-11. Después de cargar la lista de juegos en el CHA al menos una vez, vaya a la carpeta 'CHA Choko Games Lists' y abra el archivo *.txt con el mismo nombre de la carpeta que creó en el paso 4.
-12. El primer carácter de cada línea es perfil de los botones ('A', 'B', 'C', 'D' o 'E'). Para los juegos que no aparecen en 'games_all.txt', se pone 'A', pero puede cambiarlo aquí y probar otros perfiles.
-13. Puede editar más información, como el tipo de juego, el año de lanzamiento y el nombre completo del juego. Busque las posibles opciones y la estructura en la página de Choko Wiki (https://cha-choko-mod.fandom.com/wiki/Instructions).
-14. Cuando termine, puede agregar esta línea a la base de datos de juegos (games_all.txt) para reutilizarla más tarde (y compartirla con otros).
+10. Después de cargar la lista de juegos en el CHA al menos una vez, vaya a la carpeta 'CHA Choko Games Lists' y abra el archivo *.txt con el mismo nombre de la carpeta que creó en el paso 4.
+11. El primer carácter de cada línea es perfil de los botones ('A', 'B', 'C', 'D' o 'E'). Para los juegos que no aparecen en 'games_all.txt', se pone 'A', pero puede cambiarlo aquí y probar otros perfiles.
+12. Puede editar más información, como el tipo de juego, el año de lanzamiento y el nombre completo del juego. Busque las posibles opciones y la estructura en la página de Choko Wiki (https://cha-choko-mod.fandom.com/wiki/Instructions).
+13. Cuando termine, puede agregar esta línea a la base de datos de juegos (games_all.txt) para reutilizarla más tarde (y compartirla con otros).
 
 Cómo activar la 'diagnostic input', también conocida como dipswitches:
-15. Vaya a la carpeta 'CHA Choko Games Lists/patches' y cree una carpeta con exactamente el mismo nombre que creó en el paso 4.
-16. Copie el archivo 'capcom' de la carpeta 'EXAMPLE with patched files and using a core other than default' en la carpeta creada en el paso anterior.
-17. Si desea utilizar el núcleo FB Neo con 'diagnostic input' (Capcom) y UniBios (NeoGeo) vea también 'EXAMPLE with patched files and customized UI (SNK colours)'.
-18. Ahora, cuando juegue un juego de esta lista en el CHA, llame al menú de diagnóstico presionando el botón 'Start' durante dos segundos.
+14. Vaya a la carpeta 'CHA Choko Games Lists/patches' y cree una carpeta con exactamente el mismo nombre que creó en el paso 4.
+15. Copie el archivo 'capcom' de la carpeta 'EXAMPLE with patched files and using a core other than default' en la carpeta creada en el paso anterior.
+16. Si desea utilizar el núcleo FB Neo con 'diagnostic input' (Capcom) y UniBios (NeoGeo) usa Core Manager para seleccionarlo.
+17. Ahora, cuando juegue un juego de esta lista en el CHA, llame al menú de diagnóstico presionando el botón 'Start' durante dos segundos.
 
 
 Cómo personalizar la interfaz del carrusel (importado del paquete SNK desarrollado por Woises, con soporte para Neo Geo UniBIOS v4.0):
-19. Repita los pasos 4 y 5 con los juegos de Neo Geo; no olvide el archivo bios (neogeo.zip) con soporte para UniBIOS v4.0.
-20. Abra la carpeta 'patches' y cree una carpeta con exactamente el mismo nombre que creó en el paso 4.
-21. Copie todos los archivos y carpetas dentro de 'EXAMPLE with patched files and customized UI (SNK colours)' en la carpeta creada en el paso 20.
-22. Extrae el disco USB de forma segura e insértelo en USB EXT del CHA. Encienda y verá el logotipo de SNK reemplazando a Capcom al final de la animación de arranque.
+18. Repita los pasos 4 y 5 con los juegos de Neo Geo; no olvide el archivo bios (neogeo.zip) con soporte para UniBIOS v4.0.
+19. Abra la carpeta 'patches' y cree una carpeta con exactamente el mismo nombre que creó en el paso 4.
+20. Copie todos los archivos y carpetas dentro de 'EXAMPLE with patched files and customized UI (SNK colours)' en la carpeta creada en el paso 20.
+21. Extrae el disco USB de forma segura e insértelo en USB EXT del CHA. Encienda y verá el logotipo de SNK reemplazando a Capcom al final de la animación de arranque.
 Nota: Ahora, cuando juegue un juego de esta lista en el CHA, verá la pantalla de inicio de UniBIOS. Presione los botones A+B+C+D mientras la pantalla de inicio de UniBios está visible para ir al menú de UniBios. Durante el juego, tendrá que llamar al menú Insertar + Inicio, luego reanudar y verá el menú UniBIOS (botón C para salir).
 
 

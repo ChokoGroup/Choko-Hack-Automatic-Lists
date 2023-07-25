@@ -4,7 +4,7 @@ Create Lists of Games to Play in CHA
 with the Choko Hack v13.0.0
 
 
-<p align="center"><img src="https://raw.githubusercontent.com/ChokoGroup/Choko-Hack/main/screenshot_Core_Manager.png" style="width:60%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ChokoGroup/Choko-Hack-Automatic-Lists/main/screenshot_Core_Manager.png" style="width:60%"></p>
 
 
 ## What's new in v13.0.0
