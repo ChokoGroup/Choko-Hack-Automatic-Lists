@@ -1,20 +1,26 @@
 # Choko Hack Automatic Lists
 Create Lists of Games to Play in CHA
 (to load from USB or install in CHA)
-with the Choko Hack v12.6.0
+with the Choko Hack v13.0.0
 
 
-<p align="center"><img src="https://raw.githubusercontent.com/ChokoGroup/Choko-Hack/main/screenshot_Choko_Menu.png" style="width:60%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ChokoGroup/Choko-Hack/main/screenshot_Core_Manager.png" style="width:60%"></p>
 
 
-## What's new in v12.6.0
+## What's new in v13.0.0
+- There is a new "Core Manager" script to easily download new fbneo_libretro cores (a new one is compiled every friday) and easily assign cores to games lists.
+- Core Manager can also reset games lists, meaning deleting the "games.txt" file, in case of change of roms in the list.
+- If "old" games lists from Choko Hack v11 are found, Core Manage can upgrade it to the correct folder structure.
+- The installer/unistaller can also download updates from GitHub.
+- New way of setting the core to use with each list, avoiding duplicating \*.so files by "pointing" to them with a \*.core.conf file.
 - Games (\*.zip and folders) names are not case sensitive, to avoid problems for Windows users.
-- Added a new script ("Rebuild games lists") to delete easily the list of games in case of corruption or user changing \*.zip in folder but forgetting to delete the matching "games.txt" list.
 - Fixed verification of needed space before installing games in CHA.
 
-Please read the file `whatsnew.txt` to see what was new in previous versions.
+Note: A good quality pendisk is highly recommended. Very cheap low quality pendisks can cause (more) instability when booting and loading games.
 
-Note: the jump in version number (and required Choko Hack versio) is meant to match the new release of Choko Hack, that hopelly fixes the problem with USB disks getting frequently corrupted.
+Please read the file `what_was_new.txt` to see what was new in previous versions.
+
+Note: the jump in version number is meant to match the new release of Choko Hack, that hopelly fixes the problem with USB disks getting frequently corrupted and for that reason was decided to be mandatory.
 Please update if you are using any previous Choko Hack version. https://github.com/ChokoGroup/Choko-Hack
 
 
@@ -27,7 +33,8 @@ The most basic: put `CHA Choko Games Lists` in the root of USB pendrive, create 
 Read the file '00 - Instructions.txt' and/or watch the videos for details and advanced customization.
 
 If you change the roms in one subfolder of `CHA Choko Games Lists/roms` just delete the `*.txt` file with the same name of the folder (in `CHA Choko Games Lists`) and the list will be recreated the next time you select it in menu.
-We can have as many lists as we want, just create subfolders inside `CHA Choko Games Lists/roms`.
+Or use Core Manager (and press P1 Coin) to reset it.
+You can have as many lists as you want, just create subfolders inside `CHA Choko Games Lists/roms`.
 
 
 ## Folder structure
@@ -37,7 +44,7 @@ We can have as many lists as we want, just create subfolders inside `CHA Choko G
 - `patches/SUBFOLDERS_WITH_ANY_NAME`  has specific files to the correspondent list, for UI customization or using patched binaries (look into examples included).
 
 Note: An updated fbneo core is compiled every week and released in https://github.com/ChokoGroup/FBNeo/releases/tag/libretro-latest
-Just extract the file `fbneo_libretro.so`, rename it to `fba_libretro.so` and put it in `patches/default` or in `patches/SUBFOLDER_WITH_SAME_NAME_AS_ROMS_FOLDER`
+Use Core Manager to download and use the new core.
 
 
 ## Notes:
@@ -51,7 +58,7 @@ Just extract the file `fbneo_libretro.so`, rename it to `fba_libretro.so` and pu
 
 ## Regarding roms
 - Always use lowercase in filenames.
-- For the *.png and *.ogg files use the same name as the roms and also all lowercase.
+- For the \*.png and \*.ogg files use the same name as the roms and also all lowercase.
 - Don't forget BIOS files (for example, `neogeo.zip`).
 - For some sub systems, FB Neo core needs roms to be in special subfolders. The possible folder names are as follows:
 

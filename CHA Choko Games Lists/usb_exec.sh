@@ -1,21 +1,21 @@
 #!/bin/sh
 # usb_exec.sh
-# v12.6.0
+# v13.0.0
 
 # Simple string compare, since until 10.0.0 CHOKOVERSION wasn't set
 # Future versions need to keep this in mind
-if [ "$CHOKOVERSION" \< "12.0.0" ]
+if [ -z "$CHOKOVERSION" ] || [ "$CHOKOVERSION" \< "13.0.0" ]
 then
-  echo -e "\nYou are running an outdated version of Choko Hack.\nYou need v12.0.0 or later.";
-  COUNTDOWN=5
-  while [ $COUNTDOWN -ge 0 ]
+  echo -e "\nYou are running an outdated version of Choko Hack.\nYou need v13.0.0 or later.\n"
+  _var_countdown=5
+  while [ $_var_countdown -ge 0 ]
   do
-    echo -ne "\rRebooting in $COUNTDOWN seconds... "
-    COUNTDOWN=$((COUNTDOWN - 1))
+    echo -ne "\rRebooting in $_var_countdown seconds... "
+    _var_countdown=$((_var_countdown - 1))
     sleep 1
   done
-  echo -e "\r\e[K"
-  if [ "$CHOKOVERSION" \< "10.0.0" ]
+  echo -e "\r                                   \r"
+  if [ -z "$CHOKOVERSION" ] || [ "$CHOKOVERSION" \< "10.0.0" ]
   then
     reboot -f
   else
@@ -23,205 +23,225 @@ then
   fi
 fi
 
-RUNNINGFROM="$(dirname "$(readlink -f "$0")")"
-LISTNAME="$*"
+_var_running_from_folder="$(dirname "$(readlink -f "$0")")"
+_var_name_of_list="$*"
 
 # Where are the ROMs
-if [ "$RUNNINGFROM" = "/.choko" ]
+if [ "$_var_running_from_folder" = "/.choko" ]
 then
-  ROMSFOLDER="/usr/share/roms/$LISTNAME"
+  _var_folder_with_ROMs="/usr/share/roms/$_var_name_of_list"
 else
-  ROMSFOLDER="$RUNNINGFROM/roms/$LISTNAME"
+  _var_folder_with_ROMs="${_var_running_from_folder}/roms/$_var_name_of_list"
 fi
 
 
 creategamestxt () {
-  echo -n "Creating \"$LISTNAME.txt\""
-  FIRSTLINE="Y"
-  ICONNUMBER=0
+  echo -n "Creating \"${_var_name_of_list}.txt\""
+  _var_is_first_line="Y"
+  _var_icon_number=0
   # Make 'for' loops use entire lines
   OIFS="$IFS"
   IFS=$'\n'
   # Go to folder to avoid problems with apostrophes in folders names
-  cd "$ROMSFOLDER"
-  for FNAME in $(find . -mindepth 1 -maxdepth 2 -name '*.zip' -type f -print 2> /dev/null | sort -f)
+  cd "$_var_folder_with_ROMs"
+  for _var_file_name in $(find . -mindepth 1 -maxdepth 2 -name '*.zip' -type f -print 2> /dev/null | sort -f)
   do
-    FNAME="${FNAME#./}"; FNAME="${FNAME%.zip}"
+    _var_file_name="${_var_file_name#./}"; _var_file_name="${_var_file_name%.zip}"
     # Ignore BIOS only zip files
-    if [ "$FNAME" != "neogeo" ] && [ "$FNAME" != "neocdz" ] && [ "$FNAME" != "decocass" ] && [ "$FNAME" != "isgsm" ] && [ "$FNAME" != "midssio" ] && [ "$FNAME" != "nmk004" ] && [ "$FNAME" != "pgm" ] && [ "$FNAME" != "skns" ] && [ "$FNAME" != "ym2608" ] && [ "$FNAME" != "cchip" ] && [ "$FNAME" != "bubsys" ] && [ "$FNAME" != "namcoc69" ] && [ "$FNAME" != "namcoc70" ] && [ "$FNAME" != "namcoc75" ] && [ "$FNAME" != "coleco" ] && [ "$FNAME" != "fdsbios" ] && [ "$FNAME" != "msx" ] && [ "$FNAME" != "ngp" ] && [ "$FNAME" != "spectrum" ] && [ "$FNAME" != "spec128" ] && [ "$FNAME" != "channelf" ]
+    if [ "$_var_file_name" != "neogeo" ] && [ "$_var_file_name" != "neocdz" ] && [ "$_var_file_name" != "decocass" ] && [ "$_var_file_name" != "isgsm" ] && [ "$_var_file_name" != "midssio" ] && [ "$_var_file_name" != "nmk004" ] && [ "$_var_file_name" != "pgm" ] && [ "$_var_file_name" != "skns" ] && [ "$_var_file_name" != "ym2608" ] && [ "$_var_file_name" != "cchip" ] && [ "$_var_file_name" != "bubsys" ] && [ "$_var_file_name" != "namcoc69" ] && [ "$_var_file_name" != "namcoc70" ] && [ "$_var_file_name" != "namcoc75" ] && [ "$_var_file_name" != "coleco" ] && [ "$_var_file_name" != "fdsbios" ] && [ "$_var_file_name" != "msx" ] && [ "$_var_file_name" != "ngp" ] && [ "$_var_file_name" != "spectrum" ] && [ "$_var_file_name" != "spec128" ] && [ "$_var_file_name" != "channelf" ]
     then
-      FPARENT="$FNAME"
-      GAMESTXTLINE="$(grep -m 1 " $FPARENT.zip" "$RUNNINGFROM/games_all.txt")"
+      _var_parent_rom_name="$_var_file_name"
+      _var_line_for_games_txt="$(grep -m 1 " ${_var_parent_rom_name}.zip" "${_var_running_from_folder}/games_all.txt")"
       # Search for parent rom in games_all.txt if exact zip not found n games_all.txt
-      while [ -z "$GAMESTXTLINE" ] && [ ${#FPARENT} -gt 1 ]
+      while [ -z "$_var_line_for_games_txt" ] && [ ${#_var_parent_rom_name} -gt 1 ]
       do
-        FPARENT="${FPARENT%?}"
-        GAMESTXTLINE="$(grep -m 1 " $FPARENT.zip" "$RUNNINGFROM/games_all.txt")"
+        _var_parent_rom_name="${_var_parent_rom_name%?}"
+        _var_line_for_games_txt="$(grep -m 1 " ${_var_parent_rom_name}.zip" "${_var_running_from_folder}/games_all.txt")"
       done
 
-      if [ "$FIRSTLINE" = "N" ]
+      if [ "$_var_is_first_line" = "N" ]
       then
-        echo -en "\n" >> "$RUNNINGFROM/$LISTNAME.txt"
+        echo -en "\n" >> "${_var_running_from_folder}/${_var_name_of_list}.txt"
       else
-        FIRSTLINE="N"
+        _var_is_first_line="N"
       fi
-      if [ -n "$GAMESTXTLINE" ]
+      if [ -n "$_var_line_for_games_txt" ]
       then
         # Line found in games_all.txt
-        if [ "$FNAME" != "$FPARENT" ]
+        if [ "$_var_file_name" != "$_var_parent_rom_name" ]
         then
-          TMPFNAME="${FNAME//\//\\\/}"
-          TMPFPARENT="${FPARENT//\//\\\/}"
-          eval "GAMESTXTLINE=\"\${GAMESTXTLINE/ $TMPFPARENT.zip/ $TMPFNAME.zip}\""
+          _temp_var_file_name="${_var_file_name//\//\\\/}"
+          _temp_var_parent_rom_name="${_var_parent_rom_name//\//\\\/}"
+          eval "_var_line_for_games_txt=\"\${_var_line_for_games_txt/ ${_temp_var_parent_rom_name}.zip/ ${_temp_var_file_name}.zip}\""
         fi
         # Check if png exists and look for parent png if not
-        ASSETSFILENAME="${GAMESTXTLINE:11}"; ASSETSFILENAME="${ASSETSFILENAME%%' '*}"
-        if [ ! -f "$RUNNINGFROM/assets/games/$ASSETSFILENAME" ]
+        _var_assets_file_name="${_var_line_for_games_txt:11}"; _var_assets_file_name="${_var_assets_file_name%%' '*}"
+        if [ ! -f "${_var_running_from_folder}/assets/games/$_var_assets_file_name" ]
         then
-          TMPASSETSFILENAME="${ASSETSFILENAME//\//\\\/}"
-          FPARENT="$FNAME"
-          while [ ! -f "$RUNNINGFROM/assets/games/$FPARENT.png" ] && [ ${#FPARENT} -gt 1 ]
+          _temp_var_assets_file_name="${_var_assets_file_name//\//\\\/}"
+          _var_parent_rom_name="$_var_file_name"
+          while [ ! -f "${_var_running_from_folder}/assets/games/${_var_parent_rom_name}.png" ] && [ ${#_var_parent_rom_name} -gt 1 ]
           do
-            FPARENT="${FPARENT%?}"
+            _var_parent_rom_name="${_var_parent_rom_name%?}"
           done
-          if [ -f "$RUNNINGFROM/assets/games/$FPARENT.png" ]
+          if [ -f "${_var_running_from_folder}/assets/games/${_var_parent_rom_name}.png" ]
           then
-            TMPFPARENT="${FPARENT//\//\\\/}"
-            eval "GAMESTXTLINE=\"\${GAMESTXTLINE/ $TMPASSETSFILENAME/ $TMPFPARENT.png}\""
+            _temp_var_parent_rom_name="${_var_parent_rom_name//\//\\\/}"
+            eval "_var_line_for_games_txt=\"\${_var_line_for_games_txt/ ${_temp_var_assets_file_name}/ ${_temp_var_parent_rom_name}.png}\""
           else
-            ICONNUMBER=$((ICONNUMBER + 1))
-            if [ ${#ICONNUMBER} -eq 1 ]
+            _var_icon_number=$((_var_icon_number + 1))
+            if [ ${#_var_icon_number} -eq 1 ]
             then
-              eval "GAMESTXTLINE=\"\${GAMESTXTLINE/ $TMPASSETSFILENAME/ game0$ICONNUMBER.png}\""
+              eval "_var_line_for_games_txt=\"\${_var_line_for_games_txt/ $_temp_var_assets_file_name/ game0$_var_icon_number.png}\""
             else
-              eval "GAMESTXTLINE=\"\${GAMESTXTLINE/ $TMPASSETSFILENAME/ game$ICONNUMBER.png}\""
+              eval "_var_line_for_games_txt=\"\${_var_line_for_games_txt/ $_temp_var_assets_file_name/ game$_var_icon_number.png}\""
             fi
           fi
         fi
         # Check if ogg exists and look for parent ogg if not
-        ASSETSFILENAME="${GAMESTXTLINE#*'.zip '}"; ASSETSFILENAME="${ASSETSFILENAME%%' '*}"
-        if [ ! -f "$RUNNINGFROM/assets/sounds/$ASSETSFILENAME" ] && [ ! -f "$RUNNINGFROM/assets/sounds/music/set2/$ASSETSFILENAME" ]
+        _var_assets_file_name="${_var_line_for_games_txt#*'.zip '}"; _var_assets_file_name="${_var_assets_file_name%%' '*}"
+        if [ ! -f "${_var_running_from_folder}/assets/sounds/$_var_assets_file_name" ] && [ ! -f "${_var_running_from_folder}/assets/sounds/music/set2/$_var_assets_file_name" ]
         then
-          FPARENT="$FNAME"
-          while [ ! -f "$RUNNINGFROM/assets/sounds/$FPARENT.ogg" ] && [ ! -f "$RUNNINGFROM/assets/sounds/music/set2/$FPARENT.ogg" ] && [ ${#FPARENT} -gt 1 ]
+          _var_parent_rom_name="$_var_file_name"
+          while [ ! -f "${_var_running_from_folder}/assets/sounds/${_var_parent_rom_name}.ogg" ] && [ ! -f "${_var_running_from_folder}/assets/sounds/music/set2/${_var_parent_rom_name}.ogg" ] && [ ${#_var_parent_rom_name} -gt 1 ]
           do
-            FPARENT="${FPARENT%?}"
+            _var_parent_rom_name="${_var_parent_rom_name%?}"
           done
-          if [ -f "$RUNNINGFROM/assets/sounds/$FPARENT.ogg" ] || [ -f "$RUNNINGFROM/assets/sounds/music/set2/$FPARENT.ogg" ]
+          if [ -f "${_var_running_from_folder}/assets/sounds/${_var_parent_rom_name}.ogg" ] || [ -f "${_var_running_from_folder}/assets/sounds/music/set2/${_var_parent_rom_name}.ogg" ]
           then
-            TMPASSETSFILENAME="${ASSETSFILENAME//\//\\\/}"
-            TMPFPARENT="${FPARENT//\//\\\/}"
-            eval "GAMESTXTLINE=\"\${GAMESTXTLINE/ $TMPASSETSFILENAME/ $TMPFPARENT.ogg}\""
+            _temp_var_assets_file_name="${_var_assets_file_name//\//\\\/}"
+            _temp_var_parent_rom_name="${_var_parent_rom_name//\//\\\/}"
+            eval "_var_line_for_games_txt=\"\${_var_line_for_games_txt/ ${_temp_var_assets_file_name}/ ${_temp_var_parent_rom_name}.ogg}\""
           fi
         fi
-        echo -n "$GAMESTXTLINE" >> "$RUNNINGFROM/$LISTNAME.txt"
+        echo -n "$_var_line_for_games_txt" >> "${_var_running_from_folder}/${_var_name_of_list}.txt"
       else
         # Line not found in games_all.txt
         # Search for rom assets or parent rom assets
-        FPARENT="$FNAME"
-        while [ ! -f "$RUNNINGFROM/assets/games/$FPARENT.png" ] && [ ${#FPARENT} -gt 1 ]
+        _var_parent_rom_name="$_var_file_name"
+        while [ ! -f "${_var_running_from_folder}/assets/games/${_var_parent_rom_name}.png" ] && [ ${#_var_parent_rom_name} -gt 1 ]
         do
-          FPARENT="${FPARENT%?}"
+          _var_parent_rom_name="${_var_parent_rom_name%?}"
         done
-        if [ -f "$RUNNINGFROM/assets/games/$FPARENT.png" ]
+        if [ -f "${_var_running_from_folder}/assets/games/${_var_parent_rom_name}.png" ]
         then
-          echo -n "A 0 B 0000 $FPARENT.png $FNAME.zip $FPARENT.ogg 0 $FPARENT" >> "$RUNNINGFROM/$LISTNAME.txt"
+          echo -n "A 0 B 0000 ${_var_parent_rom_name}.png ${_var_file_name}.zip ${_var_parent_rom_name}.ogg 0 $_var_parent_rom_name" >> "${_var_running_from_folder}/${_var_name_of_list}.txt"
         else
-          ICONNUMBER=$((ICONNUMBER + 1))
-          if [ ${#ICONNUMBER} -eq 1 ]
+          _var_icon_number=$((_var_icon_number + 1))
+          if [ ${#_var_icon_number} -eq 1 ]
           then
-            echo -n "A 0 B 0000 game0$ICONNUMBER.png $FNAME.zip $FNAME.ogg 0 $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt"
+            echo -n "A 0 B 0000 game0$_var_icon_number.png ${_var_file_name}.zip ${_var_file_name}.ogg 0 $_var_file_name" >> "${_var_running_from_folder}/${_var_name_of_list}.txt"
           else
-            echo -n "A 0 B 0000 game$ICONNUMBER.png $FNAME.zip $FNAME.ogg 0 $FNAME" >> "$RUNNINGFROM/$LISTNAME.txt"
+            echo -n "A 0 B 0000 game$_var_icon_number.png ${_var_file_name}.zip ${_var_file_name}.ogg 0 $_var_file_name" >> "${_var_running_from_folder}/${_var_name_of_list}.txt"
           fi
         fi
       fi
       echo -n "."
     fi
   done
-  cd "$RUNNINGFROM"
+  cd "$_var_running_from_folder"
   IFS="$OIFS"
   echo " Done!"
   sync
   sleep 1
 }
 
-if [ -n "$LISTNAME" ] && [ -d "$ROMSFOLDER" ]
+if [ -n "$_var_name_of_list" ] && [ -d "$_var_folder_with_ROMs" ]
 then
 
-  # Create $LISTNAME.txt if it does not exist
-  [ -f "$RUNNINGFROM/$LISTNAME.txt" ] || creategamestxt
+  # Create ${_var_name_of_list}.txt if it does not exist
+  [ -f "${_var_running_from_folder}/${_var_name_of_list}.txt" ] || creategamestxt
 
-  if [ -f "$RUNNINGFROM/$LISTNAME.txt" ]
+  if [ -f "${_var_running_from_folder}/${_var_name_of_list}.txt" ]
   then
     # Mount assets for games
     # Remember to choose Remix in music settings
-    for DIR in \
+    for _var_file_to_mount in \
       assets/games \
       assets/options \
       assets/sounds
     do
-      mount --bind "$RUNNINGFROM/$DIR" /opt/capcom/$DIR
+      mount --bind "${_var_running_from_folder}/$_var_file_to_mount" "/opt/capcom/$_var_file_to_mount"
     done
 
     # Where to look for patches
-    if [ -d "$RUNNINGFROM/patches/$LISTNAME" ]
+    if [ -d "${_var_running_from_folder}/patches/$_var_name_of_list" ]
     then
-      PATH2PATCHES="$RUNNINGFROM/patches/$LISTNAME"
+      _var_patch_to_patches_folder="${_var_running_from_folder}/patches/$_var_name_of_list"
     else
-      PATH2PATCHES="$RUNNINGFROM/patches/default"
+      _var_patch_to_patches_folder="${_var_running_from_folder}/patches/default"
     fi
 
     # Make 'for' loops use entire lines
     OIFS="$IFS"
     IFS=$'\n'
     # Mount assets to change UI if they exist
-    for ASSETFNAME in $(find "$PATH2PATCHES/assets" -name '*' -type f -print 2> /dev/null)
+    for _var_assets_file_name_to_mount in $(find "${_var_patch_to_patches_folder}/assets" -name '*' -type f -print 2> /dev/null)
     do
-      mount --bind "$ASSETFNAME" "/opt/capcom/assets/${ASSETFNAME#*'/assets/'}"
+      mount --bind "$_var_assets_file_name_to_mount" "/opt/capcom/assets/${_var_assets_file_name_to_mount#*'/assets/'}"
     done
     IFS="$OIFS"
-    [ -f "$PATH2PATCHES/assets/capcom-home-arcade-last.png" ] || mount --bind "$RUNNINGFROM/assets/capcom-home-arcade-last.png" /opt/capcom/assets/capcom-home-arcade-last.png
+    [ -f "${_var_patch_to_patches_folder}/assets/capcom-home-arcade-last.png" ] || mount --bind "${_var_running_from_folder}/assets/capcom-home-arcade-last.png" /opt/capcom/assets/capcom-home-arcade-last.png
 
     # Don't ruin Easter Egg
     if [ "$LUCKY" = "10" ] && [ -f /opt/capcom/assets/gold/bg.png ]
     then
-      for GOLDENFILES in \
+      for _var_golden_file_to_mount in \
         BARS_top.png \
         bg.png \
         bg_single.png
       do
-        [ -f "$PATH2PATCHES/assets/gold/$GOLDENFILES" ] && umount "/opt/capcom/assets/$GOLDENFILES" 2>/dev/null
-        [ -f "$PATH2PATCHES/assets/gold/$GOLDENFILES" ] && mount --bind "$PATH2PATCHES/assets/gold/$GOLDENFILES" "/opt/capcom/assets/$GOLDENFILES"
+        [ -f "${_var_patch_to_patches_folder}/assets/gold/$_var_golden_file_to_mount" ] && umount "/opt/capcom/assets/$_var_golden_file_to_mount" 2>/dev/null
+        [ -f "${_var_patch_to_patches_folder}/assets/gold/$_var_golden_file_to_mount" ] && mount --bind "${_var_patch_to_patches_folder}/assets/gold/$_var_golden_file_to_mount" "/opt/capcom/assets/$_var_golden_file_to_mount"
       done
     fi
 
     # Mount list of games for carousel
-    mount --bind "$RUNNINGFROM/$LISTNAME.txt" /opt/capcom/assets/games.txt
+    mount --bind "${_var_running_from_folder}/${_var_name_of_list}.txt" /opt/capcom/assets/games.txt
 
     # Mount patched 'capcom' if exists
-    [ -f "$PATH2PATCHES/capcom" ] && mount --bind "$PATH2PATCHES/capcom" /opt/capcom/capcom
+    [ -f "${_var_patch_to_patches_folder}/capcom" ] && mount --bind "${_var_patch_to_patches_folder}/capcom" /opt/capcom/capcom
 
     # Mount libretro core
-    if [ -f "$PATH2PATCHES/fba_libretro.so" ]
+    _var_Core_File="$(ls "$_var_patch_to_patches_folder"/*.core.conf)"   # Empty file to store original name of core file
+    _var_Core_File="${_var_Core_File##*/}"; _var_Core_File="${_var_Core_File%.core.conf}"
+    if [ -n "$_var_Core_File" ] && [ -f "${_var_running_from_folder}/patches/$_var_Core_File" ]
     then
-      mount --bind "$PATH2PATCHES/fba_libretro.so" /usr/lib/libretro/fba_libretro.so
+      mount --bind "${_var_running_from_folder}/patches/$_var_Core_File" /usr/lib/libretro/fba_libretro.so
+      echo "Emulating games with: ${_var_running_from_folder}/patches/$_var_Core_File"
+    elif [ -f "${_var_patch_to_patches_folder}/fba_libretro.so" ]
+    then
+      mount --bind "${_var_patch_to_patches_folder}/fba_libretro.so" /usr/lib/libretro/fba_libretro.so
+      echo "Emulating games with: ${_var_patch_to_patches_folder}/fba_libretro.so"
+    elif [ -f "${_var_running_from_folder}/patches/fba_libretro.so" ]
+    then
+      mount --bind "${_var_running_from_folder}/patches/fba_libretro.so" /usr/lib/libretro/fba_libretro.so
+      echo "Emulating games with: ${_var_running_from_folder}/patches/fba_libretro.so"
     else
-      mount --bind "$RUNNINGFROM/patches/fba_libretro.so" /usr/lib/libretro/fba_libretro.so
+      echo -e "\nThe file \"${_var_running_from_folder}/patches/fba_libretro.so\" is missing!"
+      _var_countdown=10
+      while [ $_var_countdown -ge 0 ]
+      do
+        echo -ne "\rRebooting in $_var_countdown seconds... "
+        _var_countdown=$((_var_countdown - 1))
+        sleep 1
+      done
+      echo -e "\r\e[K"
+      exit 200
     fi
 
     # Mount our ROMs
-    mount --bind "$ROMSFOLDER" /usr/share/roms
+    mount --bind "$_var_folder_with_ROMs" /usr/share/roms
   fi
 else
-  echo -e "\nCould not find the folder \"$ROMSFOLDER\"\nThis file should be run with command \"$0\" \"Name of Games List\"";
-  COUNTDOWN=10
-  while [ $COUNTDOWN -ge 0 ]
+  echo -e "\nCould not find the folder \"$_var_folder_with_ROMs\"\nThis file should be run with command \"$0\" \"Name of Games List\""
+  _var_countdown=10
+  while [ $_var_countdown -ge 0 ]
   do
-    echo -ne "\rGoing back to Choko Menu in $COUNTDOWN seconds... "
-    COUNTDOWN=$((COUNTDOWN - 1))
+    echo -ne "\rGoing back to Choko Menu in $_var_countdown seconds... "
+    _var_countdown=$((_var_countdown - 1))
     sleep 1
   done
-  echo -e "\r\e[K"
+  echo -e "\r                                                  \r"
   exit 202
 fi
