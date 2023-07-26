@@ -215,6 +215,10 @@ then
             then
               echo -e "\e[1;30mrm -rf \"/.choko/assets\"\e[m"; rm -rf /.choko/assets; _var_last_command_exitcode=$?
             fi
+            if [ $_var_last_command_exitcode -eq 0 ] && [ -d /.choko/options ]
+            then
+              echo -e "\e[1;30mrm -rf \"/.choko/options\"\e[m"; rm -rf /.choko/options; _var_last_command_exitcode=$?
+            fi
             if [ $_var_last_command_exitcode -eq 0 ] && [ -f /.choko/usb_exec.sh ]
             then
               echo -e "\e[1;30mrm \"/.choko/usb_exec.sh\"\e[m"; rm /.choko/usb_exec.sh; _var_last_command_exitcode=$?
