@@ -11,7 +11,7 @@ with the Choko Hack v13.0.0
 - There is a new "Core Manager" script to easily download new fbneo_libretro cores (a new one is compiled every friday) and easily assign cores to games lists.
 - Core Manager can also reset games lists, meaning deleting the "games.txt" file, in case of change of roms in the list.
 - If "old" games lists from Choko Hack v11 are found, Core Manage can upgrade it to the correct folder structure.
-- The installer/unistaller can also download updates from GitHub.
+- The installer/uninstaller can also download updates from GitHub.
 - New way of setting the core to use with each list, avoiding duplicating \*.so files by "pointing" to them with a \*.core.conf file.
 - Games (\*.zip and folders) names are not case sensitive, to avoid problems for Windows users.
 - Fixed verification of needed space before installing games in CHA.
