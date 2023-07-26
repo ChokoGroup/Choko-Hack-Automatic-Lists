@@ -208,17 +208,17 @@ then
     if [ -n "$_var_Core_File" ] && [ -f "${_var_running_from_folder}/patches/$_var_Core_File" ]
     then
       mount --bind "${_var_running_from_folder}/patches/$_var_Core_File" /usr/lib/libretro/fba_libretro.so
-      echo "Emulating games with: ${_var_running_from_folder}/patches/$_var_Core_File"
+      echo -e "\e[1;30mEmulating games with: ${_var_running_from_folder}/patches/$_var_Core_File\e[m"
     elif [ -f "${_var_patch_to_patches_folder}/fba_libretro.so" ]
     then
       mount --bind "${_var_patch_to_patches_folder}/fba_libretro.so" /usr/lib/libretro/fba_libretro.so
-      echo "Emulating games with: ${_var_patch_to_patches_folder}/fba_libretro.so"
+      echo -e "\e[1;30mEmulating games with: ${_var_patch_to_patches_folder}/fba_libretro.so\e[m"
     elif [ -f "${_var_running_from_folder}/patches/fba_libretro.so" ]
     then
       mount --bind "${_var_running_from_folder}/patches/fba_libretro.so" /usr/lib/libretro/fba_libretro.so
-      echo "Emulating games with: ${_var_running_from_folder}/patches/fba_libretro.so"
+      echo -e "\e[1;30mEmulating games with: ${_var_running_from_folder}/patches/fba_libretro.so\e[m"
     else
-      echo -e "\nThe file \"${_var_running_from_folder}/patches/fba_libretro.so\" is missing!"
+      echo -e "\n\e[1;31mThe file \"${_var_running_from_folder}/patches/fba_libretro.so\" is missing!\e[m"
       _var_countdown=10
       while [ $_var_countdown -ge 0 ]
       do
