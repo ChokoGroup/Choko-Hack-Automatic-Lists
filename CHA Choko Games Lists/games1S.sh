@@ -105,10 +105,10 @@ then
       if [ "$_var_user_answer" = "Yes" ]
       then
         echo "Downloading update..."
-        if /.choko/busybox wget -q -o /dev/null -O "/tmp/CHA.Choko.Games.Lists.${_var_release_version}.Update.zip" "https://github.com/ChokoGroup/Choko-Hack-Automatic-Lists/releases/download/latest/CHA.Choko.Games.Lists.${_var_release_version}.Update.zip"
+        if /.choko/busybox wget -q -o /dev/null -O "/tmp/CHA.Choko.Games.Lists.v${_var_release_version}.Update.zip" "https://github.com/ChokoGroup/Choko-Hack-Automatic-Lists/releases/download/v${_var_release_version}/CHA.Choko.Games.Lists.v${_var_release_version}.Update.zip"
         then
           echo -en "Extracting files..."
-          if unzip -qo "/tmp/CHA.Choko.Games.Lists.${_var_release_version}.Update.zip" -d /tmp
+          if unzip -qo "/tmp/CHA.Choko.Games.Lists.v${_var_release_version}.Update.zip" -d /tmp
           then
             echo -e " OK"
             mv "/tmp/CHA Choko Games Lists"/* "$_var_running_from_folder"/
@@ -116,11 +116,11 @@ then
             # Call this script again to do "after update" work...
             _var_running_after_update="yes" exec "$(readlink -f "$0")" "$@"
           else
-            echo -e "\n\e[1;31mError extracting CHA.Choko.Games.Lists.${_var_release_version}.Update.zip!\e[m"
+            echo -e "\n\e[1;31mError extracting CHA.Choko.Games.Lists.v${_var_release_version}.Update.zip!\e[m"
             rm -rf /tmp/CHA*
           fi
         else
-          echo -e "\e[1;31mError downloading CHA.Choko.Games.Lists.${_var_release_version}.Update.zip!\e[m"
+          echo -e "\e[1;31mError downloading CHA.Choko.Games.Lists.v${_var_release_version}.Update.zip!\e[m"
           rm -rf /tmp/CHA*
         fi
       fi
