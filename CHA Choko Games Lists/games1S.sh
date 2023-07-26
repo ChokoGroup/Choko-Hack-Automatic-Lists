@@ -60,8 +60,8 @@ then
   then
     echo -e "\nConnecting Wi-Fi..."
     /etc/init.d/S40network restart > /dev/null 2>&1
-    _var_release_version="$(/.choko/busybox wget -q -o /dev/null -O - 'https://github.com/ChokoGroup/Choko-Hack-Automatic-Lists/releases/latest' | grep -m 1 'Choko Hack Automatic Listst v')"
-    _var_release_version="${_var_release_version#*Choko Hack Automatic Listst v}"; _var_release_version="${_var_release_version:0:6}"
+    _var_release_version="$(/.choko/busybox wget -q -o /dev/null -O - 'https://github.com/ChokoGroup/Choko-Hack-Automatic-Lists/releases/latest' | grep -m 1 'Choko Hack Automatic Lists v')"
+    _var_release_version="${_var_release_version#*Choko Hack Automatic Lists v}"; _var_release_version="${_var_release_version:0:6}"
     _var_current_release_version="$(grep -m 1 'new in v' "${_var_running_from_folder}/_readme_.txt")"
     _var_current_release_version="${_var_current_release_version#*new in v}"; _var_current_release_version="${_var_current_release_version:0:6}"
     if [ -z "$_var_release_version" ]
