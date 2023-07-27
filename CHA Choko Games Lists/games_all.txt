@@ -1,3 +1,509 @@
+A 1 P 1982 bagman.png bagman.zip bagman.ogg 1 Bagman
+A 1 P 1983 botanic.png botanic.zip botanic.ogg 1 Botanic (Itisa)
+A 1 P 1983 pickin.png pickin.zip pickin.ogg 1 Pickin'
+A 1 R 1984 squaitsa.png squaitsa.zip squaitsa.ogg 0 Squash (Itisa)
+A 1 S 1985 tankbust.png tankbust.zip tankbust.ogg 1 Tank Busters
+A 0 R 1982 alpine.png alpine.zip alpine.ogg 1 Alpine Ski
+A 0 S 1990 aquajack.png aquajack.zip aquajack.ogg 1 Aqua Jack
+A 0 B 1992 arabianm.png arabianm.zip arabianm.ogg 0 Arabian Magic
+A 0 Z 1986 arkanoid.png arkanoid.zip arkanoid.ogg 0 Arkanoid
+A 0 Z 1987 arknoid2.png arknoid2.zip arknoid2.ogg 0 Arknoid 2: Doh's Revenge
+A 0 Z 1997 arkretrn.png arkretrn.zip arkretrn.ogg 0 Arkanoid Return
+A 0 S 1990 ashura.png ashura.zip ashura.ogg 0 Ashura Blaster
+A 0 S 1989 bshark.png bshark.zip bshark.ogg 0 Battle Shark
+A 0 S 1983 bioatack.png bioatack.zip bioatack.ogg 1 Bio-Attack
+A 0 P 1988 bonzeadv.png bonzeadv.zip bonzeadv.ogg 0 Bonze Adventure
+A 0 P 1986 bublbobl.png bublbobl.zip bublbobl.ogg 0 Bubble Bobble
+A 0 P 1993 bublbob2.png bublbob2.zip bublbob2.ogg 0 Bubble Bobble Part 2
+A 0 P 1995 bubblem.png bubblem.zip bubblem.ogg 0 Bubble Memories: Bubble Bobble Part 3
+A 0 P 1994 bubsymph.png bubsymph.zip bubsymph.ogg 0 Bubble Bobble II / Bubble Symphony
+A 0 S 1988 cabal.png cabal.zip cabal.ogg 0 Cabal
+A 0 B 1989 cadash.png cadash.zip cadash.ogg 0 Cadash
+A 0 S 1986 calibr50.png calibr50.zip calibr50.ogg 0 Caliber .50
+A 0 Z 1989 cameltry.png cameltry.zip cameltry.ogg 0 Cameltry
+A 0 Z 1983 chaknpop.png chaknpop.zip chaknpop.ogg 1 Chack 'n Pop
+A 0 R 1988 champwr.png champwr.zip champwr.ogg 0 Champion Wrestler
+A 0 R 1988 chasehq.png chasehq.zip chasehq.ogg 0 Chase HQ
+A 0 S 1988 chukatai.png chukatai.zip chukatai.ogg 0 Chuka Taisen
+A 0 Z 1995 cleopatr.png cleopatr.zip cleopatr.ogg 0 Cleopatra Fortune
+A 0 S 1981 colony7.png colony7.zip colony7.ogg 0 Colony 7
+A 0 P 1981 complexx.png complexx.zip complexx.ogg 0 Complex X
+A 0 R 1987 contcirc.png contcirc.zip contcirc.ogg 0 Continental Circus
+A 0 P 1980 crbaloon.png crbaloon.zip crbaloon.png 1 Crazy Balloon
+A 0 S 1989 crimec.png crimec.zip crimec.png 1 Crime City
+A 0 S 1986 daikaiju.png daikaiju.zip daikaiju.ogg 1 Daikaiju no Gyakushu
+A 0 S 1986 darius.png darius.zip darius.ogg 0 Darius
+A 0 S 1989 darius2.png darius2.zip darius2.ogg 0 Darius2 / Sagaia
+A 0 S 1994 dariusg.png dariusg.zip dariusg.ogg 0 Darius Gaiden
+A 0 R 1991 dblaxle.png dblaxle.zip dblaxle.ogg 0 Double Axle
+A 0 S 1992 deadconx.png deadconx.zip deadconx.ogg 0 Dead Connection
+A 0 S 1989 demonwld.png demonwld.zip demonwld.ogg 0 Demon World
+C 1 P 1982 dockman.png dockman.zip dockman.ogg 0 Dockman
+C 1 F 1992 dinorex.png dinorex.zip dinorex.ogg 0 Dino Rex
+A 0 P 1989 dondokod.png dondokod.zip dondokod.ogg 0 Don Doko Don
+A 0 R 1990 dleague.png dleague.zip dleague.ogg Dynamite League
+A 0 B 1993 dungeonm.png dungeonm.zip dungeonm.ogg Dungeon Magic: Light Bringer
+A 0 Z 1982 elecyoyo.png elecyoyo.zip elecyoyo.ogg 0 The Electric Yoyo
+A 0 P 1983 elevator.png elevator.zip elevator.ogg 0 Elevator Action
+A 0 P 1994 elvactr.png elvactr.zip elvactr.ogg 0 Elevator Action Returns
+A 0 S 1986 empcity.png empcity.zip empcity.ogg 0 Empire City
+A 0 S 1988 enforce.png enforce.zip enforce.ogg 0 Enforce
+A 0 S 1987 exzisus.png exzisus.zip exzisus.ogg 0 Exzisus
+A 0 F 1988 finalb.png finalb.zip finalb.ogg 0 Final Blow
+A 0 P 1985 flstory.png flstory.zip flstory.ogg 0 Fairyland Story
+A 0 S 1987 fshark.png fshark.zip fshark.ogg 0 Flying Shark
+A 0 R 1990 footchmp.png footchmp.zip footchmp.ogg 0 Football Champ
+A 0 S 1981 fspiderb.png fspiderb.zip fspiderb.ogg 0 Frog & Spiders
+A 0 S 1982 frontlin.png frontlin.zip frontlin.ogg 0 Front Line
+C 0 R 1987 fullthrl.png fullthrl.zip fullthrl.ogg 0 Top Speed / Full Throttle
+A 0 S 1992 galastrm.png galastrm.zip galastrm 0 Galactic Storm
+A 0 S 1992 gekiridn.png gekiridn.zip gekiridn.zip 0 Gekirindan
+A 0 B 1986 gladiatr.png gladiatr.zip gladiatr.ogg 0 Gladiator
+A 0 S 1992 gseeker.png gseeker.zip gseeker.zip 0 Grid Seeker: Project Storm Hammer
+A 0 R 1992 groundfx.png groundfx.zip groundfx.ogg 0 Ground Effects
+A 0 B 1990 growl.png growla.zip growl.ogg 0 Growl
+A 0 S 1990 gunfront.png gunfront.zip gunfront.zip 1 Gun & Frontier
+A 0 S 1992 gunbustr.png gunbustr.zip gunbustr.zip 1 Gunbuster
+A 0 R 1992 hthero.png hthero.zip hthero.ogg 0 Hat Trick Hero / International Cup
+A 0 R 1993 hthero93.png hthero93.zip hthero93.ogg 0 Hat Trick Hero '93 / International Cup '93
+A 0 R 1994 hthero94.png hthero94.zip hthero94.ogg 0 Hat Trick Hero '94 / International Cup '94
+A 0 R 1995 hthero95.png hthero95.zip hthero95.ogg 0 Hat Trick Hero '95 / International Cup '95
+A 0 S 1988 hvyunit.png hvyunit.zip hvyunit.ogg 0 Heavy Unit
+A 0 S 1989 hellfire.png hellfire.zip hellfire.ogg 0 Hellfire
+A 0 R 1983 hwrace.png hwrace.zip hwrace.ogg 1 High Way Race
+A 0 S 1989 insectx.png insectx.zip insectx.ogg 0 Insector X
+A 0 P 1982 jollyjgr.png jollyjgr.zip jollyjgr.ogg 0 Jolly Jogger
+A 0 P 1982 jungleh.png jungleh.zip jungleh.ogg 0 Jungle Hunt
+A 0 P 1982 junglek.png junglek.zip junglek.ogg 0 Jungle King
+A 0 R 1986 kicknrun.png kicknrun.zip kicknrun.ogg 0 Kick'n Run
+A 0 R 1986 kicknrun.png kicknrunu.zip kicknrun.ogg 0 Kick'n Run
+A 0 R 1984 kikstart.png kikstart.zip kikstart.ogg 0 Kick Start: Wheelie King
+A 0 B 1986 kikikai.png kikikai.zip kikikai.ogg 0 Kiki Kaikai
+A 0 B 1994 kaiserkn.png kaiserkn.zip kaiserkn.ogg 0 Kaiser Knuckle / Global Champion
+A 0 Z 1982 kram.png kram.zip kram.ogg 0 Kram
+A 0 B 1988 kurikint.png kurikint.zip kurikint.ogg 0 Kuri Kinton
+A 0 Z 1998 landmakr.png landmkr.zip landmkr.ogg 0 Land Maker
+A 0 B 1984 lkage.png lkage.zip lkage.ogg 0 The Legend of Kage
+A 0 B 1990 liquidk.png liquidk.zip liquidk.ogg 0 Liquid Kids
+A 0 S 1989 masterw.png masterw.zip masterw.ogg 0 Master of Weapon
+A 0 S 1991 metalb.png metalb.zip metalb.ogg 0 Metal Black
+A 0 R 1991 mofflott.png mofflott.zip mofflott.ogg 0 Maze of Flott
+A 0 S 1991 nycaptor.png nycaptor.zip metalb.ogg 0 N.Y. Captor
+A 0 R 1989 nightstr.png nightstr.zip nightstr.ogg 0 Night Striker
+A 0 B 1990 ninjak.png ninjak.zip ninjak.ogg 0 The Ninja Kids
+A 0 B 1987 ninjaw.png ninjaw.zip ninjaw.ogg 0 The Ninja Warriors
+A 0 D 1985 onna34ro.png onna34ro.zip onna34ro.ogg 0 Onna Sanshirou - Typhoon Gal
+A 0 S 1987 opwolf.png opwolf.zip opwolf.ogg 0 Operation Wolf
+A 0 S 1988 othunder.png othunder.zip othunder.ogg 0 Operation Thunder
+A 0 S 1994 opwolf3.png opwolf3.zip opwolf3.ogg 0 Operation Wolf 3
+A 0 S 1980 phoenix.png phoenix.zip phoenix.ogg 1 Phoenix
+E 0 Z 1989 plotting.png plotting.zip plotting.ogg 0 Plotting
+E 0 Z 1987 plumppop.png plumppop.zip plumppop.ogg 0 Plump Pop
+E 0 Z 1996 popnpop.png popnpop.zip popnpop.ogg 0 Pop 'N Pop
+A 0 R 1993 prmtmfgt.png prmtmfgt.zip prmtmfgt.ogg 0 Prime Time Fighter
+A 0 R 1993 prmtmfgt.png prmtmfgto.zip prmtmfgt.ogg 0 Prime Time Fighter
+E 0 Z 1997 puchicar.png puchicar.zip puchicar.ogg 0 Puchi Carat
+E 0 B 1991 pulirula.png pulirula.zip pulirula.ogg 0 Pulirula
+E 0 Z 1994 pbobblen.png pbobblen.zip pbobblen.ogg 0 Puzzle Bobble / Bust-A-Move
+E 0 Z 1995 pbobbl2n.png pbobbl2n.zip pbobbl2n.ogg 0 Puzzle Bobble 2  / Bust-A-Move 2
+A 0 Z 1996 pbobble3.png pbobble3.zip pbobble3.ogg 0 Puzzle Bobble 3  / Bust-A-Move 3
+A 0 Z 1998 pbobble4.png pbobble4.zip pbobble4.ogg 0 Puzzle Bobble 4  / Bust-A-Move 4
+A 0 Z 1989 puzznic.png puzznic.zip puzznic.ogg 0 Puzznic
+A 0 Z 1981 qix.png qix.zip qix.ogg 1 Qix
+A 0 Z 1988 raimais.png raimais.zip raimais.ogg 0 Raimais
+A 0 P 1987 rbisland.png rbisland.zip rbisland.ogg 0 Rainbow Island
+A 0 P 1990 rbislande.png rbislande.zip rbislande.ogg 0 Rainbow Island Extended
+A 0 S 1988 rambo3.png rambo3.zip rambo3.ogg 0 Rambo 3
+A 0 B 1987 rastan.png rastan.zip rastan.ogg 0 Rastan
+A 0 B 1988 nastar.png nastar.zip nastar.ogg 0 Rastan Saga 2: Nastar Warrior
+A 0 B 1991 warriorb.png warriorb.zip warriorb.ogg 0 Rastan Saga 3: Warrior Blade
+A 0 S 1993 rayforce.png rayforce.zip rayforce.ogg 0 Ray Force / Gunlock
+A 0 S 1993 rayforce.png rayforcej.zip rayforce.ogg 0 Ray Force / Gunlock
+A B B 1992 ridingf.png ridingf.zip ridingf.ogg 0 Riding Fight
+A 0 P 1984 rumba.png rumba.zip rumba.ogg 0 Rumba Lumber
+A 0 S 1993 ryujin.png ryujin.zip ryujin.ogg 1 Ryu Jin
+A 0 S 1993 samuraia.png samuraia.zip samuraia.ogg 0 Samurai Aces
+A 0 S 1984 sfposeid.png sfposeid.zip sfposeid.ogg 0 Sea Fighter Poseidon
+A 0 B 1992 silentd.png silentd.zip silentd.ogg 0 Silent Dragon
+A 0 R 1994 slapshot.png slapshot.zip slapshot.ogg 0 Slap Shot
+A 0 S 1981 spacecr.png spacecr.zip spacecr.ogg 1 Space Invaders
+A 0 S 1981 sdungeon.png sdungeon.zip sdungeon.ogg 0 Space Dungeon
+A 0 S 1990 spacegun.png spacegun.zip spacegun.ogg 0 Space Gun
+A 0 S 1978 sisv.png sisv.zip sisv.ogg 1 Space Invaders
+A 0 S 1978 invaders.png invaders.zip invaders.ogg 1 Space Invaders
+A 0 S 1985 retofinv.png retofinv.zip retofinv.ogg 1 Return of the Invaders  
+A 0 S 1991 spacedx.png spacedx.zip spacedx.ogg 0 Space Invaders DX
+A 0 S 1995 spcinv95.png spcinv95.zip spcinv95.ogg 0 Space Invaders '95: The Attack of Lunar Loonies
+A 0 S 1991 ssi.png ssi.zip ssi.ogg 0 Super Space Invaders 
+A 0 S 1989 sci.png sci.zip sci.ogg 0 Special Criminal Investigation
+A 0 R 1992 superchs.png superchs.zip superchs.ogg Super Chase - Criminal Termination
+A 0 B 1988 superman.png superman.zip superman.ogg 0 Superman
+A 0 P 1982 suprmous.png suprmous.zip suprmous.ogg 0 Super Mouse
+A 0 S 1988 syvalion.png syvalion.zip syvalion.ogg 0 Syvalion
+A 0 R 1993 cupfinal.png cupfinal.zip cupfinal.ogg 0 Taito Cup Finals
+A 0 B 1992 pwrgoal.png pwrgoal.zip pwrgoal.ogg 0 Taito Power Goal
+A 0 S 1987 tndrcade.png tndrcade.zip tndrcade.ogg 1 Thundercade
+A 0 P 1987 tnzs.png tnzs.zip tnzs.ogg 0 The New Zealand Story
+A 0 S 1982 tinstar.png tinstar.zip tinstar.ogg 0 The Tin Star
+A 0 B 1990 thundfox.png thundfox.zip thundfox.ogg 0 Thunder Fox
+A 0 S 1985 tigerh.png tigerh.zip tigerh.ogg 1 Tiger Heli
+A 0 B 1987 twincobr.png twincobr.zip twincobr.ogg 0 Twin Cobra
+A 0 S 1995 tcobra2.png tcobra2.zip tcobra2.ogg 1 Twin Cobra 2
+A 0 Z 1982 timetunl.png timetunl.zip timetunl.ogg 0 Time Tunnel
+A 0 P 1989 toki.png toki.zip toki.ogg 0 Toki
+A 0 S 1986 tokio.png tokio.zip tokio.ogg 0 Tokio
+A 0 B 1988 truxton.png truxton.zip truxton.ogg 0 Truxton
+A 0 Z 1993 tubeit.png tubeit.zip tubeit.ogg 0 Tube-it
+A 0 S 1993 undrfire.png undrfire.zip undrfire.ogg 0 Under Fire
+A 0 F 1989 viofight.png viofight.zip viofight.ogg 0 Violence Fight
+A 0 Z 1989 volfied.png volfied.zip volfied.ogg 0 Volfied
+A 0 B 1987 wardner.png wardner.zip wardner.ogg 0 Wardner
+A 0 S 1982 wwestern.png wwestern.zip wwestern.ogg 1 Wild Western
+A 0 S 1986 xsleena.png xsleena.zip xsleena.ogg 0 Xain'd Sleena
+A 0 P 1982 zookeep.png zookeep.zip zookep.ogg 0 Zoo Keeper
+A 1 S 1990 bloodbro.png bloodbro.zip bloodbro.ogg 0 Blood Bros. (World?)
+A 1 S 1988 cabal.png cabal.zip cabal.ogg 0 Cabal (World, Joystick)
+A 1 S 1987 exzisus.png exzisus.zip exzisus.ogg 0 Exzisus (Japan, dedicated)
+A 1 S 1992 heatbrl.png heatbrl.zip heatbrl.ogg 0 Heated Barrel (World version 3)
+A 1 B 1992 legionna.png legionna.zip legionna.ogg 0 Legionnaire (World)
+A 1 P 1989 toki.png toki.zip toki.ogg 0 Toki (World, set 1)
+A 0 S 1985 4dwarrio.png 4dwarrio.zip 4dwarrio.ogg 0 4D Warriors
+A 0 S 1990 abcop.png abcop.zip abcop.ogg 0 Air Bike Cop
+B 0 S 1987 aburner.png aburner.zip aburner.ogg 0 After Burner
+B 0 S 1987 aburner2.png aburner2.zip aburner2.ogg 0 After Burner 2
+A 0 R 1988 aceattac.png aceattac.zip aceattac.ogg 1 Ace Attacker
+A 0 P 1986 alexkidd.png alexkidd.zip alexkidd.ogg 0 Alex Kidd: The Lost Stars
+A 0 P 1982 alibaba.png alibaba.zip alibaba.ogg 0 Ali Baba and the 40 Thieves
+A 0 S 1993 alien3.png alien3.zip alien3.ogg 0 Alien 3: The Gun Game
+A 0 S 1987 aliensyn.png aliensyn.zip aliensyn.ogg 0 Alien Syngrome
+B 0 B 1988 altbeast.png altbeast.zip altbeast.ogg 0 Altered Beast
+A 0 B 1992 arabfgt.png arabfgt.zip arabfgt.ogg 0 Arabian Fight
+A 0 S 1992 arescue.png arescue.zip arescue.ogg 0 Air Rescue
+A 0 B 1990 astorm.png astorm.zip astorm.ogg 0 Alien Storm
+A 0 S 1990 aurail.png aurail.zip aurail.ogg 0 Aurail
+A 0 Z 1989 bloxeed.png bloxeed.zip bloxeed.ogg 0 Bloxeed
+A 0 P 1990 bnzabros.png bnzabros.zip bnzabros.ogg 0 Bonanza Bros
+A 0 F 1993 brival.png brival.zip brival.ogg 0 Burning Rival
+A 0 S 1982 buckrog.png buckrog.zip buckrog.ogg 0 Buck Rogers: Planet of the Zoom 
+A 0 S 1987 bullet.png bulletd.zip bullet.ogg 1 Bullet
+A 0 S 1982 choplift.png chopliftbl.zip choplift.ogg 0 Choplifter
+A 0 Z 1989 columns.png columns.zip columns.ogg 0 Columns
+A 0 P 1983 congo.png congo.zip congo.ogg 1 Congo Bongo
+A 0 S 1991 cotton.png cotton.zip cotton.ogg 0 Cotton
+A 0 S 1989 crkdown.png crkdown.zip crkdown.ogg 0 Crack Down
+A 0 F 1993 darkedge.png darkedge.zip darkedge.ogg 0 Dark Edge
+A 0 F 1991 ddcrew.png ddcrew.zip ddcrew.ogg 0 D.D. Crew
+A 0 B 1988 ddux.png ddux.zip ddux.ogg 0 Dinamite Düx
+A 0 S 1992 desertbr.png desertbr.zip desertbr.ogg 1 Desert Breaker
+A 0 R 1987 dunkshot.png dunkshot.zip dunkshot.ogg 1 Dunk Shot
+A 0 R 1986 enduror.png enduror.zip endurora.ogg 0 Enduro Racer
+A 0 B 1989 eswat.png eswat.zip eswat.ogg 0 E-Swat
+A 0 R 1991 f1en.png f1en.zip f1en.ogg 0 F1 Exhaust Note
+A 0 R 1993 f1lap.png f1lap.zip f1lap.ogg 0 F1 Super Lap
+A 0 S 1986 fantzone.png fantzone.zip fantzone.ogg 0 Fantasy Zone
+A 0 S 1987 fantzn2.png fantzn2.zip fantzn2.ogg 0 Fantasy Zone 2: The Tears of Opa-Opa
+A 0 S 1985 flashgal.png flashgal.zip flashgal.ogg 0 Flashgal
+A 0 P 1984 flicky.png flicky.zip flicky.ogg 0 Flicky
+A 0 B 1988 fpoint.png fpointbl.zip fpoint.ogg Flashpoint
+A 0 S 1988 gground.png gground.zip gground.ogg 1 Gain Ground
+A 0 S 1988 gforce2.png gforce2.zip gforce2.ogg 0 Galaxy Force 2
+A 0 S 1990 gloc.png gloc.zip gloc.ogg 0 G-Loc Air Battle
+A 0 B 1989 goldnaxe.png goldnaxe.zip goldnaxe.ogg 0 Golden Axe
+A 0 B 1992 ga2.png ga2.zip ga2.ogg 0 Golden Axe 2: The Revenge of Death Adder
+B 0 R 1990 gprider.png gprider.zip gprider.ogg 0 GP Rider
+A 0 R 1985 hangon.png hangon.zip hangon.ogg 0 Hang-On
+A 0 R 1994 harddunk.png harddunk.zip harddunk.ogg 0 Hard Dunk
+A 0 B 1979 headon2.png headon.zip headon2.ogg 0 Head on 2
+A 0 B 1979 headon2.png headons.zip headon2.ogg 0 Head on 2
+A 0 F 1987 hwchamp.png hwchamp.zip hwchamp.ogg 0 Heavyweight Champion
+A 0 S 1994 jpark.png jpark.zip jpark.ogg 0 Jurassic Park (1999)
+A 0 S 1990 lghost.png lghost.zip lghost.ogg 0 Laser Ghost
+A 0 B 1988 lastsurv.png lastsurvd.zip lastsurv.ogg 0 Last Survivor
+A 0 S 1989 loffire.png loffire.zip loffire.ogg 0 Line of Fire
+A 0 B 1990 mwalk.png mwalk.zip mwalk.ogg 0 Michael Jackson's Moonwalker
+A 0 B 1986 myhero.png myhero.zip myhero.ogg 0 My Hero
+A 0 Z 1987 opaopa.png opaopa.zip opaopa.ogg 0 Opa Opa
+D 0 R 1986 outrun.png outrun.zip outrun.ogg 0 Outrun
+B 0 R 1992 orunners.png orunners.zip orunners.ogg 0 Outrunners
+A 0 R 1988 passsht.png passsht.zip passsht.ogg 1 Passing Shot
+A 0 R 1988 pdrift.png pdrift.zip pdrift.ogg 0 Power Drift
+A 0 P 1982 pengo.png pengo.zip pengo.ogg 1 Pengo
+A 0 P 1984 pitfall2.png pitfall2.zip pitfall2.ogg 0 Pitfall 2
+A 0 S 1986 quartet.png quartet.zip quartet.ogg 0 Quartet
+A 0 R 1989 rachero.png rachero.zip rachero.ogg 0 Racing Hero
+A 0 R 1991 radm.png radm.zip radm.ogg 0 Rad Mobile
+A 0 R 1991 radr.png radr.zip radr.ogg 0 Rad Rally 
+A 0 B 1991 rchase.png rchase.zip rchase.ogg 0 Rail Chase
+A 0 B 1991 riotcity.png riotcity.zip riotcity.ogg 0 Riot City
+A 0 B 1990 roughrac.png roughrac.zip roughrac.ogg 0 Rough Racer
+A 0 B 1988 sspirits.png sspirits.zip sspirits.ogg 1 Scramble Spirits
+A 0 B 1985 seganinj.png seganinj.zip seganinj.ogg 0 Sega Ninja
+A 0 B 1985 sharrier.png sharrier.zip sharrier.ogg 0 Space Harrier
+A 0 B 1989 shdancer.png shdancer.zip shdancer.ogg 0 Shadow Dancer
+C 1 B 1988 shinobi.png shinobi.zip shinobi.ogg 0 Shinobi
+A 0 B 1989 smgp.png smgp.zip smgp.ogg 0 Super Monaco GP
+A 0 S 1987 sonicbom.png sonicbom.zip sonicbom.ogg 1 Sonic Boom
+A 0 B 1991 spidman.png spidman.zip spidman.ogg 0 Spiderman
+A 0 B 1994 svs.png svs.zip svs.ogg 0 Super Visual Soccer: European Sega Cup
+A 0 B 1987 shangon.png shangon.zip shangon.ogg 0 Super Hang-On
+A 0 B 1993 tantr.png tantr.zip tantr.ogg 0 Puzzle & Action: Tant-R
+A 0 B 1985 teddybb.png teddybb.zip teddybb.ogg 0 Teddyboy Blues
+A 0 B 1988 tetris.png tetris.zip tetris.ogg 0 Tetris
+A 0 B 1987 thndrbld.png thndrbld.zip thndrbld.ogg 0 Thunderblade
+A 0 Z 1987 timescan.png timescan.zip timescan.ogg 1 Time Scanner
+A 0 S 1986 transfrm.png transfrm.zip transfrm.ogg 0 Transformer
+A 0 R 1989 toutrun.png toutrun.zip toutrun.ogg 0 Turbo Outrun
+A 0 B 1989 tturf.png tturf.zip tturf.ogg 0 Tough Turf
+A 0 Z 1992 twinsqua.png twinsqua.zip twinsqua.ogg 0 Twin Squash
+A 0 P 1986 wboy.png wboy.zip wboy.ogg 0 Wonder Boy
+A 0 P 1987 wbml.png wbmlb.zip wbml.ogg 0 Wonder Boy in Monster Land
+A 0 P 1988 wb3.png wb3.zip wb3.ogg 0 Wonder Boy III: Monster Lair
+A 0 F 1989 wrestwar.png wrestwar1d.zip wrestwar.ogg 1 Wrestle War
+A 0 S 1982 zaxxon.png zaxxon.zip zaxxon.ogg 1 Zaxxon
+A 1 S 1985 aliensec.png aliensec.zip aliensec.ogg 0 Alien Sector
+A 1 S 1988 assault.png assault.zip assault.ogg 1 Assault
+A 1 S 1988 bakutotu.png bakutotu.zip bakutotu.ogg 2 Bakutotsu Kijuutei
+A 1 ? 1989 blastoff.png blastoff.zip blastoff.ogg 1 Blast Off 
+A 1 ? 1987 blazer.png blazer.zip blazer.ogg 1 Blazer 
+A 1 ? 1979 bombbee.png bombbee.zip bombbee.ogg 1 Bomb Bee
+A 1 Z 1990 boxyboy.png boxyboy.zip boxyboy.ogg 0 Boxy Boy 
+A 1 S 1992 bubbletr.png bubbletr.zip bubbletr.ogg 2 Bubble Trouble - Golly Ghost 2 
+A 1 S 1989 burnforc.png burnforc.zip burnforc.ogg 0 Burning Force 
+A 1 Z 1992 cgangpzl.png cgangpzl.zip cgangpzl.ogg 0 Cosmo Gang the Puzzle 
+A 1 S 1991 cosmogng.png cosmogng.zip cosmogng.ogg 1 Cosmo Gang the Video 
+A 1 ? 1979 cutieq.png cutieq.zip cutieq.ogg 1 Cutie Q
+A 1 ? 1989 dangseed.png dangseed.zip dangseed.ogg 1 Dangerous Seed 
+A 1 P 1982 digdug.png digdug.zip digdug.ogg 1 Dig Dug
+A 1 P 1985 digdug2.png digdug2.zip digdug2.ogg 1 Dig Dug II 
+A 1 P 1984 drgnbstr.png drgnbstr.zip drgnbstr.ogg 0 Dragon Buster
+A 1 S 1990 dsaber.png dsaber.zip dsaber.ogg 1 Dragon Saber 
+A 1 S 1987 dspirit.png dspirit.zip dspirit.ogg 1 Dragon Spirit
+A 1 ? 1993 emeralda.png emeralda.zip emeralda.ogg 0 Emeraldia
+A 1 ? 1992 exvania.png exvania.zip exvania.ogg 0 Exvania
+A 1 S 1992 fghtatck.png fghtatck.zip fghtatck.ogg 1 Fighter & Attacker
+A 1 S 1989 finehour.png finehour.zip finehour.ogg 0 Finest Hour
+A 1 S 1981 galaga.png galaga.zip galaga.ogg 1 Galaga
+A 1 S 1984 galaga3.png galaga3.zip galaga3.ogg 1 Galaga 3
+A 1 S 1987 galaga88.png galaga88.zip galaga88.ogg 3 Galaga '88
+A 1 S 1979 galaxian.png galaxianmo.zip galaxianmo.ogg 1 Galaxian
+A 1 Z 1978 geebee.png geebee.zip geebee.ogg 1 Gee Bee
+A 1 B 1986 genpeitd.png genpeitd.zip genpeitd.ogg 0 Genpei ToumaDen
+A 1 S 1990 gollygho.png gollygho.zip gollygho.ogg 2 Golly! Ghost!
+A 1 ? 1984 grobda.png grobda.zip grobda.ogg 1 Grobda
+A 1 R 1994 gslgr94u.png gslgr94u.zip gslgr94u.ogg 0 Great Sluggers '94
+A 1 P 1986 hopmappy.png hopmappy.zip hopmappy.ogg 0 Hopping Mappy
+A 1 F 1992 knckhead.png knckhead.zip knckhead.ogg 0 Knuckle Heads
+A 1 ? 1990 kyukaidk.png kyukaidk.zip kyukaidk.ogg 0 Kyuukai Douchuuki
+A 1 ? 1983 liblrabl.png liblrabl.zip liblrabl.ogg 0 Libble Rabble
+A 1 ? 1992 luckywld.png luckywld.zip luckywld.ogg 0 Lucky & Wild
+A 1 ? 1995 machbrkr.png machbrkr.zip machbrkr.ogg 0 Mach Breakers
+A 1 P 1983 mappy.png mappy.zip mappy.ogg 1 Mappy 
+A 1 P 1989 marvland.png marvland.zip marvland.ogg 0 Marvel Land
+A 1 ? 1988 metlhawk.png metlhawk.zip metlhawk.ogg 1 Metal Hawk
+A 1 ? 1985 metrocrs.png metrocrs.zip metrocrs.ogg 0 Metro-Cross
+A 1 ? 1988 mirninja.png mirninja.zip mirninja.ogg 0 Mirai Ninja
+A 1 ? 1988 mmaze.png mmaze.zip mmaze.ogg 2 Marchen Maze
+A 1 ? 1985 motos.png motos.zip motos.ogg 1 Motos
+A 1 P 1981 mspacman.png mspacman.zip mspacman.ogg 1 Ms. Pac-Man
+A 1 S 1980 navarone.png navarone.zip navarone.ogg 1 Navarone
+A 1 ? 1994 nebulray.png nebulray.zip nebulray.ogg 1 Nebulas Ray
+A 1 P 1981 nrallyx.png nrallyx.zip nrallyx.ogg 0 New Rally X
+A 1 ? 1993 numanath.png numanath.zip numanath.ogg 0 Numan Athletics
+A 1 ? 1988 ordyne.png ordyne.zip ordyne.ogg 2 Ordyne
+A 1 ? 1994 outfxies.png outfxies.zip outfxies.ogg 0 The Outfoxies
+A 1 P 1984 pacland.png pacland.zip pacland.ogg 0 Pac-Land
+A 1 P 1980 pacman.png pacman.zip pacman.ogg 1 Pac-Man
+A 1 P 1987 pacmania.png pacmania.zip pacmania.ogg 3 Pac-Mania
+A 1 P 1983 pacnpal.png pacnpal.zip pacnpal.ogg 1 Pac & Pal
+A 1 S 1988 phelios.png phelios.zip phelios.ogg 1 Phelios
+A 1 S 1983 phozon.png phozon.zip phozon.ogg 1 Phozon
+A 0 S 1990 pistoldm.png pistoldm.zip pistoldm.ogg 0 Pistol Daimyo no Bouken
+A 0 S 1994 ptblank.png ptblank.zip ptblank.ogg 0 Point Blank
+A 0 ? 1990 puzlclub.png puzlclub.zip puzlclub.ogg 1 Puzzle Club
+A 0 ? 1987 quester.png quester.zip quester.ogg 1 Quester
+A 0 ? 1980 rallyx.png rallyx.zip rallyx.ogg 0 Rally X
+A 0 ? 1986 roishtar.png roishtar.zip roishtar.ogg 0 The Return of Ishtar
+A 0 ? 1989 rompers.png rompers.zip rompers.ogg 1 Rompers
+A 0 P 1986 rthunder.png rthunder.zip rthunder.ogg 0 Rolling Thunder
+A 0 P 1990 rthun2.png rthun2.zip rthun2.ogg 0 Rolling Thunder 2
+A 0 S 1990 sgunner.png sgunner.zip sgunner.ogg 0 Steel Gunner
+A 0 S 1991 sgunner2.png sgunner2.zip sgunner2.ogg 0 Steel Gunner 2
+A 0 P 1987 shadowld.png shadowld.zip shadowld.ogg 2 Shadowland
+A 0 S 1985 skykid.png skykid.zip skykid.ogg 2 Sky Kid
+A 0 S 1986 skykiddx.png skykiddx.zip skykiddx.ogg 0 Sky Kid Deluxe
+A 0 B 1988 splatter.png splatter.zip splatter.ogg 0 Splatter House
+A 0 R 1982 superpac.png superpac.zip superpac.ogg 1 Super Pac-Man
+A 0 R 1992 swcourt.png swcourt.zip swcourt.ogg 0 Super World Court Tennis
+A 0 R 1992 sws.png sws.zip sws.ogg 0 Super World Stadium
+A 0 R 1992 sws92.png sws92.zip sws92.ogg 0 Super World Stadium '92
+A 0 R 1993 sws93.png sws93.zip sws93.ogg 0 Super World Stadium '93
+A 0 R 1995 sws95.png sws95.zip sws95.ogg 0 Super World Stadium '95
+A 0 R 1996 sws96.png sws96.zip sws96.ogg 0 Super World Stadium '96
+A 0 R 1997 sws97.png sws97.zip sws97.ogg 0 Super World Stadium '97
+A 0 R 1997 sws98.png sws98.zip sws98.ogg 0 Super World Stadium '98
+A 0 S 1984 sxevious.png sxevious.zip sxevious.ogg 1 Super Xevious
+A 0 S 1991 tankfrce.png tankfrce.zip tankfrce.ogg 0 Tank Force (US, 2 Players)
+A 0 S 1991 tankfrce4.png tankfrce4.zip tankfrce4.ogg 0 Tank Force (US, 4 Players)
+A 0 S 1986 tceptor.png tceptor.zip tceptor.ogg 0 Thunder Ceptor
+A 0 S 1986 tceptor2.png tceptor2.zip tceptor2.ogg 0 3-D Thunder Ceptor II
+A 0 P 1993 tinklpit.png tinklpit.zip tinklpit.ogg 0 Tinkle Pit
+A 0 P 1984 todruaga.png todruaga.zip todruaga.ogg 1 The Tower of Druaga
+A 0 P 1986 toypop.png toypop.zip toypop.ogg 2 Toypop
+A 0 P 1989 valkyrie.png valkyrie.zip valkyrie.ogg 1 Valkyrie no Densetsu
+A 0 R 1994 vshoot.png vshoot.zip vshoot.ogg 0 J-League Soccer V-Shoot
+A 0 ? 1981 warpwarp.png warpwarp.zip warpwarp.ogg 1 Warp & Warp
+A 0 R 1988 wldcourt.png wldcourt.zip wldcourt.ogg 2 World Court Tennis
+A 0 ? 1987 wndrmomo.png wndrmomo.zip wndrmomo.ogg 0 Wonder Momo
+A 0 R 1988 ws.png ws.zip ws.ogg 2 World Stadium
+A 0 S 1982 xevious.png xevious.zip xevious.ogg 1 Xevious
+A 0 S 1994 aligatorun.png aligatorun.zip aligator.ogg 0 Alligator Hunt
+A 0 S 1998 bang.png bang.zip bang.ogg 0 Bang!
+A 1 B 1991 bigkarnk.png bigkarnk.zip bigkarnk.ogg 0 Big Karnak
+A 0 P 1995 biomtoy.png biomtoya.zip biomtoy.ogg 0 Biomechanical Toy
+A 0 S 1991 bloodbrom.png bloodbro.zip bloodbrom.ogg 0 Blood Bros. (Bootleg Modular Gaelco / Ervisa)
+A 0 P 1993 glass.png glass.zip glass.ogg 0 Glass
+A 0 R 1995 lastkm.png lastkm.zip lastkm.ogg 0 Last KM
+A 0 Z 1996 maniacsq.png maniacsq.zip maniacsq.ogg 0 Maniac Square
+A 0 Z 1991 mastboy.png mastboyo.zip mastboyo.ogg 0 Master Boy
+A 0 R 1996 snowboar.png snowboar.zip snowboar.ogg 0 Snow Board Championship
+A 0 R 1992 squash.png squash.zip squash.ogg 0 Squash
+A 0 S 1994 targeth.png targeth.zip targeth.ogg 0 Target Hits
+A 0 S 1992 thoop.png thoop.zip thoop.ogg 0 Thunder Hoop
+A 0 S 1994 thoop2.png thoop2.png thoop2.ogg 0 Thunder Hoop 2
+A 0 R 1994 touchgo.png touchgo.zip touchgo.ogg 0 Touch & Go
+A 0 R 1993 wrally.png wrally.zip wrally.ogg 0 World Rally
+A 0 R 1995 wrally2.png wrally2.zip wrally2.ogg 0 World Rally 2
+A 0 Z 1990 xorworld.png xorworld.zip xorworld.ogg 0 Xor World (Prototype)
+A 1 R 1982 cprogolf.png cprogolf.zip cprogolf.ogg 0 18 Challenge Pro Golf
+A 1 R 1981 progolf.png progolf.zip progolf.ogg 0 18 Holes Pro Golf / Tournament Pro
+A 1 P 1989 actfancr.png actfancr.zip actfanc.ogg 0 Act-Fancer: Cybernetick Hyper Weapon
+A 1 S 1979 alphaho.png alphaho.zip alphaho.ogg 0 Alpha Fighter / Head On
+A 1 R 1982 cdanglr.png candaglr.zip candaglr.ogg 1 Angler Dangler
+A 1 S 1981 castfant.png castfant.zip castfant.ogg 1 Astro Fantasia (Cassette)
+A 1 F 1995 avengrgs.png avengrgs.zip avengrgs.ogg 0 Avengers in Galactic Storm
+A 1 F 1995 avengrgsbh.png avengrgsbh.zip avengrgsbh.ogg 0 Avengers in Galactic Storm (Boss Hack)
+A 1 S 1985 bwings.png bwings.zip bwings.ogg 3 B-Wings
+A 1 R 1995 backfire.png backfire.zip backfire.ogg 0 Backfire!
+A 1 B 1988 baddudes.png baddudes.zip baddudes.ogg 0 Bad Dudes vs. Dragon Ninja / Dragon Ninja
+A 1 R 1988 birdtry.png birdtry.zip birdtry.ogg 1 Birdie Try
+A 1 S 1995 boogwing.png boogwing.zip boogwing.ogg 0 Boogie Wings / The Great Ragtime (Japan)
+A 1 P 1983 boomrang.png boomrang.zip boomrang.ogg 1 Boomer Rang'r
+A 1 Z 1985 cbdash.png cbdash.zip cbdash.ogg 1 Boulder Dash (Cassette)
+A 1 Z 1990 bouldash.png bouldash.zip bouldash.ogg 0 Boulder Dash Part 2
+A 1 S 1986 brkthru.png brkthru.zip brkthru.ogg 0 BreakThru
+A 1 S 1986 breywood.png breywood.zip breywood.ogg 0 Breywood / Shackled (USA)
+A 1 P 1982 btime.png btime.zip btime.ogg 1 Burger Time
+A 1 R 1982 brubber.png brubber.zip brubber.ogg 1 Burnin' Rubber
+A 1 B 1991 captaven.png captaven.zip captaven.ogg 0 Captain America and The Avengers
+A 1 P 1987 csilver.png csilver.zip csilver.ogg 0 Captain Silver
+A 1 Z 1995 chainrec.png chainrec.zip chainrec.ogg 0 Chain Reaction (USA) [Magical Drop]
+A 1 P 1985 chanbara.png chanbara.zip chanbara.ogg 1 Chan Bara
+A 1 S 1988 chelnov.png chelnov.zip chelnov.ogg 0 Chelnov: Atomic Runner
+A 1 Z 1991 chinatwn.png chinatwn.zip chinatwn.ogg 0 Chinatown
+A 1 R 1986 clshroadd.png clshroadd.zip clshroadd.ogg 0 Clash-Road (Data East Licence)
+A 1 P 1983 cgraplop.png cgraplop.zip cgraplop.ogg 1 Cluster Buster
+A 1 S 1988 cobracom.png cobracom.zip cobracom.ogg 0 Cobra Command
+A 1 R 1985 compgolf.png compgolf.zip compgolf.ogg 1 Competition Golf
+A 1 B 1990 darkseal.png darkseal.zip darkseal.ogg 0 Dark Seal: Gate of Doom
+A 1 B 1992 wizfire.png wizfire.zip wizfire.ogg 0 Dark Seal II: Wizard Fire
+A 1 S 1986 darwin.png darwin.zip darwin.ogg 1 1 Darwin 4078
+A 1 P 1992 dietgo.png dietgo.zip dietgo.ogg 0 Diet Go Go
+A 1 P 1982 cdiscon1.png cdiscon1.zip cdiscon1.ogg 1 Disco No. 1 / Sweet Heart (USA)
+A 1 S 1992 dragngun.png dragngun.zip dragngun.ogg 0 Dragon Gun
+A 1 Z 1993 dreambal.png dreambal.zip dreambal.ogg 0 Dream Ball (NDK / Data East)
+A 1 R 1994 dsoccr94.png dsoccr94.zip dsoccr94.ogg 0 Dream Soccer '94 (Irem / Data East License)
+A 1 Z 1981 cdsteljn.png cdsteljn.zip cdsteljn.ogg 0 DS Telejan (Cassette)
+A 1 S 1984 dualaslt.png dualaslt.zip dualaslt.ogg 1 Dual Assault / Liberation
+A 1 S 1982 cexplore.png cexplore.zip cexplore.ogg 1 Explorer (Cassette)
+A 1 F 1986 exprraid.png exprraid.zip exprraid.ogg 0 Express Raider / Western Express
+A 1 F 1993 fghthist.png fghthist.zip fghthist.ogg 0 Fighter's History / Karnov's Revenge
+A 1 F 1989 ffantasy.png ffantasy.zip ffantasy.ogg 0 Fighting Fantasy / Hippodrome
+A 1 R 1984 cfghtice.png cfghtice.zip cfghtice.ogg 1 Fighting Ice Hockey
+A 1 P 1986 firetrap.png firetrap.zip firetrap.ogg 3 Fire Trap (Wood Place / Data East License)
+A 1 S 1981 cfboya01.png cfboya01.zip cfboya01.ogg 1 Flash Boy (Cassette)
+A 1 P 1984 cflyball.png cflyball.zip cflyball.ogg 1 Flying Ball
+A 1 P 1992 funkyjet.png funkyjetj.zip funkyjet.ogg 0 Funky Jet (Mitchell / Data East License)
+A 1 P 1987 garyoret.png garyoret.zip garyoret.ogg 0 Garyo Retsuden
+A 1 Z 1996 ghostlop.png ghostlop.zip ghostlop.ogg 0 GhostLop (NeoGeo MVS) [Prototype]
+A 1 S 1987 gondo.png gondo.zip gondo.ogg 1 Gondomania
+A 1 S 1987 hbarrel.png hbarrel.zip hbarrel.ogg 1 Heavy Barrel
+A 1 R 1993 hvysmsh.png hvysmsh.zip hvysmsh.ogg 0 Heavy Smash
+A 1 R 1980 chwy.png chwy.zip chwy.ogg 1 Highway Chase
+A 1 R 1996 hoops96.png hoops96.zip hoops96.ogg 0 Data East's Hoops 96 / Dunk Dream '96
+A 1 P 1991 cninja.png cninja.zip cninja.ogg 0 Joe & Mac / Caveman Ninja 
+A 1 P 1994 joemacr.png joemacr.zip joermacr.ogg 0 Joe & Mac Returns / Caveman Ninja 2
+A 1 P 1982 kamikab.png kamikab.zip kamikab.ogg 1 Kamikaze Cabbie (USA)  
+A 1 F 1984 kchamp.png kchamp.zip kchamp.ogg 3 Karate Champ
+A 1 P 1987 karnov.png karnov.zip karnov.ogg 0 Karnov
+A 1 S 1986 lastmisn.png lastmisn.zip lastmisn.ogg 1 Last Mission
+A 1 Z 1991 lemmings.png lemmings.zip lemmigns.ogg 0 Lemmings
+A 1 P 1982 lnc.png lnc.zip lnc.ogg 1 Lock'N Chase
+A 1 Z 1981 cluckypo.png cluckypo.zip cluckypo.ogg 0 Lucky Poker (Cassette)
+A 1 Z 1995 magdrop.png magdrop.png magdrop.ogg 0 Magical Drop (Chain Reaction)
+A 1 Z 1996 magdrop2.png magdrop2.png magdrop.ogg 0 Magical Drop II (Chain Reaction II)
+A 1 Z 1997 magdrop3.png magdrop3.png magdrop3.ogg 0 Magical Drop III (Chain Reaction III)
+A 1 P 1981 cmanhat.png cmanhat.zip cmanhat.ogg 1 Manhattan (Cassette)
+A 1 S 1989 midres.png midres.zip midres.ogg 0 Midnight Resistance
+A 1 F 1991 mutantf.png mutantf.zip mutantf.ogg 0 Mutant Fighter / Heroes
+A 1 S 1981 cnebula.png cnebula.zip cnebula.ogg 1 Nebula (Cassette)
+A 1 B 1993 nslasher.png nslasheru.zip nslasher.ogg 0 Night Slashers
+A 1 S 1981 cnightst.png cnightst.zip cnightst.ogg 1 Night Star (Cassette)
+A 1 S 1992 nitrobal.png nitrobal.zip nitrobal.ogg 1 NitroBall
+A 1 Z 1981 cocean1a.png cocean1a.zip cocean1a.ogg 0 Ocean to Ocean (Cassette)
+A 1 P 1984 cppicf.png cppicf.zip cppicf.ogg 1 Peter Pepper's Ice Cream Factory (Cassette)
+A 1 P 1985 perfrman.png perfrman.zip perfrman.ogg 0 Performan (Toaplan / Data East License)
+A 1 R 1987 pcktgal.png pcktgal.zip pcktgal.ogg 0 Pocket Gal
+A 1 R 1989 pcktgal2.png pcktgal2.zip pcktgal2.ogg 0 Pocket Gal 2
+A 1 R 1993 pktgaldx.png pktgaldx.zip pktgaldx.ogg 0 Pocket Gal DeLuxe
+A 1 R 1983 cprobowl.png cprobowl.zip cprobowl.ogg 1 Pro Bowling (Cassette)
+A 1 R 1983 cpsoccer.png cpsoccer.zip cpsoccer.ogg 1 Pro Soccer (Cassette)
+A 1 R 1983 cptennis.png cptennis.zip cptennis.ogg 1 Pro Tennis (Cassette)
+A 1 S 1987 oscar.png oscar.zip oscar.ogg 0 Psycho-Nics Oscar
+A 1 P 1986 kidnikiu.png kidnikiu.zip kidnikiu.ogg 0 Radical Ninja / Kid Nikki (Toaplan / Data East License)
+A 1 F 1985 ringking.png ringking.zip ringking.ogg 1 Ring King (Wood Place / Data East License)
+A 1 B 1988 robocop.png robocop.zip robocop.ogg 0 Robocop
+A 1 B 1991 robocop2.png robocop2.zip robocop2.ogg 0 Robocop 2
+A 1 Z 1983 clapapa.png clapapa.zip clapapa.ogg 1 Rootin' Tootin'/ La-Pa-Pa
+A 1 P 1984 cscrtry.png cscrtry.zip cscrtry.ogg 1 Scrum Try
+A 1 P 1985 shangkid.png shangkid.zip shangkid.ogg 0 Shanhgai Kid (Taiyo / Data East License)
+A 1 S 1985 shootout.png shootout.zip shootout.ogg 0 Shootout
+A 1 R 1986 sidepckt.png sidepckt.zip sidepckt.png 0 Side Pocket
+A 1 P 1983 cskater.png cskater.zip cskater.ogg a 1 Skater
+A 1 S 1996 skullfng.png skullfng.zip skullfng.ogg 1 Skull Fang
+A 1 P 1989 slyspy.png slyspy.zip slyspy.ogg 0 Sly Spy / Secret Agent
+A 1 P 1993 spinmast.png spinmast.zip spinmast.ogg 0 Spin Master / Miracle Adventure (Neo Geo)
+A 1 R 1988 stadhero.png stadhero.zip stadhero.ogg 0 Stadium Hero
+A 1 R 1996 stadhr96.png stadhr96.zip stadhr96.png 0 Stadium Hero 96
+A 1 R 1994 strhoop.png strhoop.zip strhoop.png 0 0 Street Hoop / Street Slam / Dunk Dream (Neo Geo)
+A 1 S 1981 csuperas.png csuperas.zip csuperas.ogg 1 Super Astro Fighter
+A 1 P 1990 supbtime.png supbtime.zip supbtime.ogg 0 Super Burger Time
+A 1 P 1983 csdtenis.png csdtenis.zip csdtenis.ogg 1 Super Doubles Tennis (Cassette)
+A 1 S 1987 sdarwin.png sdarwin.zip sdarwin.ogg 1 Super Real Darwin
+A 1 R 1990 svolley.png svolleyu.zip svolleyu.ogg 0 Super Volleyball (Video System Co. / Data East License)
+A 1 F 1983 tagteam.png tagteam.zip tagteam.ogg 1 Tag Team Wrestling (Technos / Data East License)
+A 1 S 1980 cterrani.png cterrani.zip cterrani.ogg 1 Terranean
+A 1 B 1990 edrandy.png edrandy.zip edrandy.ogg 0 The Cliffhhanger: Edward Randy
+A 1 F 1984 coozumou.png coozumou.zip coozumou.ogg 0 The Grand Sumo
+A 1 P 1987 ghostb.png ghostb.zip ghostb.ogg 0 The Real Ghostbusters
+A 1 P 1987 ghostb3.png ghostb3.zip ghostb3.ogg 0 The Real Ghostbusters (3 Players)
+A 1 F 1994 tattass.png tattass.zip tattass.ogg 0 Tattoo Assassins
+A 1 Z 1981 ctsttape.png ctsttape.zip ctsttape.ogg 1 Cassette Test Tape (Cassette)
+A 1 S 1991 thndzone.png thndzone.zip thndzone.ogg 0 Thunder Zone / Desert Assault (USA)
+A 1 S 1982 ctornado.png ctornado.zip ctornado.ogg 1 Tornado
+A 1 Z 1981 ctisland.png ctisland.zip ctisland.ogg 1 Treasure Island
+A 1 P 1989 triothep.png triothep.zip triothep.ogg 0 Trio de Punch - Never Forget Me
+A 1 P 1991 tumblep.png tumblep.zip tumblep.ogg 0 Tumblepop
+A 1 B 1992 twocrude.png twocrude.zip twocrude.ogg 0 Two Crude Dudes / Crude Busters
+A 1 S 1989 vaportra.png vaportra.zip vaportra.ogg 1 Vapor Trail: Hyper Offence Formation
+A 1 B 1989 vigilantb.png vigilantb.zip vigilantb.ogg 0 Vigilante (Irem - Data East License USA)
+A 1 R 1994 wjammers.png wjammers.zip wjammers.ogg 0 Windjammers (Neo Geo)
+A 1 S 1987 wndrplnt.png wndrplnt.zip wndrplnt.ogg 1 Wonder Planet
+A 1 R 1995 wcvol95.png wcvol95.zip wcvol95.ogg 0 Worlc Cup Volleyball 95
+A 1 B 1991 wolffang.png wolffang.zip wolffang.zip 0 Rohga: Armor Force / Wolf Fang Kuhga 2001
+A 1 S 1984 zaviga.png zaviga.zip zaviga.ogg 3 Zaviga
+A 1 S 1982 zeroize.png czeroize.zip zeroize.png 1 Zeroize (Cassette)
+A 1 P 1986 nob.png nob.zip nob.ogg 0 Zippy Bug / Noboranka
+A 1 S 1987 zoar.png zoar.zip zoar.ogg 1 Zoar
 A 1 P 1983 agentx1.png agentx1.zip agentx1.ogg 0 Agent X
 A 1 S 1982 akkaarrh.png akkaarrh.zip akkaarrh.ogg 0 Akka Arrh
 A 1 P 1983 arabian.png arabian.zip arabian.ogg 1 Arabian 

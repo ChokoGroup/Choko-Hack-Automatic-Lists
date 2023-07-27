@@ -1,4 +1,0 @@
-Using this in patched folder with profile E in games*.txt makes buttons like this in SNK games:
-
-A  | C |  A+B 
-B  | D |  C+D

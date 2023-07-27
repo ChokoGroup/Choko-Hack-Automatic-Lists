@@ -2,7 +2,7 @@
 
 - Vertical games are sideways, they won't rotate.
 
-- If the list has too many games, bezels or buttons options may not load, and games crash frequently.
+- If the list has too many games, bezels or other assets, they may not load, and games will crash frequently.
 
 - Sometimes the "Insert coin" won't work (usually after playing several different games), but rebooting the CHA will fix.
 

@@ -1,4 +1,0 @@
-Using this in patched folder with profile E in games*.txt makes buttons like in official NeoGeo:
-
-B   |  C  |   D 
-A   | A+B |  C+D

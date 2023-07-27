@@ -10,11 +10,13 @@ with the Choko Hack v13.0.0
 ## What's new in v13.0.0
 - There is a new "Core Manager" script to easily download new fbneo_libretro cores (a new one is compiled every friday) and easily assign cores to games lists.
 - Core Manager can also reset games lists, meaning deleting the "games.txt" file, in case of change of roms in the list.
+- FB Neo core downloaded from our github now has UniBIOS (with cheats for NeoGeo games ;) ) and Diag Menu (Hold Start in CPS2/3 games) enabled by default.
 - If "old" games lists from Choko Hack v11 are found, Core Manage can upgrade it to the correct folder structure.
 - The installer/uninstaller can also download updates from GitHub.
 - New way of setting the core to use with each list, avoiding duplicating \*.so files by "pointing" to them with a \*.core.conf file.
 - Games (\*.zip and folders) names are not case sensitive, to avoid problems for Windows users.
 - Fixed verification of needed space before installing games in CHA.
+- Added or updated some assets (games .png and data in games_all.txt).
 
 Note: A good quality pendisk is highly recommended. Very cheap low quality pendisks can cause (more) instability when booting and loading games.
 
