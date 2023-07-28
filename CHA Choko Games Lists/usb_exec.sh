@@ -213,21 +213,33 @@ then
     then
       mount --bind "${_var_patch_to_patches_folder}/fba_libretro.so" /usr/lib/libretro/fba_libretro.so
       echo -e "\e[1;30mEmulating games with: ${_var_patch_to_patches_folder}/fba_libretro.so\e[m"
-    elif [ -f "${_var_running_from_folder}/patches/fba_libretro.so" ]
-    then
-      mount --bind "${_var_running_from_folder}/patches/fba_libretro.so" /usr/lib/libretro/fba_libretro.so
-      echo -e "\e[1;30mEmulating games with: ${_var_running_from_folder}/patches/fba_libretro.so\e[m"
     else
-      echo -e "\n\e[1;31mThe file \"${_var_running_from_folder}/patches/fba_libretro.so\" is missing!\e[m"
-      _var_countdown=10
-      while [ $_var_countdown -ge 0 ]
-      do
-        echo -ne "\rRebooting in $_var_countdown seconds... "
-        _var_countdown=$((_var_countdown - 1))
-        sleep 1
-      done
-      echo -e "\r\e[K"
-      exit 200
+      _var_Core_File="$(ls "${_var_running_from_folder}/patches/default"/*.core.conf)"   # Empty file to store original name of core file
+      _var_Core_File="${_var_Core_File##*/}"; _var_Core_File="${_var_Core_File%.core.conf}"
+      if [ -n "$_var_Core_File" ] && [ -f "${_var_running_from_folder}/patches/$_var_Core_File" ]
+      then
+        mount --bind "${_var_running_from_folder}/patches/$_var_Core_File" /usr/lib/libretro/fba_libretro.so
+        echo -e "\e[1;30mEmulating games with: ${_var_running_from_folder}/patches/$_var_Core_File\e[m"
+      elif [ -f "${_var_running_from_folder}/patches/default/fba_libretro.so" ]
+      then
+        mount --bind "${_var_running_from_folder}/patches/default/fba_libretro.so" /usr/lib/libretro/fba_libretro.so
+        echo -e "\e[1;30mEmulating games with: ${_var_running_from_folder}/patches/default/fba_libretro.so\e[m"
+      elif [ -f "${_var_running_from_folder}/patches/fba_libretro.so" ]
+      then
+        mount --bind "${_var_running_from_folder}/patches/fba_libretro.so" /usr/lib/libretro/fba_libretro.so
+        echo -e "\e[1;30mEmulating games with: ${_var_running_from_folder}/patches/fba_libretro.so\e[m"
+      else
+        echo -e "\n\e[1;31mThe file \"${_var_running_from_folder}/patches/fba_libretro.so\" is missing!\e[m"
+        _var_countdown=10
+        while [ $_var_countdown -ge 0 ]
+        do
+          echo -ne "\rRebooting in $_var_countdown seconds... "
+          _var_countdown=$((_var_countdown - 1))
+          sleep 1
+        done
+        echo -e "\r\e[K"
+        exit 200
+      fi
     fi
 
     # Mount our ROMs

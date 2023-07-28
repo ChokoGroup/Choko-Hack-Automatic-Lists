@@ -14,7 +14,7 @@ then
     _var_countdown=$((_var_countdown - 1))
     sleep 1
   done
-  echo -e "\r                                   "
+  echo -e "\r                                   \r"
   if [ -z "$CHOKOVERSION" ] || [ "$CHOKOVERSION" \< "10.0.0" ]
   then
     reboot -f
@@ -152,9 +152,27 @@ then
       then
         # Delete folder if empty
         rmdir "${_array_patches_folders[i]}" > /dev/null 2>&1
+        # Make sure default core exist if we are in /.choko
+        if [[ "${_array_patches_folders[i]}" == "/.choko/patches"* ]]
+        then
+          if [ ${_array_cores_selected_in_menu_indexes[-1]} -eq 0 ]
+          then
+            [ -f /.choko/patches/fba_libretro.so ] || cp "${_var_running_from_folder}/patches/fba_libretro.so" /.choko/patches/
+          else
+            mkdir -p "${_array_patches_folders[i]}"
+            eval "_var_core_file_name_only=\${_array_cores_files[${_array_cores_selected_in_menu_indexes[-1]}]##*/}"
+            touch "${_array_patches_folders[i]}/${_var_core_file_name_only}.core.conf"
+            [ -f "/.choko/patches/${_var_core_file_name_only}" ] || cp  "${_var_running_from_folder}/patches/${_var_core_file_name_only}" /.choko/patches/
+          fi
+        fi
       else
         mkdir -p "${_array_patches_folders[i]}"
-        eval "touch \"${_array_patches_folders[i]}/\${_array_cores_files[${_array_cores_selected_in_menu_indexes[i]}]##*/}.core.conf\""
+        eval "_var_core_file_name_only=\${_array_cores_files[${_array_cores_selected_in_menu_indexes[i]}]##*/}"
+        touch "${_array_patches_folders[i]}/${_var_core_file_name_only}.core.conf"
+        if [[ "${_array_patches_folders[i]}" == "/.choko/patches"* ]]
+        then
+          [ -f "/.choko/patches/${_var_core_file_name_only}" ] || cp  "${_var_running_from_folder}/patches/${_var_core_file_name_only}" /.choko/patches/
+        fi
       fi
     done
     SaveAndExitMSG="    DONE!    "
@@ -713,5 +731,5 @@ do
   echo -ne "\rReturning to Choko Menu in $_var_countdown seconds... "
   sleep 1
 done
-echo -e "\r                                                 "
+echo -e "\r                                                 \r"
 exit 202

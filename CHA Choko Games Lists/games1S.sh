@@ -14,7 +14,7 @@ then
     _var_countdown=$((_var_countdown - 1))
     sleep 1
   done
-  echo -e "\r                                   "
+  echo -e "\r                                   \r"
   if [ -z "$CHOKOVERSION" ] || [ "$CHOKOVERSION" \< "10.0.0" ]
   then
     reboot -f
@@ -409,6 +409,7 @@ then
             _var_Core_File="${_var_Core_File##*/}"; _var_Core_File="${_var_Core_File%.core.conf}"
             if [ -z "$_var_Core_File" ] || [ ! -f "${_var_running_from_folder}/patches/$_var_Core_File" ]
             then
+              rm -f "/.choko/patches/$_var_name_of_list"/*.so*
               _var_Core_File="$(ls "$_var_running_from_folder"/patches/default/*.core.conf)"
               _var_Core_File="${_var_Core_File##*/}"; _var_Core_File="${_var_Core_File%.core.conf}"
             fi
@@ -416,6 +417,7 @@ then
             then
               echo -ne "\e[1;30mcp \"${_var_running_from_folder}/patches/$_var_Core_File\" /.choko/patches/   \e[m\e[5m Please wait... \e[m"; cp "${_var_running_from_folder}/patches/$_var_Core_File" /.choko/patches/; _var_last_command_exitcode=$?
               [ $_var_last_command_exitcode -eq 0 ] && echo -e "\r\e[1;30mcp \"${_var_running_from_folder}/patches/$_var_Core_File\" /.choko/patches/    (OK)           \e[m"
+              [ $_var_last_command_exitcode -eq 0 ] && mkdir -p "/.choko/patches/$_var_name_of_list" && touch "/.choko/patches/$_var_name_of_list/${_var_Core_File}.core.conf"
             elif [ ! -f /.choko/patches/fba_libretro.so ]
             then
               echo -ne "\e[1;30mcp \"${_var_running_from_folder}/patches/fba_libretro.so\" /.choko/patches/   \e[m\e[5m Please wait... \e[m"; cp "${_var_running_from_folder}/patches/fba_libretro.so" /.choko/patches/; _var_last_command_exitcode=$?
