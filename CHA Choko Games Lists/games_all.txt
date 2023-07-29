@@ -405,7 +405,7 @@ A 1 P 1983 cgraplop.png cgraplop.zip cgraplop.ogg 1 Cluster Buster
 A 1 S 1988 cobracom.png cobracom.zip cobracom.ogg 0 Cobra Command
 A 1 R 1985 compgolf.png compgolf.zip compgolf.ogg 1 Competition Golf
 A 1 B 1990 darkseal.png darkseal.zip darkseal.ogg 0 Dark Seal: Gate of Doom
-A 1 B 1992 wizfire.png wizfire.zip wizfire.ogg 0 Dark Seal II: Wizard Fire
+A 1 B 1992 wizdfire.png wizdfire.zip wizdfire.ogg 0 Dark Seal II: Wizard Fire
 A 1 S 1986 darwin.png darwin.zip darwin.ogg 1 1 Darwin 4078
 A 1 P 1992 dietgo.png dietgo.zip dietgo.ogg 0 Diet Go Go
 A 1 P 1982 cdiscon1.png cdiscon1.zip cdiscon1.ogg 1 Disco No. 1 / Sweet Heart (USA)
@@ -6819,7 +6819,6 @@ A 0 ? 1982 wiping.png wiping.zip wiping.ogg 1 Wiping
 A 0 ? 1989 wits.png wits.zip wits.ogg 0 Wit's (Japan)
 A 0 ? 2001 wivernwg.png wivernwg.zip wivernwg.ogg 3 Wivern Wings
 A 0 ? 1985 wiz.png wiz.zip wiz.ogg 3 Wiz
-A 0 ? 1992 wizdfire.png wizdfire.zip wizdfire.ogg 0 Wizard Fire (Over Sea v2.1)
 A 0 ? 1992 wizdfireu.png wizdfireu.zip wizdfireu.ogg 0 Wizard Fire (US v1.1)
 A 0 ? 1985 wizt.png wizt.zip wizt.ogg 3 Wiz (Taito, set 1)
 A 0 ? 1985 wizta.png wizta.zip wizta.ogg 3 Wiz (Taito, set 2)
