@@ -7,6 +7,13 @@ with the Choko Hack v13.0.0
 <p align="center"><img src="https://raw.githubusercontent.com/ChokoGroup/Choko-Hack-Automatic-Lists/main/screenshot_Core_Manager.png" style="width:60%"></p>
 
 
+## What's new in v13.0.1
+- Fix an error when deleting games lists from the CHA if something was previously deleted.
+- Check if assets are needed by other lists before deleting.
+- Fix reseting lists alreay installed in CHA not being reset (file /.choko/NAME_OF_LIST.txt not being deleted).
+- Make each games list installed in CHA use own patches (create /.choko/patches/NAME_OF_LIST instead of using '/.choko/patches/default').
+
+
 ## What's new in v13.0.0
 - There is a new "Core Manager" script to easily download new fbneo_libretro cores (a new one is compiled every friday) and easily assign cores to games lists.
 - Core Manager can also reset games lists, meaning deleting the "games.txt" file, in case of change of roms in the list.

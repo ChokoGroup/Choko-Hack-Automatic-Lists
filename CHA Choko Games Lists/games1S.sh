@@ -131,6 +131,66 @@ else
   echo -e "\e[0;32m\"${_var_running_from_folder##*/}\" is now up-to-date!\e[m"
 fi
 
+uninstallGameList() {
+  _var_folder_with_ROMs_temp="${1##*/}"
+  echo -e "\e[1;30mrm -rf \"$1\"\e[m"; rm -rf "/usr/share/roms/$_var_folder_with_ROMs_temp"; _var_last_command_exitcode=$?
+  if [ -d "/.choko/patches/$_var_folder_with_ROMs_temp" ] && [ $_var_last_command_exitcode -eq 0 ]
+  then
+    echo -e "\e[1;30mrm -rf \"/.choko/patches/$_var_folder_with_ROMs_temp\"\e[m"; rm -rf "/.choko/patches/$_var_folder_with_ROMs_temp"; _var_last_command_exitcode=$?
+  fi
+  if [ $_var_last_command_exitcode -eq 0 ]
+  then
+    if [ $(find /usr/share/roms -iname '*.zip' -mindepth 2 -type f -print 2> /dev/null | wc -l) -eq 0 ]
+    then
+      echo -e "\e[1;30mLast games uninstalled. Deleting all assets and patches left behind.\e[m"
+      if [ -d /.choko/patches ]
+      then
+        echo -e "\e[1;30mrm -rf \"/.choko/patches\"\e[m"; rm -rf /.choko/patches; _var_last_command_exitcode=$?
+      fi
+      if [ $_var_last_command_exitcode -eq 0 ] && [ -d /.choko/assets ]
+      then
+        echo -e "\e[1;30mrm -rf \"/.choko/assets\"\e[m"; rm -rf /.choko/assets; _var_last_command_exitcode=$?
+      fi
+      if [ $_var_last_command_exitcode -eq 0 ] && [ -d /.choko/options ]
+      then
+        echo -e "\e[1;30mrm -rf \"/.choko/options\"\e[m"; rm -rf /.choko/options; _var_last_command_exitcode=$?
+      fi
+      if [ $_var_last_command_exitcode -eq 0 ] && [ -f /.choko/usb_exec.sh ]
+      then
+        echo -e "\e[1;30mrm \"/.choko/usb_exec.sh\"\e[m"; rm /.choko/usb_exec.sh; _var_last_command_exitcode=$?
+      fi
+    else
+      echo -e "\e[1;30mDeleting unneeded assets...\e[m"
+      while read -r _var_line_from_games_txt || [ -n "$_var_line_from_games_txt" ]; do
+        _var_ogg_file_name=${_var_line_from_games_txt%'.ogg'*}; _var_ogg_file_name=${_var_ogg_file_name##*' '}
+        _var_png_file_name=${_var_line_from_games_txt%'.png'*}; _var_png_file_name=${_var_png_file_name##*' '}
+        if ! find /.choko/ -iname '*.txt' ! -iname "/.choko/${_var_folder_with_ROMs_temp}.txt" -mindepth 1 -maxdepth 1 -type f -exec grep -qsiw "${_var_ogg_file_name}.ogg" {} + 2> /dev/null
+        then
+          find "/.choko/assets" -type f -iname "${_var_ogg_file_name}.ogg" -exec rm {} + 2> /dev/null
+          _var_last_command_exitcode=$?
+          [ $_var_last_command_exitcode -eq 0 ] || break
+        fi
+        if ! find /.choko/ -iname '*.txt' ! -iname "/.choko/${_var_folder_with_ROMs_temp}.txt" -mindepth 1 -maxdepth 1 -type f -exec grep -qsiw "${_var_png_file_name}.png" {} + 2> /dev/null
+        then
+          find "/.choko/assets" -type f -iname "${_var_png_file_name}.png" -exec rm {} + 2> /dev/null
+          _var_last_command_exitcode=$?
+          [ $_var_last_command_exitcode -eq 0 ] || break
+        fi
+      done < "/.choko/${_var_folder_with_ROMs_temp}.txt"
+    fi
+  fi
+  if [ $_var_last_command_exitcode -eq 0 ]
+  then
+    echo -e "\e[1;30mrm -f \"/.choko/${_var_folder_with_ROMs_temp}.\"*\e[m"; rm -f "/.choko/${_var_folder_with_ROMs_temp}."*; _var_last_command_exitcode=$?
+  fi
+  if [ $_var_last_command_exitcode -eq 0 ]
+  then
+    echo -e "\e[1;32m\"$_var_name_of_list\" was uninstalled.\e[m"
+  else
+    echo -e "\e[1;31mThere was some error.\e[m"; sleep 10; exit 201
+  fi
+}
+
 # Make 'for' loops use entire lines
 OIFS="$IFS"
 IFS=$'\n'
@@ -197,54 +257,7 @@ then
       if [ "$_var_user_answer" = "Yes" ]
       then
         echo "Uninstalling \"$_var_name_of_list\"..."
-        echo -e "\e[1;30mrm -rf \"$_var_folder_with_ROMs\"\e[m"; rm -rf "$_var_folder_with_ROMs"; _var_last_command_exitcode=$?
-        if [ -d "/.choko/patches/${_var_folder_with_ROMs##*/}" ] && [ $_var_last_command_exitcode -eq 0 ]
-        then
-          echo -e "\e[1;30mrm -rf \"/.choko/patches/${_var_folder_with_ROMs##*/}\"\e[m"; rm -rf "/.choko/patches/${_var_folder_with_ROMs##*/}"; _var_last_command_exitcode=$?
-        fi
-        if [ $_var_last_command_exitcode -eq 0 ]
-        then
-          if [ $(find /usr/share/roms -iname '*.zip' -mindepth 2 -type f -print 2> /dev/null | wc -l) -eq 0 ]
-          then
-            echo -e "\e[1;30mLast games uninstalled. Deleting all assets and patches left behind.\e[m"
-            if [ -d /.choko/patches ]
-            then
-              echo -e "\e[1;30mrm -rf \"/.choko/patches\"\e[m"; rm -rf /.choko/patches; _var_last_command_exitcode=$?
-            fi
-            if [ $_var_last_command_exitcode -eq 0 ] && [ -d /.choko/assets ]
-            then
-              echo -e "\e[1;30mrm -rf \"/.choko/assets\"\e[m"; rm -rf /.choko/assets; _var_last_command_exitcode=$?
-            fi
-            if [ $_var_last_command_exitcode -eq 0 ] && [ -d /.choko/options ]
-            then
-              echo -e "\e[1;30mrm -rf \"/.choko/options\"\e[m"; rm -rf /.choko/options; _var_last_command_exitcode=$?
-            fi
-            if [ $_var_last_command_exitcode -eq 0 ] && [ -f /.choko/usb_exec.sh ]
-            then
-              echo -e "\e[1;30mrm \"/.choko/usb_exec.sh\"\e[m"; rm /.choko/usb_exec.sh; _var_last_command_exitcode=$?
-            fi
-          else
-            echo -e "\e[1;30mDeleting unneeded assets...\e[m"
-            while read -r _var_line_from_games_txt || [ -n "$_var_line_from_games_txt" ]; do
-              _var_ogg_file_name=${_var_line_from_games_txt%'.ogg'*}; _var_ogg_file_name=${_var_ogg_file_name##*' '}
-              _var_png_file_name=${_var_line_from_games_txt%'.png'*}; _var_png_file_name=${_var_png_file_name##*' '}
-              _var_zip_file_name=${_var_line_from_games_txt%'.zip'*}; _var_zip_file_name=${_var_zip_file_name##*' '}
-              find "/.choko/assets" -type f \( -iname "${_var_ogg_file_name}.*" -or -iname "${_var_png_file_name}.*" -or -iname "${_var_zip_file_name}.*" \) -exec rm {} +
-              _var_last_command_exitcode=$?
-              [ $_var_last_command_exitcode -eq 0 ] || break
-            done < "/.choko/${_var_folder_with_ROMs##*/}.txt"
-          fi
-        fi
-        if [ $_var_last_command_exitcode -eq 0 ]
-        then
-          echo -e "\e[1;30mrm -f \"/.choko/${_var_folder_with_ROMs##*/}.\"*\e[m"; rm -f "/.choko/${_var_folder_with_ROMs##*/}."*; _var_last_command_exitcode=$?
-        fi
-        if [ $_var_last_command_exitcode -eq 0 ]
-        then
-          echo -e "\e[1;32m\"$_var_name_of_list\" was uninstalled.\e[m"
-        else
-          echo -e "\e[1;31mThere was some error.\e[m"; sleep 10; exit 201
-        fi
+        uninstallGameList "$_var_folder_with_ROMs"
       else
         echo "\"$_var_name_of_list\" was NOT uninstalled."
       fi
@@ -328,53 +341,7 @@ then
           if [ -d "/usr/share/roms/$_var_name_of_list" ]
           then
             echo "Uninstalling old \"$_var_name_of_list\" from the CHA..."
-            if [ -d "/usr/share/roms/$_var_name_of_list" ]
-            then
-              echo -e "\e[1;30mrm -rf \"/usr/share/roms/$_var_name_of_list\"\e[m"; rm -rf "/usr/share/roms/$_var_name_of_list"; _var_last_command_exitcode=$?
-            fi
-            if [ $_var_last_command_exitcode -eq 0 ]
-            then
-              if [ $(find /usr/share/roms -iname '*.zip' -mindepth 2 -type f -print 2> /dev/null | wc -l) -eq 0 ]
-              then
-                echo -e "\e[1;30mLast games uninstalled. Deleting all assets and patches left behind.\e[m"
-                if [ -d /.choko/patches ]
-                then
-                  echo -e "\e[1;30mrm -rf \"/.choko/patches\"\e[m"; rm -rf /.choko/patches; _var_last_command_exitcode=$?
-                fi
-                if [ $_var_last_command_exitcode -eq 0 ] && [ -d /.choko/assets ]
-                then
-                  echo -e "\e[1;30mrm -rf \"/.choko/assets\"\e[m"; rm -rf /.choko/assets; _var_last_command_exitcode=$?
-                fi
-                if [ $_var_last_command_exitcode -eq 0 ] && [ -d /.choko/options ]
-                then
-                  echo -e "\e[1;30mrm -rf \"/.choko/options\"\e[m"; rm -rf /.choko/options; _var_last_command_exitcode=$?
-                fi
-                if [ $_var_last_command_exitcode -eq 0 ] && [ -f /.choko/usb_exec.sh ]
-                then
-                  echo -e "\e[1;30mrm \"/.choko/usb_exec.sh\"\e[m"; rm /.choko/usb_exec.sh; _var_last_command_exitcode=$?
-                fi
-              else
-                echo -e "\e[1;30mDeleting unneeded assets...\e[m"
-                while read -r _var_line_from_games_txt || [ -n "$_var_line_from_games_txt" ]; do
-                  _var_ogg_file_name=${_var_line_from_games_txt%'.ogg'*}; _var_ogg_file_name=${_var_ogg_file_name##*' '}
-                  _var_png_file_name=${_var_line_from_games_txt%'.png'*}; _var_png_file_name=${_var_png_file_name##*' '}
-                  _var_zip_file_name=${_var_line_from_games_txt%'.zip'*}; _var_zip_file_name=${_var_zip_file_name##*' '}
-                  find "/.choko/assets" -type f \( -iname "${_var_ogg_file_name}.*" -or -iname "${_var_png_file_name}.*" -or -iname "${_var_zip_file_name}.*" \) -exec rm {} +
-                  _var_last_command_exitcode=$?
-                  [ $_var_last_command_exitcode -eq 0 ] || break
-                done < "/.choko/${_var_folder_with_ROMs##*/}.txt"
-              fi
-            fi
-            if [ $_var_last_command_exitcode -eq 0 ]
-            then
-              echo -e "\e[1;30mrm -f \"/.choko/${_var_name_of_list}.\"*\e[m"; rm -f "/.choko/${_var_name_of_list}."*; _var_last_command_exitcode=$?
-            fi
-            if [ $_var_last_command_exitcode -eq 0 ]
-            then
-              echo -e "\e[1;32mOld \"$_var_name_of_list\" was uninstalled from CHA.\e[m"
-            else
-              echo -e "\e[1;31mThere was some error.\e[m"; sleep 10; exit 201
-            fi
+            uninstallGameList "$_var_folder_with_ROMs"
           fi
           echo "Installing \"$_var_name_of_list\"..."
           mkdir -p /.choko/assets
@@ -392,14 +359,13 @@ then
               then
                 echo -e "\r\e[1;30mcp -r \"${_var_running_from_folder}/patches/$_var_name_of_list\" /.choko/patches/    (OK)           \e[m"
               fi
-            else
-              if [ -d "${_var_running_from_folder}/patches/default" ]
+            elif [ -d "${_var_running_from_folder}/patches/default" ]
+            then
+              mkdir -p "/.choko/patches/$_var_name_of_list"
+              echo -ne "\e[1;30mcp -r \"${_var_running_from_folder}/patches/default\" \"/.choko/patches/$_var_name_of_list\"   \e[m\e[5m Please wait... \e[m"; cp -r "${_var_running_from_folder}/patches/default/." "/.choko/patches/$_var_name_of_list"; _var_last_command_exitcode=$?
+              if [ $_var_last_command_exitcode -eq 0 ]
               then
-                echo -ne "\e[1;30mcp -r \"${_var_running_from_folder}/patches/default\" /.choko/patches/   \e[m\e[5m Please wait... \e[m"; cp -r "${_var_running_from_folder}/patches/default" /.choko/patches/; _var_last_command_exitcode=$?
-                if [ $_var_last_command_exitcode -eq 0 ]
-                then
-                  echo -e "\r\e[1;30mcp -r \"${_var_running_from_folder}/patches/default\" /.choko/patches/    (OK)           \e[m"
-                fi
+                echo -e "\r\e[1;30mcp -r \"${_var_running_from_folder}/patches/default\" \"/.choko/patches/$_var_name_of_list\"    (OK)           \e[m"
               fi
             fi
           fi

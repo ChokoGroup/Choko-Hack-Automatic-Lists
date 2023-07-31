@@ -381,9 +381,12 @@ then
     if [ "$_var_user_answer" = "Yes" ]
     then
       _var_last_command_exitcode=0
-      if [ -f "${_array_lists_names[$_var_selected_option]}.txt" ]
+      if [ $_var_selected_option -lt $_var_menu_USB_number_of_lines ] && [ -f "${_var_running_from_folder}/${_array_lists_names[$_var_selected_option]}.txt" ]
       then
-        mv "${_array_lists_names[$_var_selected_option]}.txt" "${_array_lists_names[$_var_selected_option]}.old"; _var_last_command_exitcode=$?
+        mv "${_var_running_from_folder}/${_array_lists_names[$_var_selected_option]}.txt" "${_var_running_from_folder}/${_array_lists_names[$_var_selected_option]}.old"; _var_last_command_exitcode=$?
+      elif [ -f "/.choko/${_array_lists_names[$_var_selected_option]}.txt" ]
+      then
+        mv "/.choko/${_array_lists_names[$_var_selected_option]}.txt" "/.choko/${_array_lists_names[$_var_selected_option]}.old"; _var_last_command_exitcode=$?
       fi
       [ $_var_last_command_exitcode -eq 0 ] && echo -ne "\e[u${BorderColor}$_var_temp_list_name \e[1;32mwas reset\e[m                                                       " || echo -en "\e[1;31mThere was some error deleting \"${_array_lists_names[$_var_selected_option]}.txt\".\e[m                                                       "
     else
