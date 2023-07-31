@@ -10,7 +10,7 @@ with the Choko Hack v13.0.0
 ## What's new in v13.0.1
 - Fix an error when deleting games lists from the CHA if something was previously deleted.
 - Check if assets are needed by other lists before deleting.
-- Fix reseting lists already installed in CHA not being reset (file /.choko/NAME_OF_LIST.txt not being deleted).
+- Fix resetting lists already installed in CHA not being reset (file /.choko/NAME_OF_LIST.txt not being deleted).
 - Make each games list installed in CHA use own patches (create /.choko/patches/NAME_OF_LIST instead of using '/.choko/patches/default').
 
 
