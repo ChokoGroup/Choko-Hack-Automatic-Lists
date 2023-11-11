@@ -37,9 +37,9 @@ _var_running_from_folder="$(dirname "$(readlink -f "$0")")"
 
 if [ -f "${_var_running_from_folder}/patches/fba_libretro.so" ]
 then
-  _var_screen_columns=$(stty -F /dev/tty0 size | cut '-d ' -f2)
-  _var_screen_rows=$(stty -F /dev/tty0 size | cut '-d ' -f1)
-  _var_max_menu_rows=$((_var_screen_rows - 8))
+  # Set variables COLUMNS LINES
+  eval "$(resize)"
+  _var_max_menu_rows=$((LINES - 8))
   _var_menu_USB_number_of_lines=0
   _array_lists_names=()                     # Array of games lists
   _array_patches_folders=()                 # Array of patches folder for each games list
@@ -53,7 +53,7 @@ then
 
   # Add space for selection mark in menu list + border space + [ ... ]
   fix_menu_width=12
-  _var_Menu_Top_Row=$((_var_screen_rows / 2 + 1))
+  _var_Menu_Top_Row=$((LINES / 2 + 1))
   _var_menu_left_column=1
   _var_total_menu_with=$fix_menu_width
 
@@ -73,12 +73,12 @@ then
 
   setMenuWidthAndLeftColumn() {
     _var_total_menu_with=$((_var_lists_names_length + _var_cores_names_length + fix_menu_width))
-    if [ $_var_total_menu_with -gt $((_var_screen_columns - 2)) ]
+    if [ $_var_total_menu_with -gt $((COLUMNS - 2)) ]
     then
-      _var_total_menu_with=$((_var_screen_columns - 2))
+      _var_total_menu_with=$((COLUMNS - 2))
       _var_menu_left_column=1
     else
-      _var_menu_left_column=$(( (_var_screen_columns - _var_lists_names_length - _var_cores_names_length - fix_menu_width ) / 2 ))
+      _var_menu_left_column=$(( (COLUMNS - _var_lists_names_length - _var_cores_names_length - fix_menu_width ) / 2 ))
     fi
   }
 
@@ -254,7 +254,7 @@ then
       fi
     elif [ $1 -eq ${#_array_lists_names[@]} ]
     then
-      echo -ne "\e[$((_var_Menu_Top_Row + $1 + 5));$(( (_var_screen_columns - 28) / 2))H"
+      echo -ne "\e[$((_var_Menu_Top_Row + $1 + 5));$(( (COLUMNS - 28) / 2))H"
       if [ $_var_selected_option -eq $1 ]
       then
         echo -en "${_var_countdownColor}>>>$BorderColor $DownloadCoreMSG ${_var_countdownColor}<<<\e[m"
@@ -263,7 +263,7 @@ then
       fi
     elif [ $1 -eq $((${#_array_lists_names[@]} + 1)) ]
     then
-      echo -ne "\e[$((_var_Menu_Top_Row + $1 + 5));$(( (_var_screen_columns - 21) / 2))H"
+      echo -ne "\e[$((_var_Menu_Top_Row + $1 + 5));$(( (COLUMNS - 21) / 2))H"
       if [ $_var_selected_option -eq $1 ]
       then
         echo -en "${_var_countdownColor}>>>$BorderColor $SaveAndExitMSG ${_var_countdownColor}<<<\e[m"
@@ -272,7 +272,7 @@ then
       fi
     elif [ $1 -gt $((${#_array_lists_names[@]} + 1)) ]
     then
-      echo -ne "\e[$((_var_Menu_Top_Row + $1 + 5));$(( (_var_screen_columns - 27) / 2))H"
+      echo -ne "\e[$((_var_Menu_Top_Row + $1 + 5));$(( (COLUMNS - 27) / 2))H"
       if [ $_var_selected_option -eq $1 ]
       then
         echo -en "${_var_countdownColor}>>>$BorderColor EXIT WITHOUT SAVING ${_var_countdownColor}<<<\e[m"
@@ -627,7 +627,7 @@ then
   cat "/.choko/choko-${_var_Screen_Resolution}.rgba" > /dev/fb0
 
   # Position of top left corner of menu
-  [ ${#_array_lists_names[@]} -gt $((_var_Menu_Top_Row - 8)) ] && _var_Menu_Top_Row=$((_var_screen_rows - ${#_array_lists_names[@]} - 8))
+  [ ${#_array_lists_names[@]} -gt $((_var_Menu_Top_Row - 8)) ] && _var_Menu_Top_Row=$((LINES - ${#_array_lists_names[@]} - 8))
   setMenuWidthAndLeftColumn
 
   # Show menu and read joystick

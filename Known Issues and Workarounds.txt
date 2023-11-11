@@ -13,4 +13,4 @@ If you are having issues with a game, test the latest fbneo core from https://gi
 ### Workarounds ###
 
 - "Dungeons & Dragons: Shadow Over Mystara": 
-Player 2 can't select and use weapons/magic. Use fbneo core extracted from Lakka.
+Player 2 can't select and use weapons/magic. Use our fbneo core from https://github.com/ChokoGroup/FBNeo/releases/tag/libretro-latest
