@@ -474,7 +474,7 @@ A 1 P 1989 slyspy.png slyspy.zip slyspy.ogg 0 Sly Spy / Secret Agent
 A 1 P 1993 spinmast.png spinmast.zip spinmast.ogg 0 Spin Master / Miracle Adventure (Neo Geo)
 A 1 R 1988 stadhero.png stadhero.zip stadhero.ogg 0 Stadium Hero
 A 1 R 1996 stadhr96.png stadhr96.zip stadhr96.png 0 Stadium Hero 96
-A 1 R 1994 strhoop.png strhoop.zip strhoop.png 0 0 Street Hoop / Street Slam / Dunk Dream (Neo Geo)
+A 1 R 1994 strhoop.png strhoop.zip strhoop.png 0 Street Hoop / Street Slam / Dunk Dream (Neo Geo)
 A 1 S 1981 csuperas.png csuperas.zip csuperas.ogg 1 Super Astro Fighter
 A 1 P 1990 supbtime.png supbtime.zip supbtime.ogg 0 Super Burger Time
 A 1 P 1983 csdtenis.png csdtenis.zip csdtenis.ogg 1 Super Doubles Tennis (Cassette)
@@ -803,7 +803,6 @@ E 0 R 1996 ssideki4.png ssideki4.zip ssideki4.ogg 0 Super Sidekicks 4 - The Ulti
 E 0 R 1995 stakwin.png stakwin.zip stakwin.ogg 0 Stakes Winner
 E 0 R 1996 stakwin2.png stakwin2.zip stakwin2.ogg 0 Stakes Winner 2
 D 0 F 1989 streetsm.png streetsm.zip streetsm.ogg 0 Street Smart
-E 0 R 1994 strhoop.png strhoop.zip strhoop.ogg 0 Street Hoop
 A 1 P 1989 strider.png strider.zip strider.ogg 0 Strider
 E 0 B 1990 superspy.png superspy.zip superspy.ogg 0 The Super Spy
 E 0 F 2003 svc.png svc.zip svc.ogg 0 SNK vs. Capcom: SVC Chaos
